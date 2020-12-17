@@ -1,0 +1,329 @@
+ Mon, 27 Aug 2018 17:41:24  INFO myLogger2.py <module> [ line:20 ] =========test start=========
+ Mon, 27 Aug 2018 17:41:25  INFO Doexcel.py getAllCaseDatas [ line:78 ] 初始化之后的请求数据为：
+{"serialno":"201808271741250950dE",
+        "invTp":"1",
+        "mobileNo":"13760200081",
+        "loginPasswd":"202cb962ac59075b964b07152d234b70",
+        "phoneCode":"1111",
+        "refererMobile":"15021996508",
+        "accofrom":"1",
+        "distributorCode":"247",
+        "branchcode":"24700",
+        "email":"744700813@qq.com",
+        "oneRecommend":"1"
+}
+ Mon, 27 Aug 2018 17:41:25  INFO Doexcel.py getAllCaseDatas [ line:78 ] 初始化之后的请求数据为：
+{"serialno":"201808271741250235Vm",
+        "invTp":"2",
+        "mobileNo":"13760200082",
+        "loginPasswd":"202cb962ac59075b964b07152d234b70",
+        "phoneCode":"1111",
+        "accofrom":"1",
+        "distributorCode":"247",
+        "branchcode":"24700",
+        "email":"744700813@qq.com",
+        "oneRecommend":"0"
+}
+ Mon, 27 Aug 2018 17:41:25  INFO Doexcel.py getAllCaseDatas [ line:78 ] 初始化之后的请求数据为：
+{"serialno":"201808271741250705hK",
+        "invTp":"1",
+        "mobileNo":"",
+        "loginPasswd":"202cb962ac59075b964b07152d234b70",
+        "phoneCode":"1111",
+        "refererMobile":"15021996508",
+        "accofrom":"1",
+        "distributorCode":"247",
+        "branchcode":"24700",
+        "email":"744700813@qq.com",
+        "oneRecommend":"1"
+}
+ Mon, 27 Aug 2018 17:41:25  INFO Doexcel.py getAllCaseDatas [ line:78 ] 初始化之后的请求数据为：
+{"serialno":"201808271741250552hg",
+        "invTp":"1",
+        "mobileNo":"13760200083",
+        "loginPasswd":"",
+        "phoneCode":"1111",
+        "refererMobile":"15021996508",
+        "accofrom":"1",
+        "distributorCode":"247",
+        "branchcode":"24700",
+        "email":"744700813@qq.com",
+        "oneRecommend":"1"
+}
+ Mon, 27 Aug 2018 17:41:25  INFO Doexcel.py getAllCaseDatas [ line:78 ] 初始化之后的请求数据为：
+{"serialno":"201808271741250318dy",
+        "invTp":"1",
+        "mobileNo":"1502199644",
+        "loginPasswd":"202cb962ac59075b964b07152d234b70",
+        "phoneCode":"1111",
+        "refererMobile":"15021996508",
+        "accofrom":"1",
+        "distributorCode":"247",
+        "branchcode":"24700",
+        "email":"744700813@qq.com",
+        "oneRecommend":"1"
+}
+ Mon, 27 Aug 2018 17:41:25  INFO Doexcel.py getAllCaseDatas [ line:78 ] 初始化之后的请求数据为：
+{"serialno":"201808271741250406Mu",
+        "invTp":"1",
+        "mobileNo":"150219964489",
+        "loginPasswd":"202cb962ac59075b964b07152d234b70",
+        "phoneCode":"1111",
+        "refererMobile":"15021996508",
+        "accofrom":"1",
+        "distributorCode":"247",
+        "branchcode":"24700",
+        "email":"744700813@qq.com",
+        "oneRecommend":"1"
+}
+ Mon, 27 Aug 2018 17:41:25  INFO Doexcel.py getAllCaseDatas [ line:78 ] 初始化之后的请求数据为：
+{"serialno":"20180827174125076ii",
+        "invTp":"1",
+        "mobileNo":"15021996@44",
+        "loginPasswd":"202cb962ac59075b964b07152d234b70",
+        "phoneCode":"1111",
+        "refererMobile":"15021996508",
+        "accofrom":"1",
+        "distributorCode":"247",
+        "branchcode":"24700",
+        "email":"744700813@qq.com",
+        "oneRecommend":"1"
+}
+ Mon, 27 Aug 2018 17:41:25  INFO Doexcel.py getAllCaseDatas [ line:78 ] 初始化之后的请求数据为：
+{"serialno":"201808271741250895lu",
+        "invTp":"1",
+        "mobileNo":"15021996 44",
+        "loginPasswd":"202cb962ac59075b964b07152d234b70",
+        "phoneCode":"1111",
+        "refererMobile":"15021996508",
+        "accofrom":"1",
+        "distributorCode":"247",
+        "branchcode":"24700",
+        "email":"744700813@qq.com",
+        "oneRecommend":"1"
+}
+ Mon, 27 Aug 2018 17:41:25  INFO Doexcel.py getAllCaseDatas [ line:78 ] 初始化之后的请求数据为：
+{"serialno":"201808271741250202Jh",
+        "invTp":"1",
+        "mobileNo":"13760200081",
+        "loginPasswd":"202cb962ac59075b964b07152d234b70",
+        "phoneCode":"1111",
+        "refererMobile":"15021996508",
+        "accofrom":"1",
+        "distributorCode":"247",
+        "branchcode":"24700",
+        "email":"744700813@qq.com",
+        "oneRecommend":"1"
+}
+ Mon, 27 Aug 2018 17:41:25  INFO test_api.py <module> [ line:19 ] 所有的测试数据为：[{'case_id': 1, 'api_name': '企业客户有推荐人成功注册', 'interface': 'com.wt.cif.service.CifCustService', 'method': 'openAccount', 'request_data': '{"serialno":"201808271741250950dE",\n        "invTp":"1",\n        "mobileNo":"13760200081",\n        "loginPasswd":"202cb962ac59075b964b07152d234b70",\n        "phoneCode":"1111",\n        "refererMobile":"15021996508",\n        "accofrom":"1",\n        "distributorCode":"247",\n        "branchcode":"24700",\n        "email":"744700813@qq.com",\n        "oneRecommend":"1"\n}', 'expected_data': "{.*'errCode': '0000', 'errMsg': '交易成功'.* 'status': 'Y'}", 'affected_caseId': None, 'compare_type': 1, 'wait_time': None}, {'case_id': 2, 'api_name': '个人客户无推荐人成功注册', 'interface': 'com.wt.cif.service.CifCustService', 'method': 'openAccount', 'request_data': '{"serialno":"201808271741250235Vm",\n        "invTp":"2",\n        "mobileNo":"13760200082",\n        "loginPasswd":"202cb962ac59075b964b07152d234b70",\n        "phoneCode":"1111",\n        "accofrom":"1",\n        "distributorCode":"247",\n        "branchcode":"24700",\n        "email":"744700813@qq.com",\n        "oneRecommend":"0"\n}', 'expected_data': "{.*'errCode': '0000', 'errMsg': '交易成功'.* 'status': 'Y'}", 'affected_caseId': None, 'compare_type': 1, 'wait_time': None}, {'case_id': 3, 'api_name': '注册手机号为空', 'interface': 'com.wt.cif.service.CifCustService', 'method': 'openAccount', 'request_data': '{"serialno":"201808271741250705hK",\n        "invTp":"1",\n        "mobileNo":"",\n        "loginPasswd":"202cb962ac59075b964b07152d234b70",\n        "phoneCode":"1111",\n        "refererMobile":"15021996508",\n        "accofrom":"1",\n        "distributorCode":"247",\n        "branchcode":"24700",\n        "email":"744700813@qq.com",\n        "oneRecommend":"1"\n}', 'expected_data': "{'extFields': {}, 'custNo': None, 'headImgUrl': None, 'openId': None, 'nickName': None, 'errCode': 'A030', 'errMsg': '开户入参验证参数为空[手机号码]', 'mobileNo': None, 'key': None, 'token': None, 'status': 'F'}", 'affected_caseId': None, 'compare_type': 0, 'wait_time': None}, {'case_id': 4, 'api_name': '登录密码为空', 'interface': 'com.wt.cif.service.CifCustService', 'method': 'openAccount', 'request_data': '{"serialno":"201808271741250552hg",\n        "invTp":"1",\n        "mobileNo":"13760200083",\n        "loginPasswd":"",\n        "phoneCode":"1111",\n        "refererMobile":"15021996508",\n        "accofrom":"1",\n        "distributorCode":"247",\n        "branchcode":"24700",\n        "email":"744700813@qq.com",\n        "oneRecommend":"1"\n}', 'expected_data': "{'extFields': {}, 'custNo': None, 'headImgUrl': None, 'openId': None, 'nickName': None, 'errCode': 'A050', 'errMsg': '开户入参验证参数为空[登录密码]', 'mobileNo': None, 'key': None, 'token': None, 'status': 'F'}", 'affected_caseId': None, 'compare_type': 0, 'wait_time': None}, {'case_id': 5, 'api_name': '注册手机号少于11位', 'interface': 'com.wt.cif.service.CifCustService', 'method': 'openAccount', 'request_data': '{"serialno":"201808271741250318dy",\n        "invTp":"1",\n        "mobileNo":"1502199644",\n        "loginPasswd":"202cb962ac59075b964b07152d234b70",\n        "phoneCode":"1111",\n        "refererMobile":"15021996508",\n        "accofrom":"1",\n        "distributorCode":"247",\n        "branchcode":"24700",\n        "email":"744700813@qq.com",\n        "oneRecommend":"1"\n}', 'expected_data': "{'extFields': {}, 'custNo': None, 'headImgUrl': None, 'openId': None, 'nickName': None, 'errCode': 'A013', 'errMsg': '开户入参验证参数错误[手机号码]', 'mobileNo': None, 'key': None, 'token': None, 'status': 'F'}", 'affected_caseId': None, 'compare_type': 0, 'wait_time': None}, {'case_id': 6, 'api_name': '注册手机号大于11位', 'interface': 'com.wt.cif.service.CifCustService', 'method': 'openAccount', 'request_data': '{"serialno":"201808271741250406Mu",\n        "invTp":"1",\n        "mobileNo":"150219964489",\n        "loginPasswd":"202cb962ac59075b964b07152d234b70",\n        "phoneCode":"1111",\n        "refererMobile":"15021996508",\n        "accofrom":"1",\n        "distributorCode":"247",\n        "branchcode":"24700",\n        "email":"744700813@qq.com",\n        "oneRecommend":"1"\n}', 'expected_data': "{'extFields': {}, 'custNo': None, 'headImgUrl': None, 'openId': None, 'nickName': None, 'errCode': 'A013', 'errMsg': '开户入参验证参数错误[手机号码]', 'mobileNo': None, 'key': None, 'token': None, 'status': 'F'}", 'affected_caseId': None, 'compare_type': 0, 'wait_time': None}, {'case_id': 7, 'api_name': '注册手机号含特殊字符', 'interface': 'com.wt.cif.service.CifCustService', 'method': 'openAccount', 'request_data': '{"serialno":"20180827174125076ii",\n        "invTp":"1",\n        "mobileNo":"15021996@44",\n        "loginPasswd":"202cb962ac59075b964b07152d234b70",\n        "phoneCode":"1111",\n        "refererMobile":"15021996508",\n        "accofrom":"1",\n        "distributorCode":"247",\n        "branchcode":"24700",\n        "email":"744700813@qq.com",\n        "oneRecommend":"1"\n}', 'expected_data': "{'extFields': {}, 'custNo': None, 'headImgUrl': None, 'openId': None, 'nickName': None, 'errCode': 'A013', 'errMsg': '开户入参验证参数错误[手机号码]', 'mobileNo': None, 'key': None, 'token': None, 'status': 'F'}", 'affected_caseId': None, 'compare_type': 0, 'wait_time': None}, {'case_id': 8, 'api_name': '注册手机号含空格', 'interface': 'com.wt.cif.service.CifCustService', 'method': 'openAccount', 'request_data': '{"serialno":"201808271741250895lu",\n        "invTp":"1",\n        "mobileNo":"15021996 44",\n        "loginPasswd":"202cb962ac59075b964b07152d234b70",\n        "phoneCode":"1111",\n        "refererMobile":"15021996508",\n        "accofrom":"1",\n        "distributorCode":"247",\n        "branchcode":"24700",\n        "email":"744700813@qq.com",\n        "oneRecommend":"1"\n}', 'expected_data': "{'extFields': {}, 'custNo': None, 'headImgUrl': None, 'openId': None, 'nickName': None, 'errCode': 'A013', 'errMsg': '开户入参验证参数错误[手机号码]', 'mobileNo': None, 'key': None, 'token': None, 'status': 'F'}", 'affected_caseId': None, 'compare_type': 0, 'wait_time': None}, {'case_id': 9, 'api_name': '用户已注册', 'interface': 'com.wt.cif.service.CifCustService', 'method': 'openAccount', 'request_data': '{"serialno":"201808271741250202Jh",\n        "invTp":"1",\n        "mobileNo":"13760200081",\n        "loginPasswd":"202cb962ac59075b964b07152d234b70",\n        "phoneCode":"1111",\n        "refererMobile":"15021996508",\n        "accofrom":"1",\n        "distributorCode":"247",\n        "branchcode":"24700",\n        "email":"744700813@qq.com",\n        "oneRecommend":"1"\n}', 'expected_data': "{'extFields': {}, 'custNo': None, 'headImgUrl': None, 'openId': None, 'nickName': None, 'errCode': 'B011', 'errMsg': '开户业务验证失败[该手机号已注册]', 'mobileNo': None, 'key': None, 'token': None, 'status': 'F'}", 'affected_caseId': None, 'compare_type': 0, 'wait_time': None}]
+ Mon, 27 Aug 2018 17:41:25  INFO test_api.py test_api [ line:34 ] ================开始发送一次接口请求，请求信息如下===========
+ Mon, 27 Aug 2018 17:41:25  INFO test_api.py test_api [ line:35 ] 接口请求apiName：企业客户有推荐人成功注册
+ Mon, 27 Aug 2018 17:41:25  INFO test_api.py test_api [ line:36 ] 接口请求interface:com.wt.cif.service.CifCustService
+ Mon, 27 Aug 2018 17:41:25  INFO test_api.py test_api [ line:37 ] 接口请求method:openAccount
+ Mon, 27 Aug 2018 17:41:25  INFO test_api.py test_api [ line:38 ] 接口请求data:{"serialno":"201808271741250950dE",
+        "invTp":"1",
+        "mobileNo":"13760200081",
+        "loginPasswd":"202cb962ac59075b964b07152d234b70",
+        "phoneCode":"1111",
+        "refererMobile":"15021996508",
+        "accofrom":"1",
+        "distributorCode":"247",
+        "branchcode":"24700",
+        "email":"744700813@qq.com",
+        "oneRecommend":"1"
+}
+ Mon, 27 Aug 2018 17:41:25  INFO test_api.py test_api [ line:47 ] 接口请求response data为：{'extFields': {}, 'custNo': None, 'headImgUrl': None, 'openId': None, 'nickName': None, 'errCode': 'B011', 'errMsg': '开户业务验证失败[该手机号已注册]', 'mobileNo': None, 'key': None, 'token': None, 'status': 'F'}
+ Mon, 27 Aug 2018 17:41:25  INFO test_api.py test_api [ line:48 ] 接口请求expected data为:{.*'errCode': '0000', 'errMsg': '交易成功'.* 'status': 'Y'}
+ Mon, 27 Aug 2018 17:41:25  INFO test_api.py test_api [ line:63 ] =====开始比对检验返回结果=======
+ Mon, 27 Aug 2018 17:41:25  INFO test_api.py test_api [ line:64 ] 正则表达式匹配模式
+ Mon, 27 Aug 2018 17:41:25  ERROR test_api.py test_api [ line:69 ] 正则结果比对失败原因为;unexpectedly None
+Traceback (most recent call last):
+  File "H:\python3_apiTest\TestCases\test_api.py", line 66, in test_api
+    self.assertIsNotNone(re.search(case_data["expected_data"],str(res)))
+  File "F:\python36\lib\unittest\case.py", line 1239, in assertIsNotNone
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "F:\python36\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: unexpectedly None
+ Mon, 27 Aug 2018 17:41:25  INFO test_api.py test_api [ line:34 ] ================开始发送一次接口请求，请求信息如下===========
+ Mon, 27 Aug 2018 17:41:25  INFO test_api.py test_api [ line:35 ] 接口请求apiName：个人客户无推荐人成功注册
+ Mon, 27 Aug 2018 17:41:25  INFO test_api.py test_api [ line:36 ] 接口请求interface:com.wt.cif.service.CifCustService
+ Mon, 27 Aug 2018 17:41:25  INFO test_api.py test_api [ line:37 ] 接口请求method:openAccount
+ Mon, 27 Aug 2018 17:41:25  INFO test_api.py test_api [ line:38 ] 接口请求data:{"serialno":"201808271741250235Vm",
+        "invTp":"2",
+        "mobileNo":"13760200082",
+        "loginPasswd":"202cb962ac59075b964b07152d234b70",
+        "phoneCode":"1111",
+        "accofrom":"1",
+        "distributorCode":"247",
+        "branchcode":"24700",
+        "email":"744700813@qq.com",
+        "oneRecommend":"0"
+}
+ Mon, 27 Aug 2018 17:41:25  INFO test_api.py test_api [ line:47 ] 接口请求response data为：{'extFields': {}, 'custNo': None, 'headImgUrl': None, 'openId': None, 'nickName': None, 'errCode': 'B011', 'errMsg': '开户业务验证失败[该手机号已注册]', 'mobileNo': None, 'key': None, 'token': None, 'status': 'F'}
+ Mon, 27 Aug 2018 17:41:25  INFO test_api.py test_api [ line:48 ] 接口请求expected data为:{.*'errCode': '0000', 'errMsg': '交易成功'.* 'status': 'Y'}
+ Mon, 27 Aug 2018 17:41:25  INFO test_api.py test_api [ line:63 ] =====开始比对检验返回结果=======
+ Mon, 27 Aug 2018 17:41:25  INFO test_api.py test_api [ line:64 ] 正则表达式匹配模式
+ Mon, 27 Aug 2018 17:41:25  ERROR test_api.py test_api [ line:69 ] 正则结果比对失败原因为;unexpectedly None
+Traceback (most recent call last):
+  File "H:\python3_apiTest\TestCases\test_api.py", line 66, in test_api
+    self.assertIsNotNone(re.search(case_data["expected_data"],str(res)))
+  File "F:\python36\lib\unittest\case.py", line 1239, in assertIsNotNone
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "F:\python36\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: unexpectedly None
+ Mon, 27 Aug 2018 17:41:25  INFO test_api.py test_api [ line:34 ] ================开始发送一次接口请求，请求信息如下===========
+ Mon, 27 Aug 2018 17:41:25  INFO test_api.py test_api [ line:35 ] 接口请求apiName：注册手机号为空
+ Mon, 27 Aug 2018 17:41:25  INFO test_api.py test_api [ line:36 ] 接口请求interface:com.wt.cif.service.CifCustService
+ Mon, 27 Aug 2018 17:41:25  INFO test_api.py test_api [ line:37 ] 接口请求method:openAccount
+ Mon, 27 Aug 2018 17:41:25  INFO test_api.py test_api [ line:38 ] 接口请求data:{"serialno":"201808271741250705hK",
+        "invTp":"1",
+        "mobileNo":"",
+        "loginPasswd":"202cb962ac59075b964b07152d234b70",
+        "phoneCode":"1111",
+        "refererMobile":"15021996508",
+        "accofrom":"1",
+        "distributorCode":"247",
+        "branchcode":"24700",
+        "email":"744700813@qq.com",
+        "oneRecommend":"1"
+}
+ Mon, 27 Aug 2018 17:41:25  INFO test_api.py test_api [ line:47 ] 接口请求response data为：{'extFields': {}, 'custNo': None, 'headImgUrl': None, 'openId': None, 'nickName': None, 'errCode': 'A030', 'errMsg': '开户入参验证参数为空[手机号码]', 'mobileNo': None, 'key': None, 'token': None, 'status': 'F'}
+ Mon, 27 Aug 2018 17:41:25  INFO test_api.py test_api [ line:48 ] 接口请求expected data为:{'extFields': {}, 'custNo': None, 'headImgUrl': None, 'openId': None, 'nickName': None, 'errCode': 'A030', 'errMsg': '开户入参验证参数为空[手机号码]', 'mobileNo': None, 'key': None, 'token': None, 'status': 'F'}
+ Mon, 27 Aug 2018 17:41:25  INFO test_api.py test_api [ line:54 ] =====开始比对检验返回结果=======
+ Mon, 27 Aug 2018 17:41:25  INFO test_api.py test_api [ line:55 ] 全值匹配模式
+ Mon, 27 Aug 2018 17:41:25  INFO test_api.py test_api [ line:58 ] 结果比对成功，测试用例通过
+ Mon, 27 Aug 2018 17:41:25  INFO test_api.py test_api [ line:82 ] ================结束一次接口请求===========
+ Mon, 27 Aug 2018 17:41:25  INFO test_api.py test_api [ line:34 ] ================开始发送一次接口请求，请求信息如下===========
+ Mon, 27 Aug 2018 17:41:25  INFO test_api.py test_api [ line:35 ] 接口请求apiName：登录密码为空
+ Mon, 27 Aug 2018 17:41:25  INFO test_api.py test_api [ line:36 ] 接口请求interface:com.wt.cif.service.CifCustService
+ Mon, 27 Aug 2018 17:41:25  INFO test_api.py test_api [ line:37 ] 接口请求method:openAccount
+ Mon, 27 Aug 2018 17:41:25  INFO test_api.py test_api [ line:38 ] 接口请求data:{"serialno":"201808271741250552hg",
+        "invTp":"1",
+        "mobileNo":"13760200083",
+        "loginPasswd":"",
+        "phoneCode":"1111",
+        "refererMobile":"15021996508",
+        "accofrom":"1",
+        "distributorCode":"247",
+        "branchcode":"24700",
+        "email":"744700813@qq.com",
+        "oneRecommend":"1"
+}
+ Mon, 27 Aug 2018 17:41:25  INFO test_api.py test_api [ line:47 ] 接口请求response data为：{'extFields': {}, 'custNo': None, 'headImgUrl': None, 'openId': None, 'nickName': None, 'errCode': 'A050', 'errMsg': '开户入参验证参数为空[登录密码]', 'mobileNo': None, 'key': None, 'token': None, 'status': 'F'}
+ Mon, 27 Aug 2018 17:41:25  INFO test_api.py test_api [ line:48 ] 接口请求expected data为:{'extFields': {}, 'custNo': None, 'headImgUrl': None, 'openId': None, 'nickName': None, 'errCode': 'A050', 'errMsg': '开户入参验证参数为空[登录密码]', 'mobileNo': None, 'key': None, 'token': None, 'status': 'F'}
+ Mon, 27 Aug 2018 17:41:25  INFO test_api.py test_api [ line:54 ] =====开始比对检验返回结果=======
+ Mon, 27 Aug 2018 17:41:25  INFO test_api.py test_api [ line:55 ] 全值匹配模式
+ Mon, 27 Aug 2018 17:41:25  INFO test_api.py test_api [ line:58 ] 结果比对成功，测试用例通过
+ Mon, 27 Aug 2018 17:41:25  INFO test_api.py test_api [ line:82 ] ================结束一次接口请求===========
+ Mon, 27 Aug 2018 17:41:25  INFO test_api.py test_api [ line:34 ] ================开始发送一次接口请求，请求信息如下===========
+ Mon, 27 Aug 2018 17:41:25  INFO test_api.py test_api [ line:35 ] 接口请求apiName：注册手机号少于11位
+ Mon, 27 Aug 2018 17:41:25  INFO test_api.py test_api [ line:36 ] 接口请求interface:com.wt.cif.service.CifCustService
+ Mon, 27 Aug 2018 17:41:25  INFO test_api.py test_api [ line:37 ] 接口请求method:openAccount
+ Mon, 27 Aug 2018 17:41:25  INFO test_api.py test_api [ line:38 ] 接口请求data:{"serialno":"201808271741250318dy",
+        "invTp":"1",
+        "mobileNo":"1502199644",
+        "loginPasswd":"202cb962ac59075b964b07152d234b70",
+        "phoneCode":"1111",
+        "refererMobile":"15021996508",
+        "accofrom":"1",
+        "distributorCode":"247",
+        "branchcode":"24700",
+        "email":"744700813@qq.com",
+        "oneRecommend":"1"
+}
+ Mon, 27 Aug 2018 17:41:25  INFO test_api.py test_api [ line:47 ] 接口请求response data为：{'extFields': {}, 'custNo': None, 'headImgUrl': None, 'openId': None, 'nickName': None, 'errCode': 'A013', 'errMsg': '开户入参验证参数错误[手机号码]', 'mobileNo': None, 'key': None, 'token': None, 'status': 'F'}
+ Mon, 27 Aug 2018 17:41:25  INFO test_api.py test_api [ line:48 ] 接口请求expected data为:{'extFields': {}, 'custNo': None, 'headImgUrl': None, 'openId': None, 'nickName': None, 'errCode': 'A013', 'errMsg': '开户入参验证参数错误[手机号码]', 'mobileNo': None, 'key': None, 'token': None, 'status': 'F'}
+ Mon, 27 Aug 2018 17:41:25  INFO test_api.py test_api [ line:54 ] =====开始比对检验返回结果=======
+ Mon, 27 Aug 2018 17:41:25  INFO test_api.py test_api [ line:55 ] 全值匹配模式
+ Mon, 27 Aug 2018 17:41:25  INFO test_api.py test_api [ line:58 ] 结果比对成功，测试用例通过
+ Mon, 27 Aug 2018 17:41:25  INFO test_api.py test_api [ line:82 ] ================结束一次接口请求===========
+ Mon, 27 Aug 2018 17:41:25  INFO test_api.py test_api [ line:34 ] ================开始发送一次接口请求，请求信息如下===========
+ Mon, 27 Aug 2018 17:41:25  INFO test_api.py test_api [ line:35 ] 接口请求apiName：注册手机号大于11位
+ Mon, 27 Aug 2018 17:41:25  INFO test_api.py test_api [ line:36 ] 接口请求interface:com.wt.cif.service.CifCustService
+ Mon, 27 Aug 2018 17:41:25  INFO test_api.py test_api [ line:37 ] 接口请求method:openAccount
+ Mon, 27 Aug 2018 17:41:25  INFO test_api.py test_api [ line:38 ] 接口请求data:{"serialno":"201808271741250406Mu",
+        "invTp":"1",
+        "mobileNo":"150219964489",
+        "loginPasswd":"202cb962ac59075b964b07152d234b70",
+        "phoneCode":"1111",
+        "refererMobile":"15021996508",
+        "accofrom":"1",
+        "distributorCode":"247",
+        "branchcode":"24700",
+        "email":"744700813@qq.com",
+        "oneRecommend":"1"
+}
+ Mon, 27 Aug 2018 17:41:25  INFO test_api.py test_api [ line:47 ] 接口请求response data为：{'extFields': {}, 'custNo': None, 'headImgUrl': None, 'openId': None, 'nickName': None, 'errCode': 'A013', 'errMsg': '开户入参验证参数错误[手机号码]', 'mobileNo': None, 'key': None, 'token': None, 'status': 'F'}
+ Mon, 27 Aug 2018 17:41:25  INFO test_api.py test_api [ line:48 ] 接口请求expected data为:{'extFields': {}, 'custNo': None, 'headImgUrl': None, 'openId': None, 'nickName': None, 'errCode': 'A013', 'errMsg': '开户入参验证参数错误[手机号码]', 'mobileNo': None, 'key': None, 'token': None, 'status': 'F'}
+ Mon, 27 Aug 2018 17:41:25  INFO test_api.py test_api [ line:54 ] =====开始比对检验返回结果=======
+ Mon, 27 Aug 2018 17:41:25  INFO test_api.py test_api [ line:55 ] 全值匹配模式
+ Mon, 27 Aug 2018 17:41:25  INFO test_api.py test_api [ line:58 ] 结果比对成功，测试用例通过
+ Mon, 27 Aug 2018 17:41:25  INFO test_api.py test_api [ line:82 ] ================结束一次接口请求===========
+ Mon, 27 Aug 2018 17:41:25  INFO test_api.py test_api [ line:34 ] ================开始发送一次接口请求，请求信息如下===========
+ Mon, 27 Aug 2018 17:41:25  INFO test_api.py test_api [ line:35 ] 接口请求apiName：注册手机号含特殊字符
+ Mon, 27 Aug 2018 17:41:25  INFO test_api.py test_api [ line:36 ] 接口请求interface:com.wt.cif.service.CifCustService
+ Mon, 27 Aug 2018 17:41:25  INFO test_api.py test_api [ line:37 ] 接口请求method:openAccount
+ Mon, 27 Aug 2018 17:41:25  INFO test_api.py test_api [ line:38 ] 接口请求data:{"serialno":"20180827174125076ii",
+        "invTp":"1",
+        "mobileNo":"15021996@44",
+        "loginPasswd":"202cb962ac59075b964b07152d234b70",
+        "phoneCode":"1111",
+        "refererMobile":"15021996508",
+        "accofrom":"1",
+        "distributorCode":"247",
+        "branchcode":"24700",
+        "email":"744700813@qq.com",
+        "oneRecommend":"1"
+}
+ Mon, 27 Aug 2018 17:41:25  INFO test_api.py test_api [ line:47 ] 接口请求response data为：{'extFields': {}, 'custNo': None, 'headImgUrl': None, 'openId': None, 'nickName': None, 'errCode': 'A013', 'errMsg': '开户入参验证参数错误[手机号码]', 'mobileNo': None, 'key': None, 'token': None, 'status': 'F'}
+ Mon, 27 Aug 2018 17:41:25  INFO test_api.py test_api [ line:48 ] 接口请求expected data为:{'extFields': {}, 'custNo': None, 'headImgUrl': None, 'openId': None, 'nickName': None, 'errCode': 'A013', 'errMsg': '开户入参验证参数错误[手机号码]', 'mobileNo': None, 'key': None, 'token': None, 'status': 'F'}
+ Mon, 27 Aug 2018 17:41:25  INFO test_api.py test_api [ line:54 ] =====开始比对检验返回结果=======
+ Mon, 27 Aug 2018 17:41:25  INFO test_api.py test_api [ line:55 ] 全值匹配模式
+ Mon, 27 Aug 2018 17:41:25  INFO test_api.py test_api [ line:58 ] 结果比对成功，测试用例通过
+ Mon, 27 Aug 2018 17:41:25  INFO test_api.py test_api [ line:82 ] ================结束一次接口请求===========
+ Mon, 27 Aug 2018 17:41:25  INFO test_api.py test_api [ line:34 ] ================开始发送一次接口请求，请求信息如下===========
+ Mon, 27 Aug 2018 17:41:25  INFO test_api.py test_api [ line:35 ] 接口请求apiName：注册手机号含空格
+ Mon, 27 Aug 2018 17:41:25  INFO test_api.py test_api [ line:36 ] 接口请求interface:com.wt.cif.service.CifCustService
+ Mon, 27 Aug 2018 17:41:25  INFO test_api.py test_api [ line:37 ] 接口请求method:openAccount
+ Mon, 27 Aug 2018 17:41:25  INFO test_api.py test_api [ line:38 ] 接口请求data:{"serialno":"201808271741250895lu",
+        "invTp":"1",
+        "mobileNo":"15021996 44",
+        "loginPasswd":"202cb962ac59075b964b07152d234b70",
+        "phoneCode":"1111",
+        "refererMobile":"15021996508",
+        "accofrom":"1",
+        "distributorCode":"247",
+        "branchcode":"24700",
+        "email":"744700813@qq.com",
+        "oneRecommend":"1"
+}
+ Mon, 27 Aug 2018 17:41:25  INFO test_api.py test_api [ line:47 ] 接口请求response data为：{'extFields': {}, 'custNo': None, 'headImgUrl': None, 'openId': None, 'nickName': None, 'errCode': 'A013', 'errMsg': '开户入参验证参数错误[手机号码]', 'mobileNo': None, 'key': None, 'token': None, 'status': 'F'}
+ Mon, 27 Aug 2018 17:41:25  INFO test_api.py test_api [ line:48 ] 接口请求expected data为:{'extFields': {}, 'custNo': None, 'headImgUrl': None, 'openId': None, 'nickName': None, 'errCode': 'A013', 'errMsg': '开户入参验证参数错误[手机号码]', 'mobileNo': None, 'key': None, 'token': None, 'status': 'F'}
+ Mon, 27 Aug 2018 17:41:25  INFO test_api.py test_api [ line:54 ] =====开始比对检验返回结果=======
+ Mon, 27 Aug 2018 17:41:25  INFO test_api.py test_api [ line:55 ] 全值匹配模式
+ Mon, 27 Aug 2018 17:41:25  INFO test_api.py test_api [ line:58 ] 结果比对成功，测试用例通过
+ Mon, 27 Aug 2018 17:41:25  INFO test_api.py test_api [ line:82 ] ================结束一次接口请求===========
+ Mon, 27 Aug 2018 17:41:25  INFO test_api.py test_api [ line:34 ] ================开始发送一次接口请求，请求信息如下===========
+ Mon, 27 Aug 2018 17:41:25  INFO test_api.py test_api [ line:35 ] 接口请求apiName：用户已注册
+ Mon, 27 Aug 2018 17:41:25  INFO test_api.py test_api [ line:36 ] 接口请求interface:com.wt.cif.service.CifCustService
+ Mon, 27 Aug 2018 17:41:25  INFO test_api.py test_api [ line:37 ] 接口请求method:openAccount
+ Mon, 27 Aug 2018 17:41:25  INFO test_api.py test_api [ line:38 ] 接口请求data:{"serialno":"201808271741250202Jh",
+        "invTp":"1",
+        "mobileNo":"13760200081",
+        "loginPasswd":"202cb962ac59075b964b07152d234b70",
+        "phoneCode":"1111",
+        "refererMobile":"15021996508",
+        "accofrom":"1",
+        "distributorCode":"247",
+        "branchcode":"24700",
+        "email":"744700813@qq.com",
+        "oneRecommend":"1"
+}
+ Mon, 27 Aug 2018 17:41:25  INFO test_api.py test_api [ line:47 ] 接口请求response data为：{'extFields': {}, 'custNo': None, 'headImgUrl': None, 'openId': None, 'nickName': None, 'errCode': 'B011', 'errMsg': '开户业务验证失败[该手机号已注册]', 'mobileNo': None, 'key': None, 'token': None, 'status': 'F'}
+ Mon, 27 Aug 2018 17:41:25  INFO test_api.py test_api [ line:48 ] 接口请求expected data为:{'extFields': {}, 'custNo': None, 'headImgUrl': None, 'openId': None, 'nickName': None, 'errCode': 'B011', 'errMsg': '开户业务验证失败[该手机号已注册]', 'mobileNo': None, 'key': None, 'token': None, 'status': 'F'}
+ Mon, 27 Aug 2018 17:41:25  INFO test_api.py test_api [ line:54 ] =====开始比对检验返回结果=======
+ Mon, 27 Aug 2018 17:41:25  INFO test_api.py test_api [ line:55 ] 全值匹配模式
+ Mon, 27 Aug 2018 17:41:25  INFO test_api.py test_api [ line:58 ] 结果比对成功，测试用例通过
+ Mon, 27 Aug 2018 17:41:25  INFO test_api.py test_api [ line:82 ] ================结束一次接口请求===========

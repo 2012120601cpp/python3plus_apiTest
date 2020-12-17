@@ -1,0 +1,5 @@
+ Tue, 24 Jul 2018 11:48:25  INFO myLogger2.py <module> [ line:20 ] =========test start=========
+ Tue, 24 Jul 2018 11:48:26  INFO Doexcel.py getAllCaseDatas [ line:47 ] 初始化之后的请求数据为：
+recharge
+ Tue, 24 Jul 2018 11:48:26  INFO Doexcel.py getAllCaseDatas [ line:48 ] 初始化之后的sql语句为：
+{.*'errCode': '0000', 'tradeStatus': 'Y', 'tradeMsg': '申请成功', 'errMsg': '申请成功'.*}

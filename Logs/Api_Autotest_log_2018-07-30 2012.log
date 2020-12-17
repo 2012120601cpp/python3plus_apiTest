@@ -1,0 +1,74 @@
+ Mon, 30 Jul 2018 20:12:12  INFO myLogger2.py <module> [ line:20 ] =========test start=========
+ Mon, 30 Jul 2018 20:12:12  INFO Doexcel.py getAllCaseDatas [ line:47 ] 初始化之后的请求数据为：
+{
+"referno":"aaaa",
+"subquty":"100",
+"honourdate":"20181017",
+"baseyield":"0.0900",
+"yield":"0.0900",
+"addyield":"0.0000",
+"interestbegindate":"20180726",
+"interestenddate":"20181016",
+"exyield":"0",
+"serialno":"temp_serial",
+"custno":"1538943811",
+"apkind":"056",
+"subapkind":"056001",
+"apdt":"20180726",
+"aptm":"134031",
+"workdate":"20180726",
+"tradeacco":"000621718538943814",
+"taaccountid":"475A7FB19598436383",
+"tano":"47",
+"productid":"732937",
+"sharetype":"A",
+"accptmd":"1",
+"branchcode":"247000",
+"distributorcode":"247"}
+ Mon, 30 Jul 2018 20:12:12  INFO Doexcel.py getAllCaseDatas [ line:48 ] 初始化之后的sql语句为：
+None
+ Mon, 30 Jul 2018 20:12:12  INFO test_api.py <module> [ line:19 ] 所有的测试数据为：[{'case_id': 1, 'api_name': '【散标转让】散标转让购买申请', 'interface': 'com.wt.cts.service.ProductCoreTradeService', 'method': 'transferByVacco', 'request_data': '{\n"referno":"aaaa",\n"subquty":"100",\n"honourdate":"20181017",\n"baseyield":"0.0900",\n"yield":"0.0900",\n"addyield":"0.0000",\n"interestbegindate":"20180726",\n"interestenddate":"20181016",\n"exyield":"0",\n"serialno":"temp_serial",\n"custno":"1538943811",\n"apkind":"056",\n"subapkind":"056001",\n"apdt":"20180726",\n"aptm":"134031",\n"workdate":"20180726",\n"tradeacco":"000621718538943814",\n"taaccountid":"475A7FB19598436383",\n"tano":"47",\n"productid":"732937",\n"sharetype":"A",\n"accptmd":"1",\n"branchcode":"247000",\n"distributorcode":"247"}', 'execute_sql': None, 'expected_data': "{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'Y', 'tradeMsg': '申请成功', 'errMsg': '申请成功', 'tradeCode': '0000', 'exObjFields': {}, 'key': None}", 'affected_caseId': None, 'compare_type': 0, 'wait_time': None}]
+ Mon, 30 Jul 2018 20:12:13  INFO myMysql.py connect_mysql [ line:19 ] 数据库连接成功！！
+ Mon, 30 Jul 2018 20:12:13  INFO test_api.py test_api [ line:33 ] ================开始发送一次接口请求，请求信息如下===========
+ Mon, 30 Jul 2018 20:12:13  INFO test_api.py test_api [ line:34 ] 接口请求apiName：【散标转让】散标转让购买申请
+ Mon, 30 Jul 2018 20:12:13  INFO test_api.py test_api [ line:35 ] 接口请求interface:com.wt.cts.service.ProductCoreTradeService
+ Mon, 30 Jul 2018 20:12:13  INFO test_api.py test_api [ line:36 ] 接口请求method:transferByVacco
+ Mon, 30 Jul 2018 20:12:13  INFO test_api.py test_api [ line:37 ] 接口请求data:{
+"referno":"aaaa",
+"subquty":"100",
+"honourdate":"20181017",
+"baseyield":"0.0900",
+"yield":"0.0900",
+"addyield":"0.0000",
+"interestbegindate":"20180726",
+"interestenddate":"20181016",
+"exyield":"0",
+"serialno":"temp_serial",
+"custno":"1538943811",
+"apkind":"056",
+"subapkind":"056001",
+"apdt":"20180726",
+"aptm":"134031",
+"workdate":"20180726",
+"tradeacco":"000621718538943814",
+"taaccountid":"475A7FB19598436383",
+"tano":"47",
+"productid":"732937",
+"sharetype":"A",
+"accptmd":"1",
+"branchcode":"247000",
+"distributorcode":"247"}
+ Mon, 30 Jul 2018 20:12:13  INFO test_api.py test_api [ line:38 ] 接口请求sql:None
+ Mon, 30 Jul 2018 20:12:13  INFO test_api.py test_api [ line:46 ] 接口请求response data为：{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'F', 'tradeMsg': '查询交易原单结果为空或失败', 'errMsg': '申请成功', 'tradeCode': 'Q015', 'exObjFields': {}, 'key': None}
+ Mon, 30 Jul 2018 20:12:13  INFO test_api.py test_api [ line:47 ] 接口请求expected data为:{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'Y', 'tradeMsg': '申请成功', 'errMsg': '申请成功', 'tradeCode': '0000', 'exObjFields': {}, 'key': None}
+ Mon, 30 Jul 2018 20:12:13  INFO test_api.py test_api [ line:53 ] =====开始比对检验返回结果=======
+ Mon, 30 Jul 2018 20:12:13  INFO test_api.py test_api [ line:54 ] 全值匹配模式
+ Mon, 30 Jul 2018 20:12:13  ERROR test_api.py test_api [ line:59 ] 全值结果比对失败原因为："{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'F', 'tradeMsg': '查询交易原单结果为空或失败', 'errMsg': '申请成功', 'tradeCode': 'Q015', 'exObjFields': {}, 'key': None}" not found in "{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'Y', 'tradeMsg': '申请成功', 'errMsg': '申请成功', 'tradeCode': '0000', 'exObjFields': {}, 'key': None}"
+Traceback (most recent call last):
+  File "H:\python3_apiTest\TestCases\test_api.py", line 56, in test_api
+    self.assertIn(str(res),case_data["expected_data"])
+  File "F:\python36\lib\unittest\case.py", line 1089, in assertIn
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "F:\python36\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: "{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'F', 'tradeMsg': '查询交易原单结果为空或失败', 'errMsg': '申请成功', 'tradeCode': 'Q015', 'exObjFields': {}, 'key': None}" not found in "{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'Y', 'tradeMsg': '申请成功', 'errMsg': '申请成功', 'tradeCode': '0000', 'exObjFields': {}, 'key': None}"

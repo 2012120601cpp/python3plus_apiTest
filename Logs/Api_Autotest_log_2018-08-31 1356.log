@@ -1,0 +1,525 @@
+ Fri, 31 Aug 2018 13:56:29  INFO myLogger2.py <module> [ line:20 ] =========test start=========
+ Fri, 31 Aug 2018 13:56:30  INFO Doexcel.py getAllCaseDatas [ line:85 ] 初始化之后的请求数据为：
+{"serialno":"201808311356300983Tb",
+        "invTp":"1",
+        "mobileNo":"13760200132",
+        "loginPasswd":"202cb962ac59075b964b07152d234b70",
+        "phoneCode":"1111",
+        "refererMobile":"15021996508",
+        "accofrom":"1",
+        "distributorCode":"247",
+        "branchcode":"24700",
+        "email":"744700813@qq.com",
+        "oneRecommend":"1"
+}
+ Fri, 31 Aug 2018 13:56:30  INFO Doexcel.py getAllCaseDatas [ line:86 ] 初始化之后的sql语句为：
+["select * from cif.cif_custinfo WHERE MOBILENO='13760200132';"]
+ Fri, 31 Aug 2018 13:56:30  INFO Doexcel.py getAllCaseDatas [ line:85 ] 初始化之后的请求数据为：
+{"serialno":"201808311356300355hy",
+        "invTp":"2",
+        "mobileNo":"13760200133",
+        "loginPasswd":"202cb962ac59075b964b07152d234b70",
+        "phoneCode":"1111",
+        "accofrom":"1",
+        "distributorCode":"247",
+        "branchcode":"24700",
+        "email":"744700813@qq.com",
+        "oneRecommend":"0"
+}
+ Fri, 31 Aug 2018 13:56:30  INFO Doexcel.py getAllCaseDatas [ line:86 ] 初始化之后的sql语句为：
+["select * from cif.cif_custinfo WHERE MOBILENO='13760200133';"]
+ Fri, 31 Aug 2018 13:56:30  INFO Doexcel.py getAllCaseDatas [ line:85 ] 初始化之后的请求数据为：
+{"serialno":"20180831135630042rp",
+        "invTp":"1",
+        "mobileNo":"",
+        "loginPasswd":"202cb962ac59075b964b07152d234b70",
+        "phoneCode":"1111",
+        "refererMobile":"15021996508",
+        "accofrom":"1",
+        "distributorCode":"247",
+        "branchcode":"24700",
+        "email":"744700813@qq.com",
+        "oneRecommend":"1"
+}
+ Fri, 31 Aug 2018 13:56:30  INFO Doexcel.py getAllCaseDatas [ line:86 ] 初始化之后的sql语句为：
+""
+ Fri, 31 Aug 2018 13:56:30  INFO Doexcel.py getAllCaseDatas [ line:85 ] 初始化之后的请求数据为：
+{"serialno":"201808311356300960kK",
+        "invTp":"1",
+        "mobileNo":"13760200134",
+        "loginPasswd":"",
+        "phoneCode":"1111",
+        "refererMobile":"15021996508",
+        "accofrom":"1",
+        "distributorCode":"247",
+        "branchcode":"24700",
+        "email":"744700813@qq.com",
+        "oneRecommend":"1"
+}
+ Fri, 31 Aug 2018 13:56:30  INFO Doexcel.py getAllCaseDatas [ line:86 ] 初始化之后的sql语句为：
+""
+ Fri, 31 Aug 2018 13:56:30  INFO Doexcel.py getAllCaseDatas [ line:85 ] 初始化之后的请求数据为：
+{"serialno":"201808311356300882Fn",
+        "invTp":"1",
+        "mobileNo":"1502199644",
+        "loginPasswd":"202cb962ac59075b964b07152d234b70",
+        "phoneCode":"1111",
+        "refererMobile":"15021996508",
+        "accofrom":"1",
+        "distributorCode":"247",
+        "branchcode":"24700",
+        "email":"744700813@qq.com",
+        "oneRecommend":"1"
+}
+ Fri, 31 Aug 2018 13:56:30  INFO Doexcel.py getAllCaseDatas [ line:86 ] 初始化之后的sql语句为：
+""
+ Fri, 31 Aug 2018 13:56:30  INFO Doexcel.py getAllCaseDatas [ line:85 ] 初始化之后的请求数据为：
+{"serialno":"201808311356300964bu",
+        "invTp":"1",
+        "mobileNo":"150219964489",
+        "loginPasswd":"202cb962ac59075b964b07152d234b70",
+        "phoneCode":"1111",
+        "refererMobile":"15021996508",
+        "accofrom":"1",
+        "distributorCode":"247",
+        "branchcode":"24700",
+        "email":"744700813@qq.com",
+        "oneRecommend":"1"
+}
+ Fri, 31 Aug 2018 13:56:30  INFO Doexcel.py getAllCaseDatas [ line:86 ] 初始化之后的sql语句为：
+""
+ Fri, 31 Aug 2018 13:56:30  INFO Doexcel.py getAllCaseDatas [ line:85 ] 初始化之后的请求数据为：
+{"serialno":"201808311356300670EM",
+        "invTp":"1",
+        "mobileNo":"15021996@44",
+        "loginPasswd":"202cb962ac59075b964b07152d234b70",
+        "phoneCode":"1111",
+        "refererMobile":"15021996508",
+        "accofrom":"1",
+        "distributorCode":"247",
+        "branchcode":"24700",
+        "email":"744700813@qq.com",
+        "oneRecommend":"1"
+}
+ Fri, 31 Aug 2018 13:56:30  INFO Doexcel.py getAllCaseDatas [ line:86 ] 初始化之后的sql语句为：
+""
+ Fri, 31 Aug 2018 13:56:30  INFO Doexcel.py getAllCaseDatas [ line:85 ] 初始化之后的请求数据为：
+{"serialno":"201808311356300677hS",
+        "invTp":"1",
+        "mobileNo":"15021996 44",
+        "loginPasswd":"202cb962ac59075b964b07152d234b70",
+        "phoneCode":"1111",
+        "refererMobile":"15021996508",
+        "accofrom":"1",
+        "distributorCode":"247",
+        "branchcode":"24700",
+        "email":"744700813@qq.com",
+        "oneRecommend":"1"
+}
+ Fri, 31 Aug 2018 13:56:30  INFO Doexcel.py getAllCaseDatas [ line:86 ] 初始化之后的sql语句为：
+""
+ Fri, 31 Aug 2018 13:56:30  INFO Doexcel.py getAllCaseDatas [ line:85 ] 初始化之后的请求数据为：
+{"serialno":"201808311356300454yC",
+        "invTp":"1",
+        "mobileNo":"13760200132",
+        "loginPasswd":"202cb962ac59075b964b07152d234b70",
+        "phoneCode":"1111",
+        "refererMobile":"15021996508",
+        "accofrom":"1",
+        "distributorCode":"247",
+        "branchcode":"24700",
+        "email":"744700813@qq.com",
+        "oneRecommend":"1"
+}
+ Fri, 31 Aug 2018 13:56:30  INFO Doexcel.py getAllCaseDatas [ line:86 ] 初始化之后的sql语句为：
+""
+ Fri, 31 Aug 2018 13:56:30  INFO Doexcel.py getAllCaseDatas [ line:85 ] 初始化之后的请求数据为：
+{"loginName":"13760200132",
+        "loginPwd":"202cb962ac59075b964b07152d234b70",
+        "accoFrom":"1",
+}
+ Fri, 31 Aug 2018 13:56:30  INFO Doexcel.py getAllCaseDatas [ line:86 ] 初始化之后的sql语句为：
+""
+ Fri, 31 Aug 2018 13:56:30  INFO Doexcel.py getAllCaseDatas [ line:85 ] 初始化之后的请求数据为：
+{"loginName":"13760200133",
+        "loginPwd":"202cb962ac59075b964b07152d234b70",
+        "accoFrom":"1",
+}
+ Fri, 31 Aug 2018 13:56:30  INFO Doexcel.py getAllCaseDatas [ line:86 ] 初始化之后的sql语句为：
+""
+ Fri, 31 Aug 2018 13:56:30  INFO Doexcel.py getAllCaseDatas [ line:85 ] 初始化之后的请求数据为：
+{"loginName":"13760200132",
+        "loginPwd":"202cb962ac59075b964b07152d234b70",
+        "accoFrom":"1",
+}
+ Fri, 31 Aug 2018 13:56:30  INFO Doexcel.py getAllCaseDatas [ line:86 ] 初始化之后的sql语句为：
+""
+ Fri, 31 Aug 2018 13:56:30  INFO Doexcel.py getAllCaseDatas [ line:85 ] 初始化之后的请求数据为：
+{"loginName":"13760200132",
+        "loginPwd":"202cb962ac59075b964b07152d234b70",
+        "accoFrom":"1",
+}
+ Fri, 31 Aug 2018 13:56:30  INFO Doexcel.py getAllCaseDatas [ line:86 ] 初始化之后的sql语句为：
+""
+ Fri, 31 Aug 2018 13:56:30  INFO Doexcel.py getAllCaseDatas [ line:85 ] 初始化之后的请求数据为：
+{"loginName":"13760200132",
+        "loginPwd":"202cb962ac59075b964b07152d234b70",
+        "accoFrom":"1",
+}
+ Fri, 31 Aug 2018 13:56:30  INFO Doexcel.py getAllCaseDatas [ line:86 ] 初始化之后的sql语句为：
+""
+ Fri, 31 Aug 2018 13:56:30  INFO Doexcel.py getAllCaseDatas [ line:85 ] 初始化之后的请求数据为：
+{"loginName":"",
+        "loginPwd":"202cb962ac59075b964b07152d234b70",
+        "accoFrom":"1",
+}
+ Fri, 31 Aug 2018 13:56:30  INFO Doexcel.py getAllCaseDatas [ line:86 ] 初始化之后的sql语句为：
+""
+ Fri, 31 Aug 2018 13:56:30  INFO Doexcel.py getAllCaseDatas [ line:85 ] 初始化之后的请求数据为：
+{"loginName":"13760200132",
+        "loginPwd":"",
+        "accoFrom":"1",
+}
+ Fri, 31 Aug 2018 13:56:30  INFO Doexcel.py getAllCaseDatas [ line:86 ] 初始化之后的sql语句为：
+""
+ Fri, 31 Aug 2018 13:56:30  INFO Doexcel.py getAllCaseDatas [ line:85 ] 初始化之后的请求数据为：
+{"loginName":"13760200011",
+        "loginPwd":"202cb962ac59075b964b07152d234b70",
+        "accoFrom":"1",
+}
+ Fri, 31 Aug 2018 13:56:30  INFO Doexcel.py getAllCaseDatas [ line:86 ] 初始化之后的sql语句为：
+""
+ Fri, 31 Aug 2018 13:56:30  INFO Doexcel.py getAllCaseDatas [ line:85 ] 初始化之后的请求数据为：
+{"loginName":"13760200132",
+        "loginPwd":"202cb962ac59075b964b07152d23",
+        "accoFrom":"1",
+}
+ Fri, 31 Aug 2018 13:56:30  INFO Doexcel.py getAllCaseDatas [ line:86 ] 初始化之后的sql语句为：
+""
+ Fri, 31 Aug 2018 13:56:30  INFO test_api.py <module> [ line:19 ] 所有的测试数据为：[{'case_id': 1, 'api_name': '【账户注册】企业客户有推荐人成功注册', 'ip': '120.26.205.32', 'port': 17005, 'interface': 'com.wt.cif.service.CifCustService', 'method': 'openAccount', 'request_data': '{"serialno":"201808311356300983Tb",\n        "invTp":"1",\n        "mobileNo":"13760200132",\n        "loginPasswd":"202cb962ac59075b964b07152d234b70",\n        "phoneCode":"1111",\n        "refererMobile":"15021996508",\n        "accofrom":"1",\n        "distributorCode":"247",\n        "branchcode":"24700",\n        "email":"744700813@qq.com",\n        "oneRecommend":"1"\n}', 'execute_sql': '["select * from cif.cif_custinfo WHERE MOBILENO=\'13760200132\';"]', 'expected_data': "{.*'errCode': '0000', 'errMsg': '交易成功'.* 'status': 'Y'}", 'affected_caseId': None, 'compare_type': 1, 'wait_time': None}, {'case_id': 2, 'api_name': '【账户注册】个人客户无推荐人成功注册', 'ip': '120.26.205.32', 'port': 17005, 'interface': 'com.wt.cif.service.CifCustService', 'method': 'openAccount', 'request_data': '{"serialno":"201808311356300355hy",\n        "invTp":"2",\n        "mobileNo":"13760200133",\n        "loginPasswd":"202cb962ac59075b964b07152d234b70",\n        "phoneCode":"1111",\n        "accofrom":"1",\n        "distributorCode":"247",\n        "branchcode":"24700",\n        "email":"744700813@qq.com",\n        "oneRecommend":"0"\n}', 'execute_sql': '["select * from cif.cif_custinfo WHERE MOBILENO=\'13760200133\';"]', 'expected_data': "{.*'errCode': '0000', 'errMsg': '交易成功'.* 'status': 'Y'}", 'affected_caseId': None, 'compare_type': 1, 'wait_time': None}, {'case_id': 3, 'api_name': '【账户注册】注册手机号为空', 'ip': '120.26.205.32', 'port': 17005, 'interface': 'com.wt.cif.service.CifCustService', 'method': 'openAccount', 'request_data': '{"serialno":"20180831135630042rp",\n        "invTp":"1",\n        "mobileNo":"",\n        "loginPasswd":"202cb962ac59075b964b07152d234b70",\n        "phoneCode":"1111",\n        "refererMobile":"15021996508",\n        "accofrom":"1",\n        "distributorCode":"247",\n        "branchcode":"24700",\n        "email":"744700813@qq.com",\n        "oneRecommend":"1"\n}', 'execute_sql': '""', 'expected_data': "{'extFields': {}, 'custNo': None, 'headImgUrl': None, 'openId': None, 'nickName': None, 'errCode': 'A030', 'errMsg': '开户入参验证参数为空[手机号码]', 'mobileNo': None, 'key': None, 'token': None, 'status': 'F'}", 'affected_caseId': None, 'compare_type': 0, 'wait_time': None}, {'case_id': 4, 'api_name': '【账户注册】登录密码为空', 'ip': '120.26.205.32', 'port': 17005, 'interface': 'com.wt.cif.service.CifCustService', 'method': 'openAccount', 'request_data': '{"serialno":"201808311356300960kK",\n        "invTp":"1",\n        "mobileNo":"13760200134",\n        "loginPasswd":"",\n        "phoneCode":"1111",\n        "refererMobile":"15021996508",\n        "accofrom":"1",\n        "distributorCode":"247",\n        "branchcode":"24700",\n        "email":"744700813@qq.com",\n        "oneRecommend":"1"\n}', 'execute_sql': '""', 'expected_data': "{'extFields': {}, 'custNo': None, 'headImgUrl': None, 'openId': None, 'nickName': None, 'errCode': 'A050', 'errMsg': '开户入参验证参数为空[登录密码]', 'mobileNo': None, 'key': None, 'token': None, 'status': 'F'}", 'affected_caseId': None, 'compare_type': 0, 'wait_time': None}, {'case_id': 5, 'api_name': '【账户注册】注册手机号少于11位', 'ip': '120.26.205.32', 'port': 17005, 'interface': 'com.wt.cif.service.CifCustService', 'method': 'openAccount', 'request_data': '{"serialno":"201808311356300882Fn",\n        "invTp":"1",\n        "mobileNo":"1502199644",\n        "loginPasswd":"202cb962ac59075b964b07152d234b70",\n        "phoneCode":"1111",\n        "refererMobile":"15021996508",\n        "accofrom":"1",\n        "distributorCode":"247",\n        "branchcode":"24700",\n        "email":"744700813@qq.com",\n        "oneRecommend":"1"\n}', 'execute_sql': '""', 'expected_data': "{'extFields': {}, 'custNo': None, 'headImgUrl': None, 'openId': None, 'nickName': None, 'errCode': 'A013', 'errMsg': '开户入参验证参数错误[手机号码]', 'mobileNo': None, 'key': None, 'token': None, 'status': 'F'}", 'affected_caseId': None, 'compare_type': 0, 'wait_time': None}, {'case_id': 6, 'api_name': '【账户注册】注册手机号大于11位', 'ip': '120.26.205.32', 'port': 17005, 'interface': 'com.wt.cif.service.CifCustService', 'method': 'openAccount', 'request_data': '{"serialno":"201808311356300964bu",\n        "invTp":"1",\n        "mobileNo":"150219964489",\n        "loginPasswd":"202cb962ac59075b964b07152d234b70",\n        "phoneCode":"1111",\n        "refererMobile":"15021996508",\n        "accofrom":"1",\n        "distributorCode":"247",\n        "branchcode":"24700",\n        "email":"744700813@qq.com",\n        "oneRecommend":"1"\n}', 'execute_sql': '""', 'expected_data': "{'extFields': {}, 'custNo': None, 'headImgUrl': None, 'openId': None, 'nickName': None, 'errCode': 'A013', 'errMsg': '开户入参验证参数错误[手机号码]', 'mobileNo': None, 'key': None, 'token': None, 'status': 'F'}", 'affected_caseId': None, 'compare_type': 0, 'wait_time': None}, {'case_id': 7, 'api_name': '【账户注册】注册手机号含特殊字符', 'ip': '120.26.205.32', 'port': 17005, 'interface': 'com.wt.cif.service.CifCustService', 'method': 'openAccount', 'request_data': '{"serialno":"201808311356300670EM",\n        "invTp":"1",\n        "mobileNo":"15021996@44",\n        "loginPasswd":"202cb962ac59075b964b07152d234b70",\n        "phoneCode":"1111",\n        "refererMobile":"15021996508",\n        "accofrom":"1",\n        "distributorCode":"247",\n        "branchcode":"24700",\n        "email":"744700813@qq.com",\n        "oneRecommend":"1"\n}', 'execute_sql': '""', 'expected_data': "{'extFields': {}, 'custNo': None, 'headImgUrl': None, 'openId': None, 'nickName': None, 'errCode': 'A013', 'errMsg': '开户入参验证参数错误[手机号码]', 'mobileNo': None, 'key': None, 'token': None, 'status': 'F'}", 'affected_caseId': None, 'compare_type': 0, 'wait_time': None}, {'case_id': 8, 'api_name': '【账户注册】注册手机号含空格', 'ip': '120.26.205.32', 'port': 17005, 'interface': 'com.wt.cif.service.CifCustService', 'method': 'openAccount', 'request_data': '{"serialno":"201808311356300677hS",\n        "invTp":"1",\n        "mobileNo":"15021996 44",\n        "loginPasswd":"202cb962ac59075b964b07152d234b70",\n        "phoneCode":"1111",\n        "refererMobile":"15021996508",\n        "accofrom":"1",\n        "distributorCode":"247",\n        "branchcode":"24700",\n        "email":"744700813@qq.com",\n        "oneRecommend":"1"\n}', 'execute_sql': '""', 'expected_data': "{'extFields': {}, 'custNo': None, 'headImgUrl': None, 'openId': None, 'nickName': None, 'errCode': 'A013', 'errMsg': '开户入参验证参数错误[手机号码]', 'mobileNo': None, 'key': None, 'token': None, 'status': 'F'}", 'affected_caseId': None, 'compare_type': 0, 'wait_time': None}, {'case_id': 9, 'api_name': '【账户注册】用户已注册', 'ip': '120.26.205.32', 'port': 17005, 'interface': 'com.wt.cif.service.CifCustService', 'method': 'openAccount', 'request_data': '{"serialno":"201808311356300454yC",\n        "invTp":"1",\n        "mobileNo":"13760200132",\n        "loginPasswd":"202cb962ac59075b964b07152d234b70",\n        "phoneCode":"1111",\n        "refererMobile":"15021996508",\n        "accofrom":"1",\n        "distributorCode":"247",\n        "branchcode":"24700",\n        "email":"744700813@qq.com",\n        "oneRecommend":"1"\n}', 'execute_sql': '""', 'expected_data': "{'extFields': {}, 'custNo': None, 'headImgUrl': None, 'openId': None, 'nickName': None, 'errCode': 'B011', 'errMsg': '开户业务验证失败[该手机号已注册]', 'mobileNo': None, 'key': None, 'token': None, 'status': 'F'}", 'affected_caseId': None, 'compare_type': 0, 'wait_time': None}, {'case_id': 10, 'api_name': '【账户登录】账户官网登录成功', 'ip': '120.26.205.32', 'port': 17005, 'interface': 'com.wt.cif.service.CifPassportService', 'method': 'passportLogin', 'request_data': '{"loginName":"13760200132",\n        "loginPwd":"202cb962ac59075b964b07152d234b70",\n        "accoFrom":"1",\n}', 'execute_sql': '""', 'expected_data': "{.*'errMsg': '交易成功'.* 'errCode': '0000'.*'status': 'Y'}", 'affected_caseId': None, 'compare_type': 1, 'wait_time': None}, {'case_id': 11, 'api_name': '【账户登录】账户柜台登录成功', 'ip': '120.26.205.32', 'port': 17005, 'interface': 'com.wt.cif.service.CifPassportService', 'method': 'passportLogin', 'request_data': '{"loginName":"13760200133",\n        "loginPwd":"202cb962ac59075b964b07152d234b70",\n        "accoFrom":"1",\n}', 'execute_sql': '""', 'expected_data': "{.*'errMsg': '交易成功'.* 'errCode': '0000'.*'status': 'Y'}", 'affected_caseId': None, 'compare_type': 1, 'wait_time': None}, {'case_id': 12, 'api_name': '【账户登录】账户手机登录成功', 'ip': '120.26.205.32', 'port': 17005, 'interface': 'com.wt.cif.service.CifPassportService', 'method': 'passportLogin', 'request_data': '{"loginName":"13760200132",\n        "loginPwd":"202cb962ac59075b964b07152d234b70",\n        "accoFrom":"1",\n}', 'execute_sql': '""', 'expected_data': "{.*'errMsg': '交易成功'.* 'errCode': '0000'.*'status': 'Y'}", 'affected_caseId': None, 'compare_type': 1, 'wait_time': None}, {'case_id': 13, 'api_name': '【账户登录】账户企业版登录成功', 'ip': '120.26.205.32', 'port': 17005, 'interface': 'com.wt.cif.service.CifPassportService', 'method': 'passportLogin', 'request_data': '{"loginName":"13760200132",\n        "loginPwd":"202cb962ac59075b964b07152d234b70",\n        "accoFrom":"1",\n}', 'execute_sql': '""', 'expected_data': "{.*'errMsg': '交易成功'.* 'errCode': '0000'.*'status': 'Y'}", 'affected_caseId': None, 'compare_type': 1, 'wait_time': None}, {'case_id': 14, 'api_name': '【账户登录】账户微信登录成功', 'ip': '120.26.205.32', 'port': 17005, 'interface': 'com.wt.cif.service.CifPassportService', 'method': 'passportLogin', 'request_data': '{"loginName":"13760200132",\n        "loginPwd":"202cb962ac59075b964b07152d234b70",\n        "accoFrom":"1",\n}', 'execute_sql': '""', 'expected_data': "{.*'errMsg': '交易成功'.* 'errCode': '0000'.*'status': 'Y'}", 'affected_caseId': None, 'compare_type': 1, 'wait_time': None}, {'case_id': 15, 'api_name': '【账户登录】用户名为空', 'ip': '120.26.205.32', 'port': 17005, 'interface': 'com.wt.cif.service.CifPassportService', 'method': 'passportLogin', 'request_data': '{"loginName":"",\n        "loginPwd":"202cb962ac59075b964b07152d234b70",\n        "accoFrom":"1",\n}', 'execute_sql': '""', 'expected_data': "{'custNo': None, 'openId': None, 'nickName': None, 'loginpwdErrMax': 0, 'errMsg': '通行证登陆入参验证参数为空[登陆账号]', 'mobileNo': None, 'loginpwdErr': 0, 'token': None, 'extFields': {}, 'headImgUrl': None, 'invtp': None, 'errCode': 'A112', 'key': None, 'status': 'F'}", 'affected_caseId': None, 'compare_type': 0, 'wait_time': None}, {'case_id': 16, 'api_name': '【账户登录】密码为空', 'ip': '120.26.205.32', 'port': 17005, 'interface': 'com.wt.cif.service.CifPassportService', 'method': 'passportLogin', 'request_data': '{"loginName":"13760200132",\n        "loginPwd":"",\n        "accoFrom":"1",\n}', 'execute_sql': '""', 'expected_data': "{'custNo': None, 'openId': None, 'nickName': None, 'loginpwdErrMax': 0, 'errMsg': '通行证登陆入参验证参数为空[登陆密码]', 'mobileNo': None, 'loginpwdErr': 0, 'token': None, 'extFields': {}, 'headImgUrl': None, 'invtp': None, 'errCode': 'A113', 'key': None, 'status': 'F'}", 'affected_caseId': None, 'compare_type': 0, 'wait_time': None}, {'case_id': 17, 'api_name': '【账户登录】用户名错误', 'ip': '120.26.205.32', 'port': 17005, 'interface': 'com.wt.cif.service.CifPassportService', 'method': 'passportLogin', 'request_data': '{"loginName":"13760200011",\n        "loginPwd":"202cb962ac59075b964b07152d234b70",\n        "accoFrom":"1",\n}', 'execute_sql': '""', 'expected_data': "{'custNo': None, 'openId': None, 'nickName': None, 'loginpwdErrMax': 0, 'errMsg': '业务验证失败[客户不存在]', 'mobileNo': None, 'loginpwdErr': 0, 'token': None, 'extFields': {}, 'headImgUrl': None, 'invtp': None, 'errCode': 'B023', 'key': None, 'status': 'F'}", 'affected_caseId': None, 'compare_type': 0, 'wait_time': None}, {'case_id': 18, 'api_name': '【账户登录】密码错误', 'ip': '120.26.205.32', 'port': 17005, 'interface': 'com.wt.cif.service.CifPassportService', 'method': 'passportLogin', 'request_data': '{"loginName":"13760200132",\n        "loginPwd":"202cb962ac59075b964b07152d23",\n        "accoFrom":"1",\n}', 'execute_sql': '""', 'expected_data': "{'custNo': None, 'openId': None, 'nickName': None, 'loginpwdErrMax': 5, 'errMsg': '通行证登陆业务验证失败[登录密码不匹配]', 'mobileNo': None, 'loginpwdErr': 1, 'token': None, 'extFields': {}, 'headImgUrl': None, 'invtp': None, 'errCode': 'A003', 'key': None, 'status': 'F'}", 'affected_caseId': None, 'compare_type': 0, 'wait_time': None}]
+ Fri, 31 Aug 2018 13:56:30  INFO myMysql.py connect_mysql [ line:26 ] 数据库连接成功！！
+ Fri, 31 Aug 2018 13:56:30  INFO test_api.py test_api [ line:35 ] ================开始发送一次接口请求，请求信息如下===========
+ Fri, 31 Aug 2018 13:56:30  INFO test_api.py test_api [ line:36 ] 接口请求apiName：【账户注册】企业客户有推荐人成功注册
+ Fri, 31 Aug 2018 13:56:30  INFO test_api.py test_api [ line:37 ] 接口请求interface:com.wt.cif.service.CifCustService
+ Fri, 31 Aug 2018 13:56:30  INFO test_api.py test_api [ line:38 ] 接口请求method:openAccount
+ Fri, 31 Aug 2018 13:56:30  INFO test_api.py test_api [ line:39 ] 接口请求data:{"serialno":"201808311356300983Tb",
+        "invTp":"1",
+        "mobileNo":"13760200132",
+        "loginPasswd":"202cb962ac59075b964b07152d234b70",
+        "phoneCode":"1111",
+        "refererMobile":"15021996508",
+        "accofrom":"1",
+        "distributorCode":"247",
+        "branchcode":"24700",
+        "email":"744700813@qq.com",
+        "oneRecommend":"1"
+}
+ Fri, 31 Aug 2018 13:56:30  INFO test_api.py test_api [ line:48 ] 接口请求response data为：{'extFields': {}, 'custNo': '1573723204', 'headImgUrl': None, 'openId': None, 'nickName': None, 'errCode': '0000', 'errMsg': '交易成功', 'mobileNo': '13760200132', 'key': None, 'token': None, 'status': 'Y'}
+ Fri, 31 Aug 2018 13:56:30  INFO test_api.py test_api [ line:49 ] 接口请求expected data为:{.*'errCode': '0000', 'errMsg': '交易成功'.* 'status': 'Y'}
+ Fri, 31 Aug 2018 13:56:30  INFO test_api.py test_api [ line:64 ] =====开始比对检验返回结果=======
+ Fri, 31 Aug 2018 13:56:30  INFO test_api.py test_api [ line:65 ] 正则表达式匹配模式
+ Fri, 31 Aug 2018 13:56:30  INFO test_api.py test_api [ line:68 ] 结果匹配，测试用例通过
+ Fri, 31 Aug 2018 13:56:30  INFO test_api.py test_api [ line:80 ] 数据库里存在符合预期条件的数据,测试通过:[{'CUSTNO': '1573723204', 'INVTP': '1', 'INVNM': None, 'IDTP': None, 'IDNO': None, 'MOBILENO': '13760200132', 'EMAIL': '744700813@qq.com', 'CUSTST': 'N', 'OPENDT': '20180831', 'INSERTTIMESTAMP': datetime.datetime(2018, 8, 31, 13, 56, 32), 'UPDATETIMESTAMP': datetime.datetime(2018, 8, 31, 13, 56, 32)}]
+ Fri, 31 Aug 2018 13:56:30  INFO test_api.py test_api [ line:83 ] ================结束一次接口请求===========
+ Fri, 31 Aug 2018 13:56:30  INFO test_api.py test_api [ line:35 ] ================开始发送一次接口请求，请求信息如下===========
+ Fri, 31 Aug 2018 13:56:30  INFO test_api.py test_api [ line:36 ] 接口请求apiName：【账户注册】个人客户无推荐人成功注册
+ Fri, 31 Aug 2018 13:56:30  INFO test_api.py test_api [ line:37 ] 接口请求interface:com.wt.cif.service.CifCustService
+ Fri, 31 Aug 2018 13:56:30  INFO test_api.py test_api [ line:38 ] 接口请求method:openAccount
+ Fri, 31 Aug 2018 13:56:30  INFO test_api.py test_api [ line:39 ] 接口请求data:{"serialno":"201808311356300355hy",
+        "invTp":"2",
+        "mobileNo":"13760200133",
+        "loginPasswd":"202cb962ac59075b964b07152d234b70",
+        "phoneCode":"1111",
+        "accofrom":"1",
+        "distributorCode":"247",
+        "branchcode":"24700",
+        "email":"744700813@qq.com",
+        "oneRecommend":"0"
+}
+ Fri, 31 Aug 2018 13:56:31  INFO test_api.py test_api [ line:48 ] 接口请求response data为：{'extFields': {}, 'custNo': '1573723210', 'headImgUrl': None, 'openId': None, 'nickName': None, 'errCode': '0000', 'errMsg': '交易成功', 'mobileNo': '13760200133', 'key': None, 'token': None, 'status': 'Y'}
+ Fri, 31 Aug 2018 13:56:31  INFO test_api.py test_api [ line:49 ] 接口请求expected data为:{.*'errCode': '0000', 'errMsg': '交易成功'.* 'status': 'Y'}
+ Fri, 31 Aug 2018 13:56:31  INFO test_api.py test_api [ line:64 ] =====开始比对检验返回结果=======
+ Fri, 31 Aug 2018 13:56:31  INFO test_api.py test_api [ line:65 ] 正则表达式匹配模式
+ Fri, 31 Aug 2018 13:56:31  INFO test_api.py test_api [ line:68 ] 结果匹配，测试用例通过
+ Fri, 31 Aug 2018 13:56:31  INFO test_api.py test_api [ line:80 ] 数据库里存在符合预期条件的数据,测试通过:[{'CUSTNO': '1573723210', 'INVTP': '2', 'INVNM': None, 'IDTP': None, 'IDNO': None, 'MOBILENO': '13760200133', 'EMAIL': '744700813@qq.com', 'CUSTST': 'N', 'OPENDT': '20180831', 'INSERTTIMESTAMP': datetime.datetime(2018, 8, 31, 13, 56, 33), 'UPDATETIMESTAMP': datetime.datetime(2018, 8, 31, 13, 56, 33)}]
+ Fri, 31 Aug 2018 13:56:31  INFO test_api.py test_api [ line:83 ] ================结束一次接口请求===========
+ Fri, 31 Aug 2018 13:56:31  INFO test_api.py test_api [ line:35 ] ================开始发送一次接口请求，请求信息如下===========
+ Fri, 31 Aug 2018 13:56:31  INFO test_api.py test_api [ line:36 ] 接口请求apiName：【账户注册】注册手机号为空
+ Fri, 31 Aug 2018 13:56:31  INFO test_api.py test_api [ line:37 ] 接口请求interface:com.wt.cif.service.CifCustService
+ Fri, 31 Aug 2018 13:56:31  INFO test_api.py test_api [ line:38 ] 接口请求method:openAccount
+ Fri, 31 Aug 2018 13:56:31  INFO test_api.py test_api [ line:39 ] 接口请求data:{"serialno":"20180831135630042rp",
+        "invTp":"1",
+        "mobileNo":"",
+        "loginPasswd":"202cb962ac59075b964b07152d234b70",
+        "phoneCode":"1111",
+        "refererMobile":"15021996508",
+        "accofrom":"1",
+        "distributorCode":"247",
+        "branchcode":"24700",
+        "email":"744700813@qq.com",
+        "oneRecommend":"1"
+}
+ Fri, 31 Aug 2018 13:56:31  INFO test_api.py test_api [ line:48 ] 接口请求response data为：{'extFields': {}, 'custNo': None, 'headImgUrl': None, 'openId': None, 'nickName': None, 'errCode': 'A030', 'errMsg': '开户入参验证参数为空[手机号码]', 'mobileNo': None, 'key': None, 'token': None, 'status': 'F'}
+ Fri, 31 Aug 2018 13:56:31  INFO test_api.py test_api [ line:49 ] 接口请求expected data为:{'extFields': {}, 'custNo': None, 'headImgUrl': None, 'openId': None, 'nickName': None, 'errCode': 'A030', 'errMsg': '开户入参验证参数为空[手机号码]', 'mobileNo': None, 'key': None, 'token': None, 'status': 'F'}
+ Fri, 31 Aug 2018 13:56:31  INFO test_api.py test_api [ line:55 ] =====开始比对检验返回结果=======
+ Fri, 31 Aug 2018 13:56:31  INFO test_api.py test_api [ line:56 ] 全值匹配模式
+ Fri, 31 Aug 2018 13:56:31  INFO test_api.py test_api [ line:59 ] 结果比对成功，测试用例通过
+ Fri, 31 Aug 2018 13:56:31  INFO test_api.py test_api [ line:83 ] ================结束一次接口请求===========
+ Fri, 31 Aug 2018 13:56:31  INFO test_api.py test_api [ line:35 ] ================开始发送一次接口请求，请求信息如下===========
+ Fri, 31 Aug 2018 13:56:31  INFO test_api.py test_api [ line:36 ] 接口请求apiName：【账户注册】登录密码为空
+ Fri, 31 Aug 2018 13:56:31  INFO test_api.py test_api [ line:37 ] 接口请求interface:com.wt.cif.service.CifCustService
+ Fri, 31 Aug 2018 13:56:31  INFO test_api.py test_api [ line:38 ] 接口请求method:openAccount
+ Fri, 31 Aug 2018 13:56:31  INFO test_api.py test_api [ line:39 ] 接口请求data:{"serialno":"201808311356300960kK",
+        "invTp":"1",
+        "mobileNo":"13760200134",
+        "loginPasswd":"",
+        "phoneCode":"1111",
+        "refererMobile":"15021996508",
+        "accofrom":"1",
+        "distributorCode":"247",
+        "branchcode":"24700",
+        "email":"744700813@qq.com",
+        "oneRecommend":"1"
+}
+ Fri, 31 Aug 2018 13:56:31  INFO test_api.py test_api [ line:48 ] 接口请求response data为：{'extFields': {}, 'custNo': None, 'headImgUrl': None, 'openId': None, 'nickName': None, 'errCode': 'A050', 'errMsg': '开户入参验证参数为空[登录密码]', 'mobileNo': None, 'key': None, 'token': None, 'status': 'F'}
+ Fri, 31 Aug 2018 13:56:31  INFO test_api.py test_api [ line:49 ] 接口请求expected data为:{'extFields': {}, 'custNo': None, 'headImgUrl': None, 'openId': None, 'nickName': None, 'errCode': 'A050', 'errMsg': '开户入参验证参数为空[登录密码]', 'mobileNo': None, 'key': None, 'token': None, 'status': 'F'}
+ Fri, 31 Aug 2018 13:56:31  INFO test_api.py test_api [ line:55 ] =====开始比对检验返回结果=======
+ Fri, 31 Aug 2018 13:56:31  INFO test_api.py test_api [ line:56 ] 全值匹配模式
+ Fri, 31 Aug 2018 13:56:31  INFO test_api.py test_api [ line:59 ] 结果比对成功，测试用例通过
+ Fri, 31 Aug 2018 13:56:31  INFO test_api.py test_api [ line:83 ] ================结束一次接口请求===========
+ Fri, 31 Aug 2018 13:56:31  INFO test_api.py test_api [ line:35 ] ================开始发送一次接口请求，请求信息如下===========
+ Fri, 31 Aug 2018 13:56:31  INFO test_api.py test_api [ line:36 ] 接口请求apiName：【账户注册】注册手机号少于11位
+ Fri, 31 Aug 2018 13:56:31  INFO test_api.py test_api [ line:37 ] 接口请求interface:com.wt.cif.service.CifCustService
+ Fri, 31 Aug 2018 13:56:31  INFO test_api.py test_api [ line:38 ] 接口请求method:openAccount
+ Fri, 31 Aug 2018 13:56:31  INFO test_api.py test_api [ line:39 ] 接口请求data:{"serialno":"201808311356300882Fn",
+        "invTp":"1",
+        "mobileNo":"1502199644",
+        "loginPasswd":"202cb962ac59075b964b07152d234b70",
+        "phoneCode":"1111",
+        "refererMobile":"15021996508",
+        "accofrom":"1",
+        "distributorCode":"247",
+        "branchcode":"24700",
+        "email":"744700813@qq.com",
+        "oneRecommend":"1"
+}
+ Fri, 31 Aug 2018 13:56:31  INFO test_api.py test_api [ line:48 ] 接口请求response data为：{'extFields': {}, 'custNo': None, 'headImgUrl': None, 'openId': None, 'nickName': None, 'errCode': 'A013', 'errMsg': '开户入参验证参数错误[手机号码]', 'mobileNo': None, 'key': None, 'token': None, 'status': 'F'}
+ Fri, 31 Aug 2018 13:56:31  INFO test_api.py test_api [ line:49 ] 接口请求expected data为:{'extFields': {}, 'custNo': None, 'headImgUrl': None, 'openId': None, 'nickName': None, 'errCode': 'A013', 'errMsg': '开户入参验证参数错误[手机号码]', 'mobileNo': None, 'key': None, 'token': None, 'status': 'F'}
+ Fri, 31 Aug 2018 13:56:31  INFO test_api.py test_api [ line:55 ] =====开始比对检验返回结果=======
+ Fri, 31 Aug 2018 13:56:31  INFO test_api.py test_api [ line:56 ] 全值匹配模式
+ Fri, 31 Aug 2018 13:56:31  INFO test_api.py test_api [ line:59 ] 结果比对成功，测试用例通过
+ Fri, 31 Aug 2018 13:56:31  INFO test_api.py test_api [ line:83 ] ================结束一次接口请求===========
+ Fri, 31 Aug 2018 13:56:31  INFO test_api.py test_api [ line:35 ] ================开始发送一次接口请求，请求信息如下===========
+ Fri, 31 Aug 2018 13:56:31  INFO test_api.py test_api [ line:36 ] 接口请求apiName：【账户注册】注册手机号大于11位
+ Fri, 31 Aug 2018 13:56:31  INFO test_api.py test_api [ line:37 ] 接口请求interface:com.wt.cif.service.CifCustService
+ Fri, 31 Aug 2018 13:56:31  INFO test_api.py test_api [ line:38 ] 接口请求method:openAccount
+ Fri, 31 Aug 2018 13:56:31  INFO test_api.py test_api [ line:39 ] 接口请求data:{"serialno":"201808311356300964bu",
+        "invTp":"1",
+        "mobileNo":"150219964489",
+        "loginPasswd":"202cb962ac59075b964b07152d234b70",
+        "phoneCode":"1111",
+        "refererMobile":"15021996508",
+        "accofrom":"1",
+        "distributorCode":"247",
+        "branchcode":"24700",
+        "email":"744700813@qq.com",
+        "oneRecommend":"1"
+}
+ Fri, 31 Aug 2018 13:56:32  INFO test_api.py test_api [ line:48 ] 接口请求response data为：{'extFields': {}, 'custNo': None, 'headImgUrl': None, 'openId': None, 'nickName': None, 'errCode': 'A013', 'errMsg': '开户入参验证参数错误[手机号码]', 'mobileNo': None, 'key': None, 'token': None, 'status': 'F'}
+ Fri, 31 Aug 2018 13:56:32  INFO test_api.py test_api [ line:49 ] 接口请求expected data为:{'extFields': {}, 'custNo': None, 'headImgUrl': None, 'openId': None, 'nickName': None, 'errCode': 'A013', 'errMsg': '开户入参验证参数错误[手机号码]', 'mobileNo': None, 'key': None, 'token': None, 'status': 'F'}
+ Fri, 31 Aug 2018 13:56:32  INFO test_api.py test_api [ line:55 ] =====开始比对检验返回结果=======
+ Fri, 31 Aug 2018 13:56:32  INFO test_api.py test_api [ line:56 ] 全值匹配模式
+ Fri, 31 Aug 2018 13:56:32  INFO test_api.py test_api [ line:59 ] 结果比对成功，测试用例通过
+ Fri, 31 Aug 2018 13:56:32  INFO test_api.py test_api [ line:83 ] ================结束一次接口请求===========
+ Fri, 31 Aug 2018 13:56:32  INFO test_api.py test_api [ line:35 ] ================开始发送一次接口请求，请求信息如下===========
+ Fri, 31 Aug 2018 13:56:32  INFO test_api.py test_api [ line:36 ] 接口请求apiName：【账户注册】注册手机号含特殊字符
+ Fri, 31 Aug 2018 13:56:32  INFO test_api.py test_api [ line:37 ] 接口请求interface:com.wt.cif.service.CifCustService
+ Fri, 31 Aug 2018 13:56:32  INFO test_api.py test_api [ line:38 ] 接口请求method:openAccount
+ Fri, 31 Aug 2018 13:56:32  INFO test_api.py test_api [ line:39 ] 接口请求data:{"serialno":"201808311356300670EM",
+        "invTp":"1",
+        "mobileNo":"15021996@44",
+        "loginPasswd":"202cb962ac59075b964b07152d234b70",
+        "phoneCode":"1111",
+        "refererMobile":"15021996508",
+        "accofrom":"1",
+        "distributorCode":"247",
+        "branchcode":"24700",
+        "email":"744700813@qq.com",
+        "oneRecommend":"1"
+}
+ Fri, 31 Aug 2018 13:56:32  INFO test_api.py test_api [ line:48 ] 接口请求response data为：{'extFields': {}, 'custNo': None, 'headImgUrl': None, 'openId': None, 'nickName': None, 'errCode': 'A013', 'errMsg': '开户入参验证参数错误[手机号码]', 'mobileNo': None, 'key': None, 'token': None, 'status': 'F'}
+ Fri, 31 Aug 2018 13:56:32  INFO test_api.py test_api [ line:49 ] 接口请求expected data为:{'extFields': {}, 'custNo': None, 'headImgUrl': None, 'openId': None, 'nickName': None, 'errCode': 'A013', 'errMsg': '开户入参验证参数错误[手机号码]', 'mobileNo': None, 'key': None, 'token': None, 'status': 'F'}
+ Fri, 31 Aug 2018 13:56:32  INFO test_api.py test_api [ line:55 ] =====开始比对检验返回结果=======
+ Fri, 31 Aug 2018 13:56:32  INFO test_api.py test_api [ line:56 ] 全值匹配模式
+ Fri, 31 Aug 2018 13:56:32  INFO test_api.py test_api [ line:59 ] 结果比对成功，测试用例通过
+ Fri, 31 Aug 2018 13:56:32  INFO test_api.py test_api [ line:83 ] ================结束一次接口请求===========
+ Fri, 31 Aug 2018 13:56:32  INFO test_api.py test_api [ line:35 ] ================开始发送一次接口请求，请求信息如下===========
+ Fri, 31 Aug 2018 13:56:32  INFO test_api.py test_api [ line:36 ] 接口请求apiName：【账户注册】注册手机号含空格
+ Fri, 31 Aug 2018 13:56:32  INFO test_api.py test_api [ line:37 ] 接口请求interface:com.wt.cif.service.CifCustService
+ Fri, 31 Aug 2018 13:56:32  INFO test_api.py test_api [ line:38 ] 接口请求method:openAccount
+ Fri, 31 Aug 2018 13:56:32  INFO test_api.py test_api [ line:39 ] 接口请求data:{"serialno":"201808311356300677hS",
+        "invTp":"1",
+        "mobileNo":"15021996 44",
+        "loginPasswd":"202cb962ac59075b964b07152d234b70",
+        "phoneCode":"1111",
+        "refererMobile":"15021996508",
+        "accofrom":"1",
+        "distributorCode":"247",
+        "branchcode":"24700",
+        "email":"744700813@qq.com",
+        "oneRecommend":"1"
+}
+ Fri, 31 Aug 2018 13:56:32  INFO test_api.py test_api [ line:48 ] 接口请求response data为：{'extFields': {}, 'custNo': None, 'headImgUrl': None, 'openId': None, 'nickName': None, 'errCode': 'A013', 'errMsg': '开户入参验证参数错误[手机号码]', 'mobileNo': None, 'key': None, 'token': None, 'status': 'F'}
+ Fri, 31 Aug 2018 13:56:32  INFO test_api.py test_api [ line:49 ] 接口请求expected data为:{'extFields': {}, 'custNo': None, 'headImgUrl': None, 'openId': None, 'nickName': None, 'errCode': 'A013', 'errMsg': '开户入参验证参数错误[手机号码]', 'mobileNo': None, 'key': None, 'token': None, 'status': 'F'}
+ Fri, 31 Aug 2018 13:56:32  INFO test_api.py test_api [ line:55 ] =====开始比对检验返回结果=======
+ Fri, 31 Aug 2018 13:56:32  INFO test_api.py test_api [ line:56 ] 全值匹配模式
+ Fri, 31 Aug 2018 13:56:32  INFO test_api.py test_api [ line:59 ] 结果比对成功，测试用例通过
+ Fri, 31 Aug 2018 13:56:32  INFO test_api.py test_api [ line:83 ] ================结束一次接口请求===========
+ Fri, 31 Aug 2018 13:56:32  INFO test_api.py test_api [ line:35 ] ================开始发送一次接口请求，请求信息如下===========
+ Fri, 31 Aug 2018 13:56:32  INFO test_api.py test_api [ line:36 ] 接口请求apiName：【账户注册】用户已注册
+ Fri, 31 Aug 2018 13:56:32  INFO test_api.py test_api [ line:37 ] 接口请求interface:com.wt.cif.service.CifCustService
+ Fri, 31 Aug 2018 13:56:32  INFO test_api.py test_api [ line:38 ] 接口请求method:openAccount
+ Fri, 31 Aug 2018 13:56:32  INFO test_api.py test_api [ line:39 ] 接口请求data:{"serialno":"201808311356300454yC",
+        "invTp":"1",
+        "mobileNo":"13760200132",
+        "loginPasswd":"202cb962ac59075b964b07152d234b70",
+        "phoneCode":"1111",
+        "refererMobile":"15021996508",
+        "accofrom":"1",
+        "distributorCode":"247",
+        "branchcode":"24700",
+        "email":"744700813@qq.com",
+        "oneRecommend":"1"
+}
+ Fri, 31 Aug 2018 13:56:32  INFO test_api.py test_api [ line:48 ] 接口请求response data为：{'extFields': {}, 'custNo': None, 'headImgUrl': None, 'openId': None, 'nickName': None, 'errCode': 'B011', 'errMsg': '开户业务验证失败[该手机号已注册]', 'mobileNo': None, 'key': None, 'token': None, 'status': 'F'}
+ Fri, 31 Aug 2018 13:56:32  INFO test_api.py test_api [ line:49 ] 接口请求expected data为:{'extFields': {}, 'custNo': None, 'headImgUrl': None, 'openId': None, 'nickName': None, 'errCode': 'B011', 'errMsg': '开户业务验证失败[该手机号已注册]', 'mobileNo': None, 'key': None, 'token': None, 'status': 'F'}
+ Fri, 31 Aug 2018 13:56:32  INFO test_api.py test_api [ line:55 ] =====开始比对检验返回结果=======
+ Fri, 31 Aug 2018 13:56:32  INFO test_api.py test_api [ line:56 ] 全值匹配模式
+ Fri, 31 Aug 2018 13:56:32  INFO test_api.py test_api [ line:59 ] 结果比对成功，测试用例通过
+ Fri, 31 Aug 2018 13:56:32  INFO test_api.py test_api [ line:83 ] ================结束一次接口请求===========
+ Fri, 31 Aug 2018 13:56:32  INFO test_api.py test_api [ line:35 ] ================开始发送一次接口请求，请求信息如下===========
+ Fri, 31 Aug 2018 13:56:32  INFO test_api.py test_api [ line:36 ] 接口请求apiName：【账户登录】账户官网登录成功
+ Fri, 31 Aug 2018 13:56:32  INFO test_api.py test_api [ line:37 ] 接口请求interface:com.wt.cif.service.CifPassportService
+ Fri, 31 Aug 2018 13:56:32  INFO test_api.py test_api [ line:38 ] 接口请求method:passportLogin
+ Fri, 31 Aug 2018 13:56:32  INFO test_api.py test_api [ line:39 ] 接口请求data:{"loginName":"13760200132",
+        "loginPwd":"202cb962ac59075b964b07152d234b70",
+        "accoFrom":"1",
+}
+ Fri, 31 Aug 2018 13:56:32  INFO test_api.py test_api [ line:48 ] 接口请求response data为：{'custNo': '1573723204', 'openId': None, 'nickName': None, 'loginpwdErrMax': 5, 'errMsg': '交易成功', 'mobileNo': '13760200132', 'loginpwdErr': 1, 'token': None, 'extFields': {}, 'headImgUrl': None, 'invtp': '1', 'errCode': '0000', 'key': None, 'status': 'Y'}
+ Fri, 31 Aug 2018 13:56:32  INFO test_api.py test_api [ line:49 ] 接口请求expected data为:{.*'errMsg': '交易成功'.* 'errCode': '0000'.*'status': 'Y'}
+ Fri, 31 Aug 2018 13:56:32  INFO test_api.py test_api [ line:64 ] =====开始比对检验返回结果=======
+ Fri, 31 Aug 2018 13:56:32  INFO test_api.py test_api [ line:65 ] 正则表达式匹配模式
+ Fri, 31 Aug 2018 13:56:32  INFO test_api.py test_api [ line:68 ] 结果匹配，测试用例通过
+ Fri, 31 Aug 2018 13:56:32  INFO test_api.py test_api [ line:83 ] ================结束一次接口请求===========
+ Fri, 31 Aug 2018 13:56:32  INFO test_api.py test_api [ line:35 ] ================开始发送一次接口请求，请求信息如下===========
+ Fri, 31 Aug 2018 13:56:32  INFO test_api.py test_api [ line:36 ] 接口请求apiName：【账户登录】账户柜台登录成功
+ Fri, 31 Aug 2018 13:56:32  INFO test_api.py test_api [ line:37 ] 接口请求interface:com.wt.cif.service.CifPassportService
+ Fri, 31 Aug 2018 13:56:32  INFO test_api.py test_api [ line:38 ] 接口请求method:passportLogin
+ Fri, 31 Aug 2018 13:56:32  INFO test_api.py test_api [ line:39 ] 接口请求data:{"loginName":"13760200133",
+        "loginPwd":"202cb962ac59075b964b07152d234b70",
+        "accoFrom":"1",
+}
+ Fri, 31 Aug 2018 13:56:32  INFO test_api.py test_api [ line:48 ] 接口请求response data为：{'custNo': '1573723210', 'openId': None, 'nickName': None, 'loginpwdErrMax': 5, 'errMsg': '交易成功', 'mobileNo': '13760200133', 'loginpwdErr': 1, 'token': None, 'extFields': {}, 'headImgUrl': None, 'invtp': '2', 'errCode': '0000', 'key': None, 'status': 'Y'}
+ Fri, 31 Aug 2018 13:56:32  INFO test_api.py test_api [ line:49 ] 接口请求expected data为:{.*'errMsg': '交易成功'.* 'errCode': '0000'.*'status': 'Y'}
+ Fri, 31 Aug 2018 13:56:32  INFO test_api.py test_api [ line:64 ] =====开始比对检验返回结果=======
+ Fri, 31 Aug 2018 13:56:32  INFO test_api.py test_api [ line:65 ] 正则表达式匹配模式
+ Fri, 31 Aug 2018 13:56:32  INFO test_api.py test_api [ line:68 ] 结果匹配，测试用例通过
+ Fri, 31 Aug 2018 13:56:32  INFO test_api.py test_api [ line:83 ] ================结束一次接口请求===========
+ Fri, 31 Aug 2018 13:56:32  INFO test_api.py test_api [ line:35 ] ================开始发送一次接口请求，请求信息如下===========
+ Fri, 31 Aug 2018 13:56:32  INFO test_api.py test_api [ line:36 ] 接口请求apiName：【账户登录】账户手机登录成功
+ Fri, 31 Aug 2018 13:56:32  INFO test_api.py test_api [ line:37 ] 接口请求interface:com.wt.cif.service.CifPassportService
+ Fri, 31 Aug 2018 13:56:32  INFO test_api.py test_api [ line:38 ] 接口请求method:passportLogin
+ Fri, 31 Aug 2018 13:56:32  INFO test_api.py test_api [ line:39 ] 接口请求data:{"loginName":"13760200132",
+        "loginPwd":"202cb962ac59075b964b07152d234b70",
+        "accoFrom":"1",
+}
+ Fri, 31 Aug 2018 13:56:33  INFO test_api.py test_api [ line:48 ] 接口请求response data为：{'custNo': '1573723204', 'openId': None, 'nickName': None, 'loginpwdErrMax': 5, 'errMsg': '交易成功', 'mobileNo': '13760200132', 'loginpwdErr': 1, 'token': None, 'extFields': {}, 'headImgUrl': None, 'invtp': '1', 'errCode': '0000', 'key': None, 'status': 'Y'}
+ Fri, 31 Aug 2018 13:56:33  INFO test_api.py test_api [ line:49 ] 接口请求expected data为:{.*'errMsg': '交易成功'.* 'errCode': '0000'.*'status': 'Y'}
+ Fri, 31 Aug 2018 13:56:33  INFO test_api.py test_api [ line:64 ] =====开始比对检验返回结果=======
+ Fri, 31 Aug 2018 13:56:33  INFO test_api.py test_api [ line:65 ] 正则表达式匹配模式
+ Fri, 31 Aug 2018 13:56:33  INFO test_api.py test_api [ line:68 ] 结果匹配，测试用例通过
+ Fri, 31 Aug 2018 13:56:33  INFO test_api.py test_api [ line:83 ] ================结束一次接口请求===========
+ Fri, 31 Aug 2018 13:56:33  INFO test_api.py test_api [ line:35 ] ================开始发送一次接口请求，请求信息如下===========
+ Fri, 31 Aug 2018 13:56:33  INFO test_api.py test_api [ line:36 ] 接口请求apiName：【账户登录】账户企业版登录成功
+ Fri, 31 Aug 2018 13:56:33  INFO test_api.py test_api [ line:37 ] 接口请求interface:com.wt.cif.service.CifPassportService
+ Fri, 31 Aug 2018 13:56:33  INFO test_api.py test_api [ line:38 ] 接口请求method:passportLogin
+ Fri, 31 Aug 2018 13:56:33  INFO test_api.py test_api [ line:39 ] 接口请求data:{"loginName":"13760200132",
+        "loginPwd":"202cb962ac59075b964b07152d234b70",
+        "accoFrom":"1",
+}
+ Fri, 31 Aug 2018 13:56:33  INFO test_api.py test_api [ line:48 ] 接口请求response data为：{'custNo': '1573723204', 'openId': None, 'nickName': None, 'loginpwdErrMax': 5, 'errMsg': '交易成功', 'mobileNo': '13760200132', 'loginpwdErr': 1, 'token': None, 'extFields': {}, 'headImgUrl': None, 'invtp': '1', 'errCode': '0000', 'key': None, 'status': 'Y'}
+ Fri, 31 Aug 2018 13:56:33  INFO test_api.py test_api [ line:49 ] 接口请求expected data为:{.*'errMsg': '交易成功'.* 'errCode': '0000'.*'status': 'Y'}
+ Fri, 31 Aug 2018 13:56:33  INFO test_api.py test_api [ line:64 ] =====开始比对检验返回结果=======
+ Fri, 31 Aug 2018 13:56:33  INFO test_api.py test_api [ line:65 ] 正则表达式匹配模式
+ Fri, 31 Aug 2018 13:56:33  INFO test_api.py test_api [ line:68 ] 结果匹配，测试用例通过
+ Fri, 31 Aug 2018 13:56:33  INFO test_api.py test_api [ line:83 ] ================结束一次接口请求===========
+ Fri, 31 Aug 2018 13:56:33  INFO test_api.py test_api [ line:35 ] ================开始发送一次接口请求，请求信息如下===========
+ Fri, 31 Aug 2018 13:56:33  INFO test_api.py test_api [ line:36 ] 接口请求apiName：【账户登录】账户微信登录成功
+ Fri, 31 Aug 2018 13:56:33  INFO test_api.py test_api [ line:37 ] 接口请求interface:com.wt.cif.service.CifPassportService
+ Fri, 31 Aug 2018 13:56:33  INFO test_api.py test_api [ line:38 ] 接口请求method:passportLogin
+ Fri, 31 Aug 2018 13:56:33  INFO test_api.py test_api [ line:39 ] 接口请求data:{"loginName":"13760200132",
+        "loginPwd":"202cb962ac59075b964b07152d234b70",
+        "accoFrom":"1",
+}
+ Fri, 31 Aug 2018 13:56:33  INFO test_api.py test_api [ line:48 ] 接口请求response data为：{'custNo': '1573723204', 'openId': None, 'nickName': None, 'loginpwdErrMax': 5, 'errMsg': '交易成功', 'mobileNo': '13760200132', 'loginpwdErr': 1, 'token': None, 'extFields': {}, 'headImgUrl': None, 'invtp': '1', 'errCode': '0000', 'key': None, 'status': 'Y'}
+ Fri, 31 Aug 2018 13:56:33  INFO test_api.py test_api [ line:49 ] 接口请求expected data为:{.*'errMsg': '交易成功'.* 'errCode': '0000'.*'status': 'Y'}
+ Fri, 31 Aug 2018 13:56:33  INFO test_api.py test_api [ line:64 ] =====开始比对检验返回结果=======
+ Fri, 31 Aug 2018 13:56:33  INFO test_api.py test_api [ line:65 ] 正则表达式匹配模式
+ Fri, 31 Aug 2018 13:56:33  INFO test_api.py test_api [ line:68 ] 结果匹配，测试用例通过
+ Fri, 31 Aug 2018 13:56:33  INFO test_api.py test_api [ line:83 ] ================结束一次接口请求===========
+ Fri, 31 Aug 2018 13:56:33  INFO test_api.py test_api [ line:35 ] ================开始发送一次接口请求，请求信息如下===========
+ Fri, 31 Aug 2018 13:56:33  INFO test_api.py test_api [ line:36 ] 接口请求apiName：【账户登录】用户名为空
+ Fri, 31 Aug 2018 13:56:33  INFO test_api.py test_api [ line:37 ] 接口请求interface:com.wt.cif.service.CifPassportService
+ Fri, 31 Aug 2018 13:56:33  INFO test_api.py test_api [ line:38 ] 接口请求method:passportLogin
+ Fri, 31 Aug 2018 13:56:33  INFO test_api.py test_api [ line:39 ] 接口请求data:{"loginName":"",
+        "loginPwd":"202cb962ac59075b964b07152d234b70",
+        "accoFrom":"1",
+}
+ Fri, 31 Aug 2018 13:56:33  INFO test_api.py test_api [ line:48 ] 接口请求response data为：{'custNo': None, 'openId': None, 'nickName': None, 'loginpwdErrMax': 0, 'errMsg': '通行证登陆入参验证参数为空[登陆账号]', 'mobileNo': None, 'loginpwdErr': 0, 'token': None, 'extFields': {}, 'headImgUrl': None, 'invtp': None, 'errCode': 'A112', 'key': None, 'status': 'F'}
+ Fri, 31 Aug 2018 13:56:33  INFO test_api.py test_api [ line:49 ] 接口请求expected data为:{'custNo': None, 'openId': None, 'nickName': None, 'loginpwdErrMax': 0, 'errMsg': '通行证登陆入参验证参数为空[登陆账号]', 'mobileNo': None, 'loginpwdErr': 0, 'token': None, 'extFields': {}, 'headImgUrl': None, 'invtp': None, 'errCode': 'A112', 'key': None, 'status': 'F'}
+ Fri, 31 Aug 2018 13:56:33  INFO test_api.py test_api [ line:55 ] =====开始比对检验返回结果=======
+ Fri, 31 Aug 2018 13:56:33  INFO test_api.py test_api [ line:56 ] 全值匹配模式
+ Fri, 31 Aug 2018 13:56:33  INFO test_api.py test_api [ line:59 ] 结果比对成功，测试用例通过
+ Fri, 31 Aug 2018 13:56:33  INFO test_api.py test_api [ line:83 ] ================结束一次接口请求===========
+ Fri, 31 Aug 2018 13:56:33  INFO test_api.py test_api [ line:35 ] ================开始发送一次接口请求，请求信息如下===========
+ Fri, 31 Aug 2018 13:56:33  INFO test_api.py test_api [ line:36 ] 接口请求apiName：【账户登录】密码为空
+ Fri, 31 Aug 2018 13:56:33  INFO test_api.py test_api [ line:37 ] 接口请求interface:com.wt.cif.service.CifPassportService
+ Fri, 31 Aug 2018 13:56:33  INFO test_api.py test_api [ line:38 ] 接口请求method:passportLogin
+ Fri, 31 Aug 2018 13:56:33  INFO test_api.py test_api [ line:39 ] 接口请求data:{"loginName":"13760200132",
+        "loginPwd":"",
+        "accoFrom":"1",
+}
+ Fri, 31 Aug 2018 13:56:33  INFO test_api.py test_api [ line:48 ] 接口请求response data为：{'custNo': None, 'openId': None, 'nickName': None, 'loginpwdErrMax': 0, 'errMsg': '通行证登陆入参验证参数为空[登陆密码]', 'mobileNo': None, 'loginpwdErr': 0, 'token': None, 'extFields': {}, 'headImgUrl': None, 'invtp': None, 'errCode': 'A113', 'key': None, 'status': 'F'}
+ Fri, 31 Aug 2018 13:56:33  INFO test_api.py test_api [ line:49 ] 接口请求expected data为:{'custNo': None, 'openId': None, 'nickName': None, 'loginpwdErrMax': 0, 'errMsg': '通行证登陆入参验证参数为空[登陆密码]', 'mobileNo': None, 'loginpwdErr': 0, 'token': None, 'extFields': {}, 'headImgUrl': None, 'invtp': None, 'errCode': 'A113', 'key': None, 'status': 'F'}
+ Fri, 31 Aug 2018 13:56:33  INFO test_api.py test_api [ line:55 ] =====开始比对检验返回结果=======
+ Fri, 31 Aug 2018 13:56:33  INFO test_api.py test_api [ line:56 ] 全值匹配模式
+ Fri, 31 Aug 2018 13:56:33  INFO test_api.py test_api [ line:59 ] 结果比对成功，测试用例通过
+ Fri, 31 Aug 2018 13:56:33  INFO test_api.py test_api [ line:83 ] ================结束一次接口请求===========
+ Fri, 31 Aug 2018 13:56:33  INFO test_api.py test_api [ line:35 ] ================开始发送一次接口请求，请求信息如下===========
+ Fri, 31 Aug 2018 13:56:33  INFO test_api.py test_api [ line:36 ] 接口请求apiName：【账户登录】用户名错误
+ Fri, 31 Aug 2018 13:56:33  INFO test_api.py test_api [ line:37 ] 接口请求interface:com.wt.cif.service.CifPassportService
+ Fri, 31 Aug 2018 13:56:33  INFO test_api.py test_api [ line:38 ] 接口请求method:passportLogin
+ Fri, 31 Aug 2018 13:56:33  INFO test_api.py test_api [ line:39 ] 接口请求data:{"loginName":"13760200011",
+        "loginPwd":"202cb962ac59075b964b07152d234b70",
+        "accoFrom":"1",
+}
+ Fri, 31 Aug 2018 13:56:33  INFO test_api.py test_api [ line:48 ] 接口请求response data为：{'custNo': None, 'openId': None, 'nickName': None, 'loginpwdErrMax': 0, 'errMsg': '业务验证失败[客户不存在]', 'mobileNo': None, 'loginpwdErr': 0, 'token': None, 'extFields': {}, 'headImgUrl': None, 'invtp': None, 'errCode': 'B023', 'key': None, 'status': 'F'}
+ Fri, 31 Aug 2018 13:56:33  INFO test_api.py test_api [ line:49 ] 接口请求expected data为:{'custNo': None, 'openId': None, 'nickName': None, 'loginpwdErrMax': 0, 'errMsg': '业务验证失败[客户不存在]', 'mobileNo': None, 'loginpwdErr': 0, 'token': None, 'extFields': {}, 'headImgUrl': None, 'invtp': None, 'errCode': 'B023', 'key': None, 'status': 'F'}
+ Fri, 31 Aug 2018 13:56:33  INFO test_api.py test_api [ line:55 ] =====开始比对检验返回结果=======
+ Fri, 31 Aug 2018 13:56:33  INFO test_api.py test_api [ line:56 ] 全值匹配模式
+ Fri, 31 Aug 2018 13:56:33  INFO test_api.py test_api [ line:59 ] 结果比对成功，测试用例通过
+ Fri, 31 Aug 2018 13:56:33  INFO test_api.py test_api [ line:83 ] ================结束一次接口请求===========
+ Fri, 31 Aug 2018 13:56:33  INFO test_api.py test_api [ line:35 ] ================开始发送一次接口请求，请求信息如下===========
+ Fri, 31 Aug 2018 13:56:33  INFO test_api.py test_api [ line:36 ] 接口请求apiName：【账户登录】密码错误
+ Fri, 31 Aug 2018 13:56:33  INFO test_api.py test_api [ line:37 ] 接口请求interface:com.wt.cif.service.CifPassportService
+ Fri, 31 Aug 2018 13:56:33  INFO test_api.py test_api [ line:38 ] 接口请求method:passportLogin
+ Fri, 31 Aug 2018 13:56:33  INFO test_api.py test_api [ line:39 ] 接口请求data:{"loginName":"13760200132",
+        "loginPwd":"202cb962ac59075b964b07152d23",
+        "accoFrom":"1",
+}
+ Fri, 31 Aug 2018 13:56:34  INFO test_api.py test_api [ line:48 ] 接口请求response data为：{'custNo': None, 'openId': None, 'nickName': None, 'loginpwdErrMax': 5, 'errMsg': '通行证登陆业务验证失败[登录密码不匹配]', 'mobileNo': None, 'loginpwdErr': 1, 'token': None, 'extFields': {}, 'headImgUrl': None, 'invtp': None, 'errCode': 'A003', 'key': None, 'status': 'F'}
+ Fri, 31 Aug 2018 13:56:34  INFO test_api.py test_api [ line:49 ] 接口请求expected data为:{'custNo': None, 'openId': None, 'nickName': None, 'loginpwdErrMax': 5, 'errMsg': '通行证登陆业务验证失败[登录密码不匹配]', 'mobileNo': None, 'loginpwdErr': 1, 'token': None, 'extFields': {}, 'headImgUrl': None, 'invtp': None, 'errCode': 'A003', 'key': None, 'status': 'F'}
+ Fri, 31 Aug 2018 13:56:34  INFO test_api.py test_api [ line:55 ] =====开始比对检验返回结果=======
+ Fri, 31 Aug 2018 13:56:34  INFO test_api.py test_api [ line:56 ] 全值匹配模式
+ Fri, 31 Aug 2018 13:56:34  INFO test_api.py test_api [ line:59 ] 结果比对成功，测试用例通过
+ Fri, 31 Aug 2018 13:56:34  INFO test_api.py test_api [ line:83 ] ================结束一次接口请求===========

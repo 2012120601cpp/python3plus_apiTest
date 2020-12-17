@@ -1,0 +1,32 @@
+ Mon, 23 Jul 2018 16:36:20  INFO myLogger2.py <module> [ line:20 ] =========test start=========
+ Mon, 23 Jul 2018 16:36:20  INFO Doexcel.py getAllCaseDatas [ line:47 ] 初始化之后的请求数据为：
+{"refercapno":"5AE02D4E13F7bc16",
+        "reemFlag":"0",
+        "selltype":1,
+        "periodic":"true",
+        "mixProd":"true",
+        "bigVCustno":"1597219229",
+        "honourFlag":"1",
+        "newFlag":"0",
+        "partPayment":"false",
+        "subquty":"100.00",
+        "feetp":"07",
+        "feemode":"1",
+        "feevalue":"0.0",
+        "serialno":"201807231636200933wq",
+        "custno":"1538943691",
+        "apkind":"014",
+        "subapkind":"014001",
+        "apdt":"20180723",
+        "aptm":"113344",
+        "workdate":"20180723",
+        "tradeacco":"000621718538943694",
+        "taaccountid":"475A7D638769350988",
+        "tano":"47",
+        "productid":"8903",
+        "sharetype":"A",
+        "accptmd":"1",
+        "branchcode":"247000",
+        "distributorcode":"247"}
+ Mon, 23 Jul 2018 16:36:20  INFO Doexcel.py getAllCaseDatas [ line:48 ] 初始化之后的sql语句为：
+["SELECT * from cts.cts_traderequest WHERE SERIALNO='201807231636200933wq';"]

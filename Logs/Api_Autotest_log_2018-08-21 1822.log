@@ -1,0 +1,474 @@
+ Tue, 21 Aug 2018 18:22:20  INFO myLogger2.py <module> [ line:20 ] =========test start=========
+ Tue, 21 Aug 2018 18:22:20  INFO Doexcel.py getAllCaseDatas [ line:57 ] 初始化之后的请求数据为：
+{"refercapno":"5B57DD261DFCbc4E",
+        "reemFlag":"1",
+        "selltype":1,
+        "periodic":"true",
+        "mixProd":"true",
+        "bigVCustno":"1503257540",
+        "honourFlag":"1",
+        "newFlag":"0",
+        "partPayment":"false",
+        "subquty":"10.00",
+        "feetp":"07",
+        "feemode":"1",
+        "feevalue":"0.01",
+        "serialno":"201808211822200826Ov",
+        "custno":"1538943811",
+        "apkind":"014",
+        "subapkind":"014001",
+        "apdt":"20180722",
+        "aptm":"113344",
+        "workdate":"20180722",
+        "tradeacco":"000621718538943814",
+        "taaccountid":"475A7FB19598436383",
+        "tano":"47",
+        "productid":"8901",
+        "sharetype":"A",
+        "accptmd":"1",
+        "branchcode":"247000",
+        "distributorcode":"247"}
+ Tue, 21 Aug 2018 18:22:20  INFO Doexcel.py getAllCaseDatas [ line:58 ] 初始化之后的sql语句为：
+["SELECT * from cts.cts_traderequest WHERE SERIALNO='201808211822200826Ov';"]
+ Tue, 21 Aug 2018 18:22:20  INFO Doexcel.py getAllCaseDatas [ line:57 ] 初始化之后的请求数据为：
+""
+ Tue, 21 Aug 2018 18:22:20  INFO Doexcel.py getAllCaseDatas [ line:58 ] 初始化之后的sql语句为：
+None
+ Tue, 21 Aug 2018 18:22:20  INFO Doexcel.py getAllCaseDatas [ line:57 ] 初始化之后的请求数据为：
+{"serialno":"201808211822200826Ov","isSend":"1",'extFields':{"errCode":"0000", "errMsg":"交易成功", "tranSt":"Y"}}
+ Tue, 21 Aug 2018 18:22:20  INFO Doexcel.py getAllCaseDatas [ line:58 ] 初始化之后的sql语句为：
+["SELECT * from cts.cts_traderequest WHERE SERIALNO='201808211822200826Ov' AND APPLYST='Y'AND TRANSST='Y' AND PAYST='Y';","SELECT * from cts.cts_tradequtychg WHERE REFERNO='201808211822200826Ov' AND PRODUCTID='9999'AND CHANGEQUTY='9.9';"]
+ Tue, 21 Aug 2018 18:22:20  INFO Doexcel.py getAllCaseDatas [ line:57 ] 初始化之后的请求数据为：
+{"refercapno":"5B57DD261DFCbc4E",
+        "reemFlag":"1",
+        "selltype":1,
+        "periodic":"true",
+        "mixProd":"true",
+        "bigVCustno":"1503257540",
+        "honourFlag":"1",
+        "newFlag":"0",
+        "partPayment":"false",
+        "subquty":"10.00",
+        "feetp":"07",
+        "feemode":"1",
+        "feevalue":"0.01",
+        "serialno":"201808211822200912fz",
+        "custno":"1538943811",
+        "apkind":"014",
+        "subapkind":"014001",
+        "apdt":"20180722",
+        "aptm":"113344",
+        "workdate":"20180722",
+        "tradeacco":"000621718538943814",
+        "taaccountid":"475A7FB19598436383",
+        "tano":"47",
+        "productid":"8901",
+        "sharetype":"A",
+        "accptmd":"1",
+        "branchcode":"247000",
+        "distributorcode":"247"}
+ Tue, 21 Aug 2018 18:22:20  INFO Doexcel.py getAllCaseDatas [ line:58 ] 初始化之后的sql语句为：
+["SELECT * from cts.cts_traderequest WHERE SERIALNO='201808211822200912fz';"]
+ Tue, 21 Aug 2018 18:22:20  INFO Doexcel.py getAllCaseDatas [ line:57 ] 初始化之后的请求数据为：
+""
+ Tue, 21 Aug 2018 18:22:20  INFO Doexcel.py getAllCaseDatas [ line:58 ] 初始化之后的sql语句为：
+None
+ Tue, 21 Aug 2018 18:22:20  INFO Doexcel.py getAllCaseDatas [ line:57 ] 初始化之后的请求数据为：
+{"serialno":"201808211822200912fz","isSend":"1",'extFields':{"errCode":"0000", "errMsg":"交易成功", "tranSt":"Y"}}
+ Tue, 21 Aug 2018 18:22:20  INFO Doexcel.py getAllCaseDatas [ line:58 ] 初始化之后的sql语句为：
+["SELECT * from cts.cts_traderequest WHERE SERIALNO='201808211822200912fz' AND APPLYST='Y'AND TRANSST='Y' AND PAYST='Y';","SELECT * from cts.cts_tradequtychg WHERE REFERNO='201808211822200912fz' AND PRODUCTID='8901'AND CHANGEQUTY='10';"]
+ Tue, 21 Aug 2018 18:22:20  INFO Doexcel.py getAllCaseDatas [ line:57 ] 初始化之后的请求数据为：
+{"refercapno":"5B57DD261DFCbc4E",
+        "sellCouponId":"5B569A9A006Abc55",
+        "reemFlag":"1",
+        "periodic":"true",
+        "mixProd":"true",
+        "bigVCustno":"1503257540",
+        "honourFlag":"1",
+        "newFlag":"0",
+        "partPayment":"false",
+        "subquty":"10.00",
+        "feetp":"07",
+        "feemode":"1",
+        "feevalue":"0.01",
+        "serialno":"201808211822200759kM",
+        "custno":"1538943811",
+        "apkind":"014",
+        "subapkind":"014001",
+        "apdt":"20180722",
+        "aptm":"113344",
+        "workdate":"20180722",
+        "tradeacco":"000621718538943814",
+        "taaccountid":"475A7FB19598436383",
+        "tano":"47",
+        "productid":"8901",
+        "sharetype":"A",
+        "accptmd":"1",
+        "branchcode":"247000",
+        "distributorcode":"247"}
+ Tue, 21 Aug 2018 18:22:20  INFO Doexcel.py getAllCaseDatas [ line:58 ] 初始化之后的sql语句为：
+["SELECT * from cts.cts_traderequest WHERE SERIALNO='201808211822200759kM';"]
+ Tue, 21 Aug 2018 18:22:20  INFO Doexcel.py getAllCaseDatas [ line:57 ] 初始化之后的请求数据为：
+""
+ Tue, 21 Aug 2018 18:22:20  INFO Doexcel.py getAllCaseDatas [ line:58 ] 初始化之后的sql语句为：
+None
+ Tue, 21 Aug 2018 18:22:20  INFO Doexcel.py getAllCaseDatas [ line:57 ] 初始化之后的请求数据为：
+{"serialno":"201808211822200759kM","isSend":"1",'extFields':{"errCode":"0000", "errMsg":"交易成功", "tranSt":"Y"}}
+ Tue, 21 Aug 2018 18:22:20  INFO Doexcel.py getAllCaseDatas [ line:58 ] 初始化之后的sql语句为：
+["SELECT * from cts.cts_traderequest WHERE SERIALNO='201808211822200759kM' AND APPLYST='Y'AND TRANSST='Y' AND PAYST='Y';","SELECT * from cts.cts_tradequtychg WHERE REFERNO='201808211822200759kM' AND PRODUCTID='9999'AND CHANGEQUTY='9.9';"]
+ Tue, 21 Aug 2018 18:22:20  INFO Doexcel.py getAllCaseDatas [ line:57 ] 初始化之后的请求数据为：
+{"refercapno":"5B57DD261DFCbc4E",
+        "sellCouponId":"5B569A9A006Abc55",
+        "reemFlag":"1",
+        "selltype":1,
+        "periodic":"true",
+        "mixProd":"true",
+        "bigVCustno":"1503257540",
+        "honourFlag":"1",
+        "newFlag":"0",
+        "partPayment":"false",
+        "subquty":"10.00",
+        "feetp":"07",
+        "feemode":"1",
+        "feevalue":"0.01",
+        "serialno":"201808211822200327Nx",
+        "custno":"1538943811",
+        "apkind":"014",
+        "subapkind":"014001",
+        "apdt":"20180722",
+        "aptm":"113344",
+        "workdate":"20180722",
+        "tradeacco":"000621718538943814",
+        "taaccountid":"475A7FB19598436383",
+        "tano":"47",
+        "productid":"8901",
+        "sharetype":"A",
+        "accptmd":"1",
+        "branchcode":"247000",
+        "distributorcode":"247"}
+ Tue, 21 Aug 2018 18:22:20  INFO Doexcel.py getAllCaseDatas [ line:58 ] 初始化之后的sql语句为：
+["SELECT * from cts.cts_traderequest WHERE SERIALNO='201808211822200327Nx';"]
+ Tue, 21 Aug 2018 18:22:20  INFO Doexcel.py getAllCaseDatas [ line:57 ] 初始化之后的请求数据为：
+""
+ Tue, 21 Aug 2018 18:22:20  INFO Doexcel.py getAllCaseDatas [ line:58 ] 初始化之后的sql语句为：
+None
+ Tue, 21 Aug 2018 18:22:20  INFO Doexcel.py getAllCaseDatas [ line:57 ] 初始化之后的请求数据为：
+{"serialno":"201808211822200327Nx","isSend":"1",'extFields':{"errCode":"0000", "errMsg":"交易成功", "tranSt":"Y"}}
+ Tue, 21 Aug 2018 18:22:20  INFO Doexcel.py getAllCaseDatas [ line:58 ] 初始化之后的sql语句为：
+["SELECT * from cts.cts_traderequest WHERE SERIALNO='201808211822200327Nx' AND APPLYST='Y'AND TRANSST='Y' AND PAYST='Y';","SELECT * from cts.cts_tradequtychg WHERE REFERNO='201808211822200327Nx' AND PRODUCTID='8901'AND CHANGEQUTY='10';"]
+ Tue, 21 Aug 2018 18:22:20  INFO Doexcel.py getAllCaseDatas [ line:57 ] 初始化之后的请求数据为：
+{"refercapno":"5B74EB0A001FbcAC",
+        "reemFlag":"1",
+        "selltype":1,
+        "periodic":"true",
+        "mixProd":"true",
+        "bigVCustno":"1503136940",
+        "honourFlag":"1",
+        "newFlag":"0",
+        "partPayment":"false",
+        "subquty":"10.00",
+        "feetp":"07",
+        "feemode":"1",
+        "feevalue":"0.01",
+        "serialno":"201808211822200472wH",
+        "custno":"1538943811",
+        "apkind":"014",
+        "subapkind":"014001",
+        "apdt":"20180815",
+        "aptm":"164500",
+        "workdate":"20180815",
+        "tradeacco":"000621718538943814",
+        "taaccountid":"475A7FB19598436383",
+        "tano":"47",
+        "productid":"8802",
+        "sharetype":"A",
+        "accptmd":"1",
+        "branchcode":"247000",
+        "distributorcode":"247"}
+ Tue, 21 Aug 2018 18:22:20  INFO Doexcel.py getAllCaseDatas [ line:58 ] 初始化之后的sql语句为：
+["SELECT * from cts.cts_traderequest WHERE SERIALNO='201808211822200472wH';"]
+ Tue, 21 Aug 2018 18:22:20  INFO Doexcel.py getAllCaseDatas [ line:57 ] 初始化之后的请求数据为：
+""
+ Tue, 21 Aug 2018 18:22:20  INFO Doexcel.py getAllCaseDatas [ line:58 ] 初始化之后的sql语句为：
+None
+ Tue, 21 Aug 2018 18:22:20  INFO Doexcel.py getAllCaseDatas [ line:57 ] 初始化之后的请求数据为：
+{"serialno":"201808211822200472wH","isSend":"1",'extFields':{"errCode":"0000", "errMsg":"交易成功", "tranSt":"Y"}}
+ Tue, 21 Aug 2018 18:22:20  INFO Doexcel.py getAllCaseDatas [ line:58 ] 初始化之后的sql语句为：
+["SELECT * from cts.cts_traderequest WHERE SERIALNO='201808211822200472wH' AND APPLYST='Y'AND TRANSST='Y' AND PAYST='Y';","SELECT * from cts.cts_tradequtychg WHERE REFERNO='201808211822200472wH' AND PRODUCTID='9999'AND CHANGEQUTY='9.9';"]
+ Tue, 21 Aug 2018 18:22:20  INFO Doexcel.py getAllCaseDatas [ line:57 ] 初始化之后的请求数据为：
+{"refercapno":"5B74EB0A001FbcAC",
+        "reemFlag":"1",
+        "selltype":1,
+        "periodic":"true",
+        "mixProd":"true",
+        "bigVCustno":"1503136940",
+        "honourFlag":"1",
+        "newFlag":"0",
+        "partPayment":"false",
+        "subquty":"10.00",
+        "feetp":"07",
+        "feemode":"1",
+        "feevalue":"0.01",
+        "serialno":"201808211822200139be",
+        "custno":"1538943811",
+        "apkind":"014",
+        "subapkind":"014001",
+        "apdt":"20180815",
+        "aptm":"164500",
+        "workdate":"20180815",
+        "tradeacco":"000621718538943814",
+        "taaccountid":"475A7FB19598436383",
+        "tano":"47",
+        "productid":"8802",
+        "sharetype":"A",
+        "accptmd":"1",
+        "branchcode":"247000",
+        "distributorcode":"247"}
+ Tue, 21 Aug 2018 18:22:20  INFO Doexcel.py getAllCaseDatas [ line:58 ] 初始化之后的sql语句为：
+["SELECT * from cts.cts_traderequest WHERE SERIALNO='201808211822200139be';"]
+ Tue, 21 Aug 2018 18:22:20  INFO Doexcel.py getAllCaseDatas [ line:57 ] 初始化之后的请求数据为：
+""
+ Tue, 21 Aug 2018 18:22:20  INFO Doexcel.py getAllCaseDatas [ line:58 ] 初始化之后的sql语句为：
+None
+ Tue, 21 Aug 2018 18:22:20  INFO Doexcel.py getAllCaseDatas [ line:57 ] 初始化之后的请求数据为：
+{"serialno":"201808211822200139be","isSend":"1",'extFields':{"errCode":"0000", "errMsg":"交易成功", "tranSt":"Y"}}
+ Tue, 21 Aug 2018 18:22:20  INFO Doexcel.py getAllCaseDatas [ line:58 ] 初始化之后的sql语句为：
+["SELECT * from cts.cts_traderequest WHERE SERIALNO='201808211822200139be' AND APPLYST='Y'AND TRANSST='Y' AND PAYST='Y';","SELECT * from cts.cts_tradequtychg WHERE REFERNO='201808211822200139be' AND PRODUCTID='8802'AND CHANGEQUTY='10';"]
+ Tue, 21 Aug 2018 18:22:20  INFO Doexcel.py getAllCaseDatas [ line:57 ] 初始化之后的请求数据为：
+{"refercapno":"5B74EB0A001FbcAC",
+        "sellCouponId":"5B569A9A006Abc55",
+        "reemFlag":"1",
+        "selltype":1,
+        "periodic":"true",
+        "mixProd":"true",
+        "bigVCustno":"1503136940",
+        "honourFlag":"1",
+        "newFlag":"0",
+        "partPayment":"false",
+        "subquty":"10.00",
+        "feetp":"07",
+        "feemode":"1",
+        "feevalue":"0.01",
+        "serialno":"zcvbr123s12sdf31",
+        "custno":"1538943811",
+        "apkind":"014",
+        "subapkind":"014001",
+        "apdt":"20180815",
+        "aptm":"164500",
+        "workdate":"20180815",
+        "tradeacco":"000621718538943814",
+        "taaccountid":"475A7FB19598436383",
+        "tano":"47",
+        "productid":"8802",
+        "sharetype":"A",
+        "accptmd":"1",
+        "branchcode":"247000",
+        "distributorcode":"247"}
+ Tue, 21 Aug 2018 18:22:20  INFO Doexcel.py getAllCaseDatas [ line:58 ] 初始化之后的sql语句为：
+["SELECT * from cts.cts_traderequest WHERE SERIALNO='temp_serial';"]
+ Tue, 21 Aug 2018 18:22:20  INFO Doexcel.py getAllCaseDatas [ line:57 ] 初始化之后的请求数据为：
+""
+ Tue, 21 Aug 2018 18:22:20  INFO Doexcel.py getAllCaseDatas [ line:58 ] 初始化之后的sql语句为：
+None
+ Tue, 21 Aug 2018 18:22:20  INFO Doexcel.py getAllCaseDatas [ line:57 ] 初始化之后的请求数据为：
+{"serialno":"zcvbr123s12sdf31","isSend":"1",'extFields':{"errCode":"0000", "errMsg":"交易成功", "tranSt":"Y"}}
+ Tue, 21 Aug 2018 18:22:20  INFO Doexcel.py getAllCaseDatas [ line:58 ] 初始化之后的sql语句为：
+["SELECT * from cts.cts_traderequest WHERE SERIALNO='zcvbr123s12sdf31' AND APPLYST='Y'AND TRANSST='Y' AND PAYST='Y';","SELECT * from cts.cts_tradequtychg WHERE REFERNO='zcvbr123s12sdf31' AND PRODUCTID='9999'AND CHANGEQUTY='9.9';"]
+ Tue, 21 Aug 2018 18:22:20  INFO Doexcel.py getAllCaseDatas [ line:57 ] 初始化之后的请求数据为：
+{"refercapno":"5B74EB0A001FbcAC",
+        "sellCouponId":"5B569A9A006Abc55",
+        "reemFlag":"1",
+        "selltype":1,
+        "periodic":"true",
+        "mixProd":"true",
+        "bigVCustno":"1503136940",
+        "honourFlag":"1",
+        "newFlag":"0",
+        "partPayment":"false",
+        "subquty":"10.00",
+        "feetp":"07",
+        "feemode":"1",
+        "feevalue":"0.01",
+        "serialno":"zcvbr123s12sdf31",
+        "custno":"1538943811",
+        "apkind":"014",
+        "subapkind":"014001",
+        "apdt":"20180815",
+        "aptm":"164500",
+        "workdate":"20180815",
+        "tradeacco":"000621718538943814",
+        "taaccountid":"475A7FB19598436383",
+        "tano":"47",
+        "productid":"8802",
+        "sharetype":"A",
+        "accptmd":"1",
+        "branchcode":"247000",
+        "distributorcode":"247"}
+ Tue, 21 Aug 2018 18:22:20  INFO Doexcel.py getAllCaseDatas [ line:58 ] 初始化之后的sql语句为：
+["SELECT * from cts.cts_traderequest WHERE SERIALNO='temp_serial';"]
+ Tue, 21 Aug 2018 18:22:20  INFO Doexcel.py getAllCaseDatas [ line:57 ] 初始化之后的请求数据为：
+""
+ Tue, 21 Aug 2018 18:22:20  INFO Doexcel.py getAllCaseDatas [ line:58 ] 初始化之后的sql语句为：
+None
+ Tue, 21 Aug 2018 18:22:20  INFO Doexcel.py getAllCaseDatas [ line:57 ] 初始化之后的请求数据为：
+{"serialno":"zcvbr123s12sdf31","isSend":"1",'extFields':{"errCode":"0000", "errMsg":"交易成功", "tranSt":"Y"}}
+ Tue, 21 Aug 2018 18:22:20  INFO Doexcel.py getAllCaseDatas [ line:58 ] 初始化之后的sql语句为：
+["SELECT * from cts.cts_traderequest WHERE SERIALNO='zcvbr123s12sdf31' AND APPLYST='Y'AND TRANSST='Y' AND PAYST='Y';","SELECT * from cts.cts_tradequtychg WHERE REFERNO='zcvbr123s12sdf31' AND PRODUCTID='8802'AND CHANGEQUTY='10';"]
+ Tue, 21 Aug 2018 18:22:20  INFO Doexcel.py getAllCaseDatas [ line:57 ] 初始化之后的请求数据为：
+{"refercapno":"5B57DE5B20F7bc4E",
+        "reemFlag":"1",
+        "selltype":1,
+        "periodic":"true",
+        "mixProd":"true",
+        "bigVCustno":"1597219235",
+        "honourFlag":"1",
+        "newFlag":"0",
+        "partPayment":"false",
+        "subquty":"10.00",
+        "feetp":"07",
+        "feemode":"1",
+        "feevalue":"0.01",
+        "serialno":"201808211822200251nh",
+        "custno":"1538943811",
+        "apkind":"014",
+        "subapkind":"014001",
+        "apdt":"20180815",
+        "aptm":"164500",
+        "workdate":"20180815",
+        "tradeacco":"000621718538943814",
+        "taaccountid":"475A7FB19598436383",
+        "tano":"47",
+        "productid":"8904",
+        "sharetype":"A",
+        "accptmd":"1",
+        "branchcode":"247000",
+        "distributorcode":"247"}
+ Tue, 21 Aug 2018 18:22:20  INFO Doexcel.py getAllCaseDatas [ line:58 ] 初始化之后的sql语句为：
+["SELECT * from cts.cts_traderequest WHERE SERIALNO='201808211822200251nh';"]
+ Tue, 21 Aug 2018 18:22:20  INFO Doexcel.py getAllCaseDatas [ line:57 ] 初始化之后的请求数据为：
+""
+ Tue, 21 Aug 2018 18:22:20  INFO Doexcel.py getAllCaseDatas [ line:58 ] 初始化之后的sql语句为：
+None
+ Tue, 21 Aug 2018 18:22:20  INFO Doexcel.py getAllCaseDatas [ line:57 ] 初始化之后的请求数据为：
+{"serialno":"201808211822200251nh","isSend":"1",'extFields':{"errCode":"0000", "errMsg":"交易成功", "tranSt":"Y"}}
+ Tue, 21 Aug 2018 18:22:20  INFO Doexcel.py getAllCaseDatas [ line:58 ] 初始化之后的sql语句为：
+["SELECT * from cts.cts_traderequest WHERE SERIALNO='201808211822200251nh' AND APPLYST='Y'AND TRANSST='Y' AND PAYST='Y';","SELECT * from cts.cts_tradequtychg WHERE REFERNO='201808211822200251nh' AND PRODUCTID='9999'AND CHANGEQUTY='9.9';"]
+ Tue, 21 Aug 2018 18:22:20  INFO Doexcel.py getAllCaseDatas [ line:57 ] 初始化之后的请求数据为：
+{"refercapno":"5B57DE5B20F7bc4E",
+        "reemFlag":"1",
+        "selltype":1,
+        "periodic":"true",
+        "mixProd":"true",
+        "bigVCustno":"1597219235",
+        "honourFlag":"1",
+        "newFlag":"0",
+        "partPayment":"false",
+        "subquty":"10.00",
+        "feetp":"07",
+        "feemode":"1",
+        "feevalue":"0.01",
+        "serialno":"20180821182220074Wo",
+        "custno":"1538943811",
+        "apkind":"014",
+        "subapkind":"014001",
+        "apdt":"20180815",
+        "aptm":"164500",
+        "workdate":"20180815",
+        "tradeacco":"000621718538943814",
+        "taaccountid":"475A7FB19598436383",
+        "tano":"47",
+        "productid":"8904",
+        "sharetype":"A",
+        "accptmd":"1",
+        "branchcode":"247000",
+        "distributorcode":"247"}
+ Tue, 21 Aug 2018 18:22:20  INFO Doexcel.py getAllCaseDatas [ line:58 ] 初始化之后的sql语句为：
+["SELECT * from cts.cts_traderequest WHERE SERIALNO='20180821182220074Wo';"]
+ Tue, 21 Aug 2018 18:22:20  INFO Doexcel.py getAllCaseDatas [ line:57 ] 初始化之后的请求数据为：
+""
+ Tue, 21 Aug 2018 18:22:20  INFO Doexcel.py getAllCaseDatas [ line:58 ] 初始化之后的sql语句为：
+None
+ Tue, 21 Aug 2018 18:22:20  INFO Doexcel.py getAllCaseDatas [ line:57 ] 初始化之后的请求数据为：
+{"serialno":"20180821182220074Wo","isSend":"1",'extFields':{"errCode":"0000", "errMsg":"交易成功", "tranSt":"Y"}}
+ Tue, 21 Aug 2018 18:22:20  INFO Doexcel.py getAllCaseDatas [ line:58 ] 初始化之后的sql语句为：
+["SELECT * from cts.cts_traderequest WHERE SERIALNO='20180821182220074Wo' AND APPLYST='Y'AND TRANSST='Y' AND PAYST='Y';","SELECT * from cts.cts_tradequtychg WHERE REFERNO='20180821182220074Wo' AND PRODUCTID='8904'AND CHANGEQUTY='10';"]
+ Tue, 21 Aug 2018 18:22:20  INFO Doexcel.py getAllCaseDatas [ line:57 ] 初始化之后的请求数据为：
+{"refercapno":"5B57DE5B20F7bc4E",
+        "sellCouponId":"5B569A9A006Abc55",
+        "reemFlag":"1",
+        "selltype":1,
+        "periodic":"true",
+        "mixProd":"true",
+        "bigVCustno":"1597219235",
+        "honourFlag":"1",
+        "newFlag":"0",
+        "partPayment":"false",
+        "subquty":"10.00",
+        "feetp":"07",
+        "feemode":"1",
+        "feevalue":"0.01",
+        "serialno":"201808211822200671Sh",
+        "custno":"1538943811",
+        "apkind":"014",
+        "subapkind":"014001",
+        "apdt":"20180815",
+        "aptm":"164500",
+        "workdate":"20180815",
+        "tradeacco":"000621718538943814",
+        "taaccountid":"475A7FB19598436383",
+        "tano":"47",
+        "productid":"8904",
+        "sharetype":"A",
+        "accptmd":"1",
+        "branchcode":"247000",
+        "distributorcode":"247"}
+ Tue, 21 Aug 2018 18:22:20  INFO Doexcel.py getAllCaseDatas [ line:58 ] 初始化之后的sql语句为：
+["SELECT * from cts.cts_traderequest WHERE SERIALNO='201808211822200671Sh';"]
+ Tue, 21 Aug 2018 18:22:20  INFO Doexcel.py getAllCaseDatas [ line:57 ] 初始化之后的请求数据为：
+""
+ Tue, 21 Aug 2018 18:22:20  INFO Doexcel.py getAllCaseDatas [ line:58 ] 初始化之后的sql语句为：
+None
+ Tue, 21 Aug 2018 18:22:20  INFO Doexcel.py getAllCaseDatas [ line:57 ] 初始化之后的请求数据为：
+{"serialno":"201808211822200671Sh","isSend":"1",'extFields':{"errCode":"0000", "errMsg":"交易成功", "tranSt":"Y"}}
+ Tue, 21 Aug 2018 18:22:20  INFO Doexcel.py getAllCaseDatas [ line:58 ] 初始化之后的sql语句为：
+["SELECT * from cts.cts_traderequest WHERE SERIALNO='201808211822200671Sh' AND APPLYST='Y'AND TRANSST='Y' AND PAYST='Y';","SELECT * from cts.cts_tradequtychg WHERE REFERNO='201808211822200671Sh' AND PRODUCTID='9999'AND CHANGEQUTY='9.9';"]
+ Tue, 21 Aug 2018 18:22:20  INFO Doexcel.py getAllCaseDatas [ line:57 ] 初始化之后的请求数据为：
+{"refercapno":"5B57DE5B20F7bc4E",
+        "sellCouponId":"5B569A9A006Abc55",
+        "reemFlag":"1",
+        "selltype":1,
+        "periodic":"true",
+        "mixProd":"true",
+        "bigVCustno":"1597219235",
+        "honourFlag":"1",
+        "newFlag":"0",
+        "partPayment":"false",
+        "subquty":"10.00",
+        "feetp":"07",
+        "feemode":"1",
+        "feevalue":"0.01",
+        "serialno":"20180821182220044SO",
+        "custno":"1538943811",
+        "apkind":"014",
+        "subapkind":"014001",
+        "apdt":"20180815",
+        "aptm":"164500",
+        "workdate":"20180815",
+        "tradeacco":"000621718538943814",
+        "taaccountid":"475A7FB19598436383",
+        "tano":"47",
+        "productid":"8904",
+        "sharetype":"A",
+        "accptmd":"1",
+        "branchcode":"247000",
+        "distributorcode":"247"}
+ Tue, 21 Aug 2018 18:22:20  INFO Doexcel.py getAllCaseDatas [ line:58 ] 初始化之后的sql语句为：
+["SELECT * from cts.cts_traderequest WHERE SERIALNO='20180821182220044SO';"]
+ Tue, 21 Aug 2018 18:22:20  INFO Doexcel.py getAllCaseDatas [ line:57 ] 初始化之后的请求数据为：
+""
+ Tue, 21 Aug 2018 18:22:20  INFO Doexcel.py getAllCaseDatas [ line:58 ] 初始化之后的sql语句为：
+None
+ Tue, 21 Aug 2018 18:22:20  INFO Doexcel.py getAllCaseDatas [ line:57 ] 初始化之后的请求数据为：
+{"serialno":"20180821182220044SO","isSend":"1",'extFields':{"errCode":"0000", "errMsg":"交易成功", "tranSt":"Y"}}
+ Tue, 21 Aug 2018 18:22:20  INFO Doexcel.py getAllCaseDatas [ line:58 ] 初始化之后的sql语句为：
+["SELECT * from cts.cts_traderequest WHERE SERIALNO='20180821182220044SO' AND APPLYST='Y'AND TRANSST='Y' AND PAYST='Y';","SELECT * from cts.cts_tradequtychg WHERE REFERNO='20180821182220044SO' AND PRODUCTID='8904'AND CHANGEQUTY='10';"]

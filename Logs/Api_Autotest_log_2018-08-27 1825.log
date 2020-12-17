@@ -1,0 +1,26 @@
+ Mon, 27 Aug 2018 18:25:35  INFO myLogger2.py <module> [ line:20 ] =========test start=========
+ Mon, 27 Aug 2018 18:25:35  INFO Doexcel.py getAllCaseDatas [ line:81 ] 初始化之后的请求数据为：
+{"serialno":"201808271825350741WR",
+        "invTp":"1",
+        "mobileNo":"13760200096",
+        "loginPasswd":"202cb962ac59075b964b07152d234b70",
+        "phoneCode":"1111",
+        "refererMobile":"15021996508",
+        "accofrom":"1",
+        "distributorCode":"247",
+        "branchcode":"24700",
+        "email":"744700813@qq.com",
+        "oneRecommend":"1"
+}
+ Mon, 27 Aug 2018 18:25:35  INFO Doexcel.py getAllCaseDatas [ line:81 ] 初始化之后的请求数据为：
+{"serialno":"20180827182535011OA",
+        "invTp":"2",
+        "mobileNo":"13760200097",
+        "loginPasswd":"202cb962ac59075b964b07152d234b70",
+        "phoneCode":"1111",
+        "accofrom":"1",
+        "distributorCode":"247",
+        "branchcode":"24700",
+        "email":"744700813@qq.com",
+        "oneRecommend":"0"
+}

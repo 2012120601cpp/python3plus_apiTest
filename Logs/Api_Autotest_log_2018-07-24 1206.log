@@ -1,0 +1,27 @@
+ Tue, 24 Jul 2018 12:06:05  INFO myLogger2.py <module> [ line:20 ] =========test start=========
+ Tue, 24 Jul 2018 12:06:05  INFO Doexcel.py getAllCaseDatas [ line:47 ] 初始化之后的请求数据为：
+{
+ "subamt":"5000",
+ "paymodel":"05",
+ "channel":"JX",
+ "bankid":"205B0CF78550959969",
+ "bankno":"102",
+ "bankacco":"6222620110038594231",
+ "serialno":"201807241206050224wi",
+ "custno":"1604578759",
+ "apkind":"922",
+ "subapkind":"922001",
+ "apdt":"20180516",
+ "aptm":"093540",
+ "workdate":"20180516",
+ "tradeacco":"001035098604578762",
+ "taaccountid":"475B0CB66D40432285",
+ "tano":"47",
+ "sharetype":"A",
+ "accptmd":"1",
+ "branchcode":"247000",
+ "distributorcode":"247",
+"extFields":{"rechargeFlag":"1"}
+}
+ Tue, 24 Jul 2018 12:06:05  INFO Doexcel.py getAllCaseDatas [ line:48 ] 初始化之后的sql语句为：
+["SELECT * from cts.cts_traderequest WHERE SERIALNO='201807241206050224wi';"]

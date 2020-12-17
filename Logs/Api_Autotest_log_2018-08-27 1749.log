@@ -1,0 +1,118 @@
+ Mon, 27 Aug 2018 17:49:19  INFO myLogger2.py <module> [ line:20 ] =========test start=========
+ Mon, 27 Aug 2018 17:49:19  INFO Doexcel.py getAllCaseDatas [ line:78 ] 初始化之后的请求数据为：
+{"serialno":"20180827174919070fR",
+        "invTp":"1",
+        "mobileNo":"13760200084",
+        "loginPasswd":"202cb962ac59075b964b07152d234b70",
+        "phoneCode":"1111",
+        "refererMobile":"15021996508",
+        "accofrom":"1",
+        "distributorCode":"247",
+        "branchcode":"24700",
+        "email":"744700813@qq.com",
+        "oneRecommend":"1"
+}
+ Mon, 27 Aug 2018 17:49:19  INFO Doexcel.py getAllCaseDatas [ line:78 ] 初始化之后的请求数据为：
+{"serialno":"201808271749190855JY",
+        "invTp":"2",
+        "mobileNo":"13760200085",
+        "loginPasswd":"202cb962ac59075b964b07152d234b70",
+        "phoneCode":"1111",
+        "accofrom":"1",
+        "distributorCode":"247",
+        "branchcode":"24700",
+        "email":"744700813@qq.com",
+        "oneRecommend":"0"
+}
+ Mon, 27 Aug 2018 17:49:19  INFO Doexcel.py getAllCaseDatas [ line:78 ] 初始化之后的请求数据为：
+{"serialno":"201808271749190886XB",
+        "invTp":"1",
+        "mobileNo":"",
+        "loginPasswd":"202cb962ac59075b964b07152d234b70",
+        "phoneCode":"1111",
+        "refererMobile":"15021996508",
+        "accofrom":"1",
+        "distributorCode":"247",
+        "branchcode":"24700",
+        "email":"744700813@qq.com",
+        "oneRecommend":"1"
+}
+ Mon, 27 Aug 2018 17:49:19  INFO Doexcel.py getAllCaseDatas [ line:78 ] 初始化之后的请求数据为：
+{"serialno":"201808271749190957TI",
+        "invTp":"1",
+        "mobileNo":"13760200086",
+        "loginPasswd":"",
+        "phoneCode":"1111",
+        "refererMobile":"15021996508",
+        "accofrom":"1",
+        "distributorCode":"247",
+        "branchcode":"24700",
+        "email":"744700813@qq.com",
+        "oneRecommend":"1"
+}
+ Mon, 27 Aug 2018 17:49:19  INFO Doexcel.py getAllCaseDatas [ line:78 ] 初始化之后的请求数据为：
+{"serialno":"201808271749190495ci",
+        "invTp":"1",
+        "mobileNo":"1502199644",
+        "loginPasswd":"202cb962ac59075b964b07152d234b70",
+        "phoneCode":"1111",
+        "refererMobile":"15021996508",
+        "accofrom":"1",
+        "distributorCode":"247",
+        "branchcode":"24700",
+        "email":"744700813@qq.com",
+        "oneRecommend":"1"
+}
+ Mon, 27 Aug 2018 17:49:19  INFO Doexcel.py getAllCaseDatas [ line:78 ] 初始化之后的请求数据为：
+{"serialno":"201808271749190628AC",
+        "invTp":"1",
+        "mobileNo":"150219964489",
+        "loginPasswd":"202cb962ac59075b964b07152d234b70",
+        "phoneCode":"1111",
+        "refererMobile":"15021996508",
+        "accofrom":"1",
+        "distributorCode":"247",
+        "branchcode":"24700",
+        "email":"744700813@qq.com",
+        "oneRecommend":"1"
+}
+ Mon, 27 Aug 2018 17:49:19  INFO Doexcel.py getAllCaseDatas [ line:78 ] 初始化之后的请求数据为：
+{"serialno":"201808271749190304WO",
+        "invTp":"1",
+        "mobileNo":"15021996@44",
+        "loginPasswd":"202cb962ac59075b964b07152d234b70",
+        "phoneCode":"1111",
+        "refererMobile":"15021996508",
+        "accofrom":"1",
+        "distributorCode":"247",
+        "branchcode":"24700",
+        "email":"744700813@qq.com",
+        "oneRecommend":"1"
+}
+ Mon, 27 Aug 2018 17:49:19  INFO Doexcel.py getAllCaseDatas [ line:78 ] 初始化之后的请求数据为：
+{"serialno":"201808271749190601kv",
+        "invTp":"1",
+        "mobileNo":"15021996 44",
+        "loginPasswd":"202cb962ac59075b964b07152d234b70",
+        "phoneCode":"1111",
+        "refererMobile":"15021996508",
+        "accofrom":"1",
+        "distributorCode":"247",
+        "branchcode":"24700",
+        "email":"744700813@qq.com",
+        "oneRecommend":"1"
+}
+ Mon, 27 Aug 2018 17:49:19  INFO Doexcel.py getAllCaseDatas [ line:78 ] 初始化之后的请求数据为：
+{"serialno":"201808271749190631io",
+        "invTp":"1",
+        "mobileNo":"13760200084",
+        "loginPasswd":"202cb962ac59075b964b07152d234b70",
+        "phoneCode":"1111",
+        "refererMobile":"15021996508",
+        "accofrom":"1",
+        "distributorCode":"247",
+        "branchcode":"24700",
+        "email":"744700813@qq.com",
+        "oneRecommend":"1"
+}
+ Mon, 27 Aug 2018 17:49:19  INFO test_api.py <module> [ line:19 ] 所有的测试数据为：[{'case_id': 1, 'api_name': '企业客户有推荐人成功注册', 'interface': 'com.wt.cif.service.CifCustService', 'method': 'openAccount', 'request_data': '{"serialno":"20180827174919070fR",\n        "invTp":"1",\n        "mobileNo":"13760200084",\n        "loginPasswd":"202cb962ac59075b964b07152d234b70",\n        "phoneCode":"1111",\n        "refererMobile":"15021996508",\n        "accofrom":"1",\n        "distributorCode":"247",\n        "branchcode":"24700",\n        "email":"744700813@qq.com",\n        "oneRecommend":"1"\n}', 'expected_data': "{.*'errCode': '0000', 'errMsg': '交易成功'.* 'status': 'Y'}", 'affected_caseId': None, 'compare_type': 1, 'wait_time': None}, {'case_id': 2, 'api_name': '个人客户无推荐人成功注册', 'interface': 'com.wt.cif.service.CifCustService', 'method': 'openAccount', 'request_data': '{"serialno":"201808271749190855JY",\n        "invTp":"2",\n        "mobileNo":"13760200085",\n        "loginPasswd":"202cb962ac59075b964b07152d234b70",\n        "phoneCode":"1111",\n        "accofrom":"1",\n        "distributorCode":"247",\n        "branchcode":"24700",\n        "email":"744700813@qq.com",\n        "oneRecommend":"0"\n}', 'expected_data': "{.*'errCode': '0000', 'errMsg': '交易成功'.* 'status': 'Y'}", 'affected_caseId': None, 'compare_type': 1, 'wait_time': None}, {'case_id': 3, 'api_name': '注册手机号为空', 'interface': 'com.wt.cif.service.CifCustService', 'method': 'openAccount', 'request_data': '{"serialno":"201808271749190886XB",\n        "invTp":"1",\n        "mobileNo":"",\n        "loginPasswd":"202cb962ac59075b964b07152d234b70",\n        "phoneCode":"1111",\n        "refererMobile":"15021996508",\n        "accofrom":"1",\n        "distributorCode":"247",\n        "branchcode":"24700",\n        "email":"744700813@qq.com",\n        "oneRecommend":"1"\n}', 'expected_data': "{'extFields': {}, 'custNo': None, 'headImgUrl': None, 'openId': None, 'nickName': None, 'errCode': 'A030', 'errMsg': '开户入参验证参数为空[手机号码]', 'mobileNo': None, 'key': None, 'token': None, 'status': 'F'}", 'affected_caseId': None, 'compare_type': 0, 'wait_time': None}, {'case_id': 4, 'api_name': '登录密码为空', 'interface': 'com.wt.cif.service.CifCustService', 'method': 'openAccount', 'request_data': '{"serialno":"201808271749190957TI",\n        "invTp":"1",\n        "mobileNo":"13760200086",\n        "loginPasswd":"",\n        "phoneCode":"1111",\n        "refererMobile":"15021996508",\n        "accofrom":"1",\n        "distributorCode":"247",\n        "branchcode":"24700",\n        "email":"744700813@qq.com",\n        "oneRecommend":"1"\n}', 'expected_data': "{'extFields': {}, 'custNo': None, 'headImgUrl': None, 'openId': None, 'nickName': None, 'errCode': 'A050', 'errMsg': '开户入参验证参数为空[登录密码]', 'mobileNo': None, 'key': None, 'token': None, 'status': 'F'}", 'affected_caseId': None, 'compare_type': 0, 'wait_time': None}, {'case_id': 5, 'api_name': '注册手机号少于11位', 'interface': 'com.wt.cif.service.CifCustService', 'method': 'openAccount', 'request_data': '{"serialno":"201808271749190495ci",\n        "invTp":"1",\n        "mobileNo":"1502199644",\n        "loginPasswd":"202cb962ac59075b964b07152d234b70",\n        "phoneCode":"1111",\n        "refererMobile":"15021996508",\n        "accofrom":"1",\n        "distributorCode":"247",\n        "branchcode":"24700",\n        "email":"744700813@qq.com",\n        "oneRecommend":"1"\n}', 'expected_data': "{'extFields': {}, 'custNo': None, 'headImgUrl': None, 'openId': None, 'nickName': None, 'errCode': 'A013', 'errMsg': '开户入参验证参数错误[手机号码]', 'mobileNo': None, 'key': None, 'token': None, 'status': 'F'}", 'affected_caseId': None, 'compare_type': 0, 'wait_time': None}, {'case_id': 6, 'api_name': '注册手机号大于11位', 'interface': 'com.wt.cif.service.CifCustService', 'method': 'openAccount', 'request_data': '{"serialno":"201808271749190628AC",\n        "invTp":"1",\n        "mobileNo":"150219964489",\n        "loginPasswd":"202cb962ac59075b964b07152d234b70",\n        "phoneCode":"1111",\n        "refererMobile":"15021996508",\n        "accofrom":"1",\n        "distributorCode":"247",\n        "branchcode":"24700",\n        "email":"744700813@qq.com",\n        "oneRecommend":"1"\n}', 'expected_data': "{'extFields': {}, 'custNo': None, 'headImgUrl': None, 'openId': None, 'nickName': None, 'errCode': 'A013', 'errMsg': '开户入参验证参数错误[手机号码]', 'mobileNo': None, 'key': None, 'token': None, 'status': 'F'}", 'affected_caseId': None, 'compare_type': 0, 'wait_time': None}, {'case_id': 7, 'api_name': '注册手机号含特殊字符', 'interface': 'com.wt.cif.service.CifCustService', 'method': 'openAccount', 'request_data': '{"serialno":"201808271749190304WO",\n        "invTp":"1",\n        "mobileNo":"15021996@44",\n        "loginPasswd":"202cb962ac59075b964b07152d234b70",\n        "phoneCode":"1111",\n        "refererMobile":"15021996508",\n        "accofrom":"1",\n        "distributorCode":"247",\n        "branchcode":"24700",\n        "email":"744700813@qq.com",\n        "oneRecommend":"1"\n}', 'expected_data': "{'extFields': {}, 'custNo': None, 'headImgUrl': None, 'openId': None, 'nickName': None, 'errCode': 'A013', 'errMsg': '开户入参验证参数错误[手机号码]', 'mobileNo': None, 'key': None, 'token': None, 'status': 'F'}", 'affected_caseId': None, 'compare_type': 0, 'wait_time': None}, {'case_id': 8, 'api_name': '注册手机号含空格', 'interface': 'com.wt.cif.service.CifCustService', 'method': 'openAccount', 'request_data': '{"serialno":"201808271749190601kv",\n        "invTp":"1",\n        "mobileNo":"15021996 44",\n        "loginPasswd":"202cb962ac59075b964b07152d234b70",\n        "phoneCode":"1111",\n        "refererMobile":"15021996508",\n        "accofrom":"1",\n        "distributorCode":"247",\n        "branchcode":"24700",\n        "email":"744700813@qq.com",\n        "oneRecommend":"1"\n}', 'expected_data': "{'extFields': {}, 'custNo': None, 'headImgUrl': None, 'openId': None, 'nickName': None, 'errCode': 'A013', 'errMsg': '开户入参验证参数错误[手机号码]', 'mobileNo': None, 'key': None, 'token': None, 'status': 'F'}", 'affected_caseId': None, 'compare_type': 0, 'wait_time': None}, {'case_id': 9, 'api_name': '用户已注册', 'interface': 'com.wt.cif.service.CifCustService', 'method': 'openAccount', 'request_data': '{"serialno":"201808271749190631io",\n        "invTp":"1",\n        "mobileNo":"13760200084",\n        "loginPasswd":"202cb962ac59075b964b07152d234b70",\n        "phoneCode":"1111",\n        "refererMobile":"15021996508",\n        "accofrom":"1",\n        "distributorCode":"247",\n        "branchcode":"24700",\n        "email":"744700813@qq.com",\n        "oneRecommend":"1"\n}', 'expected_data': "{'extFields': {}, 'custNo': None, 'headImgUrl': None, 'openId': None, 'nickName': None, 'errCode': 'B011', 'errMsg': '开户业务验证失败[该手机号已注册]', 'mobileNo': None, 'key': None, 'token': None, 'status': 'F'}", 'affected_caseId': None, 'compare_type': 0, 'wait_time': None}]

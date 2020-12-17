@@ -1,0 +1,92 @@
+ Thu, 05 Jul 2018 19:57:01  INFO myLogger2.py <module> [ line:20 ] =========test start=========
+ Thu, 05 Jul 2018 19:57:01  INFO Doexcel.py getAllCaseDatas [ line:49 ] 初始化之后的请求数据为：
+{
+"subamt":"100",
+"honourdate":"20180604",
+"baseyield":"0.0828",
+"yield":"0.0828",
+"addyield":"0.0000",
+"interestbegindate":"20180525",
+"interestenddate":"20180603",
+"exyield":"0",
+"serialno":"201807051957010328Nu",
+"custno":"1538967652",
+"apkind":"012","subapkind":"012001",
+"apdt":"20180525",
+"aptm":"134256",
+"workdate":"20180525",
+"tradeacco":"000621718538967655",
+"taaccountid":"475AE141EE07252223",
+"tano":"47","productid":"732822",
+"sharetype":"A","accptmd":"1",
+"branchcode":"247000","distributorcode":"247"}
+ Thu, 05 Jul 2018 19:57:01  INFO Doexcel.py getAllCaseDatas [ line:50 ] 初始化之后的sql语句为：
+["SELECT * from cts.cts_traderequest WHERE SERIALNO='201807051957010328Nu';"]
+ Thu, 05 Jul 2018 19:57:01  INFO Doexcel.py getAllCaseDatas [ line:49 ] 初始化之后的请求数据为：
+""
+ Thu, 05 Jul 2018 19:57:01  INFO Doexcel.py getAllCaseDatas [ line:50 ] 初始化之后的sql语句为：
+None
+ Thu, 05 Jul 2018 19:57:01  INFO Doexcel.py getAllCaseDatas [ line:49 ] 初始化之后的请求数据为：
+{"serialno":"201807051957010328Nu","isSend":"1","extFields":{"errCode":"0000", "errMsg":"交易成功", "tranSt":"Y"}}
+ Thu, 05 Jul 2018 19:57:01  INFO Doexcel.py getAllCaseDatas [ line:50 ] 初始化之后的sql语句为：
+["SELECT * from cts.cts_traderequest WHERE SERIALNO='201807051957010328Nu';"]
+ Thu, 05 Jul 2018 19:57:01  INFO test_api.py <module> [ line:19 ] 所有的测试数据为：[{'case_id': 1, 'api_name': '【余额购买】渠道1-官网购买随心投产品成功', 'interface': 'com.wt.cts.service.ProductCoreTradeService', 'method': 'buyByVacco', 'request_data': '{\n"subamt":"100",\n"honourdate":"20180604",\n"baseyield":"0.0828",\n"yield":"0.0828",\n"addyield":"0.0000",\n"interestbegindate":"20180525",\n"interestenddate":"20180603",\n"exyield":"0",\n"serialno":"201807051957010328Nu",\n"custno":"1538967652",\n"apkind":"012","subapkind":"012001",\n"apdt":"20180525",\n"aptm":"134256",\n"workdate":"20180525",\n"tradeacco":"000621718538967655",\n"taaccountid":"475AE141EE07252223",\n"tano":"47","productid":"732822",\n"sharetype":"A","accptmd":"1",\n"branchcode":"247000","distributorcode":"247"}', 'execute_sql': '["SELECT * from cts.cts_traderequest WHERE SERIALNO=\'201807051957010328Nu\';"]', 'expected_data': "{.*'errCode': '0000', 'tradeStatus': 'Y', 'tradeMsg': '申请成功', 'errMsg': '申请成功'.*}", 'affected_caseId': 3, 'compare_type': 1, 'wait_time': None}, {'case_id': 2, 'api_name': '【调用轮询接口处理】', 'interface': 'com.wt.cts.service.ProductCoreTradeService', 'method': 'tradeContinueTask', 'request_data': '""', 'execute_sql': None, 'expected_data': None, 'affected_caseId': None, 'compare_type': None, 'wait_time': 1}, {'case_id': 3, 'api_name': '【购买后续】渠道1-官网购买随心投成功', 'interface': 'com.wt.cts.service.ProductCoreTradeService', 'method': 'tradeContinue', 'request_data': '{"serialno":"201807051957010328Nu","isSend":"1","extFields":{"errCode":"0000", "errMsg":"交易成功", "tranSt":"Y"}}', 'execute_sql': '["SELECT * from cts.cts_traderequest WHERE SERIALNO=\'201807051957010328Nu\';"]', 'expected_data': "{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'Y', 'tradeMsg': '申请成功！', 'errMsg': '申请成功', 'tradeCode': '0000', 'exObjFields': {}, 'key': None}", 'affected_caseId': None, 'compare_type': 0, 'wait_time': None}]
+ Thu, 05 Jul 2018 19:57:01  INFO test_api.py test_api [ line:33 ] ================开始发送一次接口请求，请求信息如下===========
+ Thu, 05 Jul 2018 19:57:01  INFO test_api.py test_api [ line:34 ] 接口请求apiName：【余额购买】渠道1-官网购买随心投产品成功
+ Thu, 05 Jul 2018 19:57:01  INFO test_api.py test_api [ line:35 ] 接口请求interface:com.wt.cts.service.ProductCoreTradeService
+ Thu, 05 Jul 2018 19:57:01  INFO test_api.py test_api [ line:36 ] 接口请求method:buyByVacco
+ Thu, 05 Jul 2018 19:57:01  INFO test_api.py test_api [ line:37 ] 接口请求data:{
+"subamt":"100",
+"honourdate":"20180604",
+"baseyield":"0.0828",
+"yield":"0.0828",
+"addyield":"0.0000",
+"interestbegindate":"20180525",
+"interestenddate":"20180603",
+"exyield":"0",
+"serialno":"201807051957010328Nu",
+"custno":"1538967652",
+"apkind":"012","subapkind":"012001",
+"apdt":"20180525",
+"aptm":"134256",
+"workdate":"20180525",
+"tradeacco":"000621718538967655",
+"taaccountid":"475AE141EE07252223",
+"tano":"47","productid":"732822",
+"sharetype":"A","accptmd":"1",
+"branchcode":"247000","distributorcode":"247"}
+ Thu, 05 Jul 2018 19:57:01  INFO test_api.py test_api [ line:38 ] 接口请求sql:["SELECT * from cts.cts_traderequest WHERE SERIALNO='201807051957010328Nu';"]
+ Thu, 05 Jul 2018 19:57:01  INFO test_api.py test_api [ line:46 ] 接口请求response data为：{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'Y', 'tradeMsg': '申请成功', 'errMsg': '申请成功', 'tradeCode': '0000', 'exObjFields': {}, 'key': None}
+ Thu, 05 Jul 2018 19:57:01  INFO test_api.py test_api [ line:47 ] 接口请求expected data为:{.*'errCode': '0000', 'tradeStatus': 'Y', 'tradeMsg': '申请成功', 'errMsg': '申请成功'.*}
+ Thu, 05 Jul 2018 19:57:01  INFO test_api.py test_api [ line:62 ] =====开始比对检验返回结果=======
+ Thu, 05 Jul 2018 19:57:01  INFO test_api.py test_api [ line:63 ] 正则表达式匹配模式
+ Thu, 05 Jul 2018 19:57:01  INFO test_api.py test_api [ line:66 ] 结果匹配，测试用例通过
+ Thu, 05 Jul 2018 19:57:01  INFO test_api.py test_api [ line:33 ] ================开始发送一次接口请求，请求信息如下===========
+ Thu, 05 Jul 2018 19:57:01  INFO test_api.py test_api [ line:34 ] 接口请求apiName：【调用轮询接口处理】
+ Thu, 05 Jul 2018 19:57:01  INFO test_api.py test_api [ line:35 ] 接口请求interface:com.wt.cts.service.ProductCoreTradeService
+ Thu, 05 Jul 2018 19:57:01  INFO test_api.py test_api [ line:36 ] 接口请求method:tradeContinueTask
+ Thu, 05 Jul 2018 19:57:01  INFO test_api.py test_api [ line:37 ] 接口请求data:""
+ Thu, 05 Jul 2018 19:57:01  INFO test_api.py test_api [ line:38 ] 接口请求sql:None
+ Thu, 05 Jul 2018 19:57:04  INFO test_api.py test_api [ line:46 ] 接口请求response data为：{'extFields': {}, 'errCode': '0000', 'tradeStatus': None, 'tradeMsg': None, 'errMsg': '申请成功', 'tradeCode': None, 'exObjFields': {}, 'key': None}
+ Thu, 05 Jul 2018 19:57:04  INFO test_api.py test_api [ line:47 ] 接口请求expected data为:None
+ Thu, 05 Jul 2018 19:57:04  INFO test_api.py test_api [ line:71 ] 无需验证响应结果
+ Thu, 05 Jul 2018 19:57:04  INFO test_api.py test_api [ line:86 ] 需要设置等待时间
+ Thu, 05 Jul 2018 19:59:04  INFO test_api.py test_api [ line:33 ] ================开始发送一次接口请求，请求信息如下===========
+ Thu, 05 Jul 2018 19:59:04  INFO test_api.py test_api [ line:34 ] 接口请求apiName：【购买后续】渠道1-官网购买随心投成功
+ Thu, 05 Jul 2018 19:59:04  INFO test_api.py test_api [ line:35 ] 接口请求interface:com.wt.cts.service.ProductCoreTradeService
+ Thu, 05 Jul 2018 19:59:04  INFO test_api.py test_api [ line:36 ] 接口请求method:tradeContinue
+ Thu, 05 Jul 2018 19:59:04  INFO test_api.py test_api [ line:37 ] 接口请求data:{"serialno":"201807051957010328Nu","isSend":"1","extFields":{"errCode":"0000", "errMsg":"交易成功", "tranSt":"Y"}}
+ Thu, 05 Jul 2018 19:59:04  INFO test_api.py test_api [ line:38 ] 接口请求sql:["SELECT * from cts.cts_traderequest WHERE SERIALNO='201807051957010328Nu';"]
+ Thu, 05 Jul 2018 19:59:04  INFO test_api.py test_api [ line:46 ] 接口请求response data为：{'extFields': {}, 'errCode': 'B012', 'tradeStatus': None, 'tradeMsg': None, 'errMsg': '交易状态已明确！', 'tradeCode': None, 'exObjFields': {}, 'key': None}
+ Thu, 05 Jul 2018 19:59:04  INFO test_api.py test_api [ line:47 ] 接口请求expected data为:{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'Y', 'tradeMsg': '申请成功！', 'errMsg': '申请成功', 'tradeCode': '0000', 'exObjFields': {}, 'key': None}
+ Thu, 05 Jul 2018 19:59:04  INFO test_api.py test_api [ line:53 ] =====开始比对检验返回结果=======
+ Thu, 05 Jul 2018 19:59:04  INFO test_api.py test_api [ line:54 ] 全值匹配模式
+ Thu, 05 Jul 2018 19:59:04  ERROR test_api.py test_api [ line:59 ] 全值结果比对失败原因为："{'extFields': {}, 'errCode': 'B012', 'tradeStatus': None, 'tradeMsg': None, 'errMsg': '交易状态已明确！', 'tradeCode': None, 'exObjFields': {}, 'key': None}" not found in "{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'Y', 'tradeMsg': '申请成功！', 'errMsg': '申请成功', 'tradeCode': '0000', 'exObjFields': {}, 'key': None}"
+Traceback (most recent call last):
+  File "H:\python3_apiTest\TestCases\test_api.py", line 56, in test_api
+    self.assertIn(str(res),case_data["expected_data"])
+  File "F:\python36\lib\unittest\case.py", line 1089, in assertIn
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "F:\python36\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: "{'extFields': {}, 'errCode': 'B012', 'tradeStatus': None, 'tradeMsg': None, 'errMsg': '交易状态已明确！', 'tradeCode': None, 'exObjFields': {}, 'key': None}" not found in "{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'Y', 'tradeMsg': '申请成功！', 'errMsg': '申请成功', 'tradeCode': '0000', 'exObjFields': {}, 'key': None}"

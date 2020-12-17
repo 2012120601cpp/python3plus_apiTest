@@ -1,0 +1,2 @@
+ Mon, 27 Aug 2018 16:17:02  INFO myLogger2.py <module> [ line:20 ] =========test start=========
+ Mon, 27 Aug 2018 16:17:03  INFO Doexcel.py get_init_datas [ line:24 ] 初始化数据为：{'${init_phone}': '13760200078', '${noRecommend_phone}': '13760200079', '${phone}': '13760200080'}

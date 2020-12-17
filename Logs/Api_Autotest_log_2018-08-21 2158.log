@@ -1,0 +1,827 @@
+ Tue, 21 Aug 2018 21:58:22  INFO myLogger2.py <module> [ line:20 ] =========test start=========
+ Tue, 21 Aug 2018 21:58:22  INFO Doexcel.py getAllCaseDatas [ line:57 ] 初始化之后的请求数据为：
+{"refercapno":"5B57DD261DFCbc4E",
+        "reemFlag":"1",
+        "selltype":1,
+        "periodic":"true",
+        "mixProd":"true",
+        "bigVCustno":"1503257540",
+        "honourFlag":"1",
+        "newFlag":"0",
+        "partPayment":"false",
+        "subquty":"10.00",
+        "feetp":"07",
+        "feemode":"1",
+        "feevalue":"0.01",
+        "serialno":"201808212158220240Xx",
+        "custno":"1538943811",
+        "apkind":"014",
+        "subapkind":"014001",
+        "apdt":"20180722",
+        "aptm":"113344",
+        "workdate":"20180722",
+        "tradeacco":"000621718538943814",
+        "taaccountid":"475A7FB19598436383",
+        "tano":"47",
+        "productid":"8901",
+        "sharetype":"A",
+        "accptmd":"1",
+        "branchcode":"247000",
+        "distributorcode":"247"}
+ Tue, 21 Aug 2018 21:58:22  INFO Doexcel.py getAllCaseDatas [ line:58 ] 初始化之后的sql语句为：
+["SELECT * from cts.cts_traderequest WHERE SERIALNO='201808212158220240Xx';"]
+ Tue, 21 Aug 2018 21:58:22  INFO Doexcel.py getAllCaseDatas [ line:57 ] 初始化之后的请求数据为：
+""
+ Tue, 21 Aug 2018 21:58:22  INFO Doexcel.py getAllCaseDatas [ line:58 ] 初始化之后的sql语句为：
+None
+ Tue, 21 Aug 2018 21:58:22  INFO Doexcel.py getAllCaseDatas [ line:57 ] 初始化之后的请求数据为：
+{"serialno":"201808212158220240Xx","isSend":"1",'extFields':{"errCode":"0000", "errMsg":"交易成功", "tranSt":"Y"}}
+ Tue, 21 Aug 2018 21:58:22  INFO Doexcel.py getAllCaseDatas [ line:58 ] 初始化之后的sql语句为：
+["SELECT * from cts.cts_traderequest WHERE SERIALNO='201808212158220240Xx' AND APPLYST='Y'AND TRANSST='Y' AND PAYST='Y';","SELECT * from cts.cts_tradequtychg WHERE REFERNO='201808212158220240Xx' AND PRODUCTID='9999'AND CHANGEQUTY='9.9';"]
+ Tue, 21 Aug 2018 21:58:22  INFO Doexcel.py getAllCaseDatas [ line:57 ] 初始化之后的请求数据为：
+{"refercapno":"5B57DD261DFCbc4E",
+        "reemFlag":"1",
+        "selltype":1,
+        "periodic":"true",
+        "mixProd":"true",
+        "bigVCustno":"1503257540",
+        "honourFlag":"1",
+        "newFlag":"0",
+        "partPayment":"false",
+        "subquty":"10.00",
+        "feetp":"07",
+        "feemode":"1",
+        "feevalue":"0.01",
+        "serialno":"201808212158220555kF",
+        "custno":"1538943811",
+        "apkind":"014",
+        "subapkind":"014001",
+        "apdt":"20180722",
+        "aptm":"113344",
+        "workdate":"20180722",
+        "tradeacco":"000621718538943814",
+        "taaccountid":"475A7FB19598436383",
+        "tano":"47",
+        "productid":"8901",
+        "sharetype":"A",
+        "accptmd":"1",
+        "branchcode":"247000",
+        "distributorcode":"247"}
+ Tue, 21 Aug 2018 21:58:22  INFO Doexcel.py getAllCaseDatas [ line:58 ] 初始化之后的sql语句为：
+["SELECT * from cts.cts_traderequest WHERE SERIALNO='201808212158220555kF';"]
+ Tue, 21 Aug 2018 21:58:22  INFO Doexcel.py getAllCaseDatas [ line:57 ] 初始化之后的请求数据为：
+""
+ Tue, 21 Aug 2018 21:58:22  INFO Doexcel.py getAllCaseDatas [ line:58 ] 初始化之后的sql语句为：
+None
+ Tue, 21 Aug 2018 21:58:22  INFO Doexcel.py getAllCaseDatas [ line:57 ] 初始化之后的请求数据为：
+{"serialno":"201808212158220555kF","isSend":"1",'extFields':{"errCode":"0000", "errMsg":"交易成功", "tranSt":"Y"}}
+ Tue, 21 Aug 2018 21:58:22  INFO Doexcel.py getAllCaseDatas [ line:58 ] 初始化之后的sql语句为：
+["SELECT * from cts.cts_traderequest WHERE SERIALNO='201808212158220555kF' AND APPLYST='Y'AND TRANSST='Y' AND PAYST='Y';","SELECT * from cts.cts_tradequtychg WHERE REFERNO='201808212158220555kF' AND PRODUCTID='8901'AND CHANGEQUTY='10';"]
+ Tue, 21 Aug 2018 21:58:22  INFO Doexcel.py getAllCaseDatas [ line:57 ] 初始化之后的请求数据为：
+{"refercapno":"5B57DD261DFCbc4E",
+        "sellCouponId":"5B569A9A006Abc55",
+        "reemFlag":"1",
+        "periodic":"true",
+        "mixProd":"true",
+        "bigVCustno":"1503257540",
+        "honourFlag":"1",
+        "newFlag":"0",
+        "partPayment":"false",
+        "subquty":"10.00",
+        "feetp":"07",
+        "feemode":"1",
+        "feevalue":"0.01",
+        "serialno":"20180821215822025yu",
+        "custno":"1538943811",
+        "apkind":"014",
+        "subapkind":"014001",
+        "apdt":"20180722",
+        "aptm":"113344",
+        "workdate":"20180722",
+        "tradeacco":"000621718538943814",
+        "taaccountid":"475A7FB19598436383",
+        "tano":"47",
+        "productid":"8901",
+        "sharetype":"A",
+        "accptmd":"1",
+        "branchcode":"247000",
+        "distributorcode":"247"}
+ Tue, 21 Aug 2018 21:58:22  INFO Doexcel.py getAllCaseDatas [ line:58 ] 初始化之后的sql语句为：
+["SELECT * from cts.cts_traderequest WHERE SERIALNO='20180821215822025yu';"]
+ Tue, 21 Aug 2018 21:58:22  INFO Doexcel.py getAllCaseDatas [ line:57 ] 初始化之后的请求数据为：
+""
+ Tue, 21 Aug 2018 21:58:22  INFO Doexcel.py getAllCaseDatas [ line:58 ] 初始化之后的sql语句为：
+None
+ Tue, 21 Aug 2018 21:58:22  INFO Doexcel.py getAllCaseDatas [ line:57 ] 初始化之后的请求数据为：
+{"serialno":"20180821215822025yu","isSend":"1",'extFields':{"errCode":"0000", "errMsg":"交易成功", "tranSt":"Y"}}
+ Tue, 21 Aug 2018 21:58:22  INFO Doexcel.py getAllCaseDatas [ line:58 ] 初始化之后的sql语句为：
+["SELECT * from cts.cts_traderequest WHERE SERIALNO='20180821215822025yu' AND APPLYST='Y'AND TRANSST='Y' AND PAYST='Y';","SELECT * from cts.cts_tradequtychg WHERE REFERNO='20180821215822025yu' AND PRODUCTID='9999'AND CHANGEQUTY='9.9';"]
+ Tue, 21 Aug 2018 21:58:22  INFO Doexcel.py getAllCaseDatas [ line:57 ] 初始化之后的请求数据为：
+{"refercapno":"5B57DD261DFCbc4E",
+        "sellCouponId":"5B569A9A006Abc55",
+        "reemFlag":"1",
+        "selltype":1,
+        "periodic":"true",
+        "mixProd":"true",
+        "bigVCustno":"1503257540",
+        "honourFlag":"1",
+        "newFlag":"0",
+        "partPayment":"false",
+        "subquty":"10.00",
+        "feetp":"07",
+        "feemode":"1",
+        "feevalue":"0.01",
+        "serialno":"201808212158220620Ry",
+        "custno":"1538943811",
+        "apkind":"014",
+        "subapkind":"014001",
+        "apdt":"20180722",
+        "aptm":"113344",
+        "workdate":"20180722",
+        "tradeacco":"000621718538943814",
+        "taaccountid":"475A7FB19598436383",
+        "tano":"47",
+        "productid":"8901",
+        "sharetype":"A",
+        "accptmd":"1",
+        "branchcode":"247000",
+        "distributorcode":"247"}
+ Tue, 21 Aug 2018 21:58:22  INFO Doexcel.py getAllCaseDatas [ line:58 ] 初始化之后的sql语句为：
+["SELECT * from cts.cts_traderequest WHERE SERIALNO='201808212158220620Ry';"]
+ Tue, 21 Aug 2018 21:58:22  INFO Doexcel.py getAllCaseDatas [ line:57 ] 初始化之后的请求数据为：
+""
+ Tue, 21 Aug 2018 21:58:22  INFO Doexcel.py getAllCaseDatas [ line:58 ] 初始化之后的sql语句为：
+None
+ Tue, 21 Aug 2018 21:58:22  INFO Doexcel.py getAllCaseDatas [ line:57 ] 初始化之后的请求数据为：
+{"serialno":"201808212158220620Ry","isSend":"1",'extFields':{"errCode":"0000", "errMsg":"交易成功", "tranSt":"Y"}}
+ Tue, 21 Aug 2018 21:58:22  INFO Doexcel.py getAllCaseDatas [ line:58 ] 初始化之后的sql语句为：
+["SELECT * from cts.cts_traderequest WHERE SERIALNO='201808212158220620Ry' AND APPLYST='Y'AND TRANSST='Y' AND PAYST='Y';","SELECT * from cts.cts_tradequtychg WHERE REFERNO='201808212158220620Ry' AND PRODUCTID='8901'AND CHANGEQUTY='10';"]
+ Tue, 21 Aug 2018 21:58:22  INFO Doexcel.py getAllCaseDatas [ line:57 ] 初始化之后的请求数据为：
+{"refercapno":"5B74EB0A001FbcAC",
+        "reemFlag":"1",
+        "selltype":1,
+        "periodic":"true",
+        "mixProd":"true",
+        "bigVCustno":"1503136940",
+        "honourFlag":"1",
+        "newFlag":"0",
+        "partPayment":"false",
+        "subquty":"10.00",
+        "feetp":"07",
+        "feemode":"1",
+        "feevalue":"0.01",
+        "serialno":"201808212158220897IO",
+        "custno":"1538943811",
+        "apkind":"014",
+        "subapkind":"014001",
+        "apdt":"20180815",
+        "aptm":"164500",
+        "workdate":"20180815",
+        "tradeacco":"000621718538943814",
+        "taaccountid":"475A7FB19598436383",
+        "tano":"47",
+        "productid":"8802",
+        "sharetype":"A",
+        "accptmd":"1",
+        "branchcode":"247000",
+        "distributorcode":"247"}
+ Tue, 21 Aug 2018 21:58:22  INFO Doexcel.py getAllCaseDatas [ line:58 ] 初始化之后的sql语句为：
+["SELECT * from cts.cts_traderequest WHERE SERIALNO='201808212158220897IO';"]
+ Tue, 21 Aug 2018 21:58:22  INFO Doexcel.py getAllCaseDatas [ line:57 ] 初始化之后的请求数据为：
+""
+ Tue, 21 Aug 2018 21:58:22  INFO Doexcel.py getAllCaseDatas [ line:58 ] 初始化之后的sql语句为：
+None
+ Tue, 21 Aug 2018 21:58:22  INFO Doexcel.py getAllCaseDatas [ line:57 ] 初始化之后的请求数据为：
+{"serialno":"201808212158220897IO","isSend":"1",'extFields':{"errCode":"0000", "errMsg":"交易成功", "tranSt":"Y"}}
+ Tue, 21 Aug 2018 21:58:22  INFO Doexcel.py getAllCaseDatas [ line:58 ] 初始化之后的sql语句为：
+["SELECT * from cts.cts_traderequest WHERE SERIALNO='201808212158220897IO' AND APPLYST='Y'AND TRANSST='Y' AND PAYST='Y';","SELECT * from cts.cts_tradequtychg WHERE REFERNO='201808212158220897IO' AND PRODUCTID='9999'AND CHANGEQUTY='9.9';"]
+ Tue, 21 Aug 2018 21:58:22  INFO Doexcel.py getAllCaseDatas [ line:57 ] 初始化之后的请求数据为：
+{"refercapno":"5B74EB0A001FbcAC",
+        "reemFlag":"1",
+        "selltype":1,
+        "periodic":"true",
+        "mixProd":"true",
+        "bigVCustno":"1503136940",
+        "honourFlag":"1",
+        "newFlag":"0",
+        "partPayment":"false",
+        "subquty":"10.00",
+        "feetp":"07",
+        "feemode":"1",
+        "feevalue":"0.01",
+        "serialno":"201808212158220298Ut",
+        "custno":"1538943811",
+        "apkind":"014",
+        "subapkind":"014001",
+        "apdt":"20180815",
+        "aptm":"164500",
+        "workdate":"20180815",
+        "tradeacco":"000621718538943814",
+        "taaccountid":"475A7FB19598436383",
+        "tano":"47",
+        "productid":"8802",
+        "sharetype":"A",
+        "accptmd":"1",
+        "branchcode":"247000",
+        "distributorcode":"247"}
+ Tue, 21 Aug 2018 21:58:22  INFO Doexcel.py getAllCaseDatas [ line:58 ] 初始化之后的sql语句为：
+["SELECT * from cts.cts_traderequest WHERE SERIALNO='201808212158220298Ut';"]
+ Tue, 21 Aug 2018 21:58:22  INFO Doexcel.py getAllCaseDatas [ line:57 ] 初始化之后的请求数据为：
+""
+ Tue, 21 Aug 2018 21:58:22  INFO Doexcel.py getAllCaseDatas [ line:58 ] 初始化之后的sql语句为：
+None
+ Tue, 21 Aug 2018 21:58:22  INFO Doexcel.py getAllCaseDatas [ line:57 ] 初始化之后的请求数据为：
+{"serialno":"201808212158220298Ut","isSend":"1",'extFields':{"errCode":"0000", "errMsg":"交易成功", "tranSt":"Y"}}
+ Tue, 21 Aug 2018 21:58:22  INFO Doexcel.py getAllCaseDatas [ line:58 ] 初始化之后的sql语句为：
+["SELECT * from cts.cts_traderequest WHERE SERIALNO='201808212158220298Ut' AND APPLYST='Y'AND TRANSST='Y' AND PAYST='Y';","SELECT * from cts.cts_tradequtychg WHERE REFERNO='201808212158220298Ut' AND PRODUCTID='8802'AND CHANGEQUTY='10';"]
+ Tue, 21 Aug 2018 21:58:22  INFO Doexcel.py getAllCaseDatas [ line:57 ] 初始化之后的请求数据为：
+{"refercapno":"5B74EB0A001FbcAC",
+        "sellCouponId":"5B569A9A006Abc55",
+        "reemFlag":"1",
+        "selltype":1,
+        "periodic":"true",
+        "mixProd":"true",
+        "bigVCustno":"1503136940",
+        "honourFlag":"1",
+        "newFlag":"0",
+        "partPayment":"false",
+        "subquty":"10.00",
+        "feetp":"07",
+        "feemode":"1",
+        "feevalue":"0.01",
+        "serialno":"zcvbr123s12sdf31",
+        "custno":"1538943811",
+        "apkind":"014",
+        "subapkind":"014001",
+        "apdt":"20180815",
+        "aptm":"164500",
+        "workdate":"20180815",
+        "tradeacco":"000621718538943814",
+        "taaccountid":"475A7FB19598436383",
+        "tano":"47",
+        "productid":"8802",
+        "sharetype":"A",
+        "accptmd":"1",
+        "branchcode":"247000",
+        "distributorcode":"247"}
+ Tue, 21 Aug 2018 21:58:22  INFO Doexcel.py getAllCaseDatas [ line:58 ] 初始化之后的sql语句为：
+["SELECT * from cts.cts_traderequest WHERE SERIALNO='temp_serial';"]
+ Tue, 21 Aug 2018 21:58:22  INFO Doexcel.py getAllCaseDatas [ line:57 ] 初始化之后的请求数据为：
+""
+ Tue, 21 Aug 2018 21:58:22  INFO Doexcel.py getAllCaseDatas [ line:58 ] 初始化之后的sql语句为：
+None
+ Tue, 21 Aug 2018 21:58:22  INFO Doexcel.py getAllCaseDatas [ line:57 ] 初始化之后的请求数据为：
+{"serialno":"zcvbr123s12sdf31","isSend":"1",'extFields':{"errCode":"0000", "errMsg":"交易成功", "tranSt":"Y"}}
+ Tue, 21 Aug 2018 21:58:22  INFO Doexcel.py getAllCaseDatas [ line:58 ] 初始化之后的sql语句为：
+["SELECT * from cts.cts_traderequest WHERE SERIALNO='zcvbr123s12sdf31' AND APPLYST='Y'AND TRANSST='Y' AND PAYST='Y';","SELECT * from cts.cts_tradequtychg WHERE REFERNO='zcvbr123s12sdf31' AND PRODUCTID='9999'AND CHANGEQUTY='9.9';"]
+ Tue, 21 Aug 2018 21:58:22  INFO Doexcel.py getAllCaseDatas [ line:57 ] 初始化之后的请求数据为：
+{"refercapno":"5B74EB0A001FbcAC",
+        "sellCouponId":"5B569A9A006Abc55",
+        "reemFlag":"1",
+        "selltype":1,
+        "periodic":"true",
+        "mixProd":"true",
+        "bigVCustno":"1503136940",
+        "honourFlag":"1",
+        "newFlag":"0",
+        "partPayment":"false",
+        "subquty":"10.00",
+        "feetp":"07",
+        "feemode":"1",
+        "feevalue":"0.01",
+        "serialno":"zcvbr123s12sdf31",
+        "custno":"1538943811",
+        "apkind":"014",
+        "subapkind":"014001",
+        "apdt":"20180815",
+        "aptm":"164500",
+        "workdate":"20180815",
+        "tradeacco":"000621718538943814",
+        "taaccountid":"475A7FB19598436383",
+        "tano":"47",
+        "productid":"8802",
+        "sharetype":"A",
+        "accptmd":"1",
+        "branchcode":"247000",
+        "distributorcode":"247"}
+ Tue, 21 Aug 2018 21:58:22  INFO Doexcel.py getAllCaseDatas [ line:58 ] 初始化之后的sql语句为：
+["SELECT * from cts.cts_traderequest WHERE SERIALNO='temp_serial';"]
+ Tue, 21 Aug 2018 21:58:22  INFO Doexcel.py getAllCaseDatas [ line:57 ] 初始化之后的请求数据为：
+""
+ Tue, 21 Aug 2018 21:58:22  INFO Doexcel.py getAllCaseDatas [ line:58 ] 初始化之后的sql语句为：
+None
+ Tue, 21 Aug 2018 21:58:22  INFO Doexcel.py getAllCaseDatas [ line:57 ] 初始化之后的请求数据为：
+{"serialno":"zcvbr123s12sdf31","isSend":"1",'extFields':{"errCode":"0000", "errMsg":"交易成功", "tranSt":"Y"}}
+ Tue, 21 Aug 2018 21:58:22  INFO Doexcel.py getAllCaseDatas [ line:58 ] 初始化之后的sql语句为：
+["SELECT * from cts.cts_traderequest WHERE SERIALNO='zcvbr123s12sdf31' AND APPLYST='Y'AND TRANSST='Y' AND PAYST='Y';","SELECT * from cts.cts_tradequtychg WHERE REFERNO='zcvbr123s12sdf31' AND PRODUCTID='8802'AND CHANGEQUTY='10';"]
+ Tue, 21 Aug 2018 21:58:22  INFO Doexcel.py getAllCaseDatas [ line:57 ] 初始化之后的请求数据为：
+{"refercapno":"5B57DE5B20F7bc4E",
+        "reemFlag":"1",
+        "selltype":1,
+        "periodic":"true",
+        "mixProd":"true",
+        "bigVCustno":"1597219235",
+        "honourFlag":"1",
+        "newFlag":"0",
+        "partPayment":"false",
+        "subquty":"10.00",
+        "feetp":"07",
+        "feemode":"1",
+        "feevalue":"0.01",
+        "serialno":"201808212158220374xa",
+        "custno":"1538943811",
+        "apkind":"014",
+        "subapkind":"014001",
+        "apdt":"20180815",
+        "aptm":"164500",
+        "workdate":"20180815",
+        "tradeacco":"000621718538943814",
+        "taaccountid":"475A7FB19598436383",
+        "tano":"47",
+        "productid":"8904",
+        "sharetype":"A",
+        "accptmd":"1",
+        "branchcode":"247000",
+        "distributorcode":"247"}
+ Tue, 21 Aug 2018 21:58:22  INFO Doexcel.py getAllCaseDatas [ line:58 ] 初始化之后的sql语句为：
+["SELECT * from cts.cts_traderequest WHERE SERIALNO='201808212158220374xa';"]
+ Tue, 21 Aug 2018 21:58:22  INFO Doexcel.py getAllCaseDatas [ line:57 ] 初始化之后的请求数据为：
+""
+ Tue, 21 Aug 2018 21:58:22  INFO Doexcel.py getAllCaseDatas [ line:58 ] 初始化之后的sql语句为：
+None
+ Tue, 21 Aug 2018 21:58:22  INFO Doexcel.py getAllCaseDatas [ line:57 ] 初始化之后的请求数据为：
+{"serialno":"201808212158220374xa","isSend":"1",'extFields':{"errCode":"0000", "errMsg":"交易成功", "tranSt":"Y"}}
+ Tue, 21 Aug 2018 21:58:22  INFO Doexcel.py getAllCaseDatas [ line:58 ] 初始化之后的sql语句为：
+["SELECT * from cts.cts_traderequest WHERE SERIALNO='201808212158220374xa' AND APPLYST='Y'AND TRANSST='Y' AND PAYST='Y';","SELECT * from cts.cts_tradequtychg WHERE REFERNO='201808212158220374xa' AND PRODUCTID='9999'AND CHANGEQUTY='9.9';"]
+ Tue, 21 Aug 2018 21:58:22  INFO Doexcel.py getAllCaseDatas [ line:57 ] 初始化之后的请求数据为：
+{"refercapno":"5B57DE5B20F7bc4E",
+        "reemFlag":"1",
+        "selltype":1,
+        "periodic":"true",
+        "mixProd":"true",
+        "bigVCustno":"1597219235",
+        "honourFlag":"1",
+        "newFlag":"0",
+        "partPayment":"false",
+        "subquty":"10.00",
+        "feetp":"07",
+        "feemode":"1",
+        "feevalue":"0.01",
+        "serialno":"201808212158220670KK",
+        "custno":"1538943811",
+        "apkind":"014",
+        "subapkind":"014001",
+        "apdt":"20180815",
+        "aptm":"164500",
+        "workdate":"20180815",
+        "tradeacco":"000621718538943814",
+        "taaccountid":"475A7FB19598436383",
+        "tano":"47",
+        "productid":"8904",
+        "sharetype":"A",
+        "accptmd":"1",
+        "branchcode":"247000",
+        "distributorcode":"247"}
+ Tue, 21 Aug 2018 21:58:22  INFO Doexcel.py getAllCaseDatas [ line:58 ] 初始化之后的sql语句为：
+["SELECT * from cts.cts_traderequest WHERE SERIALNO='201808212158220670KK';"]
+ Tue, 21 Aug 2018 21:58:22  INFO Doexcel.py getAllCaseDatas [ line:57 ] 初始化之后的请求数据为：
+""
+ Tue, 21 Aug 2018 21:58:22  INFO Doexcel.py getAllCaseDatas [ line:58 ] 初始化之后的sql语句为：
+None
+ Tue, 21 Aug 2018 21:58:22  INFO Doexcel.py getAllCaseDatas [ line:57 ] 初始化之后的请求数据为：
+{"serialno":"201808212158220670KK","isSend":"1",'extFields':{"errCode":"0000", "errMsg":"交易成功", "tranSt":"Y"}}
+ Tue, 21 Aug 2018 21:58:22  INFO Doexcel.py getAllCaseDatas [ line:58 ] 初始化之后的sql语句为：
+["SELECT * from cts.cts_traderequest WHERE SERIALNO='201808212158220670KK' AND APPLYST='Y'AND TRANSST='Y' AND PAYST='Y';","SELECT * from cts.cts_tradequtychg WHERE REFERNO='201808212158220670KK' AND PRODUCTID='8904'AND CHANGEQUTY='10';"]
+ Tue, 21 Aug 2018 21:58:22  INFO Doexcel.py getAllCaseDatas [ line:57 ] 初始化之后的请求数据为：
+{"refercapno":"5B57DE5B20F7bc4E",
+        "sellCouponId":"5B569A9A006Abc55",
+        "reemFlag":"1",
+        "selltype":1,
+        "periodic":"true",
+        "mixProd":"true",
+        "bigVCustno":"1597219235",
+        "honourFlag":"1",
+        "newFlag":"0",
+        "partPayment":"false",
+        "subquty":"10.00",
+        "feetp":"07",
+        "feemode":"1",
+        "feevalue":"0.01",
+        "serialno":"201808212158220613KK",
+        "custno":"1538943811",
+        "apkind":"014",
+        "subapkind":"014001",
+        "apdt":"20180815",
+        "aptm":"164500",
+        "workdate":"20180815",
+        "tradeacco":"000621718538943814",
+        "taaccountid":"475A7FB19598436383",
+        "tano":"47",
+        "productid":"8904",
+        "sharetype":"A",
+        "accptmd":"1",
+        "branchcode":"247000",
+        "distributorcode":"247"}
+ Tue, 21 Aug 2018 21:58:22  INFO Doexcel.py getAllCaseDatas [ line:58 ] 初始化之后的sql语句为：
+["SELECT * from cts.cts_traderequest WHERE SERIALNO='201808212158220613KK';"]
+ Tue, 21 Aug 2018 21:58:22  INFO Doexcel.py getAllCaseDatas [ line:57 ] 初始化之后的请求数据为：
+""
+ Tue, 21 Aug 2018 21:58:22  INFO Doexcel.py getAllCaseDatas [ line:58 ] 初始化之后的sql语句为：
+None
+ Tue, 21 Aug 2018 21:58:22  INFO Doexcel.py getAllCaseDatas [ line:57 ] 初始化之后的请求数据为：
+{"serialno":"201808212158220613KK","isSend":"1",'extFields':{"errCode":"0000", "errMsg":"交易成功", "tranSt":"Y"}}
+ Tue, 21 Aug 2018 21:58:22  INFO Doexcel.py getAllCaseDatas [ line:58 ] 初始化之后的sql语句为：
+["SELECT * from cts.cts_traderequest WHERE SERIALNO='201808212158220613KK' AND APPLYST='Y'AND TRANSST='Y' AND PAYST='Y';","SELECT * from cts.cts_tradequtychg WHERE REFERNO='201808212158220613KK' AND PRODUCTID='9999'AND CHANGEQUTY='9.9';"]
+ Tue, 21 Aug 2018 21:58:22  INFO Doexcel.py getAllCaseDatas [ line:57 ] 初始化之后的请求数据为：
+{"refercapno":"5B57DE5B20F7bc4E",
+        "sellCouponId":"5B569A9A006Abc55",
+        "reemFlag":"1",
+        "selltype":1,
+        "periodic":"true",
+        "mixProd":"true",
+        "bigVCustno":"1597219235",
+        "honourFlag":"1",
+        "newFlag":"0",
+        "partPayment":"false",
+        "subquty":"10.00",
+        "feetp":"07",
+        "feemode":"1",
+        "feevalue":"0.01",
+        "serialno":"201808212158220744Qz",
+        "custno":"1538943811",
+        "apkind":"014",
+        "subapkind":"014001",
+        "apdt":"20180815",
+        "aptm":"164500",
+        "workdate":"20180815",
+        "tradeacco":"000621718538943814",
+        "taaccountid":"475A7FB19598436383",
+        "tano":"47",
+        "productid":"8904",
+        "sharetype":"A",
+        "accptmd":"1",
+        "branchcode":"247000",
+        "distributorcode":"247"}
+ Tue, 21 Aug 2018 21:58:22  INFO Doexcel.py getAllCaseDatas [ line:58 ] 初始化之后的sql语句为：
+["SELECT * from cts.cts_traderequest WHERE SERIALNO='201808212158220744Qz';"]
+ Tue, 21 Aug 2018 21:58:22  INFO Doexcel.py getAllCaseDatas [ line:57 ] 初始化之后的请求数据为：
+""
+ Tue, 21 Aug 2018 21:58:22  INFO Doexcel.py getAllCaseDatas [ line:58 ] 初始化之后的sql语句为：
+None
+ Tue, 21 Aug 2018 21:58:22  INFO Doexcel.py getAllCaseDatas [ line:57 ] 初始化之后的请求数据为：
+{"serialno":"201808212158220744Qz","isSend":"1",'extFields':{"errCode":"0000", "errMsg":"交易成功", "tranSt":"Y"}}
+ Tue, 21 Aug 2018 21:58:22  INFO Doexcel.py getAllCaseDatas [ line:58 ] 初始化之后的sql语句为：
+["SELECT * from cts.cts_traderequest WHERE SERIALNO='201808212158220744Qz' AND APPLYST='Y'AND TRANSST='Y' AND PAYST='Y';","SELECT * from cts.cts_tradequtychg WHERE REFERNO='201808212158220744Qz' AND PRODUCTID='8904'AND CHANGEQUTY='10';"]
+ Tue, 21 Aug 2018 21:58:22  INFO Doexcel.py getAllCaseDatas [ line:57 ] 初始化之后的请求数据为：
+{"refercapno":"5B569C0E0225bc08",
+        "sellCouponId":"5B569A9A006Abc55",
+        "reemFlag":"0",
+        "selltype":1,
+        "periodic":"true",
+        "mixProd":"true",
+        "bigVCustno":"1503136940",
+        "honourFlag":"1",
+        "newFlag":"0",
+        "partPayment":"false",
+        "subquty":"10.00",
+        "feetp":"07",
+        "feemode":"1",
+        "feevalue":"0.0",
+        "serialno":"201808212158220409yZ",
+        "custno":"1538943811",
+        "apkind":"014",
+        "subapkind":"014001",
+        "apdt":"20180821",
+        "aptm":"164500",
+        "workdate":"20180821",
+        "tradeacco":"000621718538943814",
+        "taaccountid":"475A7FB19598436383",
+        "tano":"47",
+        "productid":"8802",
+        "sharetype":"A",
+        "accptmd":"1",
+        "branchcode":"247000",
+        "distributorcode":"247"}
+ Tue, 21 Aug 2018 21:58:22  INFO Doexcel.py getAllCaseDatas [ line:58 ] 初始化之后的sql语句为：
+["SELECT * from cts.cts_traderequest WHERE SERIALNO='201808212158220409yZ';"]
+ Tue, 21 Aug 2018 21:58:22  INFO Doexcel.py getAllCaseDatas [ line:57 ] 初始化之后的请求数据为：
+""
+ Tue, 21 Aug 2018 21:58:22  INFO Doexcel.py getAllCaseDatas [ line:58 ] 初始化之后的sql语句为：
+None
+ Tue, 21 Aug 2018 21:58:22  INFO Doexcel.py getAllCaseDatas [ line:57 ] 初始化之后的请求数据为：
+{"serialno":"201808212158220409yZ","isSend":"1",'extFields':{"errCode":"0000", "errMsg":"交易成功", "tranSt":"Y"}}
+ Tue, 21 Aug 2018 21:58:22  INFO Doexcel.py getAllCaseDatas [ line:58 ] 初始化之后的sql语句为：
+["SELECT * from cts.cts_traderequest WHERE SERIALNO='201808212158220409yZ' AND APPLYST='Y'AND TRANSST='Y' AND PAYST='Y';","SELECT * from cts.cts_tradequtychg WHERE REFERNO='201808212158220409yZ' AND PRODUCTID='9999'AND CHANGEQUTY='9.9';"]
+ Tue, 21 Aug 2018 21:58:22  INFO Doexcel.py getAllCaseDatas [ line:57 ] 初始化之后的请求数据为：
+{"refercapno":"5B569C0E0225bc08",
+        "sellCouponId":"5B569A9A006Abc55",
+        "reemFlag":"0",
+        "selltype":1,
+        "periodic":"true",
+        "mixProd":"true",
+        "bigVCustno":"1503136940",
+        "honourFlag":"1",
+        "newFlag":"0",
+        "partPayment":"false",
+        "subquty":"10.00",
+        "feetp":"07",
+        "feemode":"1",
+        "feevalue":"0.0",
+        "serialno":"201808212158220996Sg",
+        "custno":"1538943811",
+        "apkind":"014",
+        "subapkind":"014001",
+        "apdt":"20180821",
+        "aptm":"164500",
+        "workdate":"20180821",
+        "tradeacco":"000621718538943814",
+        "taaccountid":"475A7FB19598436383",
+        "tano":"47",
+        "productid":"8802",
+        "sharetype":"A",
+        "accptmd":"1",
+        "branchcode":"247000",
+        "distributorcode":"247"}
+ Tue, 21 Aug 2018 21:58:22  INFO Doexcel.py getAllCaseDatas [ line:58 ] 初始化之后的sql语句为：
+["SELECT * from cts.cts_traderequest WHERE SERIALNO='201808212158220996Sg';"]
+ Tue, 21 Aug 2018 21:58:22  INFO Doexcel.py getAllCaseDatas [ line:57 ] 初始化之后的请求数据为：
+""
+ Tue, 21 Aug 2018 21:58:22  INFO Doexcel.py getAllCaseDatas [ line:58 ] 初始化之后的sql语句为：
+None
+ Tue, 21 Aug 2018 21:58:22  INFO Doexcel.py getAllCaseDatas [ line:57 ] 初始化之后的请求数据为：
+{"serialno":"201808212158220996Sg","isSend":"1",'extFields':{"errCode":"0000", "errMsg":"交易成功", "tranSt":"Y"}}
+ Tue, 21 Aug 2018 21:58:22  INFO Doexcel.py getAllCaseDatas [ line:58 ] 初始化之后的sql语句为：
+["SELECT * from cts.cts_traderequest WHERE SERIALNO='201808212158220996Sg' AND APPLYST='Y'AND TRANSST='Y' AND PAYST='Y';","SELECT * from cts.cts_tradequtychg WHERE REFERNO='201808212158220996Sg' AND PRODUCTID='8901'AND CHANGEQUTY='10';"]
+ Tue, 21 Aug 2018 21:58:22  INFO Doexcel.py getAllCaseDatas [ line:57 ] 初始化之后的请求数据为：
+{"refercapno":"5B569C0E0225bc08",
+        "sellCouponId":"5B569A9A006Abc55",
+        "reemFlag":"0",
+        "selltype":1,
+        "periodic":"true",
+        "mixProd":"true",
+        "bigVCustno":"1503136940",
+        "honourFlag":"1",
+        "newFlag":"0",
+        "partPayment":"false",
+        "subquty":"10.00",
+        "feetp":"07",
+        "feemode":"1",
+        "feevalue":"0.0",
+        "serialno":"201808212158220974PT",
+        "custno":"1538943811",
+        "apkind":"014",
+        "subapkind":"014001",
+        "apdt":"20170820",
+        "aptm":"164500",
+        "workdate":"20170820",
+        "tradeacco":"000621718538943814",
+        "taaccountid":"475A7FB19598436383",
+        "tano":"47",
+        "productid":"8802",
+        "sharetype":"A",
+        "accptmd":"1",
+        "branchcode":"247000",
+        "distributorcode":"247"}
+ Tue, 21 Aug 2018 21:58:22  INFO Doexcel.py getAllCaseDatas [ line:58 ] 初始化之后的sql语句为：
+["SELECT * from cts.cts_traderequest WHERE SERIALNO='201808212158220974PT';"]
+ Tue, 21 Aug 2018 21:58:22  INFO Doexcel.py getAllCaseDatas [ line:57 ] 初始化之后的请求数据为：
+{"refercapno":"5B57DD261DFCbc4E",
+        "reemFlag":"0",
+        "selltype":1,
+        "periodic":"true",
+        "mixProd":"true",
+        "bigVCustno":"1503257540",
+        "honourFlag":"1",
+        "newFlag":"0",
+        "partPayment":"false",
+        "subquty":"10.00",
+        "feetp":"07",
+        "feemode":"1",
+        "feevalue":"0.0",
+        "serialno":"201808212158220930Lv",
+        "custno":"1538943811",
+        "apkind":"014",
+        "subapkind":"014001",
+        "apdt":"20180821",
+        "aptm":"164500",
+        "workdate":"20180821",
+        "tradeacco":"000621718538943814",
+        "taaccountid":"475A7FB19598436383",
+        "tano":"47",
+        "productid":"8901",
+        "sharetype":"A",
+        "accptmd":"1",
+        "branchcode":"247000",
+        "distributorcode":"247"}
+ Tue, 21 Aug 2018 21:58:22  INFO Doexcel.py getAllCaseDatas [ line:58 ] 初始化之后的sql语句为：
+["SELECT * from cts.cts_traderequest WHERE SERIALNO='201808212158220930Lv';"]
+ Tue, 21 Aug 2018 21:58:22  INFO Doexcel.py getAllCaseDatas [ line:57 ] 初始化之后的请求数据为：
+""
+ Tue, 21 Aug 2018 21:58:22  INFO Doexcel.py getAllCaseDatas [ line:58 ] 初始化之后的sql语句为：
+None
+ Tue, 21 Aug 2018 21:58:22  INFO Doexcel.py getAllCaseDatas [ line:57 ] 初始化之后的请求数据为：
+{"serialno":"201808212158220930Lv","isSend":"1",'extFields':{"errCode":"0000", "errMsg":"交易成功", "tranSt":"Y"}}
+ Tue, 21 Aug 2018 21:58:22  INFO Doexcel.py getAllCaseDatas [ line:58 ] 初始化之后的sql语句为：
+["SELECT * from cts.cts_traderequest WHERE SERIALNO='201808212158220930Lv' AND APPLYST='Y'AND TRANSST='Y' AND PAYST='Y';","SELECT * from cts.cts_tradequtychg WHERE REFERNO='201808212158220930Lv' AND PRODUCTID='9999'AND CHANGEQUTY='9.9';"]
+ Tue, 21 Aug 2018 21:58:22  INFO Doexcel.py getAllCaseDatas [ line:57 ] 初始化之后的请求数据为：
+{"refercapno":"5B57DD261DFCbc4E",
+        "reemFlag":"0",
+        "selltype":1,
+        "periodic":"true",
+        "mixProd":"true",
+        "bigVCustno":"1503257540",
+        "honourFlag":"1",
+        "newFlag":"0",
+        "partPayment":"false",
+        "subquty":"10.00",
+        "feetp":"07",
+        "feemode":"1",
+        "feevalue":"0.0",
+        "serialno":"201808212158220465hO",
+        "custno":"1538943811",
+        "apkind":"014",
+        "subapkind":"014001",
+        "apdt":"20180821",
+        "aptm":"164500",
+        "workdate":"20180821",
+        "tradeacco":"000621718538943814",
+        "taaccountid":"475A7FB19598436383",
+        "tano":"47",
+        "productid":"8901",
+        "sharetype":"A",
+        "accptmd":"1",
+        "branchcode":"247000",
+        "distributorcode":"247"}
+ Tue, 21 Aug 2018 21:58:22  INFO Doexcel.py getAllCaseDatas [ line:58 ] 初始化之后的sql语句为：
+["SELECT * from cts.cts_traderequest WHERE SERIALNO='201808212158220465hO';"]
+ Tue, 21 Aug 2018 21:58:22  INFO Doexcel.py getAllCaseDatas [ line:57 ] 初始化之后的请求数据为：
+""
+ Tue, 21 Aug 2018 21:58:22  INFO Doexcel.py getAllCaseDatas [ line:58 ] 初始化之后的sql语句为：
+None
+ Tue, 21 Aug 2018 21:58:22  INFO Doexcel.py getAllCaseDatas [ line:57 ] 初始化之后的请求数据为：
+{"serialno":"201808212158220465hO","isSend":"1",'extFields':{"errCode":"0000", "errMsg":"交易成功", "tranSt":"Y"}}
+ Tue, 21 Aug 2018 21:58:22  INFO Doexcel.py getAllCaseDatas [ line:58 ] 初始化之后的sql语句为：
+["SELECT * from cts.cts_traderequest WHERE SERIALNO='201808212158220465hO' AND APPLYST='Y'AND TRANSST='Y' AND PAYST='Y';","SELECT * from cts.cts_tradequtychg WHERE REFERNO='201808212158220465hO' AND PRODUCTID='8901'AND CHANGEQUTY='10';"]
+ Tue, 21 Aug 2018 21:58:22  INFO Doexcel.py getAllCaseDatas [ line:57 ] 初始化之后的请求数据为：
+{"refercapno":"5B57DD261DFCbc4E",
+        "reemFlag":"0",
+        "selltype":1,
+        "periodic":"true",
+        "mixProd":"true",
+        "bigVCustno":"1503257540",
+        "honourFlag":"1",
+        "newFlag":"0",
+        "partPayment":"false",
+        "subquty":"10.00",
+        "feetp":"07",
+        "feemode":"1",
+        "feevalue":"0.0",
+        "serialno":"201808212158220305Sx",
+        "custno":"1538943811",
+        "apkind":"014",
+        "subapkind":"014001",
+        "apdt":"20170820",
+        "aptm":"164500",
+        "workdate":"20170820",
+        "tradeacco":"000621718538943814",
+        "taaccountid":"475A7FB19598436383",
+        "tano":"47",
+        "productid":"8901",
+        "sharetype":"A",
+        "accptmd":"1",
+        "branchcode":"247000",
+        "distributorcode":"247"}
+ Tue, 21 Aug 2018 21:58:22  INFO Doexcel.py getAllCaseDatas [ line:58 ] 初始化之后的sql语句为：
+["SELECT * from cts.cts_traderequest WHERE SERIALNO='201808212158220305Sx';"]
+ Tue, 21 Aug 2018 21:58:22  INFO Doexcel.py getAllCaseDatas [ line:57 ] 初始化之后的请求数据为：
+{"refercapno":"5B7A57C6008EbcA4",
+        "reemFlag":"0",
+        "selltype":1,
+        "periodic":"true",
+        "mixProd":"true",
+        "bigVCustno":"1597219235",
+        "honourFlag":"1",
+        "newFlag":"0",
+        "partPayment":"false",
+        "subquty":"10.00",
+        "feetp":"07",
+        "feemode":"1",
+        "feevalue":"0.0",
+        "serialno":"201808212158220923cx",
+        "custno":"1538943811",
+        "apkind":"014",
+        "subapkind":"014001",
+        "apdt":"20180821",
+        "aptm":"164500",
+        "workdate":"20180821",
+        "tradeacco":"000621718538943814",
+        "taaccountid":"475A7FB19598436383",
+        "tano":"47",
+        "productid":"8904",
+        "sharetype":"A",
+        "accptmd":"1",
+        "branchcode":"247000",
+        "distributorcode":"247"}
+ Tue, 21 Aug 2018 21:58:22  INFO Doexcel.py getAllCaseDatas [ line:58 ] 初始化之后的sql语句为：
+["SELECT * from cts.cts_traderequest WHERE SERIALNO='201808212158220923cx';"]
+ Tue, 21 Aug 2018 21:58:22  INFO Doexcel.py getAllCaseDatas [ line:57 ] 初始化之后的请求数据为：
+""
+ Tue, 21 Aug 2018 21:58:22  INFO Doexcel.py getAllCaseDatas [ line:58 ] 初始化之后的sql语句为：
+None
+ Tue, 21 Aug 2018 21:58:22  INFO Doexcel.py getAllCaseDatas [ line:57 ] 初始化之后的请求数据为：
+{"serialno":"201808212158220923cx","isSend":"1",'extFields':{"errCode":"0000", "errMsg":"交易成功", "tranSt":"Y"}}
+ Tue, 21 Aug 2018 21:58:22  INFO Doexcel.py getAllCaseDatas [ line:58 ] 初始化之后的sql语句为：
+["SELECT * from cts.cts_traderequest WHERE SERIALNO='201808212158220923cx' AND APPLYST='Y'AND TRANSST='Y' AND PAYST='Y';","SELECT * from cts.cts_tradequtychg WHERE REFERNO='201808212158220923cx' AND PRODUCTID='9999'AND CHANGEQUTY='9.9';"]
+ Tue, 21 Aug 2018 21:58:22  INFO Doexcel.py getAllCaseDatas [ line:57 ] 初始化之后的请求数据为：
+{"refercapno":"5B7A57C6008EbcA4",
+        "reemFlag":"0",
+        "selltype":1,
+        "periodic":"true",
+        "mixProd":"true",
+        "bigVCustno":"1597219235",
+        "honourFlag":"1",
+        "newFlag":"0",
+        "partPayment":"false",
+        "subquty":"10.00",
+        "feetp":"07",
+        "feemode":"1",
+        "feevalue":"0.0",
+        "serialno":"201808212158220233FI",
+        "custno":"1538943811",
+        "apkind":"014",
+        "subapkind":"014001",
+        "apdt":"20180821",
+        "aptm":"164500",
+        "workdate":"20180821",
+        "tradeacco":"000621718538943814",
+        "taaccountid":"475A7FB19598436383",
+        "tano":"47",
+        "productid":"8904",
+        "sharetype":"A",
+        "accptmd":"1",
+        "branchcode":"247000",
+        "distributorcode":"247"}
+ Tue, 21 Aug 2018 21:58:22  INFO Doexcel.py getAllCaseDatas [ line:58 ] 初始化之后的sql语句为：
+["SELECT * from cts.cts_traderequest WHERE SERIALNO='201808212158220233FI';"]
+ Tue, 21 Aug 2018 21:58:22  INFO Doexcel.py getAllCaseDatas [ line:57 ] 初始化之后的请求数据为：
+""
+ Tue, 21 Aug 2018 21:58:22  INFO Doexcel.py getAllCaseDatas [ line:58 ] 初始化之后的sql语句为：
+None
+ Tue, 21 Aug 2018 21:58:22  INFO Doexcel.py getAllCaseDatas [ line:57 ] 初始化之后的请求数据为：
+{"serialno":"201808212158220233FI","isSend":"1",'extFields':{"errCode":"0000", "errMsg":"交易成功", "tranSt":"Y"}}
+ Tue, 21 Aug 2018 21:58:22  INFO Doexcel.py getAllCaseDatas [ line:58 ] 初始化之后的sql语句为：
+["SELECT * from cts.cts_traderequest WHERE SERIALNO='201808212158220233FI' AND APPLYST='Y'AND TRANSST='Y' AND PAYST='Y';","SELECT * from cts.cts_tradequtychg WHERE REFERNO='201808212158220233FI' AND PRODUCTID='8904'AND CHANGEQUTY='10';"]
+ Tue, 21 Aug 2018 21:58:22  INFO Doexcel.py getAllCaseDatas [ line:57 ] 初始化之后的请求数据为：
+{"refercapno":"5B7A57C6008EbcA4",
+        "reemFlag":"0",
+        "selltype":1,
+        "periodic":"true",
+        "mixProd":"true",
+        "bigVCustno":"1597219235",
+        "honourFlag":"1",
+        "newFlag":"0",
+        "partPayment":"false",
+        "subquty":"10.00",
+        "feetp":"07",
+        "feemode":"1",
+        "feevalue":"0.0",
+        "serialno":"201808212158220720OQ",
+        "custno":"1538943811",
+        "apkind":"014",
+        "subapkind":"014001",
+        "apdt":"20170820",
+        "aptm":"164500",
+        "workdate":"20170820",
+        "tradeacco":"000621718538943814",
+        "taaccountid":"475A7FB19598436383",
+        "tano":"47",
+        "productid":"8904",
+        "sharetype":"A",
+        "accptmd":"1",
+        "branchcode":"247000",
+        "distributorcode":"247"}
+ Tue, 21 Aug 2018 21:58:22  INFO Doexcel.py getAllCaseDatas [ line:58 ] 初始化之后的sql语句为：
+["SELECT * from cts.cts_traderequest WHERE SERIALNO='201808212158220720OQ';"]
+ Tue, 21 Aug 2018 21:58:22  INFO test_api.py <module> [ line:19 ] 所有的测试数据为：[{'case_id': 1, 'api_name': '【组合卖出】季季升产品提前卖出申请', 'interface': 'com.wt.cts.service.ProductCoreTradeService', 'method': 'sellToVacco', 'request_data': '{"refercapno":"5B57DD261DFCbc4E",\n        "reemFlag":"1",\n        "selltype":1,\n        "periodic":"true",\n        "mixProd":"true",\n        "bigVCustno":"1503257540",\n        "honourFlag":"1",\n        "newFlag":"0",\n        "partPayment":"false",\n        "subquty":"10.00",\n        "feetp":"07",\n        "feemode":"1",\n        "feevalue":"0.01",\n        "serialno":"201808212158220240Xx",\n        "custno":"1538943811",\n        "apkind":"014",\n        "subapkind":"014001",\n        "apdt":"20180722",\n        "aptm":"113344",\n        "workdate":"20180722",\n        "tradeacco":"000621718538943814",\n        "taaccountid":"475A7FB19598436383",\n        "tano":"47",\n        "productid":"8901",\n        "sharetype":"A",\n        "accptmd":"1",\n        "branchcode":"247000",\n        "distributorcode":"247"}', 'execute_sql': '["SELECT * from cts.cts_traderequest WHERE SERIALNO=\'201808212158220240Xx\';"]', 'expected_data': "{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'Y', 'tradeMsg': '申请成功', 'errMsg': '申请成功', 'tradeCode': '0000', 'exObjFields': {}, 'key': None}", 'affected_caseId': 3, 'compare_type': 0, 'wait_time': None}, {'case_id': 2, 'api_name': '【调用轮询接口处理交易请求】', 'interface': 'com.wt.cts.service.ProductCoreTradeService', 'method': 'tradeContinueTask', 'request_data': '""', 'execute_sql': None, 'expected_data': None, 'affected_caseId': None, 'compare_type': None, 'wait_time': 1}, {'case_id': 3, 'api_name': '【卖出后续接口】季季升产品提前卖出成功', 'interface': 'com.wt.cts.service.ProductCoreTradeService', 'method': 'tradeContinue', 'request_data': '{"serialno":"201808212158220240Xx","isSend":"1",\'extFields\':{"errCode":"0000", "errMsg":"交易成功", "tranSt":"Y"}}', 'execute_sql': '["SELECT * from cts.cts_traderequest WHERE SERIALNO=\'201808212158220240Xx\' AND APPLYST=\'Y\'AND TRANSST=\'Y\' AND PAYST=\'Y\';","SELECT * from cts.cts_tradequtychg WHERE REFERNO=\'201808212158220240Xx\' AND PRODUCTID=\'9999\'AND CHANGEQUTY=\'9.9\';"]', 'expected_data': "{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'Y', 'tradeMsg': '申请成功！', 'errMsg': '申请成功', 'tradeCode': '0000', 'exObjFields': {}, 'key': None}", 'affected_caseId': None, 'compare_type': 0, 'wait_time': None}, {'case_id': 4, 'api_name': '【组合卖出】季季升产品提前卖出申请', 'interface': 'com.wt.cts.service.ProductCoreTradeService', 'method': 'sellToVacco', 'request_data': '{"refercapno":"5B57DD261DFCbc4E",\n        "reemFlag":"1",\n        "selltype":1,\n        "periodic":"true",\n        "mixProd":"true",\n        "bigVCustno":"1503257540",\n        "honourFlag":"1",\n        "newFlag":"0",\n        "partPayment":"false",\n        "subquty":"10.00",\n        "feetp":"07",\n        "feemode":"1",\n        "feevalue":"0.01",\n        "serialno":"201808212158220555kF",\n        "custno":"1538943811",\n        "apkind":"014",\n        "subapkind":"014001",\n        "apdt":"20180722",\n        "aptm":"113344",\n        "workdate":"20180722",\n        "tradeacco":"000621718538943814",\n        "taaccountid":"475A7FB19598436383",\n        "tano":"47",\n        "productid":"8901",\n        "sharetype":"A",\n        "accptmd":"1",\n        "branchcode":"247000",\n        "distributorcode":"247"}', 'execute_sql': '["SELECT * from cts.cts_traderequest WHERE SERIALNO=\'201808212158220555kF\';"]', 'expected_data': "{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'Y', 'tradeMsg': '申请成功', 'errMsg': '申请成功', 'tradeCode': '0000', 'exObjFields': {}, 'key': None}", 'affected_caseId': 6, 'compare_type': 0, 'wait_time': None}, {'case_id': 5, 'api_name': '【调用轮询接口处理交易请求】', 'interface': 'com.wt.cts.service.ProductCoreTradeService', 'method': 'tradeContinueTask', 'request_data': '""', 'execute_sql': None, 'expected_data': None, 'affected_caseId': None, 'compare_type': None, 'wait_time': 1}, {'case_id': 6, 'api_name': '【卖出后续接口】季季升产品提前卖出失败', 'interface': 'com.wt.cts.service.ProductCoreTradeService', 'method': 'tradeContinue', 'request_data': '{"serialno":"201808212158220555kF","isSend":"1",\'extFields\':{"errCode":"0000", "errMsg":"交易成功", "tranSt":"Y"}}', 'execute_sql': '["SELECT * from cts.cts_traderequest WHERE SERIALNO=\'201808212158220555kF\' AND APPLYST=\'Y\'AND TRANSST=\'Y\' AND PAYST=\'Y\';","SELECT * from cts.cts_tradequtychg WHERE REFERNO=\'201808212158220555kF\' AND PRODUCTID=\'8901\'AND CHANGEQUTY=\'10\';"]', 'expected_data': "{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'F', 'tradeMsg': '浜ゆ槗澶辫触', 'errMsg': '申请成功', 'tradeCode': '0001', 'exObjFields': {}, 'key': None}", 'affected_caseId': None, 'compare_type': 0, 'wait_time': None}, {'case_id': 7, 'api_name': '【组合卖出】使用优惠券季季升产品提前卖出申请', 'interface': 'com.wt.cts.service.ProductCoreTradeService', 'method': 'sellToVacco', 'request_data': '{"refercapno":"5B57DD261DFCbc4E",\n        "sellCouponId":"5B569A9A006Abc55",\n        "reemFlag":"1",\n        "periodic":"true",\n        "mixProd":"true",\n        "bigVCustno":"1503257540",\n        "honourFlag":"1",\n        "newFlag":"0",\n        "partPayment":"false",\n        "subquty":"10.00",\n        "feetp":"07",\n        "feemode":"1",\n        "feevalue":"0.01",\n        "serialno":"20180821215822025yu",\n        "custno":"1538943811",\n        "apkind":"014",\n        "subapkind":"014001",\n        "apdt":"20180722",\n        "aptm":"113344",\n        "workdate":"20180722",\n        "tradeacco":"000621718538943814",\n        "taaccountid":"475A7FB19598436383",\n        "tano":"47",\n        "productid":"8901",\n        "sharetype":"A",\n        "accptmd":"1",\n        "branchcode":"247000",\n        "distributorcode":"247"}', 'execute_sql': '["SELECT * from cts.cts_traderequest WHERE SERIALNO=\'20180821215822025yu\';"]', 'expected_data': "{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'Y', 'tradeMsg': '申请成功', 'errMsg': '申请成功', 'tradeCode': '0000', 'exObjFields': {}, 'key': None}", 'affected_caseId': 9, 'compare_type': 0, 'wait_time': None}, {'case_id': 8, 'api_name': '【调用轮询接口处理交易请求】', 'interface': 'com.wt.cts.service.ProductCoreTradeService', 'method': 'tradeContinueTask', 'request_data': '""', 'execute_sql': None, 'expected_data': None, 'affected_caseId': None, 'compare_type': None, 'wait_time': 1}, {'case_id': 9, 'api_name': '【卖出后续接口】使用优惠券季季升产品提前卖出成功', 'interface': 'com.wt.cts.service.ProductCoreTradeService', 'method': 'tradeContinue', 'request_data': '{"serialno":"20180821215822025yu","isSend":"1",\'extFields\':{"errCode":"0000", "errMsg":"交易成功", "tranSt":"Y"}}', 'execute_sql': '["SELECT * from cts.cts_traderequest WHERE SERIALNO=\'20180821215822025yu\' AND APPLYST=\'Y\'AND TRANSST=\'Y\' AND PAYST=\'Y\';","SELECT * from cts.cts_tradequtychg WHERE REFERNO=\'20180821215822025yu\' AND PRODUCTID=\'9999\'AND CHANGEQUTY=\'9.9\';"]', 'expected_data': "{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'Y', 'tradeMsg': '申请成功！', 'errMsg': '申请成功', 'tradeCode': '0000', 'exObjFields': {}, 'key': None}", 'affected_caseId': None, 'compare_type': 0, 'wait_time': None}, {'case_id': 10, 'api_name': '【组合卖出】使用优惠券季季升产品提前卖出申请', 'interface': 'com.wt.cts.service.ProductCoreTradeService', 'method': 'sellToVacco', 'request_data': '{"refercapno":"5B57DD261DFCbc4E",\n        "sellCouponId":"5B569A9A006Abc55",\n        "reemFlag":"1",\n        "selltype":1,\n        "periodic":"true",\n        "mixProd":"true",\n        "bigVCustno":"1503257540",\n        "honourFlag":"1",\n        "newFlag":"0",\n        "partPayment":"false",\n        "subquty":"10.00",\n        "feetp":"07",\n        "feemode":"1",\n        "feevalue":"0.01",\n        "serialno":"201808212158220620Ry",\n        "custno":"1538943811",\n        "apkind":"014",\n        "subapkind":"014001",\n        "apdt":"20180722",\n        "aptm":"113344",\n        "workdate":"20180722",\n        "tradeacco":"000621718538943814",\n        "taaccountid":"475A7FB19598436383",\n        "tano":"47",\n        "productid":"8901",\n        "sharetype":"A",\n        "accptmd":"1",\n        "branchcode":"247000",\n        "distributorcode":"247"}', 'execute_sql': '["SELECT * from cts.cts_traderequest WHERE SERIALNO=\'201808212158220620Ry\';"]', 'expected_data': "{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'Y', 'tradeMsg': '申请成功', 'errMsg': '申请成功', 'tradeCode': '0000', 'exObjFields': {}, 'key': None}", 'affected_caseId': 12, 'compare_type': 0, 'wait_time': None}, {'case_id': 11, 'api_name': '【调用轮询接口处理交易请求】', 'interface': 'com.wt.cts.service.ProductCoreTradeService', 'method': 'tradeContinueTask', 'request_data': '""', 'execute_sql': None, 'expected_data': None, 'affected_caseId': None, 'compare_type': None, 'wait_time': 1}, {'case_id': 12, 'api_name': '【卖出后续接口】使用优惠券季季升产品提前卖出失败', 'interface': 'com.wt.cts.service.ProductCoreTradeService', 'method': 'tradeContinue', 'request_data': '{"serialno":"201808212158220620Ry","isSend":"1",\'extFields\':{"errCode":"0000", "errMsg":"交易成功", "tranSt":"Y"}}', 'execute_sql': '["SELECT * from cts.cts_traderequest WHERE SERIALNO=\'201808212158220620Ry\' AND APPLYST=\'Y\'AND TRANSST=\'Y\' AND PAYST=\'Y\';","SELECT * from cts.cts_tradequtychg WHERE REFERNO=\'201808212158220620Ry\' AND PRODUCTID=\'8901\'AND CHANGEQUTY=\'10\';"]', 'expected_data': "{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'F', 'tradeMsg': '浜ゆ槗澶辫触', 'errMsg': '申请成功', 'tradeCode': '0001', 'exObjFields': {}, 'key': None}", 'affected_caseId': None, 'compare_type': 0, 'wait_time': None}, {'case_id': 13, 'api_name': '【组合卖出】月月盈产品提前卖出申请', 'interface': 'com.wt.cts.service.ProductCoreTradeService', 'method': 'sellToVacco', 'request_data': '{"refercapno":"5B74EB0A001FbcAC",\n        "reemFlag":"1",\n        "selltype":1,\n        "periodic":"true",\n        "mixProd":"true",\n        "bigVCustno":"1503136940",\n        "honourFlag":"1",\n        "newFlag":"0",\n        "partPayment":"false",\n        "subquty":"10.00",\n        "feetp":"07",\n        "feemode":"1",\n        "feevalue":"0.01",\n        "serialno":"201808212158220897IO",\n        "custno":"1538943811",\n        "apkind":"014",\n        "subapkind":"014001",\n        "apdt":"20180815",\n        "aptm":"164500",\n        "workdate":"20180815",\n        "tradeacco":"000621718538943814",\n        "taaccountid":"475A7FB19598436383",\n        "tano":"47",\n        "productid":"8802",\n        "sharetype":"A",\n        "accptmd":"1",\n        "branchcode":"247000",\n        "distributorcode":"247"}', 'execute_sql': '["SELECT * from cts.cts_traderequest WHERE SERIALNO=\'201808212158220897IO\';"]', 'expected_data': "{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'Y', 'tradeMsg': '申请成功', 'errMsg': '申请成功', 'tradeCode': '0000', 'exObjFields': {}, 'key': None}", 'affected_caseId': 15, 'compare_type': 0, 'wait_time': None}, {'case_id': 14, 'api_name': '【调用轮询接口处理交易请求】', 'interface': 'com.wt.cts.service.ProductCoreTradeService', 'method': 'tradeContinueTask', 'request_data': '""', 'execute_sql': None, 'expected_data': None, 'affected_caseId': None, 'compare_type': None, 'wait_time': 1}, {'case_id': 15, 'api_name': '【卖出后续接口】月月盈产品提前卖出成功', 'interface': 'com.wt.cts.service.ProductCoreTradeService', 'method': 'tradeContinue', 'request_data': '{"serialno":"201808212158220897IO","isSend":"1",\'extFields\':{"errCode":"0000", "errMsg":"交易成功", "tranSt":"Y"}}', 'execute_sql': '["SELECT * from cts.cts_traderequest WHERE SERIALNO=\'201808212158220897IO\' AND APPLYST=\'Y\'AND TRANSST=\'Y\' AND PAYST=\'Y\';","SELECT * from cts.cts_tradequtychg WHERE REFERNO=\'201808212158220897IO\' AND PRODUCTID=\'9999\'AND CHANGEQUTY=\'9.9\';"]', 'expected_data': "{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'Y', 'tradeMsg': '申请成功！', 'errMsg': '申请成功', 'tradeCode': '0000', 'exObjFields': {}, 'key': None}", 'affected_caseId': None, 'compare_type': 0, 'wait_time': None}, {'case_id': 16, 'api_name': '【组合卖出】月月盈产品提前卖出申请', 'interface': 'com.wt.cts.service.ProductCoreTradeService', 'method': 'sellToVacco', 'request_data': '{"refercapno":"5B74EB0A001FbcAC",\n        "reemFlag":"1",\n        "selltype":1,\n        "periodic":"true",\n        "mixProd":"true",\n        "bigVCustno":"1503136940",\n        "honourFlag":"1",\n        "newFlag":"0",\n        "partPayment":"false",\n        "subquty":"10.00",\n        "feetp":"07",\n        "feemode":"1",\n        "feevalue":"0.01",\n        "serialno":"201808212158220298Ut",\n        "custno":"1538943811",\n        "apkind":"014",\n        "subapkind":"014001",\n        "apdt":"20180815",\n        "aptm":"164500",\n        "workdate":"20180815",\n        "tradeacco":"000621718538943814",\n        "taaccountid":"475A7FB19598436383",\n        "tano":"47",\n        "productid":"8802",\n        "sharetype":"A",\n        "accptmd":"1",\n        "branchcode":"247000",\n        "distributorcode":"247"}', 'execute_sql': '["SELECT * from cts.cts_traderequest WHERE SERIALNO=\'201808212158220298Ut\';"]', 'expected_data': "{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'Y', 'tradeMsg': '申请成功', 'errMsg': '申请成功', 'tradeCode': '0000', 'exObjFields': {}, 'key': None}", 'affected_caseId': 18, 'compare_type': 0, 'wait_time': None}, {'case_id': 17, 'api_name': '【调用轮询接口处理交易请求】', 'interface': 'com.wt.cts.service.ProductCoreTradeService', 'method': 'tradeContinueTask', 'request_data': '""', 'execute_sql': None, 'expected_data': None, 'affected_caseId': None, 'compare_type': None, 'wait_time': 1}, {'case_id': 18, 'api_name': '【卖出后续接口】月月盈产品提前卖出失败', 'interface': 'com.wt.cts.service.ProductCoreTradeService', 'method': 'tradeContinue', 'request_data': '{"serialno":"201808212158220298Ut","isSend":"1",\'extFields\':{"errCode":"0000", "errMsg":"交易成功", "tranSt":"Y"}}', 'execute_sql': '["SELECT * from cts.cts_traderequest WHERE SERIALNO=\'201808212158220298Ut\' AND APPLYST=\'Y\'AND TRANSST=\'Y\' AND PAYST=\'Y\';","SELECT * from cts.cts_tradequtychg WHERE REFERNO=\'201808212158220298Ut\' AND PRODUCTID=\'8802\'AND CHANGEQUTY=\'10\';"]', 'expected_data': "{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'F', 'tradeMsg': '浜ゆ槗澶辫触', 'errMsg': '申请成功', 'tradeCode': '0001', 'exObjFields': {}, 'key': None}", 'affected_caseId': None, 'compare_type': 0, 'wait_time': None}, {'case_id': 19, 'api_name': '【组合卖出】使用优惠券季季升产品提前卖出申请', 'interface': 'com.wt.cts.service.ProductCoreTradeService', 'method': 'sellToVacco', 'request_data': '{"refercapno":"5B74EB0A001FbcAC",\n        "sellCouponId":"5B569A9A006Abc55",\n        "reemFlag":"1",\n        "selltype":1,\n        "periodic":"true",\n        "mixProd":"true",\n        "bigVCustno":"1503136940",\n        "honourFlag":"1",\n        "newFlag":"0",\n        "partPayment":"false",\n        "subquty":"10.00",\n        "feetp":"07",\n        "feemode":"1",\n        "feevalue":"0.01",\n        "serialno":"zcvbr123s12sdf31",\n        "custno":"1538943811",\n        "apkind":"014",\n        "subapkind":"014001",\n        "apdt":"20180815",\n        "aptm":"164500",\n        "workdate":"20180815",\n        "tradeacco":"000621718538943814",\n        "taaccountid":"475A7FB19598436383",\n        "tano":"47",\n        "productid":"8802",\n        "sharetype":"A",\n        "accptmd":"1",\n        "branchcode":"247000",\n        "distributorcode":"247"}', 'execute_sql': '["SELECT * from cts.cts_traderequest WHERE SERIALNO=\'temp_serial\';"]', 'expected_data': "{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'Y', 'tradeMsg': '申请成功', 'errMsg': '申请成功', 'tradeCode': '0000', 'exObjFields': {}, 'key': None}", 'affected_caseId': 21, 'compare_type': 0, 'wait_time': None}, {'case_id': 20, 'api_name': '【调用轮询接口处理交易请求】', 'interface': 'com.wt.cts.service.ProductCoreTradeService', 'method': 'tradeContinueTask', 'request_data': '""', 'execute_sql': None, 'expected_data': None, 'affected_caseId': None, 'compare_type': None, 'wait_time': 1}, {'case_id': 21, 'api_name': '【卖出后续接口】使用优惠券月月盈产品提前卖出成功', 'interface': 'com.wt.cts.service.ProductCoreTradeService', 'method': 'tradeContinue', 'request_data': '{"serialno":"zcvbr123s12sdf31","isSend":"1",\'extFields\':{"errCode":"0000", "errMsg":"交易成功", "tranSt":"Y"}}', 'execute_sql': '["SELECT * from cts.cts_traderequest WHERE SERIALNO=\'zcvbr123s12sdf31\' AND APPLYST=\'Y\'AND TRANSST=\'Y\' AND PAYST=\'Y\';","SELECT * from cts.cts_tradequtychg WHERE REFERNO=\'zcvbr123s12sdf31\' AND PRODUCTID=\'9999\'AND CHANGEQUTY=\'9.9\';"]', 'expected_data': "{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'Y', 'tradeMsg': '申请成功！', 'errMsg': '申请成功', 'tradeCode': '0000', 'exObjFields': {}, 'key': None}", 'affected_caseId': None, 'compare_type': 0, 'wait_time': None}, {'case_id': 22, 'api_name': '【组合卖出】使用优惠券月月盈产品提前卖出申请', 'interface': 'com.wt.cts.service.ProductCoreTradeService', 'method': 'sellToVacco', 'request_data': '{"refercapno":"5B74EB0A001FbcAC",\n        "sellCouponId":"5B569A9A006Abc55",\n        "reemFlag":"1",\n        "selltype":1,\n        "periodic":"true",\n        "mixProd":"true",\n        "bigVCustno":"1503136940",\n        "honourFlag":"1",\n        "newFlag":"0",\n        "partPayment":"false",\n        "subquty":"10.00",\n        "feetp":"07",\n        "feemode":"1",\n        "feevalue":"0.01",\n        "serialno":"zcvbr123s12sdf31",\n        "custno":"1538943811",\n        "apkind":"014",\n        "subapkind":"014001",\n        "apdt":"20180815",\n        "aptm":"164500",\n        "workdate":"20180815",\n        "tradeacco":"000621718538943814",\n        "taaccountid":"475A7FB19598436383",\n        "tano":"47",\n        "productid":"8802",\n        "sharetype":"A",\n        "accptmd":"1",\n        "branchcode":"247000",\n        "distributorcode":"247"}', 'execute_sql': '["SELECT * from cts.cts_traderequest WHERE SERIALNO=\'temp_serial\';"]', 'expected_data': "{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'Y', 'tradeMsg': '申请成功', 'errMsg': '申请成功', 'tradeCode': '0000', 'exObjFields': {}, 'key': None}", 'affected_caseId': 24, 'compare_type': 0, 'wait_time': None}, {'case_id': 23, 'api_name': '【调用轮询接口处理交易请求】', 'interface': 'com.wt.cts.service.ProductCoreTradeService', 'method': 'tradeContinueTask', 'request_data': '""', 'execute_sql': None, 'expected_data': None, 'affected_caseId': None, 'compare_type': None, 'wait_time': 1}, {'case_id': 24, 'api_name': '【卖出后续接口】使用优惠券月月盈产品提前卖出失败', 'interface': 'com.wt.cts.service.ProductCoreTradeService', 'method': 'tradeContinue', 'request_data': '{"serialno":"zcvbr123s12sdf31","isSend":"1",\'extFields\':{"errCode":"0000", "errMsg":"交易成功", "tranSt":"Y"}}', 'execute_sql': '["SELECT * from cts.cts_traderequest WHERE SERIALNO=\'zcvbr123s12sdf31\' AND APPLYST=\'Y\'AND TRANSST=\'Y\' AND PAYST=\'Y\';","SELECT * from cts.cts_tradequtychg WHERE REFERNO=\'zcvbr123s12sdf31\' AND PRODUCTID=\'8802\'AND CHANGEQUTY=\'10\';"]', 'expected_data': "{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'F', 'tradeMsg': '浜ゆ槗澶辫触', 'errMsg': '申请成功', 'tradeCode': '0001', 'exObjFields': {}, 'key': None}", 'affected_caseId': None, 'compare_type': 0, 'wait_time': None}, {'case_id': 25, 'api_name': '【组合卖出】四季甄选产品提前卖出申请', 'interface': 'com.wt.cts.service.ProductCoreTradeService', 'method': 'sellToVacco', 'request_data': '{"refercapno":"5B57DE5B20F7bc4E",\n        "reemFlag":"1",\n        "selltype":1,\n        "periodic":"true",\n        "mixProd":"true",\n        "bigVCustno":"1597219235",\n        "honourFlag":"1",\n        "newFlag":"0",\n        "partPayment":"false",\n        "subquty":"10.00",\n        "feetp":"07",\n        "feemode":"1",\n        "feevalue":"0.01",\n        "serialno":"201808212158220374xa",\n        "custno":"1538943811",\n        "apkind":"014",\n        "subapkind":"014001",\n        "apdt":"20180815",\n        "aptm":"164500",\n        "workdate":"20180815",\n        "tradeacco":"000621718538943814",\n        "taaccountid":"475A7FB19598436383",\n        "tano":"47",\n        "productid":"8904",\n        "sharetype":"A",\n        "accptmd":"1",\n        "branchcode":"247000",\n        "distributorcode":"247"}', 'execute_sql': '["SELECT * from cts.cts_traderequest WHERE SERIALNO=\'201808212158220374xa\';"]', 'expected_data': "{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'Y', 'tradeMsg': '申请成功', 'errMsg': '申请成功', 'tradeCode': '0000', 'exObjFields': {}, 'key': None}", 'affected_caseId': 27, 'compare_type': 0, 'wait_time': None}, {'case_id': 26, 'api_name': '【调用轮询接口处理交易请求】', 'interface': 'com.wt.cts.service.ProductCoreTradeService', 'method': 'tradeContinueTask', 'request_data': '""', 'execute_sql': None, 'expected_data': None, 'affected_caseId': None, 'compare_type': None, 'wait_time': 1}, {'case_id': 27, 'api_name': '【卖出后续接口】四季甄选产品提前卖出成功', 'interface': 'com.wt.cts.service.ProductCoreTradeService', 'method': 'tradeContinue', 'request_data': '{"serialno":"201808212158220374xa","isSend":"1",\'extFields\':{"errCode":"0000", "errMsg":"交易成功", "tranSt":"Y"}}', 'execute_sql': '["SELECT * from cts.cts_traderequest WHERE SERIALNO=\'201808212158220374xa\' AND APPLYST=\'Y\'AND TRANSST=\'Y\' AND PAYST=\'Y\';","SELECT * from cts.cts_tradequtychg WHERE REFERNO=\'201808212158220374xa\' AND PRODUCTID=\'9999\'AND CHANGEQUTY=\'9.9\';"]', 'expected_data': "{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'Y', 'tradeMsg': '申请成功！', 'errMsg': '申请成功', 'tradeCode': '0000', 'exObjFields': {}, 'key': None}", 'affected_caseId': None, 'compare_type': 0, 'wait_time': None}, {'case_id': 28, 'api_name': '【组合卖出】四季甄选产品提前卖出申请', 'interface': 'com.wt.cts.service.ProductCoreTradeService', 'method': 'sellToVacco', 'request_data': '{"refercapno":"5B57DE5B20F7bc4E",\n        "reemFlag":"1",\n        "selltype":1,\n        "periodic":"true",\n        "mixProd":"true",\n        "bigVCustno":"1597219235",\n        "honourFlag":"1",\n        "newFlag":"0",\n        "partPayment":"false",\n        "subquty":"10.00",\n        "feetp":"07",\n        "feemode":"1",\n        "feevalue":"0.01",\n        "serialno":"201808212158220670KK",\n        "custno":"1538943811",\n        "apkind":"014",\n        "subapkind":"014001",\n        "apdt":"20180815",\n        "aptm":"164500",\n        "workdate":"20180815",\n        "tradeacco":"000621718538943814",\n        "taaccountid":"475A7FB19598436383",\n        "tano":"47",\n        "productid":"8904",\n        "sharetype":"A",\n        "accptmd":"1",\n        "branchcode":"247000",\n        "distributorcode":"247"}', 'execute_sql': '["SELECT * from cts.cts_traderequest WHERE SERIALNO=\'201808212158220670KK\';"]', 'expected_data': "{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'Y', 'tradeMsg': '申请成功', 'errMsg': '申请成功', 'tradeCode': '0000', 'exObjFields': {}, 'key': None}", 'affected_caseId': 30, 'compare_type': 0, 'wait_time': None}, {'case_id': 29, 'api_name': '【调用轮询接口处理交易请求】', 'interface': 'com.wt.cts.service.ProductCoreTradeService', 'method': 'tradeContinueTask', 'request_data': '""', 'execute_sql': None, 'expected_data': None, 'affected_caseId': None, 'compare_type': None, 'wait_time': 1}, {'case_id': 30, 'api_name': '【卖出后续接口】四季甄选产品提前卖出失败', 'interface': 'com.wt.cts.service.ProductCoreTradeService', 'method': 'tradeContinue', 'request_data': '{"serialno":"201808212158220670KK","isSend":"1",\'extFields\':{"errCode":"0000", "errMsg":"交易成功", "tranSt":"Y"}}', 'execute_sql': '["SELECT * from cts.cts_traderequest WHERE SERIALNO=\'201808212158220670KK\' AND APPLYST=\'Y\'AND TRANSST=\'Y\' AND PAYST=\'Y\';","SELECT * from cts.cts_tradequtychg WHERE REFERNO=\'201808212158220670KK\' AND PRODUCTID=\'8904\'AND CHANGEQUTY=\'10\';"]', 'expected_data': "{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'F', 'tradeMsg': '浜ゆ槗澶辫触', 'errMsg': '申请成功', 'tradeCode': '0001', 'exObjFields': {}, 'key': None}", 'affected_caseId': None, 'compare_type': 0, 'wait_time': None}, {'case_id': 31, 'api_name': '【组合卖出】使用优惠券四季甄选产品提前卖出申请', 'interface': 'com.wt.cts.service.ProductCoreTradeService', 'method': 'sellToVacco', 'request_data': '{"refercapno":"5B57DE5B20F7bc4E",\n        "sellCouponId":"5B569A9A006Abc55",\n        "reemFlag":"1",\n        "selltype":1,\n        "periodic":"true",\n        "mixProd":"true",\n        "bigVCustno":"1597219235",\n        "honourFlag":"1",\n        "newFlag":"0",\n        "partPayment":"false",\n        "subquty":"10.00",\n        "feetp":"07",\n        "feemode":"1",\n        "feevalue":"0.01",\n        "serialno":"201808212158220613KK",\n        "custno":"1538943811",\n        "apkind":"014",\n        "subapkind":"014001",\n        "apdt":"20180815",\n        "aptm":"164500",\n        "workdate":"20180815",\n        "tradeacco":"000621718538943814",\n        "taaccountid":"475A7FB19598436383",\n        "tano":"47",\n        "productid":"8904",\n        "sharetype":"A",\n        "accptmd":"1",\n        "branchcode":"247000",\n        "distributorcode":"247"}', 'execute_sql': '["SELECT * from cts.cts_traderequest WHERE SERIALNO=\'201808212158220613KK\';"]', 'expected_data': "{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'Y', 'tradeMsg': '申请成功', 'errMsg': '申请成功', 'tradeCode': '0000', 'exObjFields': {}, 'key': None}", 'affected_caseId': 33, 'compare_type': 0, 'wait_time': None}, {'case_id': 32, 'api_name': '【调用轮询接口处理交易请求】', 'interface': 'com.wt.cts.service.ProductCoreTradeService', 'method': 'tradeContinueTask', 'request_data': '""', 'execute_sql': None, 'expected_data': None, 'affected_caseId': None, 'compare_type': None, 'wait_time': 1}, {'case_id': 33, 'api_name': '【卖出后续接口】使用优惠券四季甄选产品提前卖出成功', 'interface': 'com.wt.cts.service.ProductCoreTradeService', 'method': 'tradeContinue', 'request_data': '{"serialno":"201808212158220613KK","isSend":"1",\'extFields\':{"errCode":"0000", "errMsg":"交易成功", "tranSt":"Y"}}', 'execute_sql': '["SELECT * from cts.cts_traderequest WHERE SERIALNO=\'201808212158220613KK\' AND APPLYST=\'Y\'AND TRANSST=\'Y\' AND PAYST=\'Y\';","SELECT * from cts.cts_tradequtychg WHERE REFERNO=\'201808212158220613KK\' AND PRODUCTID=\'9999\'AND CHANGEQUTY=\'9.9\';"]', 'expected_data': "{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'Y', 'tradeMsg': '申请成功！', 'errMsg': '申请成功', 'tradeCode': '0000', 'exObjFields': {}, 'key': None}", 'affected_caseId': None, 'compare_type': 0, 'wait_time': None}, {'case_id': 34, 'api_name': '【组合卖出】使用优惠券四季甄选产品提前卖出申请', 'interface': 'com.wt.cts.service.ProductCoreTradeService', 'method': 'sellToVacco', 'request_data': '{"refercapno":"5B57DE5B20F7bc4E",\n        "sellCouponId":"5B569A9A006Abc55",\n        "reemFlag":"1",\n        "selltype":1,\n        "periodic":"true",\n        "mixProd":"true",\n        "bigVCustno":"1597219235",\n        "honourFlag":"1",\n        "newFlag":"0",\n        "partPayment":"false",\n        "subquty":"10.00",\n        "feetp":"07",\n        "feemode":"1",\n        "feevalue":"0.01",\n        "serialno":"201808212158220744Qz",\n        "custno":"1538943811",\n        "apkind":"014",\n        "subapkind":"014001",\n        "apdt":"20180815",\n        "aptm":"164500",\n        "workdate":"20180815",\n        "tradeacco":"000621718538943814",\n        "taaccountid":"475A7FB19598436383",\n        "tano":"47",\n        "productid":"8904",\n        "sharetype":"A",\n        "accptmd":"1",\n        "branchcode":"247000",\n        "distributorcode":"247"}', 'execute_sql': '["SELECT * from cts.cts_traderequest WHERE SERIALNO=\'201808212158220744Qz\';"]', 'expected_data': "{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'Y', 'tradeMsg': '申请成功', 'errMsg': '申请成功', 'tradeCode': '0000', 'exObjFields': {}, 'key': None}", 'affected_caseId': 36, 'compare_type': 0, 'wait_time': None}, {'case_id': 35, 'api_name': '【调用轮询接口处理交易请求】', 'interface': 'com.wt.cts.service.ProductCoreTradeService', 'method': 'tradeContinueTask', 'request_data': '""', 'execute_sql': None, 'expected_data': None, 'affected_caseId': None, 'compare_type': None, 'wait_time': 1}, {'case_id': 36, 'api_name': '【卖出后续接口】使用优惠券四季甄选产品提前卖出失败', 'interface': 'com.wt.cts.service.ProductCoreTradeService', 'method': 'tradeContinue', 'request_data': '{"serialno":"201808212158220744Qz","isSend":"1",\'extFields\':{"errCode":"0000", "errMsg":"交易成功", "tranSt":"Y"}}', 'execute_sql': '["SELECT * from cts.cts_traderequest WHERE SERIALNO=\'201808212158220744Qz\' AND APPLYST=\'Y\'AND TRANSST=\'Y\' AND PAYST=\'Y\';","SELECT * from cts.cts_tradequtychg WHERE REFERNO=\'201808212158220744Qz\' AND PRODUCTID=\'8904\'AND CHANGEQUTY=\'10\';"]', 'expected_data': "{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'F', 'tradeMsg': '浜ゆ槗澶辫触', 'errMsg': '申请成功', 'tradeCode': '0001', 'exObjFields': {}, 'key': None}", 'affected_caseId': None, 'compare_type': 0, 'wait_time': None}, {'case_id': 37, 'api_name': '【组合卖出】月月盈产品开放日卖出申请', 'interface': 'com.wt.cts.service.ProductCoreTradeService', 'method': 'sellToVacco', 'request_data': '{"refercapno":"5B569C0E0225bc08",\n        "sellCouponId":"5B569A9A006Abc55",\n        "reemFlag":"0",\n        "selltype":1,\n        "periodic":"true",\n        "mixProd":"true",\n        "bigVCustno":"1503136940",\n        "honourFlag":"1",\n        "newFlag":"0",\n        "partPayment":"false",\n        "subquty":"10.00",\n        "feetp":"07",\n        "feemode":"1",\n        "feevalue":"0.0",\n        "serialno":"201808212158220409yZ",\n        "custno":"1538943811",\n        "apkind":"014",\n        "subapkind":"014001",\n        "apdt":"20180821",\n        "aptm":"164500",\n        "workdate":"20180821",\n        "tradeacco":"000621718538943814",\n        "taaccountid":"475A7FB19598436383",\n        "tano":"47",\n        "productid":"8802",\n        "sharetype":"A",\n        "accptmd":"1",\n        "branchcode":"247000",\n        "distributorcode":"247"}', 'execute_sql': '["SELECT * from cts.cts_traderequest WHERE SERIALNO=\'201808212158220409yZ\';"]', 'expected_data': "{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'Y', 'tradeMsg': '申请成功', 'errMsg': '申请成功', 'tradeCode': '0000', 'exObjFields': {}, 'key': None}", 'affected_caseId': 39, 'compare_type': 0, 'wait_time': None}, {'case_id': 38, 'api_name': '【调用轮询接口处理交易请求】', 'interface': 'com.wt.cts.service.ProductCoreTradeService', 'method': 'tradeContinueTask', 'request_data': '""', 'execute_sql': None, 'expected_data': None, 'affected_caseId': None, 'compare_type': None, 'wait_time': 1}, {'case_id': 39, 'api_name': '【卖出后续接口】月月盈产品开放日卖出成功', 'interface': 'com.wt.cts.service.ProductCoreTradeService', 'method': 'tradeContinue', 'request_data': '{"serialno":"201808212158220409yZ","isSend":"1",\'extFields\':{"errCode":"0000", "errMsg":"交易成功", "tranSt":"Y"}}', 'execute_sql': '["SELECT * from cts.cts_traderequest WHERE SERIALNO=\'201808212158220409yZ\' AND APPLYST=\'Y\'AND TRANSST=\'Y\' AND PAYST=\'Y\';","SELECT * from cts.cts_tradequtychg WHERE REFERNO=\'201808212158220409yZ\' AND PRODUCTID=\'9999\'AND CHANGEQUTY=\'9.9\';"]', 'expected_data': "{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'Y', 'tradeMsg': '申请成功！', 'errMsg': '申请成功', 'tradeCode': '0000', 'exObjFields': {}, 'key': None}", 'affected_caseId': None, 'compare_type': 0, 'wait_time': None}, {'case_id': 40, 'api_name': '【组合卖出】月月盈产品开放日卖出申请', 'interface': 'com.wt.cts.service.ProductCoreTradeService', 'method': 'sellToVacco', 'request_data': '{"refercapno":"5B569C0E0225bc08",\n        "sellCouponId":"5B569A9A006Abc55",\n        "reemFlag":"0",\n        "selltype":1,\n        "periodic":"true",\n        "mixProd":"true",\n        "bigVCustno":"1503136940",\n        "honourFlag":"1",\n        "newFlag":"0",\n        "partPayment":"false",\n        "subquty":"10.00",\n        "feetp":"07",\n        "feemode":"1",\n        "feevalue":"0.0",\n        "serialno":"201808212158220996Sg",\n        "custno":"1538943811",\n        "apkind":"014",\n        "subapkind":"014001",\n        "apdt":"20180821",\n        "aptm":"164500",\n        "workdate":"20180821",\n        "tradeacco":"000621718538943814",\n        "taaccountid":"475A7FB19598436383",\n        "tano":"47",\n        "productid":"8802",\n        "sharetype":"A",\n        "accptmd":"1",\n        "branchcode":"247000",\n        "distributorcode":"247"}', 'execute_sql': '["SELECT * from cts.cts_traderequest WHERE SERIALNO=\'201808212158220996Sg\';"]', 'expected_data': "{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'Y', 'tradeMsg': '申请成功', 'errMsg': '申请成功', 'tradeCode': '0000', 'exObjFields': {}, 'key': None}", 'affected_caseId': 42, 'compare_type': 0, 'wait_time': None}, {'case_id': 41, 'api_name': '【调用轮询接口处理交易请求】', 'interface': 'com.wt.cts.service.ProductCoreTradeService', 'method': 'tradeContinueTask', 'request_data': '""', 'execute_sql': None, 'expected_data': None, 'affected_caseId': None, 'compare_type': None, 'wait_time': 1}, {'case_id': 42, 'api_name': '【卖出后续接口】月月盈产品开放日卖出失败', 'interface': 'com.wt.cts.service.ProductCoreTradeService', 'method': 'tradeContinue', 'request_data': '{"serialno":"201808212158220996Sg","isSend":"1",\'extFields\':{"errCode":"0000", "errMsg":"交易成功", "tranSt":"Y"}}', 'execute_sql': '["SELECT * from cts.cts_traderequest WHERE SERIALNO=\'201808212158220996Sg\' AND APPLYST=\'Y\'AND TRANSST=\'Y\' AND PAYST=\'Y\';","SELECT * from cts.cts_tradequtychg WHERE REFERNO=\'201808212158220996Sg\' AND PRODUCTID=\'8901\'AND CHANGEQUTY=\'10\';"]', 'expected_data': "{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'F', 'tradeMsg': '浜ゆ槗澶辫触', 'errMsg': '申请成功', 'tradeCode': '0001', 'exObjFields': {}, 'key': None}", 'affected_caseId': None, 'compare_type': 0, 'wait_time': None}, {'case_id': 43, 'api_name': '【组合卖出】月月盈产品不在开放日卖出', 'interface': 'com.wt.cts.service.ProductCoreTradeService', 'method': 'sellToVacco', 'request_data': '{"refercapno":"5B569C0E0225bc08",\n        "sellCouponId":"5B569A9A006Abc55",\n        "reemFlag":"0",\n        "selltype":1,\n        "periodic":"true",\n        "mixProd":"true",\n        "bigVCustno":"1503136940",\n        "honourFlag":"1",\n        "newFlag":"0",\n        "partPayment":"false",\n        "subquty":"10.00",\n        "feetp":"07",\n        "feemode":"1",\n        "feevalue":"0.0",\n        "serialno":"201808212158220974PT",\n        "custno":"1538943811",\n        "apkind":"014",\n        "subapkind":"014001",\n        "apdt":"20170820",\n        "aptm":"164500",\n        "workdate":"20170820",\n        "tradeacco":"000621718538943814",\n        "taaccountid":"475A7FB19598436383",\n        "tano":"47",\n        "productid":"8802",\n        "sharetype":"A",\n        "accptmd":"1",\n        "branchcode":"247000",\n        "distributorcode":"247"}', 'execute_sql': '["SELECT * from cts.cts_traderequest WHERE SERIALNO=\'201808212158220974PT\';"]', 'expected_data': "{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'F', 'tradeMsg': '客户持有的该产品不在开放日之内', 'errMsg': '申请成功', 'tradeCode': 'B006', 'exObjFields': {}, 'key': None}", 'affected_caseId': None, 'compare_type': 0, 'wait_time': None}, {'case_id': 44, 'api_name': '【组合卖出】季季升产品开放日卖出申请', 'interface': 'com.wt.cts.service.ProductCoreTradeService', 'method': 'sellToVacco', 'request_data': '{"refercapno":"5B57DD261DFCbc4E",\n        "reemFlag":"0",\n        "selltype":1,\n        "periodic":"true",\n        "mixProd":"true",\n        "bigVCustno":"1503257540",\n        "honourFlag":"1",\n        "newFlag":"0",\n        "partPayment":"false",\n        "subquty":"10.00",\n        "feetp":"07",\n        "feemode":"1",\n        "feevalue":"0.0",\n        "serialno":"201808212158220930Lv",\n        "custno":"1538943811",\n        "apkind":"014",\n        "subapkind":"014001",\n        "apdt":"20180821",\n        "aptm":"164500",\n        "workdate":"20180821",\n        "tradeacco":"000621718538943814",\n        "taaccountid":"475A7FB19598436383",\n        "tano":"47",\n        "productid":"8901",\n        "sharetype":"A",\n        "accptmd":"1",\n        "branchcode":"247000",\n        "distributorcode":"247"}', 'execute_sql': '["SELECT * from cts.cts_traderequest WHERE SERIALNO=\'201808212158220930Lv\';"]', 'expected_data': "{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'Y', 'tradeMsg': '申请成功', 'errMsg': '申请成功', 'tradeCode': '0000', 'exObjFields': {}, 'key': None}", 'affected_caseId': 46, 'compare_type': 0, 'wait_time': None}, {'case_id': 45, 'api_name': '【调用轮询接口处理交易请求】', 'interface': 'com.wt.cts.service.ProductCoreTradeService', 'method': 'tradeContinueTask', 'request_data': '""', 'execute_sql': None, 'expected_data': None, 'affected_caseId': None, 'compare_type': None, 'wait_time': 1}, {'case_id': 46, 'api_name': '【卖出后续接口】季季升产品开放日卖出成功', 'interface': 'com.wt.cts.service.ProductCoreTradeService', 'method': 'tradeContinue', 'request_data': '{"serialno":"201808212158220930Lv","isSend":"1",\'extFields\':{"errCode":"0000", "errMsg":"交易成功", "tranSt":"Y"}}', 'execute_sql': '["SELECT * from cts.cts_traderequest WHERE SERIALNO=\'201808212158220930Lv\' AND APPLYST=\'Y\'AND TRANSST=\'Y\' AND PAYST=\'Y\';","SELECT * from cts.cts_tradequtychg WHERE REFERNO=\'201808212158220930Lv\' AND PRODUCTID=\'9999\'AND CHANGEQUTY=\'9.9\';"]', 'expected_data': "{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'Y', 'tradeMsg': '申请成功！', 'errMsg': '申请成功', 'tradeCode': '0000', 'exObjFields': {}, 'key': None}", 'affected_caseId': None, 'compare_type': 0, 'wait_time': None}, {'case_id': 47, 'api_name': '【组合卖出】季季升产品开放日卖出申请', 'interface': 'com.wt.cts.service.ProductCoreTradeService', 'method': 'sellToVacco', 'request_data': '{"refercapno":"5B57DD261DFCbc4E",\n        "reemFlag":"0",\n        "selltype":1,\n        "periodic":"true",\n        "mixProd":"true",\n        "bigVCustno":"1503257540",\n        "honourFlag":"1",\n        "newFlag":"0",\n        "partPayment":"false",\n        "subquty":"10.00",\n        "feetp":"07",\n        "feemode":"1",\n        "feevalue":"0.0",\n        "serialno":"201808212158220465hO",\n        "custno":"1538943811",\n        "apkind":"014",\n        "subapkind":"014001",\n        "apdt":"20180821",\n        "aptm":"164500",\n        "workdate":"20180821",\n        "tradeacco":"000621718538943814",\n        "taaccountid":"475A7FB19598436383",\n        "tano":"47",\n        "productid":"8901",\n        "sharetype":"A",\n        "accptmd":"1",\n        "branchcode":"247000",\n        "distributorcode":"247"}', 'execute_sql': '["SELECT * from cts.cts_traderequest WHERE SERIALNO=\'201808212158220465hO\';"]', 'expected_data': "{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'Y', 'tradeMsg': '申请成功', 'errMsg': '申请成功', 'tradeCode': '0000', 'exObjFields': {}, 'key': None}", 'affected_caseId': 49, 'compare_type': 0, 'wait_time': None}, {'case_id': 48, 'api_name': '【调用轮询接口处理交易请求】', 'interface': 'com.wt.cts.service.ProductCoreTradeService', 'method': 'tradeContinueTask', 'request_data': '""', 'execute_sql': None, 'expected_data': None, 'affected_caseId': None, 'compare_type': None, 'wait_time': 1}, {'case_id': 49, 'api_name': '【卖出后续接口】季季升产品开放日卖出失败', 'interface': 'com.wt.cts.service.ProductCoreTradeService', 'method': 'tradeContinue', 'request_data': '{"serialno":"201808212158220465hO","isSend":"1",\'extFields\':{"errCode":"0000", "errMsg":"交易成功", "tranSt":"Y"}}', 'execute_sql': '["SELECT * from cts.cts_traderequest WHERE SERIALNO=\'201808212158220465hO\' AND APPLYST=\'Y\'AND TRANSST=\'Y\' AND PAYST=\'Y\';","SELECT * from cts.cts_tradequtychg WHERE REFERNO=\'201808212158220465hO\' AND PRODUCTID=\'8901\'AND CHANGEQUTY=\'10\';"]', 'expected_data': "{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'F', 'tradeMsg': '浜ゆ槗澶辫触', 'errMsg': '申请成功', 'tradeCode': '0001', 'exObjFields': {}, 'key': None}", 'affected_caseId': None, 'compare_type': 0, 'wait_time': None}, {'case_id': 50, 'api_name': '【组合卖出】季季升产品不在开放日卖出', 'interface': 'com.wt.cts.service.ProductCoreTradeService', 'method': 'sellToVacco', 'request_data': '{"refercapno":"5B57DD261DFCbc4E",\n        "reemFlag":"0",\n        "selltype":1,\n        "periodic":"true",\n        "mixProd":"true",\n        "bigVCustno":"1503257540",\n        "honourFlag":"1",\n        "newFlag":"0",\n        "partPayment":"false",\n        "subquty":"10.00",\n        "feetp":"07",\n        "feemode":"1",\n        "feevalue":"0.0",\n        "serialno":"201808212158220305Sx",\n        "custno":"1538943811",\n        "apkind":"014",\n        "subapkind":"014001",\n        "apdt":"20170820",\n        "aptm":"164500",\n        "workdate":"20170820",\n        "tradeacco":"000621718538943814",\n        "taaccountid":"475A7FB19598436383",\n        "tano":"47",\n        "productid":"8901",\n        "sharetype":"A",\n        "accptmd":"1",\n        "branchcode":"247000",\n        "distributorcode":"247"}', 'execute_sql': '["SELECT * from cts.cts_traderequest WHERE SERIALNO=\'201808212158220305Sx\';"]', 'expected_data': "{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'F', 'tradeMsg': '客户持有的该产品不在开放日之内', 'errMsg': '申请成功', 'tradeCode': 'B006', 'exObjFields': {}, 'key': None}", 'affected_caseId': None, 'compare_type': 0, 'wait_time': None}, {'case_id': 51, 'api_name': '【组合卖出】四季甄选产品开放日卖出申请', 'interface': 'com.wt.cts.service.ProductCoreTradeService', 'method': 'sellToVacco', 'request_data': '{"refercapno":"5B7A57C6008EbcA4",\n        "reemFlag":"0",\n        "selltype":1,\n        "periodic":"true",\n        "mixProd":"true",\n        "bigVCustno":"1597219235",\n        "honourFlag":"1",\n        "newFlag":"0",\n        "partPayment":"false",\n        "subquty":"10.00",\n        "feetp":"07",\n        "feemode":"1",\n        "feevalue":"0.0",\n        "serialno":"201808212158220923cx",\n        "custno":"1538943811",\n        "apkind":"014",\n        "subapkind":"014001",\n        "apdt":"20180821",\n        "aptm":"164500",\n        "workdate":"20180821",\n        "tradeacco":"000621718538943814",\n        "taaccountid":"475A7FB19598436383",\n        "tano":"47",\n        "productid":"8904",\n        "sharetype":"A",\n        "accptmd":"1",\n        "branchcode":"247000",\n        "distributorcode":"247"}', 'execute_sql': '["SELECT * from cts.cts_traderequest WHERE SERIALNO=\'201808212158220923cx\';"]', 'expected_data': "{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'Y', 'tradeMsg': '申请成功', 'errMsg': '申请成功', 'tradeCode': '0000', 'exObjFields': {}, 'key': None}", 'affected_caseId': 53, 'compare_type': 0, 'wait_time': None}, {'case_id': 52, 'api_name': '【调用轮询接口处理交易请求】', 'interface': 'com.wt.cts.service.ProductCoreTradeService', 'method': 'tradeContinueTask', 'request_data': '""', 'execute_sql': None, 'expected_data': None, 'affected_caseId': None, 'compare_type': None, 'wait_time': 1}, {'case_id': 53, 'api_name': '【卖出后续接口】四季甄选产品开放日卖出成功', 'interface': 'com.wt.cts.service.ProductCoreTradeService', 'method': 'tradeContinue', 'request_data': '{"serialno":"201808212158220923cx","isSend":"1",\'extFields\':{"errCode":"0000", "errMsg":"交易成功", "tranSt":"Y"}}', 'execute_sql': '["SELECT * from cts.cts_traderequest WHERE SERIALNO=\'201808212158220923cx\' AND APPLYST=\'Y\'AND TRANSST=\'Y\' AND PAYST=\'Y\';","SELECT * from cts.cts_tradequtychg WHERE REFERNO=\'201808212158220923cx\' AND PRODUCTID=\'9999\'AND CHANGEQUTY=\'9.9\';"]', 'expected_data': "{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'Y', 'tradeMsg': '申请成功！', 'errMsg': '申请成功', 'tradeCode': '0000', 'exObjFields': {}, 'key': None}", 'affected_caseId': None, 'compare_type': 0, 'wait_time': None}, {'case_id': 54, 'api_name': '【组合卖出】四季甄选产品开放日卖出申请', 'interface': 'com.wt.cts.service.ProductCoreTradeService', 'method': 'sellToVacco', 'request_data': '{"refercapno":"5B7A57C6008EbcA4",\n        "reemFlag":"0",\n        "selltype":1,\n        "periodic":"true",\n        "mixProd":"true",\n        "bigVCustno":"1597219235",\n        "honourFlag":"1",\n        "newFlag":"0",\n        "partPayment":"false",\n        "subquty":"10.00",\n        "feetp":"07",\n        "feemode":"1",\n        "feevalue":"0.0",\n        "serialno":"201808212158220233FI",\n        "custno":"1538943811",\n        "apkind":"014",\n        "subapkind":"014001",\n        "apdt":"20180821",\n        "aptm":"164500",\n        "workdate":"20180821",\n        "tradeacco":"000621718538943814",\n        "taaccountid":"475A7FB19598436383",\n        "tano":"47",\n        "productid":"8904",\n        "sharetype":"A",\n        "accptmd":"1",\n        "branchcode":"247000",\n        "distributorcode":"247"}', 'execute_sql': '["SELECT * from cts.cts_traderequest WHERE SERIALNO=\'201808212158220233FI\';"]', 'expected_data': "{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'Y', 'tradeMsg': '申请成功', 'errMsg': '申请成功', 'tradeCode': '0000', 'exObjFields': {}, 'key': None}", 'affected_caseId': 56, 'compare_type': 0, 'wait_time': None}, {'case_id': 55, 'api_name': '【调用轮询接口处理交易请求】', 'interface': 'com.wt.cts.service.ProductCoreTradeService', 'method': 'tradeContinueTask', 'request_data': '""', 'execute_sql': None, 'expected_data': None, 'affected_caseId': None, 'compare_type': None, 'wait_time': 1}, {'case_id': 56, 'api_name': '【卖出后续接口】四季甄选产品开放日卖出失败', 'interface': 'com.wt.cts.service.ProductCoreTradeService', 'method': 'tradeContinue', 'request_data': '{"serialno":"201808212158220233FI","isSend":"1",\'extFields\':{"errCode":"0000", "errMsg":"交易成功", "tranSt":"Y"}}', 'execute_sql': '["SELECT * from cts.cts_traderequest WHERE SERIALNO=\'201808212158220233FI\' AND APPLYST=\'Y\'AND TRANSST=\'Y\' AND PAYST=\'Y\';","SELECT * from cts.cts_tradequtychg WHERE REFERNO=\'201808212158220233FI\' AND PRODUCTID=\'8904\'AND CHANGEQUTY=\'10\';"]', 'expected_data': "{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'F', 'tradeMsg': '浜ゆ槗澶辫触', 'errMsg': '申请成功', 'tradeCode': '0001', 'exObjFields': {}, 'key': None}", 'affected_caseId': None, 'compare_type': 0, 'wait_time': None}, {'case_id': 57, 'api_name': '【组合卖出】四季甄选产品不在开放日卖出', 'interface': 'com.wt.cts.service.ProductCoreTradeService', 'method': 'sellToVacco', 'request_data': '{"refercapno":"5B7A57C6008EbcA4",\n        "reemFlag":"0",\n        "selltype":1,\n        "periodic":"true",\n        "mixProd":"true",\n        "bigVCustno":"1597219235",\n        "honourFlag":"1",\n        "newFlag":"0",\n        "partPayment":"false",\n        "subquty":"10.00",\n        "feetp":"07",\n        "feemode":"1",\n        "feevalue":"0.0",\n        "serialno":"201808212158220720OQ",\n        "custno":"1538943811",\n        "apkind":"014",\n        "subapkind":"014001",\n        "apdt":"20170820",\n        "aptm":"164500",\n        "workdate":"20170820",\n        "tradeacco":"000621718538943814",\n        "taaccountid":"475A7FB19598436383",\n        "tano":"47",\n        "productid":"8904",\n        "sharetype":"A",\n        "accptmd":"1",\n        "branchcode":"247000",\n        "distributorcode":"247"}', 'execute_sql': '["SELECT * from cts.cts_traderequest WHERE SERIALNO=\'201808212158220720OQ\';"]', 'expected_data': "{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'F', 'tradeMsg': '客户持有的该产品不在开放日之内', 'errMsg': '申请成功', 'tradeCode': 'B006', 'exObjFields': {}, 'key': None}", 'affected_caseId': None, 'compare_type': 0, 'wait_time': None}]
+ Tue, 21 Aug 2018 21:58:32  ERROR myMysql.py connect_mysql [ line:21 ] 数据库连接失败原因为：(2003, "Can't connect to MySQL server on 'rm-bp1wby078caup6psoo.mysql.rds.aliyuncs.com' (timed out)")
+Traceback (most recent call last):
+  File "F:\python36\lib\site-packages\pymysql\connections.py", line 958, in connect
+    **kwargs)
+  File "F:\python36\lib\socket.py", line 724, in create_connection
+    raise err
+  File "F:\python36\lib\socket.py", line 713, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "H:\python3_apiTest\Common\myMysql.py", line 18, in connect_mysql
+    port=self.port,charset='utf8',cursorclass=pymysql.cursors.DictCursor)
+  File "F:\python36\lib\site-packages\pymysql\__init__.py", line 90, in Connect
+    return Connection(*args, **kwargs)
+  File "F:\python36\lib\site-packages\pymysql\connections.py", line 704, in __init__
+    self.connect()
+  File "F:\python36\lib\site-packages\pymysql\connections.py", line 1005, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'rm-bp1wby078caup6psoo.mysql.rds.aliyuncs.com' (timed out)")

@@ -1,0 +1,33 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0" is_locked="false">
+    <option name="myName" value="Project Default" />
+    <option name="myLocal" value="false" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="19">
+            <item index="0" class="java.lang.String" itemvalue="res" />
+            <item index="1" class="java.lang.String" itemvalue="result" />
+            <item index="2" class="java.lang.String" itemvalue="excelfile" />
+            <item index="3" class="java.lang.String" itemvalue="except" />
+            <item index="4" class="java.lang.String" itemvalue="logging.info" />
+            <item index="5" class="java.lang.String" itemvalue="raise" />
+            <item index="6" class="java.lang.String" itemvalue="__author__" />
+            <item index="7" class="java.lang.String" itemvalue="all_case_datas" />
+            <item index="8" class="java.lang.String" itemvalue="class" />
+            <item index="9" class="java.lang.String" itemvalue="from" />
+            <item index="10" class="java.lang.String" itemvalue="print" />
+            <item index="11" class="java.lang.String" itemvalue="self.mysql" />
+            <item index="12" class="java.lang.String" itemvalue="de" />
+            <item index="13" class="java.lang.String" itemvalue="self.mysql.connect_mysql" />
+            <item index="14" class="java.lang.String" itemvalue="self.assertIn" />
+            <item index="15" class="java.lang.String" itemvalue="def" />
+            <item index="16" class="java.lang.String" itemvalue="if" />
+            <item index="17" class="java.lang.String" itemvalue="import" />
+            <item index="18" class="java.lang.String" itemvalue="try" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>

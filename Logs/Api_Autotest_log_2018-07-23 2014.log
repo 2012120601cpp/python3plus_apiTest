@@ -1,0 +1,5 @@
+ Mon, 23 Jul 2018 20:14:59  INFO myLogger2.py <module> [ line:20 ] =========test start=========
+ Mon, 23 Jul 2018 20:15:00  INFO Doexcel.py getAllCaseDatas [ line:47 ] 初始化之后的请求数据为：
+sellToVacco
+ Mon, 23 Jul 2018 20:15:00  INFO Doexcel.py getAllCaseDatas [ line:48 ] 初始化之后的sql语句为：
+{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'Y', 'tradeMsg': '申请成功', 'errMsg': '申请成功', 'tradeCode': '0000', 'exObjFields': {}, 'key': None}

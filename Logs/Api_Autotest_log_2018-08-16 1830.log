@@ -1,0 +1,1269 @@
+ Thu, 16 Aug 2018 18:30:07  INFO myLogger2.py <module> [ line:20 ] =========test start=========
+ Thu, 16 Aug 2018 18:30:09  INFO Doexcel.py getAllCaseDatas [ line:47 ] 初始化之后的请求数据为：
+{"refercapno":"5B57DD261DFCbc4E",
+        "reemFlag":"1",
+        "selltype":1,
+        "periodic":"true",
+        "mixProd":"true",
+        "bigVCustno":"1503257540",
+        "honourFlag":"1",
+        "newFlag":"0",
+        "partPayment":"false",
+        "subquty":"10.00",
+        "feetp":"07",
+        "feemode":"1",
+        "feevalue":"0.01",
+        "serialno":"201808161830090346hf",
+        "custno":"1538943811",
+        "apkind":"014",
+        "subapkind":"014001",
+        "apdt":"20180722",
+        "aptm":"113344",
+        "workdate":"20180722",
+        "tradeacco":"000621718538943814",
+        "taaccountid":"475A7FB19598436383",
+        "tano":"47",
+        "productid":"8901",
+        "sharetype":"A",
+        "accptmd":"1",
+        "branchcode":"247000",
+        "distributorcode":"247"}
+ Thu, 16 Aug 2018 18:30:09  INFO Doexcel.py getAllCaseDatas [ line:48 ] 初始化之后的sql语句为：
+["SELECT * from cts.cts_traderequest WHERE SERIALNO='201808161830090346hf';"]
+ Thu, 16 Aug 2018 18:30:09  INFO Doexcel.py getAllCaseDatas [ line:47 ] 初始化之后的请求数据为：
+""
+ Thu, 16 Aug 2018 18:30:09  INFO Doexcel.py getAllCaseDatas [ line:48 ] 初始化之后的sql语句为：
+None
+ Thu, 16 Aug 2018 18:30:09  INFO Doexcel.py getAllCaseDatas [ line:47 ] 初始化之后的请求数据为：
+{"serialno":"201808161830090346hf","isSend":"1",'extFields':{"errCode":"0000", "errMsg":"交易成功", "tranSt":"Y"}}
+ Thu, 16 Aug 2018 18:30:09  INFO Doexcel.py getAllCaseDatas [ line:48 ] 初始化之后的sql语句为：
+["SELECT * from cts.cts_traderequest WHERE SERIALNO='201808161830090346hf' AND APPLYST='Y'AND TRANSST='Y' AND PAYST='Y';","SELECT * from cts.cts_tradequtychg WHERE REFERNO='201808161830090346hf' AND PRODUCTID='9999'AND CHANGEQUTY='9.9';"]
+ Thu, 16 Aug 2018 18:30:09  INFO Doexcel.py getAllCaseDatas [ line:47 ] 初始化之后的请求数据为：
+{"refercapno":"5B57DD261DFCbc4E",
+        "reemFlag":"1",
+        "selltype":1,
+        "periodic":"true",
+        "mixProd":"true",
+        "bigVCustno":"1503257540",
+        "honourFlag":"1",
+        "newFlag":"0",
+        "partPayment":"false",
+        "subquty":"10.00",
+        "feetp":"07",
+        "feemode":"1",
+        "feevalue":"0.01",
+        "serialno":"201808161830090990GL",
+        "custno":"1538943811",
+        "apkind":"014",
+        "subapkind":"014001",
+        "apdt":"20180722",
+        "aptm":"113344",
+        "workdate":"20180722",
+        "tradeacco":"000621718538943814",
+        "taaccountid":"475A7FB19598436383",
+        "tano":"47",
+        "productid":"8901",
+        "sharetype":"A",
+        "accptmd":"1",
+        "branchcode":"247000",
+        "distributorcode":"247"}
+ Thu, 16 Aug 2018 18:30:09  INFO Doexcel.py getAllCaseDatas [ line:48 ] 初始化之后的sql语句为：
+["SELECT * from cts.cts_traderequest WHERE SERIALNO='201808161830090990GL';"]
+ Thu, 16 Aug 2018 18:30:09  INFO Doexcel.py getAllCaseDatas [ line:47 ] 初始化之后的请求数据为：
+""
+ Thu, 16 Aug 2018 18:30:09  INFO Doexcel.py getAllCaseDatas [ line:48 ] 初始化之后的sql语句为：
+None
+ Thu, 16 Aug 2018 18:30:09  INFO Doexcel.py getAllCaseDatas [ line:47 ] 初始化之后的请求数据为：
+{"serialno":"201808161830090990GL","isSend":"1",'extFields':{"errCode":"0000", "errMsg":"交易成功", "tranSt":"Y"}}
+ Thu, 16 Aug 2018 18:30:09  INFO Doexcel.py getAllCaseDatas [ line:48 ] 初始化之后的sql语句为：
+["SELECT * from cts.cts_traderequest WHERE SERIALNO='201808161830090990GL' AND APPLYST='Y'AND TRANSST='Y' AND PAYST='Y';","SELECT * from cts.cts_tradequtychg WHERE REFERNO='201808161830090990GL' AND PRODUCTID='8901'AND CHANGEQUTY='10';"]
+ Thu, 16 Aug 2018 18:30:09  INFO Doexcel.py getAllCaseDatas [ line:47 ] 初始化之后的请求数据为：
+{"refercapno":"5B57DD261DFCbc4E",
+        "sellCouponId":"5B569A9A006Abc55",
+        "reemFlag":"1",
+        "periodic":"true",
+        "mixProd":"true",
+        "bigVCustno":"1503257540",
+        "honourFlag":"1",
+        "newFlag":"0",
+        "partPayment":"false",
+        "subquty":"10.00",
+        "feetp":"07",
+        "feemode":"1",
+        "feevalue":"0.01",
+        "serialno":"20180816183009031LX",
+        "custno":"1538943811",
+        "apkind":"014",
+        "subapkind":"014001",
+        "apdt":"20180722",
+        "aptm":"113344",
+        "workdate":"20180722",
+        "tradeacco":"000621718538943814",
+        "taaccountid":"475A7FB19598436383",
+        "tano":"47",
+        "productid":"8901",
+        "sharetype":"A",
+        "accptmd":"1",
+        "branchcode":"247000",
+        "distributorcode":"247"}
+ Thu, 16 Aug 2018 18:30:09  INFO Doexcel.py getAllCaseDatas [ line:48 ] 初始化之后的sql语句为：
+["SELECT * from cts.cts_traderequest WHERE SERIALNO='20180816183009031LX';"]
+ Thu, 16 Aug 2018 18:30:09  INFO Doexcel.py getAllCaseDatas [ line:47 ] 初始化之后的请求数据为：
+""
+ Thu, 16 Aug 2018 18:30:09  INFO Doexcel.py getAllCaseDatas [ line:48 ] 初始化之后的sql语句为：
+None
+ Thu, 16 Aug 2018 18:30:09  INFO Doexcel.py getAllCaseDatas [ line:47 ] 初始化之后的请求数据为：
+{"serialno":"20180816183009031LX","isSend":"1",'extFields':{"errCode":"0000", "errMsg":"交易成功", "tranSt":"Y"}}
+ Thu, 16 Aug 2018 18:30:09  INFO Doexcel.py getAllCaseDatas [ line:48 ] 初始化之后的sql语句为：
+["SELECT * from cts.cts_traderequest WHERE SERIALNO='20180816183009031LX' AND APPLYST='Y'AND TRANSST='Y' AND PAYST='Y';","SELECT * from cts.cts_tradequtychg WHERE REFERNO='20180816183009031LX' AND PRODUCTID='9999'AND CHANGEQUTY='9.9';"]
+ Thu, 16 Aug 2018 18:30:09  INFO Doexcel.py getAllCaseDatas [ line:47 ] 初始化之后的请求数据为：
+{"refercapno":"5B57DD261DFCbc4E",
+        "sellCouponId":"5B569A9A006Abc55",
+        "reemFlag":"1",
+        "selltype":1,
+        "periodic":"true",
+        "mixProd":"true",
+        "bigVCustno":"1503257540",
+        "honourFlag":"1",
+        "newFlag":"0",
+        "partPayment":"false",
+        "subquty":"10.00",
+        "feetp":"07",
+        "feemode":"1",
+        "feevalue":"0.01",
+        "serialno":"201808161830090305IP",
+        "custno":"1538943811",
+        "apkind":"014",
+        "subapkind":"014001",
+        "apdt":"20180722",
+        "aptm":"113344",
+        "workdate":"20180722",
+        "tradeacco":"000621718538943814",
+        "taaccountid":"475A7FB19598436383",
+        "tano":"47",
+        "productid":"8901",
+        "sharetype":"A",
+        "accptmd":"1",
+        "branchcode":"247000",
+        "distributorcode":"247"}
+ Thu, 16 Aug 2018 18:30:09  INFO Doexcel.py getAllCaseDatas [ line:48 ] 初始化之后的sql语句为：
+["SELECT * from cts.cts_traderequest WHERE SERIALNO='201808161830090305IP';"]
+ Thu, 16 Aug 2018 18:30:09  INFO Doexcel.py getAllCaseDatas [ line:47 ] 初始化之后的请求数据为：
+""
+ Thu, 16 Aug 2018 18:30:09  INFO Doexcel.py getAllCaseDatas [ line:48 ] 初始化之后的sql语句为：
+None
+ Thu, 16 Aug 2018 18:30:09  INFO Doexcel.py getAllCaseDatas [ line:47 ] 初始化之后的请求数据为：
+{"serialno":"201808161830090305IP","isSend":"1",'extFields':{"errCode":"0000", "errMsg":"交易成功", "tranSt":"Y"}}
+ Thu, 16 Aug 2018 18:30:09  INFO Doexcel.py getAllCaseDatas [ line:48 ] 初始化之后的sql语句为：
+["SELECT * from cts.cts_traderequest WHERE SERIALNO='201808161830090305IP' AND APPLYST='Y'AND TRANSST='Y' AND PAYST='Y';","SELECT * from cts.cts_tradequtychg WHERE REFERNO='201808161830090305IP' AND PRODUCTID='8901'AND CHANGEQUTY='10';"]
+ Thu, 16 Aug 2018 18:30:09  INFO Doexcel.py getAllCaseDatas [ line:47 ] 初始化之后的请求数据为：
+{"refercapno":"5B57DD261DFCbc4E",
+        "reemFlag":"1",
+        "selltype":1,
+        "periodic":"true",
+        "mixProd":"true",
+        "bigVCustno":"1503257540",
+        "honourFlag":"1",
+        "newFlag":"0",
+        "partPayment":"false",
+        "subquty":"10.00",
+        "feetp":"07",
+        "feemode":"1",
+        "feevalue":"0.01",
+        "serialno":"201808161830090468Rf",
+        "custno":"1538943811",
+        "apkind":"014",
+        "subapkind":"014001",
+        "apdt":"20180815",
+        "aptm":"164500",
+        "workdate":"20180815",
+        "tradeacco":"000621718538943814",
+        "taaccountid":"475A7FB19598436383",
+        "tano":"47",
+        "productid":"8802",
+        "sharetype":"A",
+        "accptmd":"1",
+        "branchcode":"247000",
+        "distributorcode":"247"}
+ Thu, 16 Aug 2018 18:30:09  INFO Doexcel.py getAllCaseDatas [ line:48 ] 初始化之后的sql语句为：
+["SELECT * from cts.cts_traderequest WHERE SERIALNO='201808161830090468Rf';"]
+ Thu, 16 Aug 2018 18:30:09  INFO Doexcel.py getAllCaseDatas [ line:47 ] 初始化之后的请求数据为：
+""
+ Thu, 16 Aug 2018 18:30:09  INFO Doexcel.py getAllCaseDatas [ line:48 ] 初始化之后的sql语句为：
+None
+ Thu, 16 Aug 2018 18:30:09  INFO Doexcel.py getAllCaseDatas [ line:47 ] 初始化之后的请求数据为：
+{"serialno":"201808161830090468Rf","isSend":"1",'extFields':{"errCode":"0000", "errMsg":"交易成功", "tranSt":"Y"}}
+ Thu, 16 Aug 2018 18:30:09  INFO Doexcel.py getAllCaseDatas [ line:48 ] 初始化之后的sql语句为：
+["SELECT * from cts.cts_traderequest WHERE SERIALNO='201808161830090468Rf' AND APPLYST='Y'AND TRANSST='Y' AND PAYST='Y';","SELECT * from cts.cts_tradequtychg WHERE REFERNO='201808161830090468Rf' AND PRODUCTID='9999'AND CHANGEQUTY='9.9';"]
+ Thu, 16 Aug 2018 18:30:09  INFO Doexcel.py getAllCaseDatas [ line:47 ] 初始化之后的请求数据为：
+{"refercapno":"5B57DD261DFCbc4E",
+        "reemFlag":"1",
+        "selltype":1,
+        "periodic":"true",
+        "mixProd":"true",
+        "bigVCustno":"1503257540",
+        "honourFlag":"1",
+        "newFlag":"0",
+        "partPayment":"false",
+        "subquty":"10.00",
+        "feetp":"07",
+        "feemode":"1",
+        "feevalue":"0.01",
+        "serialno":"201808161830090766KM",
+        "custno":"1538943811",
+        "apkind":"014",
+        "subapkind":"014001",
+        "apdt":"20180815",
+        "aptm":"164500",
+        "workdate":"20180815",
+        "tradeacco":"000621718538943814",
+        "taaccountid":"475A7FB19598436383",
+        "tano":"47",
+        "productid":"8802",
+        "sharetype":"A",
+        "accptmd":"1",
+        "branchcode":"247000",
+        "distributorcode":"247"}
+ Thu, 16 Aug 2018 18:30:09  INFO Doexcel.py getAllCaseDatas [ line:48 ] 初始化之后的sql语句为：
+["SELECT * from cts.cts_traderequest WHERE SERIALNO='201808161830090766KM';"]
+ Thu, 16 Aug 2018 18:30:09  INFO Doexcel.py getAllCaseDatas [ line:47 ] 初始化之后的请求数据为：
+""
+ Thu, 16 Aug 2018 18:30:09  INFO Doexcel.py getAllCaseDatas [ line:48 ] 初始化之后的sql语句为：
+None
+ Thu, 16 Aug 2018 18:30:09  INFO Doexcel.py getAllCaseDatas [ line:47 ] 初始化之后的请求数据为：
+{"serialno":"201808161830090766KM","isSend":"1",'extFields':{"errCode":"0000", "errMsg":"交易成功", "tranSt":"Y"}}
+ Thu, 16 Aug 2018 18:30:09  INFO Doexcel.py getAllCaseDatas [ line:48 ] 初始化之后的sql语句为：
+["SELECT * from cts.cts_traderequest WHERE SERIALNO='201808161830090766KM' AND APPLYST='Y'AND TRANSST='Y' AND PAYST='Y';","SELECT * from cts.cts_tradequtychg WHERE REFERNO='201808161830090766KM' AND PRODUCTID='8802'AND CHANGEQUTY='10';"]
+ Thu, 16 Aug 2018 18:30:09  INFO Doexcel.py getAllCaseDatas [ line:47 ] 初始化之后的请求数据为：
+{"refercapno":"5B57DD261DFCbc4E",
+        "sellCouponId":"5B569A9A006Abc55",
+        "reemFlag":"1",
+        "selltype":1,
+        "periodic":"true",
+        "mixProd":"true",
+        "bigVCustno":"1503257540",
+        "honourFlag":"1",
+        "newFlag":"0",
+        "partPayment":"false",
+        "subquty":"10.00",
+        "feetp":"07",
+        "feemode":"1",
+        "feevalue":"0.01",
+        "serialno":"201808161830090770Gz",
+        "custno":"1538943811",
+        "apkind":"014",
+        "subapkind":"014001",
+        "apdt":"20180815",
+        "aptm":"164500",
+        "workdate":"20180815",
+        "tradeacco":"000621718538943814",
+        "taaccountid":"475A7FB19598436383",
+        "tano":"47",
+        "productid":"8802",
+        "sharetype":"A",
+        "accptmd":"1",
+        "branchcode":"247000",
+        "distributorcode":"247"}
+ Thu, 16 Aug 2018 18:30:09  INFO Doexcel.py getAllCaseDatas [ line:48 ] 初始化之后的sql语句为：
+["SELECT * from cts.cts_traderequest WHERE SERIALNO='201808161830090770Gz';"]
+ Thu, 16 Aug 2018 18:30:09  INFO Doexcel.py getAllCaseDatas [ line:47 ] 初始化之后的请求数据为：
+""
+ Thu, 16 Aug 2018 18:30:09  INFO Doexcel.py getAllCaseDatas [ line:48 ] 初始化之后的sql语句为：
+None
+ Thu, 16 Aug 2018 18:30:09  INFO Doexcel.py getAllCaseDatas [ line:47 ] 初始化之后的请求数据为：
+{"serialno":"201808161830090770Gz","isSend":"1",'extFields':{"errCode":"0000", "errMsg":"交易成功", "tranSt":"Y"}}
+ Thu, 16 Aug 2018 18:30:09  INFO Doexcel.py getAllCaseDatas [ line:48 ] 初始化之后的sql语句为：
+["SELECT * from cts.cts_traderequest WHERE SERIALNO='201808161830090770Gz' AND APPLYST='Y'AND TRANSST='Y' AND PAYST='Y';","SELECT * from cts.cts_tradequtychg WHERE REFERNO='201808161830090770Gz' AND PRODUCTID='9999'AND CHANGEQUTY='9.9';"]
+ Thu, 16 Aug 2018 18:30:09  INFO Doexcel.py getAllCaseDatas [ line:47 ] 初始化之后的请求数据为：
+{"refercapno":"5B57DD261DFCbc4E",
+        "sellCouponId":"5B569A9A006Abc55",
+        "reemFlag":"1",
+        "selltype":1,
+        "periodic":"true",
+        "mixProd":"true",
+        "bigVCustno":"1503257540",
+        "honourFlag":"1",
+        "newFlag":"0",
+        "partPayment":"false",
+        "subquty":"10.00",
+        "feetp":"07",
+        "feemode":"1",
+        "feevalue":"0.01",
+        "serialno":"201808161830090998bK",
+        "custno":"1538943811",
+        "apkind":"014",
+        "subapkind":"014001",
+        "apdt":"20180815",
+        "aptm":"164500",
+        "workdate":"20180815",
+        "tradeacco":"000621718538943814",
+        "taaccountid":"475A7FB19598436383",
+        "tano":"47",
+        "productid":"8802",
+        "sharetype":"A",
+        "accptmd":"1",
+        "branchcode":"247000",
+        "distributorcode":"247"}
+ Thu, 16 Aug 2018 18:30:09  INFO Doexcel.py getAllCaseDatas [ line:48 ] 初始化之后的sql语句为：
+["SELECT * from cts.cts_traderequest WHERE SERIALNO='201808161830090998bK';"]
+ Thu, 16 Aug 2018 18:30:09  INFO Doexcel.py getAllCaseDatas [ line:47 ] 初始化之后的请求数据为：
+""
+ Thu, 16 Aug 2018 18:30:09  INFO Doexcel.py getAllCaseDatas [ line:48 ] 初始化之后的sql语句为：
+None
+ Thu, 16 Aug 2018 18:30:09  INFO Doexcel.py getAllCaseDatas [ line:47 ] 初始化之后的请求数据为：
+{"serialno":"201808161830090998bK","isSend":"1",'extFields':{"errCode":"0000", "errMsg":"交易成功", "tranSt":"Y"}}
+ Thu, 16 Aug 2018 18:30:09  INFO Doexcel.py getAllCaseDatas [ line:48 ] 初始化之后的sql语句为：
+["SELECT * from cts.cts_traderequest WHERE SERIALNO='201808161830090998bK' AND APPLYST='Y'AND TRANSST='Y' AND PAYST='Y';","SELECT * from cts.cts_tradequtychg WHERE REFERNO='201808161830090998bK' AND PRODUCTID='8802'AND CHANGEQUTY='10';"]
+ Thu, 16 Aug 2018 18:30:09  INFO Doexcel.py getAllCaseDatas [ line:47 ] 初始化之后的请求数据为：
+{"refercapno":"5B57DE5B20F7bc4E",
+        "reemFlag":"1",
+        "selltype":1,
+        "periodic":"true",
+        "mixProd":"true",
+        "bigVCustno":"1597219235",
+        "honourFlag":"1",
+        "newFlag":"0",
+        "partPayment":"false",
+        "subquty":"10.00",
+        "feetp":"07",
+        "feemode":"1",
+        "feevalue":"0.01",
+        "serialno":"201808161830090690Jx",
+        "custno":"1538943811",
+        "apkind":"014",
+        "subapkind":"014001",
+        "apdt":"20180815",
+        "aptm":"164500",
+        "workdate":"20180815",
+        "tradeacco":"000621718538943814",
+        "taaccountid":"475A7FB19598436383",
+        "tano":"47",
+        "productid":"8904",
+        "sharetype":"A",
+        "accptmd":"1",
+        "branchcode":"247000",
+        "distributorcode":"247"}
+ Thu, 16 Aug 2018 18:30:09  INFO Doexcel.py getAllCaseDatas [ line:48 ] 初始化之后的sql语句为：
+["SELECT * from cts.cts_traderequest WHERE SERIALNO='201808161830090690Jx';"]
+ Thu, 16 Aug 2018 18:30:09  INFO Doexcel.py getAllCaseDatas [ line:47 ] 初始化之后的请求数据为：
+""
+ Thu, 16 Aug 2018 18:30:09  INFO Doexcel.py getAllCaseDatas [ line:48 ] 初始化之后的sql语句为：
+None
+ Thu, 16 Aug 2018 18:30:09  INFO Doexcel.py getAllCaseDatas [ line:47 ] 初始化之后的请求数据为：
+{"serialno":"201808161830090690Jx","isSend":"1",'extFields':{"errCode":"0000", "errMsg":"交易成功", "tranSt":"Y"}}
+ Thu, 16 Aug 2018 18:30:09  INFO Doexcel.py getAllCaseDatas [ line:48 ] 初始化之后的sql语句为：
+["SELECT * from cts.cts_traderequest WHERE SERIALNO='201808161830090690Jx' AND APPLYST='Y'AND TRANSST='Y' AND PAYST='Y';","SELECT * from cts.cts_tradequtychg WHERE REFERNO='201808161830090690Jx' AND PRODUCTID='9999'AND CHANGEQUTY='9.9';"]
+ Thu, 16 Aug 2018 18:30:09  INFO Doexcel.py getAllCaseDatas [ line:47 ] 初始化之后的请求数据为：
+{"refercapno":"5B57DE5B20F7bc4E",
+        "reemFlag":"1",
+        "selltype":1,
+        "periodic":"true",
+        "mixProd":"true",
+        "bigVCustno":"1597219235",
+        "honourFlag":"1",
+        "newFlag":"0",
+        "partPayment":"false",
+        "subquty":"10.00",
+        "feetp":"07",
+        "feemode":"1",
+        "feevalue":"0.01",
+        "serialno":"201808161830090900hz",
+        "custno":"1538943811",
+        "apkind":"014",
+        "subapkind":"014001",
+        "apdt":"20180815",
+        "aptm":"164500",
+        "workdate":"20180815",
+        "tradeacco":"000621718538943814",
+        "taaccountid":"475A7FB19598436383",
+        "tano":"47",
+        "productid":"8904",
+        "sharetype":"A",
+        "accptmd":"1",
+        "branchcode":"247000",
+        "distributorcode":"247"}
+ Thu, 16 Aug 2018 18:30:09  INFO Doexcel.py getAllCaseDatas [ line:48 ] 初始化之后的sql语句为：
+["SELECT * from cts.cts_traderequest WHERE SERIALNO='201808161830090900hz';"]
+ Thu, 16 Aug 2018 18:30:09  INFO Doexcel.py getAllCaseDatas [ line:47 ] 初始化之后的请求数据为：
+""
+ Thu, 16 Aug 2018 18:30:09  INFO Doexcel.py getAllCaseDatas [ line:48 ] 初始化之后的sql语句为：
+None
+ Thu, 16 Aug 2018 18:30:09  INFO Doexcel.py getAllCaseDatas [ line:47 ] 初始化之后的请求数据为：
+{"serialno":"201808161830090900hz","isSend":"1",'extFields':{"errCode":"0000", "errMsg":"交易成功", "tranSt":"Y"}}
+ Thu, 16 Aug 2018 18:30:09  INFO Doexcel.py getAllCaseDatas [ line:48 ] 初始化之后的sql语句为：
+["SELECT * from cts.cts_traderequest WHERE SERIALNO='201808161830090900hz' AND APPLYST='Y'AND TRANSST='Y' AND PAYST='Y';","SELECT * from cts.cts_tradequtychg WHERE REFERNO='201808161830090900hz' AND PRODUCTID='8904'AND CHANGEQUTY='10';"]
+ Thu, 16 Aug 2018 18:30:09  INFO Doexcel.py getAllCaseDatas [ line:47 ] 初始化之后的请求数据为：
+{"refercapno":"5B57DE5B20F7bc4E",
+        "sellCouponId":"5B569A9A006Abc55",
+        "reemFlag":"1",
+        "selltype":1,
+        "periodic":"true",
+        "mixProd":"true",
+        "bigVCustno":"1597219235",
+        "honourFlag":"1",
+        "newFlag":"0",
+        "partPayment":"false",
+        "subquty":"10.00",
+        "feetp":"07",
+        "feemode":"1",
+        "feevalue":"0.01",
+        "serialno":"201808161830090399gl",
+        "custno":"1538943811",
+        "apkind":"014",
+        "subapkind":"014001",
+        "apdt":"20180815",
+        "aptm":"164500",
+        "workdate":"20180815",
+        "tradeacco":"000621718538943814",
+        "taaccountid":"475A7FB19598436383",
+        "tano":"47",
+        "productid":"8904",
+        "sharetype":"A",
+        "accptmd":"1",
+        "branchcode":"247000",
+        "distributorcode":"247"}
+ Thu, 16 Aug 2018 18:30:09  INFO Doexcel.py getAllCaseDatas [ line:48 ] 初始化之后的sql语句为：
+["SELECT * from cts.cts_traderequest WHERE SERIALNO='201808161830090399gl';"]
+ Thu, 16 Aug 2018 18:30:09  INFO Doexcel.py getAllCaseDatas [ line:47 ] 初始化之后的请求数据为：
+""
+ Thu, 16 Aug 2018 18:30:09  INFO Doexcel.py getAllCaseDatas [ line:48 ] 初始化之后的sql语句为：
+None
+ Thu, 16 Aug 2018 18:30:09  INFO Doexcel.py getAllCaseDatas [ line:47 ] 初始化之后的请求数据为：
+{"serialno":"201808161830090399gl","isSend":"1",'extFields':{"errCode":"0000", "errMsg":"交易成功", "tranSt":"Y"}}
+ Thu, 16 Aug 2018 18:30:09  INFO Doexcel.py getAllCaseDatas [ line:48 ] 初始化之后的sql语句为：
+["SELECT * from cts.cts_traderequest WHERE SERIALNO='201808161830090399gl' AND APPLYST='Y'AND TRANSST='Y' AND PAYST='Y';","SELECT * from cts.cts_tradequtychg WHERE REFERNO='201808161830090399gl' AND PRODUCTID='9999'AND CHANGEQUTY='9.9';"]
+ Thu, 16 Aug 2018 18:30:09  INFO Doexcel.py getAllCaseDatas [ line:47 ] 初始化之后的请求数据为：
+{"refercapno":"5B57DE5B20F7bc4E",
+        "sellCouponId":"5B569A9A006Abc55",
+        "reemFlag":"1",
+        "selltype":1,
+        "periodic":"true",
+        "mixProd":"true",
+        "bigVCustno":"1597219235",
+        "honourFlag":"1",
+        "newFlag":"0",
+        "partPayment":"false",
+        "subquty":"10.00",
+        "feetp":"07",
+        "feemode":"1",
+        "feevalue":"0.01",
+        "serialno":"201808161830090627dY",
+        "custno":"1538943811",
+        "apkind":"014",
+        "subapkind":"014001",
+        "apdt":"20180815",
+        "aptm":"164500",
+        "workdate":"20180815",
+        "tradeacco":"000621718538943814",
+        "taaccountid":"475A7FB19598436383",
+        "tano":"47",
+        "productid":"8904",
+        "sharetype":"A",
+        "accptmd":"1",
+        "branchcode":"247000",
+        "distributorcode":"247"}
+ Thu, 16 Aug 2018 18:30:09  INFO Doexcel.py getAllCaseDatas [ line:48 ] 初始化之后的sql语句为：
+["SELECT * from cts.cts_traderequest WHERE SERIALNO='201808161830090627dY';"]
+ Thu, 16 Aug 2018 18:30:09  INFO Doexcel.py getAllCaseDatas [ line:47 ] 初始化之后的请求数据为：
+""
+ Thu, 16 Aug 2018 18:30:09  INFO Doexcel.py getAllCaseDatas [ line:48 ] 初始化之后的sql语句为：
+None
+ Thu, 16 Aug 2018 18:30:09  INFO Doexcel.py getAllCaseDatas [ line:47 ] 初始化之后的请求数据为：
+{"serialno":"201808161830090627dY","isSend":"1",'extFields':{"errCode":"0000", "errMsg":"交易成功", "tranSt":"Y"}}
+ Thu, 16 Aug 2018 18:30:09  INFO Doexcel.py getAllCaseDatas [ line:48 ] 初始化之后的sql语句为：
+["SELECT * from cts.cts_traderequest WHERE SERIALNO='201808161830090627dY' AND APPLYST='Y'AND TRANSST='Y' AND PAYST='Y';","SELECT * from cts.cts_tradequtychg WHERE REFERNO='201808161830090627dY' AND PRODUCTID='8904'AND CHANGEQUTY='10';"]
+ Thu, 16 Aug 2018 18:30:09  INFO test_api.py <module> [ line:19 ] 所有的测试数据为：[{'case_id': 1, 'api_name': '【组合卖出】季季升产品提前卖出申请', 'interface': 'com.wt.cts.service.ProductCoreTradeService', 'method': 'sellToVacco', 'request_data': '{"refercapno":"5B57DD261DFCbc4E",\n        "reemFlag":"1",\n        "selltype":1,\n        "periodic":"true",\n        "mixProd":"true",\n        "bigVCustno":"1503257540",\n        "honourFlag":"1",\n        "newFlag":"0",\n        "partPayment":"false",\n        "subquty":"10.00",\n        "feetp":"07",\n        "feemode":"1",\n        "feevalue":"0.01",\n        "serialno":"201808161830090346hf",\n        "custno":"1538943811",\n        "apkind":"014",\n        "subapkind":"014001",\n        "apdt":"20180722",\n        "aptm":"113344",\n        "workdate":"20180722",\n        "tradeacco":"000621718538943814",\n        "taaccountid":"475A7FB19598436383",\n        "tano":"47",\n        "productid":"8901",\n        "sharetype":"A",\n        "accptmd":"1",\n        "branchcode":"247000",\n        "distributorcode":"247"}', 'execute_sql': '["SELECT * from cts.cts_traderequest WHERE SERIALNO=\'201808161830090346hf\';"]', 'expected_data': "{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'Y', 'tradeMsg': '申请成功', 'errMsg': '申请成功', 'tradeCode': '0000', 'exObjFields': {}, 'key': None}", 'affected_caseId': 3, 'compare_type': 0, 'wait_time': None}, {'case_id': 2, 'api_name': '【调用轮询接口处理交易请求】', 'interface': 'com.wt.cts.service.ProductCoreTradeService', 'method': 'tradeContinueTask', 'request_data': '""', 'execute_sql': None, 'expected_data': None, 'affected_caseId': None, 'compare_type': None, 'wait_time': 1}, {'case_id': 3, 'api_name': '【卖出后续接口】季季升产品提前卖出成功', 'interface': 'com.wt.cts.service.ProductCoreTradeService', 'method': 'tradeContinue', 'request_data': '{"serialno":"201808161830090346hf","isSend":"1",\'extFields\':{"errCode":"0000", "errMsg":"交易成功", "tranSt":"Y"}}', 'execute_sql': '["SELECT * from cts.cts_traderequest WHERE SERIALNO=\'201808161830090346hf\' AND APPLYST=\'Y\'AND TRANSST=\'Y\' AND PAYST=\'Y\';","SELECT * from cts.cts_tradequtychg WHERE REFERNO=\'201808161830090346hf\' AND PRODUCTID=\'9999\'AND CHANGEQUTY=\'9.9\';"]', 'expected_data': "{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'Y', 'tradeMsg': '申请成功！', 'errMsg': '申请成功', 'tradeCode': '0000', 'exObjFields': {}, 'key': None}", 'affected_caseId': None, 'compare_type': 0, 'wait_time': None}, {'case_id': 4, 'api_name': '【组合卖出】季季升产品提前卖出申请', 'interface': 'com.wt.cts.service.ProductCoreTradeService', 'method': 'sellToVacco', 'request_data': '{"refercapno":"5B57DD261DFCbc4E",\n        "reemFlag":"1",\n        "selltype":1,\n        "periodic":"true",\n        "mixProd":"true",\n        "bigVCustno":"1503257540",\n        "honourFlag":"1",\n        "newFlag":"0",\n        "partPayment":"false",\n        "subquty":"10.00",\n        "feetp":"07",\n        "feemode":"1",\n        "feevalue":"0.01",\n        "serialno":"201808161830090990GL",\n        "custno":"1538943811",\n        "apkind":"014",\n        "subapkind":"014001",\n        "apdt":"20180722",\n        "aptm":"113344",\n        "workdate":"20180722",\n        "tradeacco":"000621718538943814",\n        "taaccountid":"475A7FB19598436383",\n        "tano":"47",\n        "productid":"8901",\n        "sharetype":"A",\n        "accptmd":"1",\n        "branchcode":"247000",\n        "distributorcode":"247"}', 'execute_sql': '["SELECT * from cts.cts_traderequest WHERE SERIALNO=\'201808161830090990GL\';"]', 'expected_data': "{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'Y', 'tradeMsg': '申请成功', 'errMsg': '申请成功', 'tradeCode': '0000', 'exObjFields': {}, 'key': None}", 'affected_caseId': 6, 'compare_type': 0, 'wait_time': None}, {'case_id': 5, 'api_name': '【调用轮询接口处理交易请求】', 'interface': 'com.wt.cts.service.ProductCoreTradeService', 'method': 'tradeContinueTask', 'request_data': '""', 'execute_sql': None, 'expected_data': None, 'affected_caseId': None, 'compare_type': None, 'wait_time': 1}, {'case_id': 6, 'api_name': '【卖出后续接口】季季升产品提前卖出失败', 'interface': 'com.wt.cts.service.ProductCoreTradeService', 'method': 'tradeContinue', 'request_data': '{"serialno":"201808161830090990GL","isSend":"1",\'extFields\':{"errCode":"0000", "errMsg":"交易成功", "tranSt":"Y"}}', 'execute_sql': '["SELECT * from cts.cts_traderequest WHERE SERIALNO=\'201808161830090990GL\' AND APPLYST=\'Y\'AND TRANSST=\'Y\' AND PAYST=\'Y\';","SELECT * from cts.cts_tradequtychg WHERE REFERNO=\'201808161830090990GL\' AND PRODUCTID=\'8901\'AND CHANGEQUTY=\'10\';"]', 'expected_data': "{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'Y', 'tradeMsg': '申请成功！', 'errMsg': '申请成功', 'tradeCode': '0000', 'exObjFields': {}, 'key': None}", 'affected_caseId': None, 'compare_type': 0, 'wait_time': None}, {'case_id': 7, 'api_name': '【组合卖出】使用优惠券季季升产品提前卖出申请', 'interface': 'com.wt.cts.service.ProductCoreTradeService', 'method': 'sellToVacco', 'request_data': '{"refercapno":"5B57DD261DFCbc4E",\n        "sellCouponId":"5B569A9A006Abc55",\n        "reemFlag":"1",\n        "periodic":"true",\n        "mixProd":"true",\n        "bigVCustno":"1503257540",\n        "honourFlag":"1",\n        "newFlag":"0",\n        "partPayment":"false",\n        "subquty":"10.00",\n        "feetp":"07",\n        "feemode":"1",\n        "feevalue":"0.01",\n        "serialno":"20180816183009031LX",\n        "custno":"1538943811",\n        "apkind":"014",\n        "subapkind":"014001",\n        "apdt":"20180722",\n        "aptm":"113344",\n        "workdate":"20180722",\n        "tradeacco":"000621718538943814",\n        "taaccountid":"475A7FB19598436383",\n        "tano":"47",\n        "productid":"8901",\n        "sharetype":"A",\n        "accptmd":"1",\n        "branchcode":"247000",\n        "distributorcode":"247"}', 'execute_sql': '["SELECT * from cts.cts_traderequest WHERE SERIALNO=\'20180816183009031LX\';"]', 'expected_data': "{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'Y', 'tradeMsg': '申请成功', 'errMsg': '申请成功', 'tradeCode': '0000', 'exObjFields': {}, 'key': None}", 'affected_caseId': 9, 'compare_type': 0, 'wait_time': None}, {'case_id': 8, 'api_name': '【调用轮询接口处理交易请求】', 'interface': 'com.wt.cts.service.ProductCoreTradeService', 'method': 'tradeContinueTask', 'request_data': '""', 'execute_sql': None, 'expected_data': None, 'affected_caseId': None, 'compare_type': None, 'wait_time': 1}, {'case_id': 9, 'api_name': '【卖出后续接口】使用优惠券季季升产品提前卖出成功', 'interface': 'com.wt.cts.service.ProductCoreTradeService', 'method': 'tradeContinue', 'request_data': '{"serialno":"20180816183009031LX","isSend":"1",\'extFields\':{"errCode":"0000", "errMsg":"交易成功", "tranSt":"Y"}}', 'execute_sql': '["SELECT * from cts.cts_traderequest WHERE SERIALNO=\'20180816183009031LX\' AND APPLYST=\'Y\'AND TRANSST=\'Y\' AND PAYST=\'Y\';","SELECT * from cts.cts_tradequtychg WHERE REFERNO=\'20180816183009031LX\' AND PRODUCTID=\'9999\'AND CHANGEQUTY=\'9.9\';"]', 'expected_data': "{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'Y', 'tradeMsg': '申请成功！', 'errMsg': '申请成功', 'tradeCode': '0000', 'exObjFields': {}, 'key': None}", 'affected_caseId': None, 'compare_type': 0, 'wait_time': None}, {'case_id': 10, 'api_name': '【组合卖出】使用优惠券季季升产品提前卖出申请', 'interface': 'com.wt.cts.service.ProductCoreTradeService', 'method': 'sellToVacco', 'request_data': '{"refercapno":"5B57DD261DFCbc4E",\n        "sellCouponId":"5B569A9A006Abc55",\n        "reemFlag":"1",\n        "selltype":1,\n        "periodic":"true",\n        "mixProd":"true",\n        "bigVCustno":"1503257540",\n        "honourFlag":"1",\n        "newFlag":"0",\n        "partPayment":"false",\n        "subquty":"10.00",\n        "feetp":"07",\n        "feemode":"1",\n        "feevalue":"0.01",\n        "serialno":"201808161830090305IP",\n        "custno":"1538943811",\n        "apkind":"014",\n        "subapkind":"014001",\n        "apdt":"20180722",\n        "aptm":"113344",\n        "workdate":"20180722",\n        "tradeacco":"000621718538943814",\n        "taaccountid":"475A7FB19598436383",\n        "tano":"47",\n        "productid":"8901",\n        "sharetype":"A",\n        "accptmd":"1",\n        "branchcode":"247000",\n        "distributorcode":"247"}', 'execute_sql': '["SELECT * from cts.cts_traderequest WHERE SERIALNO=\'201808161830090305IP\';"]', 'expected_data': "{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'Y', 'tradeMsg': '申请成功', 'errMsg': '申请成功', 'tradeCode': '0000', 'exObjFields': {}, 'key': None}", 'affected_caseId': 12, 'compare_type': 0, 'wait_time': None}, {'case_id': 11, 'api_name': '【调用轮询接口处理交易请求】', 'interface': 'com.wt.cts.service.ProductCoreTradeService', 'method': 'tradeContinueTask', 'request_data': '""', 'execute_sql': None, 'expected_data': None, 'affected_caseId': None, 'compare_type': None, 'wait_time': 1}, {'case_id': 12, 'api_name': '【卖出后续接口】使用优惠券季季升产品提前卖出失败', 'interface': 'com.wt.cts.service.ProductCoreTradeService', 'method': 'tradeContinue', 'request_data': '{"serialno":"201808161830090305IP","isSend":"1",\'extFields\':{"errCode":"0000", "errMsg":"交易成功", "tranSt":"Y"}}', 'execute_sql': '["SELECT * from cts.cts_traderequest WHERE SERIALNO=\'201808161830090305IP\' AND APPLYST=\'Y\'AND TRANSST=\'Y\' AND PAYST=\'Y\';","SELECT * from cts.cts_tradequtychg WHERE REFERNO=\'201808161830090305IP\' AND PRODUCTID=\'8901\'AND CHANGEQUTY=\'10\';"]', 'expected_data': "{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'Y', 'tradeMsg': '申请成功！', 'errMsg': '申请成功', 'tradeCode': '0000', 'exObjFields': {}, 'key': None}", 'affected_caseId': None, 'compare_type': 0, 'wait_time': None}, {'case_id': 13, 'api_name': '【组合卖出】月月盈产品提前卖出申请', 'interface': 'com.wt.cts.service.ProductCoreTradeService', 'method': 'sellToVacco', 'request_data': '{"refercapno":"5B57DD261DFCbc4E",\n        "reemFlag":"1",\n        "selltype":1,\n        "periodic":"true",\n        "mixProd":"true",\n        "bigVCustno":"1503257540",\n        "honourFlag":"1",\n        "newFlag":"0",\n        "partPayment":"false",\n        "subquty":"10.00",\n        "feetp":"07",\n        "feemode":"1",\n        "feevalue":"0.01",\n        "serialno":"201808161830090468Rf",\n        "custno":"1538943811",\n        "apkind":"014",\n        "subapkind":"014001",\n        "apdt":"20180815",\n        "aptm":"164500",\n        "workdate":"20180815",\n        "tradeacco":"000621718538943814",\n        "taaccountid":"475A7FB19598436383",\n        "tano":"47",\n        "productid":"8802",\n        "sharetype":"A",\n        "accptmd":"1",\n        "branchcode":"247000",\n        "distributorcode":"247"}', 'execute_sql': '["SELECT * from cts.cts_traderequest WHERE SERIALNO=\'201808161830090468Rf\';"]', 'expected_data': "{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'Y', 'tradeMsg': '申请成功', 'errMsg': '申请成功', 'tradeCode': '0000', 'exObjFields': {}, 'key': None}", 'affected_caseId': 15, 'compare_type': 0, 'wait_time': None}, {'case_id': 14, 'api_name': '【调用轮询接口处理交易请求】', 'interface': 'com.wt.cts.service.ProductCoreTradeService', 'method': 'tradeContinueTask', 'request_data': '""', 'execute_sql': None, 'expected_data': None, 'affected_caseId': None, 'compare_type': None, 'wait_time': 1}, {'case_id': 15, 'api_name': '【卖出后续接口】月月盈产品提前卖出成功', 'interface': 'com.wt.cts.service.ProductCoreTradeService', 'method': 'tradeContinue', 'request_data': '{"serialno":"201808161830090468Rf","isSend":"1",\'extFields\':{"errCode":"0000", "errMsg":"交易成功", "tranSt":"Y"}}', 'execute_sql': '["SELECT * from cts.cts_traderequest WHERE SERIALNO=\'201808161830090468Rf\' AND APPLYST=\'Y\'AND TRANSST=\'Y\' AND PAYST=\'Y\';","SELECT * from cts.cts_tradequtychg WHERE REFERNO=\'201808161830090468Rf\' AND PRODUCTID=\'9999\'AND CHANGEQUTY=\'9.9\';"]', 'expected_data': "{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'Y', 'tradeMsg': '申请成功！', 'errMsg': '申请成功', 'tradeCode': '0000', 'exObjFields': {}, 'key': None}", 'affected_caseId': None, 'compare_type': 0, 'wait_time': None}, {'case_id': 16, 'api_name': '【组合卖出】月月盈产品提前卖出申请', 'interface': 'com.wt.cts.service.ProductCoreTradeService', 'method': 'sellToVacco', 'request_data': '{"refercapno":"5B57DD261DFCbc4E",\n        "reemFlag":"1",\n        "selltype":1,\n        "periodic":"true",\n        "mixProd":"true",\n        "bigVCustno":"1503257540",\n        "honourFlag":"1",\n        "newFlag":"0",\n        "partPayment":"false",\n        "subquty":"10.00",\n        "feetp":"07",\n        "feemode":"1",\n        "feevalue":"0.01",\n        "serialno":"201808161830090766KM",\n        "custno":"1538943811",\n        "apkind":"014",\n        "subapkind":"014001",\n        "apdt":"20180815",\n        "aptm":"164500",\n        "workdate":"20180815",\n        "tradeacco":"000621718538943814",\n        "taaccountid":"475A7FB19598436383",\n        "tano":"47",\n        "productid":"8802",\n        "sharetype":"A",\n        "accptmd":"1",\n        "branchcode":"247000",\n        "distributorcode":"247"}', 'execute_sql': '["SELECT * from cts.cts_traderequest WHERE SERIALNO=\'201808161830090766KM\';"]', 'expected_data': "{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'Y', 'tradeMsg': '申请成功', 'errMsg': '申请成功', 'tradeCode': '0000', 'exObjFields': {}, 'key': None}", 'affected_caseId': 18, 'compare_type': 0, 'wait_time': None}, {'case_id': 17, 'api_name': '【调用轮询接口处理交易请求】', 'interface': 'com.wt.cts.service.ProductCoreTradeService', 'method': 'tradeContinueTask', 'request_data': '""', 'execute_sql': None, 'expected_data': None, 'affected_caseId': None, 'compare_type': None, 'wait_time': 1}, {'case_id': 18, 'api_name': '【卖出后续接口】月月盈产品提前卖出失败', 'interface': 'com.wt.cts.service.ProductCoreTradeService', 'method': 'tradeContinue', 'request_data': '{"serialno":"201808161830090766KM","isSend":"1",\'extFields\':{"errCode":"0000", "errMsg":"交易成功", "tranSt":"Y"}}', 'execute_sql': '["SELECT * from cts.cts_traderequest WHERE SERIALNO=\'201808161830090766KM\' AND APPLYST=\'Y\'AND TRANSST=\'Y\' AND PAYST=\'Y\';","SELECT * from cts.cts_tradequtychg WHERE REFERNO=\'201808161830090766KM\' AND PRODUCTID=\'8802\'AND CHANGEQUTY=\'10\';"]', 'expected_data': "{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'Y', 'tradeMsg': '申请成功！', 'errMsg': '申请成功', 'tradeCode': '0000', 'exObjFields': {}, 'key': None}", 'affected_caseId': None, 'compare_type': 0, 'wait_time': None}, {'case_id': 19, 'api_name': '【组合卖出】使用优惠券季季升产品提前卖出申请', 'interface': 'com.wt.cts.service.ProductCoreTradeService', 'method': 'sellToVacco', 'request_data': '{"refercapno":"5B57DD261DFCbc4E",\n        "sellCouponId":"5B569A9A006Abc55",\n        "reemFlag":"1",\n        "selltype":1,\n        "periodic":"true",\n        "mixProd":"true",\n        "bigVCustno":"1503257540",\n        "honourFlag":"1",\n        "newFlag":"0",\n        "partPayment":"false",\n        "subquty":"10.00",\n        "feetp":"07",\n        "feemode":"1",\n        "feevalue":"0.01",\n        "serialno":"201808161830090770Gz",\n        "custno":"1538943811",\n        "apkind":"014",\n        "subapkind":"014001",\n        "apdt":"20180815",\n        "aptm":"164500",\n        "workdate":"20180815",\n        "tradeacco":"000621718538943814",\n        "taaccountid":"475A7FB19598436383",\n        "tano":"47",\n        "productid":"8802",\n        "sharetype":"A",\n        "accptmd":"1",\n        "branchcode":"247000",\n        "distributorcode":"247"}', 'execute_sql': '["SELECT * from cts.cts_traderequest WHERE SERIALNO=\'201808161830090770Gz\';"]', 'expected_data': "{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'Y', 'tradeMsg': '申请成功', 'errMsg': '申请成功', 'tradeCode': '0000', 'exObjFields': {}, 'key': None}", 'affected_caseId': 21, 'compare_type': 0, 'wait_time': None}, {'case_id': 20, 'api_name': '【调用轮询接口处理交易请求】', 'interface': 'com.wt.cts.service.ProductCoreTradeService', 'method': 'tradeContinueTask', 'request_data': '""', 'execute_sql': None, 'expected_data': None, 'affected_caseId': None, 'compare_type': None, 'wait_time': 1}, {'case_id': 21, 'api_name': '【卖出后续接口】使用优惠券月月盈产品提前卖出成功', 'interface': 'com.wt.cts.service.ProductCoreTradeService', 'method': 'tradeContinue', 'request_data': '{"serialno":"201808161830090770Gz","isSend":"1",\'extFields\':{"errCode":"0000", "errMsg":"交易成功", "tranSt":"Y"}}', 'execute_sql': '["SELECT * from cts.cts_traderequest WHERE SERIALNO=\'201808161830090770Gz\' AND APPLYST=\'Y\'AND TRANSST=\'Y\' AND PAYST=\'Y\';","SELECT * from cts.cts_tradequtychg WHERE REFERNO=\'201808161830090770Gz\' AND PRODUCTID=\'9999\'AND CHANGEQUTY=\'9.9\';"]', 'expected_data': "{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'Y', 'tradeMsg': '申请成功！', 'errMsg': '申请成功', 'tradeCode': '0000', 'exObjFields': {}, 'key': None}", 'affected_caseId': None, 'compare_type': 0, 'wait_time': None}, {'case_id': 22, 'api_name': '【组合卖出】使用优惠券月月盈产品提前卖出申请', 'interface': 'com.wt.cts.service.ProductCoreTradeService', 'method': 'sellToVacco', 'request_data': '{"refercapno":"5B57DD261DFCbc4E",\n        "sellCouponId":"5B569A9A006Abc55",\n        "reemFlag":"1",\n        "selltype":1,\n        "periodic":"true",\n        "mixProd":"true",\n        "bigVCustno":"1503257540",\n        "honourFlag":"1",\n        "newFlag":"0",\n        "partPayment":"false",\n        "subquty":"10.00",\n        "feetp":"07",\n        "feemode":"1",\n        "feevalue":"0.01",\n        "serialno":"201808161830090998bK",\n        "custno":"1538943811",\n        "apkind":"014",\n        "subapkind":"014001",\n        "apdt":"20180815",\n        "aptm":"164500",\n        "workdate":"20180815",\n        "tradeacco":"000621718538943814",\n        "taaccountid":"475A7FB19598436383",\n        "tano":"47",\n        "productid":"8802",\n        "sharetype":"A",\n        "accptmd":"1",\n        "branchcode":"247000",\n        "distributorcode":"247"}', 'execute_sql': '["SELECT * from cts.cts_traderequest WHERE SERIALNO=\'201808161830090998bK\';"]', 'expected_data': "{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'Y', 'tradeMsg': '申请成功', 'errMsg': '申请成功', 'tradeCode': '0000', 'exObjFields': {}, 'key': None}", 'affected_caseId': 24, 'compare_type': 0, 'wait_time': None}, {'case_id': 23, 'api_name': '【调用轮询接口处理交易请求】', 'interface': 'com.wt.cts.service.ProductCoreTradeService', 'method': 'tradeContinueTask', 'request_data': '""', 'execute_sql': None, 'expected_data': None, 'affected_caseId': None, 'compare_type': None, 'wait_time': 1}, {'case_id': 24, 'api_name': '【卖出后续接口】使用优惠券月月盈产品提前卖出失败', 'interface': 'com.wt.cts.service.ProductCoreTradeService', 'method': 'tradeContinue', 'request_data': '{"serialno":"201808161830090998bK","isSend":"1",\'extFields\':{"errCode":"0000", "errMsg":"交易成功", "tranSt":"Y"}}', 'execute_sql': '["SELECT * from cts.cts_traderequest WHERE SERIALNO=\'201808161830090998bK\' AND APPLYST=\'Y\'AND TRANSST=\'Y\' AND PAYST=\'Y\';","SELECT * from cts.cts_tradequtychg WHERE REFERNO=\'201808161830090998bK\' AND PRODUCTID=\'8802\'AND CHANGEQUTY=\'10\';"]', 'expected_data': "{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'Y', 'tradeMsg': '申请成功！', 'errMsg': '申请成功', 'tradeCode': '0000', 'exObjFields': {}, 'key': None}", 'affected_caseId': None, 'compare_type': 0, 'wait_time': None}, {'case_id': 25, 'api_name': '【组合卖出】四季甄选产品提前卖出申请', 'interface': 'com.wt.cts.service.ProductCoreTradeService', 'method': 'sellToVacco', 'request_data': '{"refercapno":"5B57DE5B20F7bc4E",\n        "reemFlag":"1",\n        "selltype":1,\n        "periodic":"true",\n        "mixProd":"true",\n        "bigVCustno":"1597219235",\n        "honourFlag":"1",\n        "newFlag":"0",\n        "partPayment":"false",\n        "subquty":"10.00",\n        "feetp":"07",\n        "feemode":"1",\n        "feevalue":"0.01",\n        "serialno":"201808161830090690Jx",\n        "custno":"1538943811",\n        "apkind":"014",\n        "subapkind":"014001",\n        "apdt":"20180815",\n        "aptm":"164500",\n        "workdate":"20180815",\n        "tradeacco":"000621718538943814",\n        "taaccountid":"475A7FB19598436383",\n        "tano":"47",\n        "productid":"8904",\n        "sharetype":"A",\n        "accptmd":"1",\n        "branchcode":"247000",\n        "distributorcode":"247"}', 'execute_sql': '["SELECT * from cts.cts_traderequest WHERE SERIALNO=\'201808161830090690Jx\';"]', 'expected_data': "{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'Y', 'tradeMsg': '申请成功', 'errMsg': '申请成功', 'tradeCode': '0000', 'exObjFields': {}, 'key': None}", 'affected_caseId': 27, 'compare_type': 0, 'wait_time': None}, {'case_id': 26, 'api_name': '【调用轮询接口处理交易请求】', 'interface': 'com.wt.cts.service.ProductCoreTradeService', 'method': 'tradeContinueTask', 'request_data': '""', 'execute_sql': None, 'expected_data': None, 'affected_caseId': None, 'compare_type': None, 'wait_time': 1}, {'case_id': 27, 'api_name': '【卖出后续接口】四季甄选产品提前卖出成功', 'interface': 'com.wt.cts.service.ProductCoreTradeService', 'method': 'tradeContinue', 'request_data': '{"serialno":"201808161830090690Jx","isSend":"1",\'extFields\':{"errCode":"0000", "errMsg":"交易成功", "tranSt":"Y"}}', 'execute_sql': '["SELECT * from cts.cts_traderequest WHERE SERIALNO=\'201808161830090690Jx\' AND APPLYST=\'Y\'AND TRANSST=\'Y\' AND PAYST=\'Y\';","SELECT * from cts.cts_tradequtychg WHERE REFERNO=\'201808161830090690Jx\' AND PRODUCTID=\'9999\'AND CHANGEQUTY=\'9.9\';"]', 'expected_data': "{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'Y', 'tradeMsg': '申请成功！', 'errMsg': '申请成功', 'tradeCode': '0000', 'exObjFields': {}, 'key': None}", 'affected_caseId': None, 'compare_type': 0, 'wait_time': None}, {'case_id': 28, 'api_name': '【组合卖出】四季甄选产品提前卖出申请', 'interface': 'com.wt.cts.service.ProductCoreTradeService', 'method': 'sellToVacco', 'request_data': '{"refercapno":"5B57DE5B20F7bc4E",\n        "reemFlag":"1",\n        "selltype":1,\n        "periodic":"true",\n        "mixProd":"true",\n        "bigVCustno":"1597219235",\n        "honourFlag":"1",\n        "newFlag":"0",\n        "partPayment":"false",\n        "subquty":"10.00",\n        "feetp":"07",\n        "feemode":"1",\n        "feevalue":"0.01",\n        "serialno":"201808161830090900hz",\n        "custno":"1538943811",\n        "apkind":"014",\n        "subapkind":"014001",\n        "apdt":"20180815",\n        "aptm":"164500",\n        "workdate":"20180815",\n        "tradeacco":"000621718538943814",\n        "taaccountid":"475A7FB19598436383",\n        "tano":"47",\n        "productid":"8904",\n        "sharetype":"A",\n        "accptmd":"1",\n        "branchcode":"247000",\n        "distributorcode":"247"}', 'execute_sql': '["SELECT * from cts.cts_traderequest WHERE SERIALNO=\'201808161830090900hz\';"]', 'expected_data': "{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'Y', 'tradeMsg': '申请成功', 'errMsg': '申请成功', 'tradeCode': '0000', 'exObjFields': {}, 'key': None}", 'affected_caseId': 30, 'compare_type': 0, 'wait_time': None}, {'case_id': 29, 'api_name': '【调用轮询接口处理交易请求】', 'interface': 'com.wt.cts.service.ProductCoreTradeService', 'method': 'tradeContinueTask', 'request_data': '""', 'execute_sql': None, 'expected_data': None, 'affected_caseId': None, 'compare_type': None, 'wait_time': 1}, {'case_id': 30, 'api_name': '【卖出后续接口】四季甄选产品提前卖出失败', 'interface': 'com.wt.cts.service.ProductCoreTradeService', 'method': 'tradeContinue', 'request_data': '{"serialno":"201808161830090900hz","isSend":"1",\'extFields\':{"errCode":"0000", "errMsg":"交易成功", "tranSt":"Y"}}', 'execute_sql': '["SELECT * from cts.cts_traderequest WHERE SERIALNO=\'201808161830090900hz\' AND APPLYST=\'Y\'AND TRANSST=\'Y\' AND PAYST=\'Y\';","SELECT * from cts.cts_tradequtychg WHERE REFERNO=\'201808161830090900hz\' AND PRODUCTID=\'8904\'AND CHANGEQUTY=\'10\';"]', 'expected_data': "{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'Y', 'tradeMsg': '申请成功！', 'errMsg': '申请成功', 'tradeCode': '0000', 'exObjFields': {}, 'key': None}", 'affected_caseId': None, 'compare_type': 0, 'wait_time': None}, {'case_id': 31, 'api_name': '【组合卖出】使用优惠券四季甄选产品提前卖出申请', 'interface': 'com.wt.cts.service.ProductCoreTradeService', 'method': 'sellToVacco', 'request_data': '{"refercapno":"5B57DE5B20F7bc4E",\n        "sellCouponId":"5B569A9A006Abc55",\n        "reemFlag":"1",\n        "selltype":1,\n        "periodic":"true",\n        "mixProd":"true",\n        "bigVCustno":"1597219235",\n        "honourFlag":"1",\n        "newFlag":"0",\n        "partPayment":"false",\n        "subquty":"10.00",\n        "feetp":"07",\n        "feemode":"1",\n        "feevalue":"0.01",\n        "serialno":"201808161830090399gl",\n        "custno":"1538943811",\n        "apkind":"014",\n        "subapkind":"014001",\n        "apdt":"20180815",\n        "aptm":"164500",\n        "workdate":"20180815",\n        "tradeacco":"000621718538943814",\n        "taaccountid":"475A7FB19598436383",\n        "tano":"47",\n        "productid":"8904",\n        "sharetype":"A",\n        "accptmd":"1",\n        "branchcode":"247000",\n        "distributorcode":"247"}', 'execute_sql': '["SELECT * from cts.cts_traderequest WHERE SERIALNO=\'201808161830090399gl\';"]', 'expected_data': "{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'Y', 'tradeMsg': '申请成功', 'errMsg': '申请成功', 'tradeCode': '0000', 'exObjFields': {}, 'key': None}", 'affected_caseId': 33, 'compare_type': 0, 'wait_time': None}, {'case_id': 32, 'api_name': '【调用轮询接口处理交易请求】', 'interface': 'com.wt.cts.service.ProductCoreTradeService', 'method': 'tradeContinueTask', 'request_data': '""', 'execute_sql': None, 'expected_data': None, 'affected_caseId': None, 'compare_type': None, 'wait_time': 1}, {'case_id': 33, 'api_name': '【卖出后续接口】使用优惠券四季甄选产品提前卖出成功', 'interface': 'com.wt.cts.service.ProductCoreTradeService', 'method': 'tradeContinue', 'request_data': '{"serialno":"201808161830090399gl","isSend":"1",\'extFields\':{"errCode":"0000", "errMsg":"交易成功", "tranSt":"Y"}}', 'execute_sql': '["SELECT * from cts.cts_traderequest WHERE SERIALNO=\'201808161830090399gl\' AND APPLYST=\'Y\'AND TRANSST=\'Y\' AND PAYST=\'Y\';","SELECT * from cts.cts_tradequtychg WHERE REFERNO=\'201808161830090399gl\' AND PRODUCTID=\'9999\'AND CHANGEQUTY=\'9.9\';"]', 'expected_data': "{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'Y', 'tradeMsg': '申请成功！', 'errMsg': '申请成功', 'tradeCode': '0000', 'exObjFields': {}, 'key': None}", 'affected_caseId': None, 'compare_type': 0, 'wait_time': None}, {'case_id': 34, 'api_name': '【组合卖出】使用优惠券四季甄选产品提前卖出申请', 'interface': 'com.wt.cts.service.ProductCoreTradeService', 'method': 'sellToVacco', 'request_data': '{"refercapno":"5B57DE5B20F7bc4E",\n        "sellCouponId":"5B569A9A006Abc55",\n        "reemFlag":"1",\n        "selltype":1,\n        "periodic":"true",\n        "mixProd":"true",\n        "bigVCustno":"1597219235",\n        "honourFlag":"1",\n        "newFlag":"0",\n        "partPayment":"false",\n        "subquty":"10.00",\n        "feetp":"07",\n        "feemode":"1",\n        "feevalue":"0.01",\n        "serialno":"201808161830090627dY",\n        "custno":"1538943811",\n        "apkind":"014",\n        "subapkind":"014001",\n        "apdt":"20180815",\n        "aptm":"164500",\n        "workdate":"20180815",\n        "tradeacco":"000621718538943814",\n        "taaccountid":"475A7FB19598436383",\n        "tano":"47",\n        "productid":"8904",\n        "sharetype":"A",\n        "accptmd":"1",\n        "branchcode":"247000",\n        "distributorcode":"247"}', 'execute_sql': '["SELECT * from cts.cts_traderequest WHERE SERIALNO=\'201808161830090627dY\';"]', 'expected_data': "{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'Y', 'tradeMsg': '申请成功', 'errMsg': '申请成功', 'tradeCode': '0000', 'exObjFields': {}, 'key': None}", 'affected_caseId': 36, 'compare_type': 0, 'wait_time': None}, {'case_id': 35, 'api_name': '【调用轮询接口处理交易请求】', 'interface': 'com.wt.cts.service.ProductCoreTradeService', 'method': 'tradeContinueTask', 'request_data': '""', 'execute_sql': None, 'expected_data': None, 'affected_caseId': None, 'compare_type': None, 'wait_time': 1}, {'case_id': 36, 'api_name': '【卖出后续接口】使用优惠券四季甄选产品提前卖出失败', 'interface': 'com.wt.cts.service.ProductCoreTradeService', 'method': 'tradeContinue', 'request_data': '{"serialno":"201808161830090627dY","isSend":"1",\'extFields\':{"errCode":"0000", "errMsg":"交易成功", "tranSt":"Y"}}', 'execute_sql': '["SELECT * from cts.cts_traderequest WHERE SERIALNO=\'201808161830090627dY\' AND APPLYST=\'Y\'AND TRANSST=\'Y\' AND PAYST=\'Y\';","SELECT * from cts.cts_tradequtychg WHERE REFERNO=\'201808161830090627dY\' AND PRODUCTID=\'8904\'AND CHANGEQUTY=\'10\';"]', 'expected_data': "{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'Y', 'tradeMsg': '申请成功！', 'errMsg': '申请成功', 'tradeCode': '0000', 'exObjFields': {}, 'key': None}", 'affected_caseId': None, 'compare_type': 0, 'wait_time': None}]
+ Thu, 16 Aug 2018 18:30:09  INFO myMysql.py connect_mysql [ line:19 ] 数据库连接成功！！
+ Thu, 16 Aug 2018 18:30:09  INFO test_api.py test_api [ line:33 ] ================开始发送一次接口请求，请求信息如下===========
+ Thu, 16 Aug 2018 18:30:09  INFO test_api.py test_api [ line:34 ] 接口请求apiName：【组合卖出】季季升产品提前卖出申请
+ Thu, 16 Aug 2018 18:30:09  INFO test_api.py test_api [ line:35 ] 接口请求interface:com.wt.cts.service.ProductCoreTradeService
+ Thu, 16 Aug 2018 18:30:09  INFO test_api.py test_api [ line:36 ] 接口请求method:sellToVacco
+ Thu, 16 Aug 2018 18:30:09  INFO test_api.py test_api [ line:37 ] 接口请求data:{"refercapno":"5B57DD261DFCbc4E",
+        "reemFlag":"1",
+        "selltype":1,
+        "periodic":"true",
+        "mixProd":"true",
+        "bigVCustno":"1503257540",
+        "honourFlag":"1",
+        "newFlag":"0",
+        "partPayment":"false",
+        "subquty":"10.00",
+        "feetp":"07",
+        "feemode":"1",
+        "feevalue":"0.01",
+        "serialno":"201808161830090346hf",
+        "custno":"1538943811",
+        "apkind":"014",
+        "subapkind":"014001",
+        "apdt":"20180722",
+        "aptm":"113344",
+        "workdate":"20180722",
+        "tradeacco":"000621718538943814",
+        "taaccountid":"475A7FB19598436383",
+        "tano":"47",
+        "productid":"8901",
+        "sharetype":"A",
+        "accptmd":"1",
+        "branchcode":"247000",
+        "distributorcode":"247"}
+ Thu, 16 Aug 2018 18:30:09  INFO test_api.py test_api [ line:38 ] 接口请求sql:["SELECT * from cts.cts_traderequest WHERE SERIALNO='201808161830090346hf';"]
+ Thu, 16 Aug 2018 18:30:09  INFO test_api.py test_api [ line:46 ] 接口请求response data为：{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'Y', 'tradeMsg': '申请成功', 'errMsg': '申请成功', 'tradeCode': '0000', 'exObjFields': {}, 'key': None}
+ Thu, 16 Aug 2018 18:30:09  INFO test_api.py test_api [ line:47 ] 接口请求expected data为:{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'Y', 'tradeMsg': '申请成功', 'errMsg': '申请成功', 'tradeCode': '0000', 'exObjFields': {}, 'key': None}
+ Thu, 16 Aug 2018 18:30:09  INFO test_api.py test_api [ line:53 ] =====开始比对检验返回结果=======
+ Thu, 16 Aug 2018 18:30:09  INFO test_api.py test_api [ line:54 ] 全值匹配模式
+ Thu, 16 Aug 2018 18:30:09  INFO test_api.py test_api [ line:57 ] 结果比对成功，测试用例通过
+ Thu, 16 Aug 2018 18:30:09  INFO test_api.py test_api [ line:78 ] 数据库里存在符合预期条件的数据,测试通过:[{'SERIALNO': '201808161830090346hf', 'CUSTNO': '1538943811', 'APKIND': '014', 'SUBAPKIND': '014001', 'SUBQUTY': Decimal('10.00'), 'SUBAMT': None, 'APDT': '20180722', 'APTM': '113344', 'WORKDATE': '20180722', 'SHARETYPE': 'A', 'ACCPTMD': '1', 'BANKNO': None, 'BANKACCO': None, 'BRANCHCODE': '247000', 'DISTRIBUTORCODE': '247', 'REFERNO': None, 'TRADEACCO': '000621718538943814', 'TAACCOUNTID': '475A7FB19598436383', 'PRODUCTID': '8901', 'APPLYST': 'H', 'TRANSST': 'N', 'PAYST': 'N', 'SUMMARY': None, 'CHECKID': None, 'CHECKDT': None, 'CHECKTM': 'I', 'CHECKST': None, 'CHECKREMARK': 'N', 'OPRODUCTID': None, 'TANO': '47', 'OCUSTNO': '1538748013', 'OTANO': None, 'OTAACCOUNTID': None, 'OTRADEACCO': None, 'OBRANCHCODE': None, 'ODISTRIBUTORCODE': None, 'ACKSERIALNO': None, 'ACKAMT': None, 'ACKQUTY': None, 'ACKNAV': None, 'ACKDT': None, 'ACKST': None, 'ERRORCODE': None, 'ERRORMSG': None, 'FEETP': '07', 'FEEMODE': '1', 'FEEVALUE': '0.01', 'couponid': '', 'COUPONTYPE': '', 'COUPONNAME': '', 'COUPONVALUE': Decimal('0.00'), 'OFEETP': '', 'OFEEMODE': '', 'OFEEVALUE': '', 'OCOUPONID': '', 'OCOUPONTYPE': '', 'OCOUPONNAME': '', 'OCOUPONVALUE': Decimal('0.00'), 'SELLERDISCOUNT': None, 'AFTERVOL': None, 'OAFTERVOL': None, 'WITHHOLD': None, 'GWITHHOLD': Decimal('9.90'), 'INSERTTIMESTAMP': datetime.datetime(2018, 8, 16, 18, 30, 13), 'UPDATETIMESTAMP': datetime.datetime(2018, 8, 16, 18, 30, 13), 'CLEANFLAG': '0', 'DRAWFLAG': 'N', 'version': 701, 'PAYDT': None, 'PAYAMT': None, 'rsv1': 'Y#0#1;Y', 'rsv2': None, 'RSV3': '1', 'rsv4': None, 'rsv5': None}]
+ Thu, 16 Aug 2018 18:30:09  INFO test_api.py test_api [ line:81 ] ================结束一次接口请求===========
+ Thu, 16 Aug 2018 18:30:09  INFO test_api.py test_api [ line:33 ] ================开始发送一次接口请求，请求信息如下===========
+ Thu, 16 Aug 2018 18:30:09  INFO test_api.py test_api [ line:34 ] 接口请求apiName：【调用轮询接口处理交易请求】
+ Thu, 16 Aug 2018 18:30:09  INFO test_api.py test_api [ line:35 ] 接口请求interface:com.wt.cts.service.ProductCoreTradeService
+ Thu, 16 Aug 2018 18:30:09  INFO test_api.py test_api [ line:36 ] 接口请求method:tradeContinueTask
+ Thu, 16 Aug 2018 18:30:09  INFO test_api.py test_api [ line:37 ] 接口请求data:""
+ Thu, 16 Aug 2018 18:30:09  INFO test_api.py test_api [ line:38 ] 接口请求sql:None
+ Thu, 16 Aug 2018 18:30:09  INFO test_api.py test_api [ line:46 ] 接口请求response data为：{'extFields': {}, 'errCode': '0000', 'tradeStatus': None, 'tradeMsg': None, 'errMsg': '申请成功', 'tradeCode': None, 'exObjFields': {}, 'key': None}
+ Thu, 16 Aug 2018 18:30:09  INFO test_api.py test_api [ line:47 ] 接口请求expected data为:None
+ Thu, 16 Aug 2018 18:30:09  INFO test_api.py test_api [ line:81 ] ================结束一次接口请求===========
+ Thu, 16 Aug 2018 18:30:09  INFO test_api.py test_api [ line:85 ] 需要等待时间60s发起后续请求
+ Thu, 16 Aug 2018 18:31:09  INFO test_api.py test_api [ line:33 ] ================开始发送一次接口请求，请求信息如下===========
+ Thu, 16 Aug 2018 18:31:09  INFO test_api.py test_api [ line:34 ] 接口请求apiName：【卖出后续接口】季季升产品提前卖出成功
+ Thu, 16 Aug 2018 18:31:09  INFO test_api.py test_api [ line:35 ] 接口请求interface:com.wt.cts.service.ProductCoreTradeService
+ Thu, 16 Aug 2018 18:31:09  INFO test_api.py test_api [ line:36 ] 接口请求method:tradeContinue
+ Thu, 16 Aug 2018 18:31:09  INFO test_api.py test_api [ line:37 ] 接口请求data:{"serialno":"201808161830090346hf","isSend":"1",'extFields':{"errCode":"0000", "errMsg":"交易成功", "tranSt":"Y"}}
+ Thu, 16 Aug 2018 18:31:09  INFO test_api.py test_api [ line:38 ] 接口请求sql:["SELECT * from cts.cts_traderequest WHERE SERIALNO='201808161830090346hf' AND APPLYST='Y'AND TRANSST='Y' AND PAYST='Y';","SELECT * from cts.cts_tradequtychg WHERE REFERNO='201808161830090346hf' AND PRODUCTID='9999'AND CHANGEQUTY='9.9';"]
+ Thu, 16 Aug 2018 18:31:10  INFO test_api.py test_api [ line:46 ] 接口请求response data为：{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'Y', 'tradeMsg': '申请成功！', 'errMsg': '申请成功', 'tradeCode': '0000', 'exObjFields': {}, 'key': None}
+ Thu, 16 Aug 2018 18:31:10  INFO test_api.py test_api [ line:47 ] 接口请求expected data为:{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'Y', 'tradeMsg': '申请成功！', 'errMsg': '申请成功', 'tradeCode': '0000', 'exObjFields': {}, 'key': None}
+ Thu, 16 Aug 2018 18:31:10  INFO test_api.py test_api [ line:53 ] =====开始比对检验返回结果=======
+ Thu, 16 Aug 2018 18:31:10  INFO test_api.py test_api [ line:54 ] 全值匹配模式
+ Thu, 16 Aug 2018 18:31:10  INFO test_api.py test_api [ line:57 ] 结果比对成功，测试用例通过
+ Thu, 16 Aug 2018 18:31:10  INFO test_api.py test_api [ line:78 ] 数据库里存在符合预期条件的数据,测试通过:[{'SERIALNO': '201808161830090346hf', 'CUSTNO': '1538943811', 'APKIND': '014', 'SUBAPKIND': '014001', 'SUBQUTY': Decimal('10.00'), 'SUBAMT': None, 'APDT': '20180722', 'APTM': '113344', 'WORKDATE': '20180722', 'SHARETYPE': 'A', 'ACCPTMD': '1', 'BANKNO': None, 'BANKACCO': None, 'BRANCHCODE': '247000', 'DISTRIBUTORCODE': '247', 'REFERNO': None, 'TRADEACCO': '000621718538943814', 'TAACCOUNTID': '475A7FB19598436383', 'PRODUCTID': '8901', 'APPLYST': 'Y', 'TRANSST': 'Y', 'PAYST': 'Y', 'SUMMARY': None, 'CHECKID': None, 'CHECKDT': None, 'CHECKTM': 'Y', 'CHECKST': None, 'CHECKREMARK': 'N', 'OPRODUCTID': None, 'TANO': '47', 'OCUSTNO': '1538748013', 'OTANO': None, 'OTAACCOUNTID': None, 'OTRADEACCO': None, 'OBRANCHCODE': None, 'ODISTRIBUTORCODE': None, 'ACKSERIALNO': '5B755272139DbcC7', 'ACKAMT': Decimal('10.00'), 'ACKQUTY': Decimal('10.00'), 'ACKNAV': Decimal('1.00'), 'ACKDT': '20180722', 'ACKST': 'Y', 'ERRORCODE': '0000', 'ERRORMSG': '申请成功！', 'FEETP': '07', 'FEEMODE': '1', 'FEEVALUE': '0.01', 'couponid': '', 'COUPONTYPE': '', 'COUPONNAME': '', 'COUPONVALUE': Decimal('0.00'), 'OFEETP': '', 'OFEEMODE': '', 'OFEEVALUE': '', 'OCOUPONID': '', 'OCOUPONTYPE': '', 'OCOUPONNAME': '', 'OCOUPONVALUE': Decimal('0.00'), 'SELLERDISCOUNT': None, 'AFTERVOL': Decimal('4216550.27'), 'OAFTERVOL': None, 'WITHHOLD': None, 'GWITHHOLD': Decimal('9.90'), 'INSERTTIMESTAMP': datetime.datetime(2018, 8, 16, 18, 30, 13), 'UPDATETIMESTAMP': datetime.datetime(2018, 8, 16, 18, 31, 14), 'CLEANFLAG': '0', 'DRAWFLAG': 'N', 'version': 701, 'PAYDT': None, 'PAYAMT': None, 'rsv1': 'Y#0#1;Y', 'rsv2': None, 'RSV3': '1', 'rsv4': None, 'rsv5': None}]
+ Thu, 16 Aug 2018 18:31:10  INFO test_api.py test_api [ line:78 ] 数据库里存在符合预期条件的数据,测试通过:[{'SERIALNO': '5B7552351B12bc1F', 'CUSTNO': '1538748013', 'PRODUCTID': '9999', 'CHANGEQUTY': Decimal('9.90'), 'REFERNO': '201808161830090346hf', 'APKIND': '014', 'SUBAPKIND': '014001', 'DISTRIBUTORCODE': '247', 'BRANCHCODE': '247000', 'APDT': '20180722', 'WORKDATE': '20180722', 'BUSINESSDATE': '20180722', 'BUSINESSCODE': '24', 'INSERTTIMESTAMP': datetime.datetime(2018, 8, 16, 18, 30, 13), 'UPDATETIMESTAMP': datetime.datetime(2018, 8, 16, 18, 30, 13), 'RSV1': None, 'RSV2': None, 'RSV3': None}]
+ Thu, 16 Aug 2018 18:31:10  INFO test_api.py test_api [ line:81 ] ================结束一次接口请求===========
+ Thu, 16 Aug 2018 18:31:10  INFO test_api.py test_api [ line:33 ] ================开始发送一次接口请求，请求信息如下===========
+ Thu, 16 Aug 2018 18:31:10  INFO test_api.py test_api [ line:34 ] 接口请求apiName：【组合卖出】季季升产品提前卖出申请
+ Thu, 16 Aug 2018 18:31:10  INFO test_api.py test_api [ line:35 ] 接口请求interface:com.wt.cts.service.ProductCoreTradeService
+ Thu, 16 Aug 2018 18:31:10  INFO test_api.py test_api [ line:36 ] 接口请求method:sellToVacco
+ Thu, 16 Aug 2018 18:31:10  INFO test_api.py test_api [ line:37 ] 接口请求data:{"refercapno":"5B57DD261DFCbc4E",
+        "reemFlag":"1",
+        "selltype":1,
+        "periodic":"true",
+        "mixProd":"true",
+        "bigVCustno":"1503257540",
+        "honourFlag":"1",
+        "newFlag":"0",
+        "partPayment":"false",
+        "subquty":"10.00",
+        "feetp":"07",
+        "feemode":"1",
+        "feevalue":"0.01",
+        "serialno":"201808161830090990GL",
+        "custno":"1538943811",
+        "apkind":"014",
+        "subapkind":"014001",
+        "apdt":"20180722",
+        "aptm":"113344",
+        "workdate":"20180722",
+        "tradeacco":"000621718538943814",
+        "taaccountid":"475A7FB19598436383",
+        "tano":"47",
+        "productid":"8901",
+        "sharetype":"A",
+        "accptmd":"1",
+        "branchcode":"247000",
+        "distributorcode":"247"}
+ Thu, 16 Aug 2018 18:31:10  INFO test_api.py test_api [ line:38 ] 接口请求sql:["SELECT * from cts.cts_traderequest WHERE SERIALNO='201808161830090990GL';"]
+ Thu, 16 Aug 2018 18:31:11  INFO test_api.py test_api [ line:46 ] 接口请求response data为：{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'Y', 'tradeMsg': '申请成功', 'errMsg': '申请成功', 'tradeCode': '0000', 'exObjFields': {}, 'key': None}
+ Thu, 16 Aug 2018 18:31:11  INFO test_api.py test_api [ line:47 ] 接口请求expected data为:{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'Y', 'tradeMsg': '申请成功', 'errMsg': '申请成功', 'tradeCode': '0000', 'exObjFields': {}, 'key': None}
+ Thu, 16 Aug 2018 18:31:11  INFO test_api.py test_api [ line:53 ] =====开始比对检验返回结果=======
+ Thu, 16 Aug 2018 18:31:11  INFO test_api.py test_api [ line:54 ] 全值匹配模式
+ Thu, 16 Aug 2018 18:31:11  INFO test_api.py test_api [ line:57 ] 结果比对成功，测试用例通过
+ Thu, 16 Aug 2018 18:31:11  INFO test_api.py test_api [ line:78 ] 数据库里存在符合预期条件的数据,测试通过:[{'SERIALNO': '201808161830090990GL', 'CUSTNO': '1538943811', 'APKIND': '014', 'SUBAPKIND': '014001', 'SUBQUTY': Decimal('10.00'), 'SUBAMT': None, 'APDT': '20180722', 'APTM': '113344', 'WORKDATE': '20180722', 'SHARETYPE': 'A', 'ACCPTMD': '1', 'BANKNO': None, 'BANKACCO': None, 'BRANCHCODE': '247000', 'DISTRIBUTORCODE': '247', 'REFERNO': None, 'TRADEACCO': '000621718538943814', 'TAACCOUNTID': '475A7FB19598436383', 'PRODUCTID': '8901', 'APPLYST': 'H', 'TRANSST': 'N', 'PAYST': 'N', 'SUMMARY': None, 'CHECKID': None, 'CHECKDT': None, 'CHECKTM': 'I', 'CHECKST': None, 'CHECKREMARK': 'N', 'OPRODUCTID': None, 'TANO': '47', 'OCUSTNO': '1538748013', 'OTANO': None, 'OTAACCOUNTID': None, 'OTRADEACCO': None, 'OBRANCHCODE': None, 'ODISTRIBUTORCODE': None, 'ACKSERIALNO': None, 'ACKAMT': None, 'ACKQUTY': None, 'ACKNAV': None, 'ACKDT': None, 'ACKST': None, 'ERRORCODE': None, 'ERRORMSG': None, 'FEETP': '07', 'FEEMODE': '1', 'FEEVALUE': '0.01', 'couponid': '', 'COUPONTYPE': '', 'COUPONNAME': '', 'COUPONVALUE': Decimal('0.00'), 'OFEETP': '', 'OFEEMODE': '', 'OFEEVALUE': '', 'OCOUPONID': '', 'OCOUPONTYPE': '', 'OCOUPONNAME': '', 'OCOUPONVALUE': Decimal('0.00'), 'SELLERDISCOUNT': None, 'AFTERVOL': None, 'OAFTERVOL': None, 'WITHHOLD': None, 'GWITHHOLD': Decimal('9.90'), 'INSERTTIMESTAMP': datetime.datetime(2018, 8, 16, 18, 31, 15), 'UPDATETIMESTAMP': datetime.datetime(2018, 8, 16, 18, 31, 15), 'CLEANFLAG': '0', 'DRAWFLAG': 'N', 'version': 701, 'PAYDT': None, 'PAYAMT': None, 'rsv1': 'Y#0#1;Y', 'rsv2': None, 'RSV3': '1', 'rsv4': None, 'rsv5': None}]
+ Thu, 16 Aug 2018 18:31:11  INFO test_api.py test_api [ line:81 ] ================结束一次接口请求===========
+ Thu, 16 Aug 2018 18:31:11  INFO test_api.py test_api [ line:33 ] ================开始发送一次接口请求，请求信息如下===========
+ Thu, 16 Aug 2018 18:31:11  INFO test_api.py test_api [ line:34 ] 接口请求apiName：【调用轮询接口处理交易请求】
+ Thu, 16 Aug 2018 18:31:11  INFO test_api.py test_api [ line:35 ] 接口请求interface:com.wt.cts.service.ProductCoreTradeService
+ Thu, 16 Aug 2018 18:31:11  INFO test_api.py test_api [ line:36 ] 接口请求method:tradeContinueTask
+ Thu, 16 Aug 2018 18:31:11  INFO test_api.py test_api [ line:37 ] 接口请求data:""
+ Thu, 16 Aug 2018 18:31:11  INFO test_api.py test_api [ line:38 ] 接口请求sql:None
+ Thu, 16 Aug 2018 18:31:11  INFO test_api.py test_api [ line:46 ] 接口请求response data为：{'extFields': {}, 'errCode': '0000', 'tradeStatus': None, 'tradeMsg': None, 'errMsg': '申请成功', 'tradeCode': None, 'exObjFields': {}, 'key': None}
+ Thu, 16 Aug 2018 18:31:11  INFO test_api.py test_api [ line:47 ] 接口请求expected data为:None
+ Thu, 16 Aug 2018 18:31:11  INFO test_api.py test_api [ line:81 ] ================结束一次接口请求===========
+ Thu, 16 Aug 2018 18:31:11  INFO test_api.py test_api [ line:85 ] 需要等待时间60s发起后续请求
+ Thu, 16 Aug 2018 18:32:11  INFO test_api.py test_api [ line:33 ] ================开始发送一次接口请求，请求信息如下===========
+ Thu, 16 Aug 2018 18:32:11  INFO test_api.py test_api [ line:34 ] 接口请求apiName：【卖出后续接口】季季升产品提前卖出失败
+ Thu, 16 Aug 2018 18:32:11  INFO test_api.py test_api [ line:35 ] 接口请求interface:com.wt.cts.service.ProductCoreTradeService
+ Thu, 16 Aug 2018 18:32:11  INFO test_api.py test_api [ line:36 ] 接口请求method:tradeContinue
+ Thu, 16 Aug 2018 18:32:11  INFO test_api.py test_api [ line:37 ] 接口请求data:{"serialno":"201808161830090990GL","isSend":"1",'extFields':{"errCode":"0000", "errMsg":"交易成功", "tranSt":"Y"}}
+ Thu, 16 Aug 2018 18:32:11  INFO test_api.py test_api [ line:38 ] 接口请求sql:["SELECT * from cts.cts_traderequest WHERE SERIALNO='201808161830090990GL' AND APPLYST='Y'AND TRANSST='Y' AND PAYST='Y';","SELECT * from cts.cts_tradequtychg WHERE REFERNO='201808161830090990GL' AND PRODUCTID='8901'AND CHANGEQUTY='10';"]
+ Thu, 16 Aug 2018 18:32:12  INFO test_api.py test_api [ line:46 ] 接口请求response data为：{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'Y', 'tradeMsg': '申请成功！', 'errMsg': '申请成功', 'tradeCode': '0000', 'exObjFields': {}, 'key': None}
+ Thu, 16 Aug 2018 18:32:12  INFO test_api.py test_api [ line:47 ] 接口请求expected data为:{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'Y', 'tradeMsg': '申请成功！', 'errMsg': '申请成功', 'tradeCode': '0000', 'exObjFields': {}, 'key': None}
+ Thu, 16 Aug 2018 18:32:12  INFO test_api.py test_api [ line:53 ] =====开始比对检验返回结果=======
+ Thu, 16 Aug 2018 18:32:12  INFO test_api.py test_api [ line:54 ] 全值匹配模式
+ Thu, 16 Aug 2018 18:32:12  INFO test_api.py test_api [ line:57 ] 结果比对成功，测试用例通过
+ Thu, 16 Aug 2018 18:32:12  INFO test_api.py test_api [ line:78 ] 数据库里存在符合预期条件的数据,测试通过:[{'SERIALNO': '201808161830090990GL', 'CUSTNO': '1538943811', 'APKIND': '014', 'SUBAPKIND': '014001', 'SUBQUTY': Decimal('10.00'), 'SUBAMT': None, 'APDT': '20180722', 'APTM': '113344', 'WORKDATE': '20180722', 'SHARETYPE': 'A', 'ACCPTMD': '1', 'BANKNO': None, 'BANKACCO': None, 'BRANCHCODE': '247000', 'DISTRIBUTORCODE': '247', 'REFERNO': None, 'TRADEACCO': '000621718538943814', 'TAACCOUNTID': '475A7FB19598436383', 'PRODUCTID': '8901', 'APPLYST': 'Y', 'TRANSST': 'Y', 'PAYST': 'Y', 'SUMMARY': None, 'CHECKID': None, 'CHECKDT': None, 'CHECKTM': 'Y', 'CHECKST': None, 'CHECKREMARK': 'N', 'OPRODUCTID': None, 'TANO': '47', 'OCUSTNO': '1538748013', 'OTANO': None, 'OTAACCOUNTID': None, 'OTRADEACCO': None, 'OBRANCHCODE': None, 'ODISTRIBUTORCODE': None, 'ACKSERIALNO': '5B7552AF13A2bcC7', 'ACKAMT': Decimal('10.00'), 'ACKQUTY': Decimal('10.00'), 'ACKNAV': Decimal('1.00'), 'ACKDT': '20180722', 'ACKST': 'Y', 'ERRORCODE': '0000', 'ERRORMSG': '申请成功！', 'FEETP': '07', 'FEEMODE': '1', 'FEEVALUE': '0.01', 'couponid': '', 'COUPONTYPE': '', 'COUPONNAME': '', 'COUPONVALUE': Decimal('0.00'), 'OFEETP': '', 'OFEEMODE': '', 'OFEEVALUE': '', 'OCOUPONID': '', 'OCOUPONTYPE': '', 'OCOUPONNAME': '', 'OCOUPONVALUE': Decimal('0.00'), 'SELLERDISCOUNT': None, 'AFTERVOL': Decimal('4216560.17'), 'OAFTERVOL': None, 'WITHHOLD': None, 'GWITHHOLD': Decimal('9.90'), 'INSERTTIMESTAMP': datetime.datetime(2018, 8, 16, 18, 31, 15), 'UPDATETIMESTAMP': datetime.datetime(2018, 8, 16, 18, 32, 16), 'CLEANFLAG': '0', 'DRAWFLAG': 'N', 'version': 701, 'PAYDT': None, 'PAYAMT': None, 'rsv1': 'Y#0#1;Y', 'rsv2': None, 'RSV3': '1', 'rsv4': None, 'rsv5': None}]
+ Thu, 16 Aug 2018 18:32:12  INFO test_api.py test_api [ line:78 ] 数据库里存在符合预期条件的数据,测试通过:[{'SERIALNO': '5B7552731B19bc1F', 'CUSTNO': '1538943811', 'PRODUCTID': '8901', 'CHANGEQUTY': Decimal('10.00'), 'REFERNO': '201808161830090990GL', 'APKIND': '014', 'SUBAPKIND': '014001', 'DISTRIBUTORCODE': '247', 'BRANCHCODE': '247000', 'APDT': '20180722', 'WORKDATE': '20180722', 'BUSINESSDATE': '20180722', 'BUSINESSCODE': '24', 'INSERTTIMESTAMP': datetime.datetime(2018, 8, 16, 18, 31, 15), 'UPDATETIMESTAMP': datetime.datetime(2018, 8, 16, 18, 31, 15), 'RSV1': None, 'RSV2': None, 'RSV3': None}]
+ Thu, 16 Aug 2018 18:32:12  INFO test_api.py test_api [ line:81 ] ================结束一次接口请求===========
+ Thu, 16 Aug 2018 18:32:12  INFO test_api.py test_api [ line:33 ] ================开始发送一次接口请求，请求信息如下===========
+ Thu, 16 Aug 2018 18:32:12  INFO test_api.py test_api [ line:34 ] 接口请求apiName：【组合卖出】使用优惠券季季升产品提前卖出申请
+ Thu, 16 Aug 2018 18:32:12  INFO test_api.py test_api [ line:35 ] 接口请求interface:com.wt.cts.service.ProductCoreTradeService
+ Thu, 16 Aug 2018 18:32:12  INFO test_api.py test_api [ line:36 ] 接口请求method:sellToVacco
+ Thu, 16 Aug 2018 18:32:12  INFO test_api.py test_api [ line:37 ] 接口请求data:{"refercapno":"5B57DD261DFCbc4E",
+        "sellCouponId":"5B569A9A006Abc55",
+        "reemFlag":"1",
+        "periodic":"true",
+        "mixProd":"true",
+        "bigVCustno":"1503257540",
+        "honourFlag":"1",
+        "newFlag":"0",
+        "partPayment":"false",
+        "subquty":"10.00",
+        "feetp":"07",
+        "feemode":"1",
+        "feevalue":"0.01",
+        "serialno":"20180816183009031LX",
+        "custno":"1538943811",
+        "apkind":"014",
+        "subapkind":"014001",
+        "apdt":"20180722",
+        "aptm":"113344",
+        "workdate":"20180722",
+        "tradeacco":"000621718538943814",
+        "taaccountid":"475A7FB19598436383",
+        "tano":"47",
+        "productid":"8901",
+        "sharetype":"A",
+        "accptmd":"1",
+        "branchcode":"247000",
+        "distributorcode":"247"}
+ Thu, 16 Aug 2018 18:32:12  INFO test_api.py test_api [ line:38 ] 接口请求sql:["SELECT * from cts.cts_traderequest WHERE SERIALNO='20180816183009031LX';"]
+ Thu, 16 Aug 2018 18:32:12  INFO test_api.py test_api [ line:46 ] 接口请求response data为：{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'Y', 'tradeMsg': '申请成功', 'errMsg': '申请成功', 'tradeCode': '0000', 'exObjFields': {}, 'key': None}
+ Thu, 16 Aug 2018 18:32:12  INFO test_api.py test_api [ line:47 ] 接口请求expected data为:{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'Y', 'tradeMsg': '申请成功', 'errMsg': '申请成功', 'tradeCode': '0000', 'exObjFields': {}, 'key': None}
+ Thu, 16 Aug 2018 18:32:12  INFO test_api.py test_api [ line:53 ] =====开始比对检验返回结果=======
+ Thu, 16 Aug 2018 18:32:12  INFO test_api.py test_api [ line:54 ] 全值匹配模式
+ Thu, 16 Aug 2018 18:32:12  INFO test_api.py test_api [ line:57 ] 结果比对成功，测试用例通过
+ Thu, 16 Aug 2018 18:32:12  INFO test_api.py test_api [ line:78 ] 数据库里存在符合预期条件的数据,测试通过:[{'SERIALNO': '20180816183009031LX', 'CUSTNO': '1538943811', 'APKIND': '014', 'SUBAPKIND': '014001', 'SUBQUTY': Decimal('10.00'), 'SUBAMT': None, 'APDT': '20180722', 'APTM': '113344', 'WORKDATE': '20180722', 'SHARETYPE': 'A', 'ACCPTMD': '1', 'BANKNO': None, 'BANKACCO': None, 'BRANCHCODE': '247000', 'DISTRIBUTORCODE': '247', 'REFERNO': None, 'TRADEACCO': '000621718538943814', 'TAACCOUNTID': '475A7FB19598436383', 'PRODUCTID': '8901', 'APPLYST': 'H', 'TRANSST': 'N', 'PAYST': 'N', 'SUMMARY': None, 'CHECKID': None, 'CHECKDT': None, 'CHECKTM': 'I', 'CHECKST': None, 'CHECKREMARK': 'N', 'OPRODUCTID': None, 'TANO': '47', 'OCUSTNO': '1538748013', 'OTANO': None, 'OTAACCOUNTID': None, 'OTRADEACCO': None, 'OBRANCHCODE': None, 'ODISTRIBUTORCODE': None, 'ACKSERIALNO': None, 'ACKAMT': None, 'ACKQUTY': None, 'ACKNAV': None, 'ACKDT': None, 'ACKST': None, 'ERRORCODE': None, 'ERRORMSG': None, 'FEETP': '07', 'FEEMODE': '1', 'FEEVALUE': '0.01', 'couponid': '', 'COUPONTYPE': '', 'COUPONNAME': '', 'COUPONVALUE': Decimal('0.00'), 'OFEETP': '', 'OFEEMODE': '', 'OFEEVALUE': '', 'OCOUPONID': '', 'OCOUPONTYPE': '', 'OCOUPONNAME': '', 'OCOUPONVALUE': Decimal('0.00'), 'SELLERDISCOUNT': None, 'AFTERVOL': None, 'OAFTERVOL': None, 'WITHHOLD': None, 'GWITHHOLD': Decimal('9.90'), 'INSERTTIMESTAMP': datetime.datetime(2018, 8, 16, 18, 32, 16), 'UPDATETIMESTAMP': datetime.datetime(2018, 8, 16, 18, 32, 16), 'CLEANFLAG': '0', 'DRAWFLAG': 'N', 'version': 701, 'PAYDT': None, 'PAYAMT': None, 'rsv1': 'Y#0#1;Y', 'rsv2': None, 'RSV3': '1', 'rsv4': '5B569A9A006Abc55', 'rsv5': None}]
+ Thu, 16 Aug 2018 18:32:12  INFO test_api.py test_api [ line:81 ] ================结束一次接口请求===========
+ Thu, 16 Aug 2018 18:32:12  INFO test_api.py test_api [ line:33 ] ================开始发送一次接口请求，请求信息如下===========
+ Thu, 16 Aug 2018 18:32:12  INFO test_api.py test_api [ line:34 ] 接口请求apiName：【调用轮询接口处理交易请求】
+ Thu, 16 Aug 2018 18:32:12  INFO test_api.py test_api [ line:35 ] 接口请求interface:com.wt.cts.service.ProductCoreTradeService
+ Thu, 16 Aug 2018 18:32:12  INFO test_api.py test_api [ line:36 ] 接口请求method:tradeContinueTask
+ Thu, 16 Aug 2018 18:32:12  INFO test_api.py test_api [ line:37 ] 接口请求data:""
+ Thu, 16 Aug 2018 18:32:12  INFO test_api.py test_api [ line:38 ] 接口请求sql:None
+ Thu, 16 Aug 2018 18:32:12  INFO test_api.py test_api [ line:46 ] 接口请求response data为：{'extFields': {}, 'errCode': '0000', 'tradeStatus': None, 'tradeMsg': None, 'errMsg': '申请成功', 'tradeCode': None, 'exObjFields': {}, 'key': None}
+ Thu, 16 Aug 2018 18:32:12  INFO test_api.py test_api [ line:47 ] 接口请求expected data为:None
+ Thu, 16 Aug 2018 18:32:12  INFO test_api.py test_api [ line:81 ] ================结束一次接口请求===========
+ Thu, 16 Aug 2018 18:32:12  INFO test_api.py test_api [ line:85 ] 需要等待时间60s发起后续请求
+ Thu, 16 Aug 2018 18:33:12  INFO test_api.py test_api [ line:33 ] ================开始发送一次接口请求，请求信息如下===========
+ Thu, 16 Aug 2018 18:33:12  INFO test_api.py test_api [ line:34 ] 接口请求apiName：【卖出后续接口】使用优惠券季季升产品提前卖出成功
+ Thu, 16 Aug 2018 18:33:12  INFO test_api.py test_api [ line:35 ] 接口请求interface:com.wt.cts.service.ProductCoreTradeService
+ Thu, 16 Aug 2018 18:33:12  INFO test_api.py test_api [ line:36 ] 接口请求method:tradeContinue
+ Thu, 16 Aug 2018 18:33:12  INFO test_api.py test_api [ line:37 ] 接口请求data:{"serialno":"20180816183009031LX","isSend":"1",'extFields':{"errCode":"0000", "errMsg":"交易成功", "tranSt":"Y"}}
+ Thu, 16 Aug 2018 18:33:12  INFO test_api.py test_api [ line:38 ] 接口请求sql:["SELECT * from cts.cts_traderequest WHERE SERIALNO='20180816183009031LX' AND APPLYST='Y'AND TRANSST='Y' AND PAYST='Y';","SELECT * from cts.cts_tradequtychg WHERE REFERNO='20180816183009031LX' AND PRODUCTID='9999'AND CHANGEQUTY='9.9';"]
+ Thu, 16 Aug 2018 18:33:13  INFO test_api.py test_api [ line:46 ] 接口请求response data为：{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'Y', 'tradeMsg': '申请成功！', 'errMsg': '申请成功', 'tradeCode': '0000', 'exObjFields': {}, 'key': None}
+ Thu, 16 Aug 2018 18:33:13  INFO test_api.py test_api [ line:47 ] 接口请求expected data为:{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'Y', 'tradeMsg': '申请成功！', 'errMsg': '申请成功', 'tradeCode': '0000', 'exObjFields': {}, 'key': None}
+ Thu, 16 Aug 2018 18:33:13  INFO test_api.py test_api [ line:53 ] =====开始比对检验返回结果=======
+ Thu, 16 Aug 2018 18:33:13  INFO test_api.py test_api [ line:54 ] 全值匹配模式
+ Thu, 16 Aug 2018 18:33:13  INFO test_api.py test_api [ line:57 ] 结果比对成功，测试用例通过
+ Thu, 16 Aug 2018 18:33:13  INFO test_api.py test_api [ line:78 ] 数据库里存在符合预期条件的数据,测试通过:[{'SERIALNO': '20180816183009031LX', 'CUSTNO': '1538943811', 'APKIND': '014', 'SUBAPKIND': '014001', 'SUBQUTY': Decimal('10.00'), 'SUBAMT': None, 'APDT': '20180722', 'APTM': '113344', 'WORKDATE': '20180722', 'SHARETYPE': 'A', 'ACCPTMD': '1', 'BANKNO': None, 'BANKACCO': None, 'BRANCHCODE': '247000', 'DISTRIBUTORCODE': '247', 'REFERNO': None, 'TRADEACCO': '000621718538943814', 'TAACCOUNTID': '475A7FB19598436383', 'PRODUCTID': '8901', 'APPLYST': 'Y', 'TRANSST': 'Y', 'PAYST': 'Y', 'SUMMARY': None, 'CHECKID': None, 'CHECKDT': None, 'CHECKTM': 'Y', 'CHECKST': None, 'CHECKREMARK': 'N', 'OPRODUCTID': None, 'TANO': '47', 'OCUSTNO': '1538748013', 'OTANO': None, 'OTAACCOUNTID': None, 'OTRADEACCO': None, 'OBRANCHCODE': None, 'ODISTRIBUTORCODE': None, 'ACKSERIALNO': '5B7552EC13A7bcC7', 'ACKAMT': Decimal('10.00'), 'ACKQUTY': Decimal('10.00'), 'ACKNAV': Decimal('1.00'), 'ACKDT': '20180722', 'ACKST': 'Y', 'ERRORCODE': '0000', 'ERRORMSG': '申请成功！', 'FEETP': '07', 'FEEMODE': '1', 'FEEVALUE': '0.01', 'couponid': '', 'COUPONTYPE': '', 'COUPONNAME': '', 'COUPONVALUE': Decimal('0.00'), 'OFEETP': '', 'OFEEMODE': '', 'OFEEVALUE': '', 'OCOUPONID': '', 'OCOUPONTYPE': '', 'OCOUPONNAME': '', 'OCOUPONVALUE': Decimal('0.00'), 'SELLERDISCOUNT': None, 'AFTERVOL': Decimal('4216570.07'), 'OAFTERVOL': None, 'WITHHOLD': None, 'GWITHHOLD': Decimal('9.90'), 'INSERTTIMESTAMP': datetime.datetime(2018, 8, 16, 18, 32, 16), 'UPDATETIMESTAMP': datetime.datetime(2018, 8, 16, 18, 33, 17), 'CLEANFLAG': '0', 'DRAWFLAG': 'N', 'version': 701, 'PAYDT': None, 'PAYAMT': None, 'rsv1': 'Y#0#1;Y', 'rsv2': None, 'RSV3': '1', 'rsv4': '5B569A9A006Abc55', 'rsv5': None}]
+ Thu, 16 Aug 2018 18:33:13  INFO test_api.py test_api [ line:78 ] 数据库里存在符合预期条件的数据,测试通过:[{'SERIALNO': '5B7552B01B24bc1F', 'CUSTNO': '1538748013', 'PRODUCTID': '9999', 'CHANGEQUTY': Decimal('9.90'), 'REFERNO': '20180816183009031LX', 'APKIND': '014', 'SUBAPKIND': '014001', 'DISTRIBUTORCODE': '247', 'BRANCHCODE': '247000', 'APDT': '20180722', 'WORKDATE': '20180722', 'BUSINESSDATE': '20180722', 'BUSINESSCODE': '24', 'INSERTTIMESTAMP': datetime.datetime(2018, 8, 16, 18, 32, 16), 'UPDATETIMESTAMP': datetime.datetime(2018, 8, 16, 18, 32, 16), 'RSV1': None, 'RSV2': None, 'RSV3': None}]
+ Thu, 16 Aug 2018 18:33:13  INFO test_api.py test_api [ line:81 ] ================结束一次接口请求===========
+ Thu, 16 Aug 2018 18:33:13  INFO test_api.py test_api [ line:33 ] ================开始发送一次接口请求，请求信息如下===========
+ Thu, 16 Aug 2018 18:33:13  INFO test_api.py test_api [ line:34 ] 接口请求apiName：【组合卖出】使用优惠券季季升产品提前卖出申请
+ Thu, 16 Aug 2018 18:33:13  INFO test_api.py test_api [ line:35 ] 接口请求interface:com.wt.cts.service.ProductCoreTradeService
+ Thu, 16 Aug 2018 18:33:13  INFO test_api.py test_api [ line:36 ] 接口请求method:sellToVacco
+ Thu, 16 Aug 2018 18:33:13  INFO test_api.py test_api [ line:37 ] 接口请求data:{"refercapno":"5B57DD261DFCbc4E",
+        "sellCouponId":"5B569A9A006Abc55",
+        "reemFlag":"1",
+        "selltype":1,
+        "periodic":"true",
+        "mixProd":"true",
+        "bigVCustno":"1503257540",
+        "honourFlag":"1",
+        "newFlag":"0",
+        "partPayment":"false",
+        "subquty":"10.00",
+        "feetp":"07",
+        "feemode":"1",
+        "feevalue":"0.01",
+        "serialno":"201808161830090305IP",
+        "custno":"1538943811",
+        "apkind":"014",
+        "subapkind":"014001",
+        "apdt":"20180722",
+        "aptm":"113344",
+        "workdate":"20180722",
+        "tradeacco":"000621718538943814",
+        "taaccountid":"475A7FB19598436383",
+        "tano":"47",
+        "productid":"8901",
+        "sharetype":"A",
+        "accptmd":"1",
+        "branchcode":"247000",
+        "distributorcode":"247"}
+ Thu, 16 Aug 2018 18:33:13  INFO test_api.py test_api [ line:38 ] 接口请求sql:["SELECT * from cts.cts_traderequest WHERE SERIALNO='201808161830090305IP';"]
+ Thu, 16 Aug 2018 18:33:13  INFO test_api.py test_api [ line:46 ] 接口请求response data为：{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'Y', 'tradeMsg': '申请成功', 'errMsg': '申请成功', 'tradeCode': '0000', 'exObjFields': {}, 'key': None}
+ Thu, 16 Aug 2018 18:33:13  INFO test_api.py test_api [ line:47 ] 接口请求expected data为:{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'Y', 'tradeMsg': '申请成功', 'errMsg': '申请成功', 'tradeCode': '0000', 'exObjFields': {}, 'key': None}
+ Thu, 16 Aug 2018 18:33:13  INFO test_api.py test_api [ line:53 ] =====开始比对检验返回结果=======
+ Thu, 16 Aug 2018 18:33:13  INFO test_api.py test_api [ line:54 ] 全值匹配模式
+ Thu, 16 Aug 2018 18:33:13  INFO test_api.py test_api [ line:57 ] 结果比对成功，测试用例通过
+ Thu, 16 Aug 2018 18:33:13  INFO test_api.py test_api [ line:78 ] 数据库里存在符合预期条件的数据,测试通过:[{'SERIALNO': '201808161830090305IP', 'CUSTNO': '1538943811', 'APKIND': '014', 'SUBAPKIND': '014001', 'SUBQUTY': Decimal('10.00'), 'SUBAMT': None, 'APDT': '20180722', 'APTM': '113344', 'WORKDATE': '20180722', 'SHARETYPE': 'A', 'ACCPTMD': '1', 'BANKNO': None, 'BANKACCO': None, 'BRANCHCODE': '247000', 'DISTRIBUTORCODE': '247', 'REFERNO': None, 'TRADEACCO': '000621718538943814', 'TAACCOUNTID': '475A7FB19598436383', 'PRODUCTID': '8901', 'APPLYST': 'H', 'TRANSST': 'N', 'PAYST': 'N', 'SUMMARY': None, 'CHECKID': None, 'CHECKDT': None, 'CHECKTM': 'I', 'CHECKST': None, 'CHECKREMARK': 'N', 'OPRODUCTID': None, 'TANO': '47', 'OCUSTNO': '1538748013', 'OTANO': None, 'OTAACCOUNTID': None, 'OTRADEACCO': None, 'OBRANCHCODE': None, 'ODISTRIBUTORCODE': None, 'ACKSERIALNO': None, 'ACKAMT': None, 'ACKQUTY': None, 'ACKNAV': None, 'ACKDT': None, 'ACKST': None, 'ERRORCODE': None, 'ERRORMSG': None, 'FEETP': '07', 'FEEMODE': '1', 'FEEVALUE': '0.01', 'couponid': '', 'COUPONTYPE': '', 'COUPONNAME': '', 'COUPONVALUE': Decimal('0.00'), 'OFEETP': '', 'OFEEMODE': '', 'OFEEVALUE': '', 'OCOUPONID': '', 'OCOUPONTYPE': '', 'OCOUPONNAME': '', 'OCOUPONVALUE': Decimal('0.00'), 'SELLERDISCOUNT': None, 'AFTERVOL': None, 'OAFTERVOL': None, 'WITHHOLD': None, 'GWITHHOLD': Decimal('9.90'), 'INSERTTIMESTAMP': datetime.datetime(2018, 8, 16, 18, 33, 17), 'UPDATETIMESTAMP': datetime.datetime(2018, 8, 16, 18, 33, 18), 'CLEANFLAG': '0', 'DRAWFLAG': 'N', 'version': 701, 'PAYDT': None, 'PAYAMT': None, 'rsv1': 'Y#0#1;Y', 'rsv2': None, 'RSV3': '1', 'rsv4': '5B569A9A006Abc55', 'rsv5': None}]
+ Thu, 16 Aug 2018 18:33:13  INFO test_api.py test_api [ line:81 ] ================结束一次接口请求===========
+ Thu, 16 Aug 2018 18:33:13  INFO test_api.py test_api [ line:33 ] ================开始发送一次接口请求，请求信息如下===========
+ Thu, 16 Aug 2018 18:33:13  INFO test_api.py test_api [ line:34 ] 接口请求apiName：【调用轮询接口处理交易请求】
+ Thu, 16 Aug 2018 18:33:13  INFO test_api.py test_api [ line:35 ] 接口请求interface:com.wt.cts.service.ProductCoreTradeService
+ Thu, 16 Aug 2018 18:33:13  INFO test_api.py test_api [ line:36 ] 接口请求method:tradeContinueTask
+ Thu, 16 Aug 2018 18:33:13  INFO test_api.py test_api [ line:37 ] 接口请求data:""
+ Thu, 16 Aug 2018 18:33:13  INFO test_api.py test_api [ line:38 ] 接口请求sql:None
+ Thu, 16 Aug 2018 18:33:14  INFO test_api.py test_api [ line:46 ] 接口请求response data为：{'extFields': {}, 'errCode': '0000', 'tradeStatus': None, 'tradeMsg': None, 'errMsg': '申请成功', 'tradeCode': None, 'exObjFields': {}, 'key': None}
+ Thu, 16 Aug 2018 18:33:14  INFO test_api.py test_api [ line:47 ] 接口请求expected data为:None
+ Thu, 16 Aug 2018 18:33:14  INFO test_api.py test_api [ line:81 ] ================结束一次接口请求===========
+ Thu, 16 Aug 2018 18:33:14  INFO test_api.py test_api [ line:85 ] 需要等待时间60s发起后续请求
+ Thu, 16 Aug 2018 18:34:14  INFO test_api.py test_api [ line:33 ] ================开始发送一次接口请求，请求信息如下===========
+ Thu, 16 Aug 2018 18:34:14  INFO test_api.py test_api [ line:34 ] 接口请求apiName：【卖出后续接口】使用优惠券季季升产品提前卖出失败
+ Thu, 16 Aug 2018 18:34:14  INFO test_api.py test_api [ line:35 ] 接口请求interface:com.wt.cts.service.ProductCoreTradeService
+ Thu, 16 Aug 2018 18:34:14  INFO test_api.py test_api [ line:36 ] 接口请求method:tradeContinue
+ Thu, 16 Aug 2018 18:34:14  INFO test_api.py test_api [ line:37 ] 接口请求data:{"serialno":"201808161830090305IP","isSend":"1",'extFields':{"errCode":"0000", "errMsg":"交易成功", "tranSt":"Y"}}
+ Thu, 16 Aug 2018 18:34:14  INFO test_api.py test_api [ line:38 ] 接口请求sql:["SELECT * from cts.cts_traderequest WHERE SERIALNO='201808161830090305IP' AND APPLYST='Y'AND TRANSST='Y' AND PAYST='Y';","SELECT * from cts.cts_tradequtychg WHERE REFERNO='201808161830090305IP' AND PRODUCTID='8901'AND CHANGEQUTY='10';"]
+ Thu, 16 Aug 2018 18:34:15  INFO test_api.py test_api [ line:46 ] 接口请求response data为：{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'Y', 'tradeMsg': '申请成功！', 'errMsg': '申请成功', 'tradeCode': '0000', 'exObjFields': {}, 'key': None}
+ Thu, 16 Aug 2018 18:34:15  INFO test_api.py test_api [ line:47 ] 接口请求expected data为:{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'Y', 'tradeMsg': '申请成功！', 'errMsg': '申请成功', 'tradeCode': '0000', 'exObjFields': {}, 'key': None}
+ Thu, 16 Aug 2018 18:34:15  INFO test_api.py test_api [ line:53 ] =====开始比对检验返回结果=======
+ Thu, 16 Aug 2018 18:34:15  INFO test_api.py test_api [ line:54 ] 全值匹配模式
+ Thu, 16 Aug 2018 18:34:15  INFO test_api.py test_api [ line:57 ] 结果比对成功，测试用例通过
+ Thu, 16 Aug 2018 18:34:15  INFO test_api.py test_api [ line:78 ] 数据库里存在符合预期条件的数据,测试通过:[{'SERIALNO': '201808161830090305IP', 'CUSTNO': '1538943811', 'APKIND': '014', 'SUBAPKIND': '014001', 'SUBQUTY': Decimal('10.00'), 'SUBAMT': None, 'APDT': '20180722', 'APTM': '113344', 'WORKDATE': '20180722', 'SHARETYPE': 'A', 'ACCPTMD': '1', 'BANKNO': None, 'BANKACCO': None, 'BRANCHCODE': '247000', 'DISTRIBUTORCODE': '247', 'REFERNO': None, 'TRADEACCO': '000621718538943814', 'TAACCOUNTID': '475A7FB19598436383', 'PRODUCTID': '8901', 'APPLYST': 'Y', 'TRANSST': 'Y', 'PAYST': 'Y', 'SUMMARY': None, 'CHECKID': None, 'CHECKDT': None, 'CHECKTM': 'Y', 'CHECKST': None, 'CHECKREMARK': 'N', 'OPRODUCTID': None, 'TANO': '47', 'OCUSTNO': '1538748013', 'OTANO': None, 'OTAACCOUNTID': None, 'OTRADEACCO': None, 'OBRANCHCODE': None, 'ODISTRIBUTORCODE': None, 'ACKSERIALNO': '5B75532A13ACbcC7', 'ACKAMT': Decimal('10.00'), 'ACKQUTY': Decimal('10.00'), 'ACKNAV': Decimal('1.00'), 'ACKDT': '20180722', 'ACKST': 'Y', 'ERRORCODE': '0000', 'ERRORMSG': '申请成功！', 'FEETP': '07', 'FEEMODE': '1', 'FEEVALUE': '0.01', 'couponid': '', 'COUPONTYPE': '', 'COUPONNAME': '', 'COUPONVALUE': Decimal('0.00'), 'OFEETP': '', 'OFEEMODE': '', 'OFEEVALUE': '', 'OCOUPONID': '', 'OCOUPONTYPE': '', 'OCOUPONNAME': '', 'OCOUPONVALUE': Decimal('0.00'), 'SELLERDISCOUNT': None, 'AFTERVOL': Decimal('4216579.97'), 'OAFTERVOL': None, 'WITHHOLD': None, 'GWITHHOLD': Decimal('9.90'), 'INSERTTIMESTAMP': datetime.datetime(2018, 8, 16, 18, 33, 17), 'UPDATETIMESTAMP': datetime.datetime(2018, 8, 16, 18, 34, 19), 'CLEANFLAG': '0', 'DRAWFLAG': 'N', 'version': 701, 'PAYDT': None, 'PAYAMT': None, 'rsv1': 'Y#0#1;Y', 'rsv2': None, 'RSV3': '1', 'rsv4': '5B569A9A006Abc55', 'rsv5': None}]
+ Thu, 16 Aug 2018 18:34:15  INFO test_api.py test_api [ line:78 ] 数据库里存在符合预期条件的数据,测试通过:[{'SERIALNO': '5B7552ED1B2Bbc1F', 'CUSTNO': '1538943811', 'PRODUCTID': '8901', 'CHANGEQUTY': Decimal('10.00'), 'REFERNO': '201808161830090305IP', 'APKIND': '014', 'SUBAPKIND': '014001', 'DISTRIBUTORCODE': '247', 'BRANCHCODE': '247000', 'APDT': '20180722', 'WORKDATE': '20180722', 'BUSINESSDATE': '20180722', 'BUSINESSCODE': '24', 'INSERTTIMESTAMP': datetime.datetime(2018, 8, 16, 18, 33, 18), 'UPDATETIMESTAMP': datetime.datetime(2018, 8, 16, 18, 33, 18), 'RSV1': None, 'RSV2': None, 'RSV3': None}]
+ Thu, 16 Aug 2018 18:34:15  INFO test_api.py test_api [ line:81 ] ================结束一次接口请求===========
+ Thu, 16 Aug 2018 18:34:15  INFO test_api.py test_api [ line:33 ] ================开始发送一次接口请求，请求信息如下===========
+ Thu, 16 Aug 2018 18:34:15  INFO test_api.py test_api [ line:34 ] 接口请求apiName：【组合卖出】月月盈产品提前卖出申请
+ Thu, 16 Aug 2018 18:34:15  INFO test_api.py test_api [ line:35 ] 接口请求interface:com.wt.cts.service.ProductCoreTradeService
+ Thu, 16 Aug 2018 18:34:15  INFO test_api.py test_api [ line:36 ] 接口请求method:sellToVacco
+ Thu, 16 Aug 2018 18:34:15  INFO test_api.py test_api [ line:37 ] 接口请求data:{"refercapno":"5B57DD261DFCbc4E",
+        "reemFlag":"1",
+        "selltype":1,
+        "periodic":"true",
+        "mixProd":"true",
+        "bigVCustno":"1503257540",
+        "honourFlag":"1",
+        "newFlag":"0",
+        "partPayment":"false",
+        "subquty":"10.00",
+        "feetp":"07",
+        "feemode":"1",
+        "feevalue":"0.01",
+        "serialno":"201808161830090468Rf",
+        "custno":"1538943811",
+        "apkind":"014",
+        "subapkind":"014001",
+        "apdt":"20180815",
+        "aptm":"164500",
+        "workdate":"20180815",
+        "tradeacco":"000621718538943814",
+        "taaccountid":"475A7FB19598436383",
+        "tano":"47",
+        "productid":"8802",
+        "sharetype":"A",
+        "accptmd":"1",
+        "branchcode":"247000",
+        "distributorcode":"247"}
+ Thu, 16 Aug 2018 18:34:15  INFO test_api.py test_api [ line:38 ] 接口请求sql:["SELECT * from cts.cts_traderequest WHERE SERIALNO='201808161830090468Rf';"]
+ Thu, 16 Aug 2018 18:34:15  INFO test_api.py test_api [ line:46 ] 接口请求response data为：{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'Y', 'tradeMsg': '申请成功', 'errMsg': '申请成功', 'tradeCode': '0000', 'exObjFields': {}, 'key': None}
+ Thu, 16 Aug 2018 18:34:15  INFO test_api.py test_api [ line:47 ] 接口请求expected data为:{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'Y', 'tradeMsg': '申请成功', 'errMsg': '申请成功', 'tradeCode': '0000', 'exObjFields': {}, 'key': None}
+ Thu, 16 Aug 2018 18:34:15  INFO test_api.py test_api [ line:53 ] =====开始比对检验返回结果=======
+ Thu, 16 Aug 2018 18:34:15  INFO test_api.py test_api [ line:54 ] 全值匹配模式
+ Thu, 16 Aug 2018 18:34:15  INFO test_api.py test_api [ line:57 ] 结果比对成功，测试用例通过
+ Thu, 16 Aug 2018 18:34:15  INFO test_api.py test_api [ line:78 ] 数据库里存在符合预期条件的数据,测试通过:[{'SERIALNO': '201808161830090468Rf', 'CUSTNO': '1538943811', 'APKIND': '014', 'SUBAPKIND': '014001', 'SUBQUTY': Decimal('10.00'), 'SUBAMT': None, 'APDT': '20180815', 'APTM': '164500', 'WORKDATE': '20180815', 'SHARETYPE': 'A', 'ACCPTMD': '1', 'BANKNO': None, 'BANKACCO': None, 'BRANCHCODE': '247000', 'DISTRIBUTORCODE': '247', 'REFERNO': None, 'TRADEACCO': '000621718538943814', 'TAACCOUNTID': '475A7FB19598436383', 'PRODUCTID': '8802', 'APPLYST': 'H', 'TRANSST': 'N', 'PAYST': 'N', 'SUMMARY': None, 'CHECKID': None, 'CHECKDT': None, 'CHECKTM': 'I', 'CHECKST': None, 'CHECKREMARK': 'N', 'OPRODUCTID': None, 'TANO': '47', 'OCUSTNO': '1538748001', 'OTANO': None, 'OTAACCOUNTID': None, 'OTRADEACCO': None, 'OBRANCHCODE': None, 'ODISTRIBUTORCODE': None, 'ACKSERIALNO': None, 'ACKAMT': None, 'ACKQUTY': None, 'ACKNAV': None, 'ACKDT': None, 'ACKST': None, 'ERRORCODE': None, 'ERRORMSG': None, 'FEETP': '07', 'FEEMODE': '1', 'FEEVALUE': '0.01', 'couponid': '', 'COUPONTYPE': '', 'COUPONNAME': '', 'COUPONVALUE': Decimal('0.00'), 'OFEETP': '', 'OFEEMODE': '', 'OFEEVALUE': '', 'OCOUPONID': '', 'OCOUPONTYPE': '', 'OCOUPONNAME': '', 'OCOUPONVALUE': Decimal('0.00'), 'SELLERDISCOUNT': None, 'AFTERVOL': None, 'OAFTERVOL': None, 'WITHHOLD': None, 'GWITHHOLD': Decimal('9.90'), 'INSERTTIMESTAMP': datetime.datetime(2018, 8, 16, 18, 34, 19), 'UPDATETIMESTAMP': datetime.datetime(2018, 8, 16, 18, 34, 19), 'CLEANFLAG': '0', 'DRAWFLAG': 'N', 'version': 701, 'PAYDT': None, 'PAYAMT': None, 'rsv1': 'Y#0#1;Y', 'rsv2': None, 'RSV3': '1', 'rsv4': None, 'rsv5': None}]
+ Thu, 16 Aug 2018 18:34:15  INFO test_api.py test_api [ line:81 ] ================结束一次接口请求===========
+ Thu, 16 Aug 2018 18:34:15  INFO test_api.py test_api [ line:33 ] ================开始发送一次接口请求，请求信息如下===========
+ Thu, 16 Aug 2018 18:34:15  INFO test_api.py test_api [ line:34 ] 接口请求apiName：【调用轮询接口处理交易请求】
+ Thu, 16 Aug 2018 18:34:15  INFO test_api.py test_api [ line:35 ] 接口请求interface:com.wt.cts.service.ProductCoreTradeService
+ Thu, 16 Aug 2018 18:34:15  INFO test_api.py test_api [ line:36 ] 接口请求method:tradeContinueTask
+ Thu, 16 Aug 2018 18:34:15  INFO test_api.py test_api [ line:37 ] 接口请求data:""
+ Thu, 16 Aug 2018 18:34:15  INFO test_api.py test_api [ line:38 ] 接口请求sql:None
+ Thu, 16 Aug 2018 18:34:15  INFO test_api.py test_api [ line:46 ] 接口请求response data为：{'extFields': {}, 'errCode': '0000', 'tradeStatus': None, 'tradeMsg': None, 'errMsg': '申请成功', 'tradeCode': None, 'exObjFields': {}, 'key': None}
+ Thu, 16 Aug 2018 18:34:15  INFO test_api.py test_api [ line:47 ] 接口请求expected data为:None
+ Thu, 16 Aug 2018 18:34:15  INFO test_api.py test_api [ line:81 ] ================结束一次接口请求===========
+ Thu, 16 Aug 2018 18:34:15  INFO test_api.py test_api [ line:85 ] 需要等待时间60s发起后续请求
+ Thu, 16 Aug 2018 18:35:15  INFO test_api.py test_api [ line:33 ] ================开始发送一次接口请求，请求信息如下===========
+ Thu, 16 Aug 2018 18:35:15  INFO test_api.py test_api [ line:34 ] 接口请求apiName：【卖出后续接口】月月盈产品提前卖出成功
+ Thu, 16 Aug 2018 18:35:15  INFO test_api.py test_api [ line:35 ] 接口请求interface:com.wt.cts.service.ProductCoreTradeService
+ Thu, 16 Aug 2018 18:35:15  INFO test_api.py test_api [ line:36 ] 接口请求method:tradeContinue
+ Thu, 16 Aug 2018 18:35:15  INFO test_api.py test_api [ line:37 ] 接口请求data:{"serialno":"201808161830090468Rf","isSend":"1",'extFields':{"errCode":"0000", "errMsg":"交易成功", "tranSt":"Y"}}
+ Thu, 16 Aug 2018 18:35:15  INFO test_api.py test_api [ line:38 ] 接口请求sql:["SELECT * from cts.cts_traderequest WHERE SERIALNO='201808161830090468Rf' AND APPLYST='Y'AND TRANSST='Y' AND PAYST='Y';","SELECT * from cts.cts_tradequtychg WHERE REFERNO='201808161830090468Rf' AND PRODUCTID='9999'AND CHANGEQUTY='9.9';"]
+ Thu, 16 Aug 2018 18:35:16  INFO test_api.py test_api [ line:46 ] 接口请求response data为：{'extFields': {}, 'errCode': '9999', 'tradeStatus': 'E', 'tradeMsg': '系统异常！', 'errMsg': '系统异常！', 'tradeCode': '9999', 'exObjFields': {}, 'key': None}
+ Thu, 16 Aug 2018 18:35:16  INFO test_api.py test_api [ line:47 ] 接口请求expected data为:{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'Y', 'tradeMsg': '申请成功！', 'errMsg': '申请成功', 'tradeCode': '0000', 'exObjFields': {}, 'key': None}
+ Thu, 16 Aug 2018 18:35:16  INFO test_api.py test_api [ line:53 ] =====开始比对检验返回结果=======
+ Thu, 16 Aug 2018 18:35:16  INFO test_api.py test_api [ line:54 ] 全值匹配模式
+ Thu, 16 Aug 2018 18:35:16  ERROR test_api.py test_api [ line:59 ] 全值结果比对失败原因为："{'extFields': {}, 'errCode': '9999', 'tradeStatus': 'E', 'tradeMsg': '系统异常！', 'errMsg': '系统异常！', 'tradeCode': '9999', 'exObjFields': {}, 'key': None}" not found in "{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'Y', 'tradeMsg': '申请成功！', 'errMsg': '申请成功', 'tradeCode': '0000', 'exObjFields': {}, 'key': None}"
+Traceback (most recent call last):
+  File "H:\python3_apiTest\TestCases\test_api.py", line 56, in test_api
+    self.assertIn(str(res),case_data["expected_data"])
+  File "F:\python36\lib\unittest\case.py", line 1089, in assertIn
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "F:\python36\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: "{'extFields': {}, 'errCode': '9999', 'tradeStatus': 'E', 'tradeMsg': '系统异常！', 'errMsg': '系统异常！', 'tradeCode': '9999', 'exObjFields': {}, 'key': None}" not found in "{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'Y', 'tradeMsg': '申请成功！', 'errMsg': '申请成功', 'tradeCode': '0000', 'exObjFields': {}, 'key': None}"
+ Thu, 16 Aug 2018 18:35:16  INFO test_api.py test_api [ line:33 ] ================开始发送一次接口请求，请求信息如下===========
+ Thu, 16 Aug 2018 18:35:16  INFO test_api.py test_api [ line:34 ] 接口请求apiName：【组合卖出】月月盈产品提前卖出申请
+ Thu, 16 Aug 2018 18:35:16  INFO test_api.py test_api [ line:35 ] 接口请求interface:com.wt.cts.service.ProductCoreTradeService
+ Thu, 16 Aug 2018 18:35:16  INFO test_api.py test_api [ line:36 ] 接口请求method:sellToVacco
+ Thu, 16 Aug 2018 18:35:16  INFO test_api.py test_api [ line:37 ] 接口请求data:{"refercapno":"5B57DD261DFCbc4E",
+        "reemFlag":"1",
+        "selltype":1,
+        "periodic":"true",
+        "mixProd":"true",
+        "bigVCustno":"1503257540",
+        "honourFlag":"1",
+        "newFlag":"0",
+        "partPayment":"false",
+        "subquty":"10.00",
+        "feetp":"07",
+        "feemode":"1",
+        "feevalue":"0.01",
+        "serialno":"201808161830090766KM",
+        "custno":"1538943811",
+        "apkind":"014",
+        "subapkind":"014001",
+        "apdt":"20180815",
+        "aptm":"164500",
+        "workdate":"20180815",
+        "tradeacco":"000621718538943814",
+        "taaccountid":"475A7FB19598436383",
+        "tano":"47",
+        "productid":"8802",
+        "sharetype":"A",
+        "accptmd":"1",
+        "branchcode":"247000",
+        "distributorcode":"247"}
+ Thu, 16 Aug 2018 18:35:16  INFO test_api.py test_api [ line:38 ] 接口请求sql:["SELECT * from cts.cts_traderequest WHERE SERIALNO='201808161830090766KM';"]
+ Thu, 16 Aug 2018 18:35:16  INFO test_api.py test_api [ line:46 ] 接口请求response data为：{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'Y', 'tradeMsg': '申请成功', 'errMsg': '申请成功', 'tradeCode': '0000', 'exObjFields': {}, 'key': None}
+ Thu, 16 Aug 2018 18:35:16  INFO test_api.py test_api [ line:47 ] 接口请求expected data为:{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'Y', 'tradeMsg': '申请成功', 'errMsg': '申请成功', 'tradeCode': '0000', 'exObjFields': {}, 'key': None}
+ Thu, 16 Aug 2018 18:35:16  INFO test_api.py test_api [ line:53 ] =====开始比对检验返回结果=======
+ Thu, 16 Aug 2018 18:35:16  INFO test_api.py test_api [ line:54 ] 全值匹配模式
+ Thu, 16 Aug 2018 18:35:16  INFO test_api.py test_api [ line:57 ] 结果比对成功，测试用例通过
+ Thu, 16 Aug 2018 18:35:16  INFO test_api.py test_api [ line:78 ] 数据库里存在符合预期条件的数据,测试通过:[{'SERIALNO': '201808161830090766KM', 'CUSTNO': '1538943811', 'APKIND': '014', 'SUBAPKIND': '014001', 'SUBQUTY': Decimal('10.00'), 'SUBAMT': None, 'APDT': '20180815', 'APTM': '164500', 'WORKDATE': '20180815', 'SHARETYPE': 'A', 'ACCPTMD': '1', 'BANKNO': None, 'BANKACCO': None, 'BRANCHCODE': '247000', 'DISTRIBUTORCODE': '247', 'REFERNO': None, 'TRADEACCO': '000621718538943814', 'TAACCOUNTID': '475A7FB19598436383', 'PRODUCTID': '8802', 'APPLYST': 'H', 'TRANSST': 'N', 'PAYST': 'N', 'SUMMARY': None, 'CHECKID': None, 'CHECKDT': None, 'CHECKTM': 'I', 'CHECKST': None, 'CHECKREMARK': 'N', 'OPRODUCTID': None, 'TANO': '47', 'OCUSTNO': '1538748001', 'OTANO': None, 'OTAACCOUNTID': None, 'OTRADEACCO': None, 'OBRANCHCODE': None, 'ODISTRIBUTORCODE': None, 'ACKSERIALNO': None, 'ACKAMT': None, 'ACKQUTY': None, 'ACKNAV': None, 'ACKDT': None, 'ACKST': None, 'ERRORCODE': None, 'ERRORMSG': None, 'FEETP': '07', 'FEEMODE': '1', 'FEEVALUE': '0.01', 'couponid': '', 'COUPONTYPE': '', 'COUPONNAME': '', 'COUPONVALUE': Decimal('0.00'), 'OFEETP': '', 'OFEEMODE': '', 'OFEEVALUE': '', 'OCOUPONID': '', 'OCOUPONTYPE': '', 'OCOUPONNAME': '', 'OCOUPONVALUE': Decimal('0.00'), 'SELLERDISCOUNT': None, 'AFTERVOL': None, 'OAFTERVOL': None, 'WITHHOLD': None, 'GWITHHOLD': Decimal('9.90'), 'INSERTTIMESTAMP': datetime.datetime(2018, 8, 16, 18, 35, 20), 'UPDATETIMESTAMP': datetime.datetime(2018, 8, 16, 18, 35, 20), 'CLEANFLAG': '0', 'DRAWFLAG': 'N', 'version': 701, 'PAYDT': None, 'PAYAMT': None, 'rsv1': 'Y#0#1;Y', 'rsv2': None, 'RSV3': '1', 'rsv4': None, 'rsv5': None}]
+ Thu, 16 Aug 2018 18:35:16  INFO test_api.py test_api [ line:81 ] ================结束一次接口请求===========
+ Thu, 16 Aug 2018 18:35:16  INFO test_api.py test_api [ line:33 ] ================开始发送一次接口请求，请求信息如下===========
+ Thu, 16 Aug 2018 18:35:16  INFO test_api.py test_api [ line:34 ] 接口请求apiName：【调用轮询接口处理交易请求】
+ Thu, 16 Aug 2018 18:35:16  INFO test_api.py test_api [ line:35 ] 接口请求interface:com.wt.cts.service.ProductCoreTradeService
+ Thu, 16 Aug 2018 18:35:16  INFO test_api.py test_api [ line:36 ] 接口请求method:tradeContinueTask
+ Thu, 16 Aug 2018 18:35:16  INFO test_api.py test_api [ line:37 ] 接口请求data:""
+ Thu, 16 Aug 2018 18:35:16  INFO test_api.py test_api [ line:38 ] 接口请求sql:None
+ Thu, 16 Aug 2018 18:35:17  INFO test_api.py test_api [ line:46 ] 接口请求response data为：{'extFields': {}, 'errCode': '0000', 'tradeStatus': None, 'tradeMsg': None, 'errMsg': '申请成功', 'tradeCode': None, 'exObjFields': {}, 'key': None}
+ Thu, 16 Aug 2018 18:35:17  INFO test_api.py test_api [ line:47 ] 接口请求expected data为:None
+ Thu, 16 Aug 2018 18:35:17  INFO test_api.py test_api [ line:81 ] ================结束一次接口请求===========
+ Thu, 16 Aug 2018 18:35:17  INFO test_api.py test_api [ line:85 ] 需要等待时间60s发起后续请求
+ Thu, 16 Aug 2018 18:36:17  INFO test_api.py test_api [ line:33 ] ================开始发送一次接口请求，请求信息如下===========
+ Thu, 16 Aug 2018 18:36:17  INFO test_api.py test_api [ line:34 ] 接口请求apiName：【卖出后续接口】月月盈产品提前卖出失败
+ Thu, 16 Aug 2018 18:36:17  INFO test_api.py test_api [ line:35 ] 接口请求interface:com.wt.cts.service.ProductCoreTradeService
+ Thu, 16 Aug 2018 18:36:17  INFO test_api.py test_api [ line:36 ] 接口请求method:tradeContinue
+ Thu, 16 Aug 2018 18:36:17  INFO test_api.py test_api [ line:37 ] 接口请求data:{"serialno":"201808161830090766KM","isSend":"1",'extFields':{"errCode":"0000", "errMsg":"交易成功", "tranSt":"Y"}}
+ Thu, 16 Aug 2018 18:36:17  INFO test_api.py test_api [ line:38 ] 接口请求sql:["SELECT * from cts.cts_traderequest WHERE SERIALNO='201808161830090766KM' AND APPLYST='Y'AND TRANSST='Y' AND PAYST='Y';","SELECT * from cts.cts_tradequtychg WHERE REFERNO='201808161830090766KM' AND PRODUCTID='8802'AND CHANGEQUTY='10';"]
+ Thu, 16 Aug 2018 18:36:18  INFO test_api.py test_api [ line:46 ] 接口请求response data为：{'extFields': {}, 'errCode': '9999', 'tradeStatus': 'E', 'tradeMsg': '系统异常！', 'errMsg': '系统异常！', 'tradeCode': '9999', 'exObjFields': {}, 'key': None}
+ Thu, 16 Aug 2018 18:36:18  INFO test_api.py test_api [ line:47 ] 接口请求expected data为:{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'Y', 'tradeMsg': '申请成功！', 'errMsg': '申请成功', 'tradeCode': '0000', 'exObjFields': {}, 'key': None}
+ Thu, 16 Aug 2018 18:36:18  INFO test_api.py test_api [ line:53 ] =====开始比对检验返回结果=======
+ Thu, 16 Aug 2018 18:36:18  INFO test_api.py test_api [ line:54 ] 全值匹配模式
+ Thu, 16 Aug 2018 18:36:18  ERROR test_api.py test_api [ line:59 ] 全值结果比对失败原因为："{'extFields': {}, 'errCode': '9999', 'tradeStatus': 'E', 'tradeMsg': '系统异常！', 'errMsg': '系统异常！', 'tradeCode': '9999', 'exObjFields': {}, 'key': None}" not found in "{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'Y', 'tradeMsg': '申请成功！', 'errMsg': '申请成功', 'tradeCode': '0000', 'exObjFields': {}, 'key': None}"
+Traceback (most recent call last):
+  File "H:\python3_apiTest\TestCases\test_api.py", line 56, in test_api
+    self.assertIn(str(res),case_data["expected_data"])
+  File "F:\python36\lib\unittest\case.py", line 1089, in assertIn
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "F:\python36\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: "{'extFields': {}, 'errCode': '9999', 'tradeStatus': 'E', 'tradeMsg': '系统异常！', 'errMsg': '系统异常！', 'tradeCode': '9999', 'exObjFields': {}, 'key': None}" not found in "{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'Y', 'tradeMsg': '申请成功！', 'errMsg': '申请成功', 'tradeCode': '0000', 'exObjFields': {}, 'key': None}"
+ Thu, 16 Aug 2018 18:36:18  INFO test_api.py test_api [ line:33 ] ================开始发送一次接口请求，请求信息如下===========
+ Thu, 16 Aug 2018 18:36:18  INFO test_api.py test_api [ line:34 ] 接口请求apiName：【组合卖出】使用优惠券季季升产品提前卖出申请
+ Thu, 16 Aug 2018 18:36:18  INFO test_api.py test_api [ line:35 ] 接口请求interface:com.wt.cts.service.ProductCoreTradeService
+ Thu, 16 Aug 2018 18:36:18  INFO test_api.py test_api [ line:36 ] 接口请求method:sellToVacco
+ Thu, 16 Aug 2018 18:36:18  INFO test_api.py test_api [ line:37 ] 接口请求data:{"refercapno":"5B57DD261DFCbc4E",
+        "sellCouponId":"5B569A9A006Abc55",
+        "reemFlag":"1",
+        "selltype":1,
+        "periodic":"true",
+        "mixProd":"true",
+        "bigVCustno":"1503257540",
+        "honourFlag":"1",
+        "newFlag":"0",
+        "partPayment":"false",
+        "subquty":"10.00",
+        "feetp":"07",
+        "feemode":"1",
+        "feevalue":"0.01",
+        "serialno":"201808161830090770Gz",
+        "custno":"1538943811",
+        "apkind":"014",
+        "subapkind":"014001",
+        "apdt":"20180815",
+        "aptm":"164500",
+        "workdate":"20180815",
+        "tradeacco":"000621718538943814",
+        "taaccountid":"475A7FB19598436383",
+        "tano":"47",
+        "productid":"8802",
+        "sharetype":"A",
+        "accptmd":"1",
+        "branchcode":"247000",
+        "distributorcode":"247"}
+ Thu, 16 Aug 2018 18:36:18  INFO test_api.py test_api [ line:38 ] 接口请求sql:["SELECT * from cts.cts_traderequest WHERE SERIALNO='201808161830090770Gz';"]
+ Thu, 16 Aug 2018 18:36:18  INFO test_api.py test_api [ line:46 ] 接口请求response data为：{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'Y', 'tradeMsg': '申请成功', 'errMsg': '申请成功', 'tradeCode': '0000', 'exObjFields': {}, 'key': None}
+ Thu, 16 Aug 2018 18:36:18  INFO test_api.py test_api [ line:47 ] 接口请求expected data为:{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'Y', 'tradeMsg': '申请成功', 'errMsg': '申请成功', 'tradeCode': '0000', 'exObjFields': {}, 'key': None}
+ Thu, 16 Aug 2018 18:36:18  INFO test_api.py test_api [ line:53 ] =====开始比对检验返回结果=======
+ Thu, 16 Aug 2018 18:36:18  INFO test_api.py test_api [ line:54 ] 全值匹配模式
+ Thu, 16 Aug 2018 18:36:18  INFO test_api.py test_api [ line:57 ] 结果比对成功，测试用例通过
+ Thu, 16 Aug 2018 18:36:18  INFO test_api.py test_api [ line:78 ] 数据库里存在符合预期条件的数据,测试通过:[{'SERIALNO': '201808161830090770Gz', 'CUSTNO': '1538943811', 'APKIND': '014', 'SUBAPKIND': '014001', 'SUBQUTY': Decimal('10.00'), 'SUBAMT': None, 'APDT': '20180815', 'APTM': '164500', 'WORKDATE': '20180815', 'SHARETYPE': 'A', 'ACCPTMD': '1', 'BANKNO': None, 'BANKACCO': None, 'BRANCHCODE': '247000', 'DISTRIBUTORCODE': '247', 'REFERNO': None, 'TRADEACCO': '000621718538943814', 'TAACCOUNTID': '475A7FB19598436383', 'PRODUCTID': '8802', 'APPLYST': 'H', 'TRANSST': 'N', 'PAYST': 'N', 'SUMMARY': None, 'CHECKID': None, 'CHECKDT': None, 'CHECKTM': 'I', 'CHECKST': None, 'CHECKREMARK': 'N', 'OPRODUCTID': None, 'TANO': '47', 'OCUSTNO': '1538748001', 'OTANO': None, 'OTAACCOUNTID': None, 'OTRADEACCO': None, 'OBRANCHCODE': None, 'ODISTRIBUTORCODE': None, 'ACKSERIALNO': None, 'ACKAMT': None, 'ACKQUTY': None, 'ACKNAV': None, 'ACKDT': None, 'ACKST': None, 'ERRORCODE': None, 'ERRORMSG': None, 'FEETP': '07', 'FEEMODE': '1', 'FEEVALUE': '0.01', 'couponid': '', 'COUPONTYPE': '', 'COUPONNAME': '', 'COUPONVALUE': Decimal('0.00'), 'OFEETP': '', 'OFEEMODE': '', 'OFEEVALUE': '', 'OCOUPONID': '', 'OCOUPONTYPE': '', 'OCOUPONNAME': '', 'OCOUPONVALUE': Decimal('0.00'), 'SELLERDISCOUNT': None, 'AFTERVOL': None, 'OAFTERVOL': None, 'WITHHOLD': None, 'GWITHHOLD': Decimal('9.90'), 'INSERTTIMESTAMP': datetime.datetime(2018, 8, 16, 18, 36, 22), 'UPDATETIMESTAMP': datetime.datetime(2018, 8, 16, 18, 36, 22), 'CLEANFLAG': '0', 'DRAWFLAG': 'N', 'version': 701, 'PAYDT': None, 'PAYAMT': None, 'rsv1': 'Y#0#1;Y', 'rsv2': None, 'RSV3': '1', 'rsv4': '5B569A9A006Abc55', 'rsv5': None}]
+ Thu, 16 Aug 2018 18:36:18  INFO test_api.py test_api [ line:81 ] ================结束一次接口请求===========
+ Thu, 16 Aug 2018 18:36:18  INFO test_api.py test_api [ line:33 ] ================开始发送一次接口请求，请求信息如下===========
+ Thu, 16 Aug 2018 18:36:18  INFO test_api.py test_api [ line:34 ] 接口请求apiName：【调用轮询接口处理交易请求】
+ Thu, 16 Aug 2018 18:36:18  INFO test_api.py test_api [ line:35 ] 接口请求interface:com.wt.cts.service.ProductCoreTradeService
+ Thu, 16 Aug 2018 18:36:18  INFO test_api.py test_api [ line:36 ] 接口请求method:tradeContinueTask
+ Thu, 16 Aug 2018 18:36:18  INFO test_api.py test_api [ line:37 ] 接口请求data:""
+ Thu, 16 Aug 2018 18:36:18  INFO test_api.py test_api [ line:38 ] 接口请求sql:None
+ Thu, 16 Aug 2018 18:36:18  INFO test_api.py test_api [ line:46 ] 接口请求response data为：{'extFields': {}, 'errCode': '0000', 'tradeStatus': None, 'tradeMsg': None, 'errMsg': '申请成功', 'tradeCode': None, 'exObjFields': {}, 'key': None}
+ Thu, 16 Aug 2018 18:36:18  INFO test_api.py test_api [ line:47 ] 接口请求expected data为:None
+ Thu, 16 Aug 2018 18:36:18  INFO test_api.py test_api [ line:81 ] ================结束一次接口请求===========
+ Thu, 16 Aug 2018 18:36:18  INFO test_api.py test_api [ line:85 ] 需要等待时间60s发起后续请求
+ Thu, 16 Aug 2018 18:37:18  INFO test_api.py test_api [ line:33 ] ================开始发送一次接口请求，请求信息如下===========
+ Thu, 16 Aug 2018 18:37:18  INFO test_api.py test_api [ line:34 ] 接口请求apiName：【卖出后续接口】使用优惠券月月盈产品提前卖出成功
+ Thu, 16 Aug 2018 18:37:18  INFO test_api.py test_api [ line:35 ] 接口请求interface:com.wt.cts.service.ProductCoreTradeService
+ Thu, 16 Aug 2018 18:37:18  INFO test_api.py test_api [ line:36 ] 接口请求method:tradeContinue
+ Thu, 16 Aug 2018 18:37:18  INFO test_api.py test_api [ line:37 ] 接口请求data:{"serialno":"201808161830090770Gz","isSend":"1",'extFields':{"errCode":"0000", "errMsg":"交易成功", "tranSt":"Y"}}
+ Thu, 16 Aug 2018 18:37:18  INFO test_api.py test_api [ line:38 ] 接口请求sql:["SELECT * from cts.cts_traderequest WHERE SERIALNO='201808161830090770Gz' AND APPLYST='Y'AND TRANSST='Y' AND PAYST='Y';","SELECT * from cts.cts_tradequtychg WHERE REFERNO='201808161830090770Gz' AND PRODUCTID='9999'AND CHANGEQUTY='9.9';"]
+ Thu, 16 Aug 2018 18:37:19  INFO test_api.py test_api [ line:46 ] 接口请求response data为：{'extFields': {}, 'errCode': '9999', 'tradeStatus': 'E', 'tradeMsg': '系统异常！', 'errMsg': '系统异常！', 'tradeCode': '9999', 'exObjFields': {}, 'key': None}
+ Thu, 16 Aug 2018 18:37:19  INFO test_api.py test_api [ line:47 ] 接口请求expected data为:{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'Y', 'tradeMsg': '申请成功！', 'errMsg': '申请成功', 'tradeCode': '0000', 'exObjFields': {}, 'key': None}
+ Thu, 16 Aug 2018 18:37:19  INFO test_api.py test_api [ line:53 ] =====开始比对检验返回结果=======
+ Thu, 16 Aug 2018 18:37:19  INFO test_api.py test_api [ line:54 ] 全值匹配模式
+ Thu, 16 Aug 2018 18:37:19  ERROR test_api.py test_api [ line:59 ] 全值结果比对失败原因为："{'extFields': {}, 'errCode': '9999', 'tradeStatus': 'E', 'tradeMsg': '系统异常！', 'errMsg': '系统异常！', 'tradeCode': '9999', 'exObjFields': {}, 'key': None}" not found in "{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'Y', 'tradeMsg': '申请成功！', 'errMsg': '申请成功', 'tradeCode': '0000', 'exObjFields': {}, 'key': None}"
+Traceback (most recent call last):
+  File "H:\python3_apiTest\TestCases\test_api.py", line 56, in test_api
+    self.assertIn(str(res),case_data["expected_data"])
+  File "F:\python36\lib\unittest\case.py", line 1089, in assertIn
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "F:\python36\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: "{'extFields': {}, 'errCode': '9999', 'tradeStatus': 'E', 'tradeMsg': '系统异常！', 'errMsg': '系统异常！', 'tradeCode': '9999', 'exObjFields': {}, 'key': None}" not found in "{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'Y', 'tradeMsg': '申请成功！', 'errMsg': '申请成功', 'tradeCode': '0000', 'exObjFields': {}, 'key': None}"
+ Thu, 16 Aug 2018 18:37:19  INFO test_api.py test_api [ line:33 ] ================开始发送一次接口请求，请求信息如下===========
+ Thu, 16 Aug 2018 18:37:19  INFO test_api.py test_api [ line:34 ] 接口请求apiName：【组合卖出】使用优惠券月月盈产品提前卖出申请
+ Thu, 16 Aug 2018 18:37:19  INFO test_api.py test_api [ line:35 ] 接口请求interface:com.wt.cts.service.ProductCoreTradeService
+ Thu, 16 Aug 2018 18:37:19  INFO test_api.py test_api [ line:36 ] 接口请求method:sellToVacco
+ Thu, 16 Aug 2018 18:37:19  INFO test_api.py test_api [ line:37 ] 接口请求data:{"refercapno":"5B57DD261DFCbc4E",
+        "sellCouponId":"5B569A9A006Abc55",
+        "reemFlag":"1",
+        "selltype":1,
+        "periodic":"true",
+        "mixProd":"true",
+        "bigVCustno":"1503257540",
+        "honourFlag":"1",
+        "newFlag":"0",
+        "partPayment":"false",
+        "subquty":"10.00",
+        "feetp":"07",
+        "feemode":"1",
+        "feevalue":"0.01",
+        "serialno":"201808161830090998bK",
+        "custno":"1538943811",
+        "apkind":"014",
+        "subapkind":"014001",
+        "apdt":"20180815",
+        "aptm":"164500",
+        "workdate":"20180815",
+        "tradeacco":"000621718538943814",
+        "taaccountid":"475A7FB19598436383",
+        "tano":"47",
+        "productid":"8802",
+        "sharetype":"A",
+        "accptmd":"1",
+        "branchcode":"247000",
+        "distributorcode":"247"}
+ Thu, 16 Aug 2018 18:37:19  INFO test_api.py test_api [ line:38 ] 接口请求sql:["SELECT * from cts.cts_traderequest WHERE SERIALNO='201808161830090998bK';"]
+ Thu, 16 Aug 2018 18:37:19  INFO test_api.py test_api [ line:46 ] 接口请求response data为：{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'Y', 'tradeMsg': '申请成功', 'errMsg': '申请成功', 'tradeCode': '0000', 'exObjFields': {}, 'key': None}
+ Thu, 16 Aug 2018 18:37:19  INFO test_api.py test_api [ line:47 ] 接口请求expected data为:{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'Y', 'tradeMsg': '申请成功', 'errMsg': '申请成功', 'tradeCode': '0000', 'exObjFields': {}, 'key': None}
+ Thu, 16 Aug 2018 18:37:19  INFO test_api.py test_api [ line:53 ] =====开始比对检验返回结果=======
+ Thu, 16 Aug 2018 18:37:19  INFO test_api.py test_api [ line:54 ] 全值匹配模式
+ Thu, 16 Aug 2018 18:37:19  INFO test_api.py test_api [ line:57 ] 结果比对成功，测试用例通过
+ Thu, 16 Aug 2018 18:37:19  INFO test_api.py test_api [ line:78 ] 数据库里存在符合预期条件的数据,测试通过:[{'SERIALNO': '201808161830090998bK', 'CUSTNO': '1538943811', 'APKIND': '014', 'SUBAPKIND': '014001', 'SUBQUTY': Decimal('10.00'), 'SUBAMT': None, 'APDT': '20180815', 'APTM': '164500', 'WORKDATE': '20180815', 'SHARETYPE': 'A', 'ACCPTMD': '1', 'BANKNO': None, 'BANKACCO': None, 'BRANCHCODE': '247000', 'DISTRIBUTORCODE': '247', 'REFERNO': None, 'TRADEACCO': '000621718538943814', 'TAACCOUNTID': '475A7FB19598436383', 'PRODUCTID': '8802', 'APPLYST': 'H', 'TRANSST': 'N', 'PAYST': 'N', 'SUMMARY': None, 'CHECKID': None, 'CHECKDT': None, 'CHECKTM': 'I', 'CHECKST': None, 'CHECKREMARK': 'N', 'OPRODUCTID': None, 'TANO': '47', 'OCUSTNO': '1538748001', 'OTANO': None, 'OTAACCOUNTID': None, 'OTRADEACCO': None, 'OBRANCHCODE': None, 'ODISTRIBUTORCODE': None, 'ACKSERIALNO': None, 'ACKAMT': None, 'ACKQUTY': None, 'ACKNAV': None, 'ACKDT': None, 'ACKST': None, 'ERRORCODE': None, 'ERRORMSG': None, 'FEETP': '07', 'FEEMODE': '1', 'FEEVALUE': '0.01', 'couponid': '', 'COUPONTYPE': '', 'COUPONNAME': '', 'COUPONVALUE': Decimal('0.00'), 'OFEETP': '', 'OFEEMODE': '', 'OFEEVALUE': '', 'OCOUPONID': '', 'OCOUPONTYPE': '', 'OCOUPONNAME': '', 'OCOUPONVALUE': Decimal('0.00'), 'SELLERDISCOUNT': None, 'AFTERVOL': None, 'OAFTERVOL': None, 'WITHHOLD': None, 'GWITHHOLD': Decimal('9.90'), 'INSERTTIMESTAMP': datetime.datetime(2018, 8, 16, 18, 37, 23), 'UPDATETIMESTAMP': datetime.datetime(2018, 8, 16, 18, 37, 23), 'CLEANFLAG': '0', 'DRAWFLAG': 'N', 'version': 701, 'PAYDT': None, 'PAYAMT': None, 'rsv1': 'Y#0#1;Y', 'rsv2': None, 'RSV3': '1', 'rsv4': '5B569A9A006Abc55', 'rsv5': None}]
+ Thu, 16 Aug 2018 18:37:19  INFO test_api.py test_api [ line:81 ] ================结束一次接口请求===========
+ Thu, 16 Aug 2018 18:37:19  INFO test_api.py test_api [ line:33 ] ================开始发送一次接口请求，请求信息如下===========
+ Thu, 16 Aug 2018 18:37:19  INFO test_api.py test_api [ line:34 ] 接口请求apiName：【调用轮询接口处理交易请求】
+ Thu, 16 Aug 2018 18:37:19  INFO test_api.py test_api [ line:35 ] 接口请求interface:com.wt.cts.service.ProductCoreTradeService
+ Thu, 16 Aug 2018 18:37:19  INFO test_api.py test_api [ line:36 ] 接口请求method:tradeContinueTask
+ Thu, 16 Aug 2018 18:37:19  INFO test_api.py test_api [ line:37 ] 接口请求data:""
+ Thu, 16 Aug 2018 18:37:19  INFO test_api.py test_api [ line:38 ] 接口请求sql:None
+ Thu, 16 Aug 2018 18:37:19  INFO test_api.py test_api [ line:46 ] 接口请求response data为：{'extFields': {}, 'errCode': '0000', 'tradeStatus': None, 'tradeMsg': None, 'errMsg': '申请成功', 'tradeCode': None, 'exObjFields': {}, 'key': None}
+ Thu, 16 Aug 2018 18:37:19  INFO test_api.py test_api [ line:47 ] 接口请求expected data为:None
+ Thu, 16 Aug 2018 18:37:19  INFO test_api.py test_api [ line:81 ] ================结束一次接口请求===========
+ Thu, 16 Aug 2018 18:37:19  INFO test_api.py test_api [ line:85 ] 需要等待时间60s发起后续请求
+ Thu, 16 Aug 2018 18:38:19  INFO test_api.py test_api [ line:33 ] ================开始发送一次接口请求，请求信息如下===========
+ Thu, 16 Aug 2018 18:38:19  INFO test_api.py test_api [ line:34 ] 接口请求apiName：【卖出后续接口】使用优惠券月月盈产品提前卖出失败
+ Thu, 16 Aug 2018 18:38:19  INFO test_api.py test_api [ line:35 ] 接口请求interface:com.wt.cts.service.ProductCoreTradeService
+ Thu, 16 Aug 2018 18:38:19  INFO test_api.py test_api [ line:36 ] 接口请求method:tradeContinue
+ Thu, 16 Aug 2018 18:38:19  INFO test_api.py test_api [ line:37 ] 接口请求data:{"serialno":"201808161830090998bK","isSend":"1",'extFields':{"errCode":"0000", "errMsg":"交易成功", "tranSt":"Y"}}
+ Thu, 16 Aug 2018 18:38:19  INFO test_api.py test_api [ line:38 ] 接口请求sql:["SELECT * from cts.cts_traderequest WHERE SERIALNO='201808161830090998bK' AND APPLYST='Y'AND TRANSST='Y' AND PAYST='Y';","SELECT * from cts.cts_tradequtychg WHERE REFERNO='201808161830090998bK' AND PRODUCTID='8802'AND CHANGEQUTY='10';"]
+ Thu, 16 Aug 2018 18:38:20  INFO test_api.py test_api [ line:46 ] 接口请求response data为：{'extFields': {}, 'errCode': '9999', 'tradeStatus': 'E', 'tradeMsg': '系统异常！', 'errMsg': '系统异常！', 'tradeCode': '9999', 'exObjFields': {}, 'key': None}
+ Thu, 16 Aug 2018 18:38:20  INFO test_api.py test_api [ line:47 ] 接口请求expected data为:{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'Y', 'tradeMsg': '申请成功！', 'errMsg': '申请成功', 'tradeCode': '0000', 'exObjFields': {}, 'key': None}
+ Thu, 16 Aug 2018 18:38:20  INFO test_api.py test_api [ line:53 ] =====开始比对检验返回结果=======
+ Thu, 16 Aug 2018 18:38:20  INFO test_api.py test_api [ line:54 ] 全值匹配模式
+ Thu, 16 Aug 2018 18:38:20  ERROR test_api.py test_api [ line:59 ] 全值结果比对失败原因为："{'extFields': {}, 'errCode': '9999', 'tradeStatus': 'E', 'tradeMsg': '系统异常！', 'errMsg': '系统异常！', 'tradeCode': '9999', 'exObjFields': {}, 'key': None}" not found in "{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'Y', 'tradeMsg': '申请成功！', 'errMsg': '申请成功', 'tradeCode': '0000', 'exObjFields': {}, 'key': None}"
+Traceback (most recent call last):
+  File "H:\python3_apiTest\TestCases\test_api.py", line 56, in test_api
+    self.assertIn(str(res),case_data["expected_data"])
+  File "F:\python36\lib\unittest\case.py", line 1089, in assertIn
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "F:\python36\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: "{'extFields': {}, 'errCode': '9999', 'tradeStatus': 'E', 'tradeMsg': '系统异常！', 'errMsg': '系统异常！', 'tradeCode': '9999', 'exObjFields': {}, 'key': None}" not found in "{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'Y', 'tradeMsg': '申请成功！', 'errMsg': '申请成功', 'tradeCode': '0000', 'exObjFields': {}, 'key': None}"
+ Thu, 16 Aug 2018 18:38:20  INFO test_api.py test_api [ line:33 ] ================开始发送一次接口请求，请求信息如下===========
+ Thu, 16 Aug 2018 18:38:20  INFO test_api.py test_api [ line:34 ] 接口请求apiName：【组合卖出】四季甄选产品提前卖出申请
+ Thu, 16 Aug 2018 18:38:20  INFO test_api.py test_api [ line:35 ] 接口请求interface:com.wt.cts.service.ProductCoreTradeService
+ Thu, 16 Aug 2018 18:38:20  INFO test_api.py test_api [ line:36 ] 接口请求method:sellToVacco
+ Thu, 16 Aug 2018 18:38:20  INFO test_api.py test_api [ line:37 ] 接口请求data:{"refercapno":"5B57DE5B20F7bc4E",
+        "reemFlag":"1",
+        "selltype":1,
+        "periodic":"true",
+        "mixProd":"true",
+        "bigVCustno":"1597219235",
+        "honourFlag":"1",
+        "newFlag":"0",
+        "partPayment":"false",
+        "subquty":"10.00",
+        "feetp":"07",
+        "feemode":"1",
+        "feevalue":"0.01",
+        "serialno":"201808161830090690Jx",
+        "custno":"1538943811",
+        "apkind":"014",
+        "subapkind":"014001",
+        "apdt":"20180815",
+        "aptm":"164500",
+        "workdate":"20180815",
+        "tradeacco":"000621718538943814",
+        "taaccountid":"475A7FB19598436383",
+        "tano":"47",
+        "productid":"8904",
+        "sharetype":"A",
+        "accptmd":"1",
+        "branchcode":"247000",
+        "distributorcode":"247"}
+ Thu, 16 Aug 2018 18:38:20  INFO test_api.py test_api [ line:38 ] 接口请求sql:["SELECT * from cts.cts_traderequest WHERE SERIALNO='201808161830090690Jx';"]
+ Thu, 16 Aug 2018 18:38:20  INFO test_api.py test_api [ line:46 ] 接口请求response data为：{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'Y', 'tradeMsg': '申请成功', 'errMsg': '申请成功', 'tradeCode': '0000', 'exObjFields': {}, 'key': None}
+ Thu, 16 Aug 2018 18:38:20  INFO test_api.py test_api [ line:47 ] 接口请求expected data为:{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'Y', 'tradeMsg': '申请成功', 'errMsg': '申请成功', 'tradeCode': '0000', 'exObjFields': {}, 'key': None}
+ Thu, 16 Aug 2018 18:38:20  INFO test_api.py test_api [ line:53 ] =====开始比对检验返回结果=======
+ Thu, 16 Aug 2018 18:38:20  INFO test_api.py test_api [ line:54 ] 全值匹配模式
+ Thu, 16 Aug 2018 18:38:20  INFO test_api.py test_api [ line:57 ] 结果比对成功，测试用例通过
+ Thu, 16 Aug 2018 18:38:20  INFO test_api.py test_api [ line:78 ] 数据库里存在符合预期条件的数据,测试通过:[{'SERIALNO': '201808161830090690Jx', 'CUSTNO': '1538943811', 'APKIND': '014', 'SUBAPKIND': '014001', 'SUBQUTY': Decimal('10.00'), 'SUBAMT': None, 'APDT': '20180815', 'APTM': '164500', 'WORKDATE': '20180815', 'SHARETYPE': 'A', 'ACCPTMD': '1', 'BANKNO': None, 'BANKACCO': None, 'BRANCHCODE': '247000', 'DISTRIBUTORCODE': '247', 'REFERNO': None, 'TRADEACCO': '000621718538943814', 'TAACCOUNTID': '475A7FB19598436383', 'PRODUCTID': '8904', 'APPLYST': 'H', 'TRANSST': 'N', 'PAYST': 'N', 'SUMMARY': None, 'CHECKID': None, 'CHECKDT': None, 'CHECKTM': 'I', 'CHECKST': None, 'CHECKREMARK': 'N', 'OPRODUCTID': None, 'TANO': '47', 'OCUSTNO': '1538752027', 'OTANO': None, 'OTAACCOUNTID': None, 'OTRADEACCO': None, 'OBRANCHCODE': None, 'ODISTRIBUTORCODE': None, 'ACKSERIALNO': None, 'ACKAMT': None, 'ACKQUTY': None, 'ACKNAV': None, 'ACKDT': None, 'ACKST': None, 'ERRORCODE': None, 'ERRORMSG': None, 'FEETP': '07', 'FEEMODE': '1', 'FEEVALUE': '0.01', 'couponid': '', 'COUPONTYPE': '', 'COUPONNAME': '', 'COUPONVALUE': Decimal('0.00'), 'OFEETP': '', 'OFEEMODE': '', 'OFEEVALUE': '', 'OCOUPONID': '', 'OCOUPONTYPE': '', 'OCOUPONNAME': '', 'OCOUPONVALUE': Decimal('0.00'), 'SELLERDISCOUNT': None, 'AFTERVOL': None, 'OAFTERVOL': None, 'WITHHOLD': None, 'GWITHHOLD': Decimal('9.90'), 'INSERTTIMESTAMP': datetime.datetime(2018, 8, 16, 18, 38, 24), 'UPDATETIMESTAMP': datetime.datetime(2018, 8, 16, 18, 38, 24), 'CLEANFLAG': '0', 'DRAWFLAG': 'N', 'version': 701, 'PAYDT': None, 'PAYAMT': None, 'rsv1': 'Y#0#1;Y', 'rsv2': None, 'RSV3': '1', 'rsv4': None, 'rsv5': None}]
+ Thu, 16 Aug 2018 18:38:20  INFO test_api.py test_api [ line:81 ] ================结束一次接口请求===========
+ Thu, 16 Aug 2018 18:38:20  INFO test_api.py test_api [ line:33 ] ================开始发送一次接口请求，请求信息如下===========
+ Thu, 16 Aug 2018 18:38:20  INFO test_api.py test_api [ line:34 ] 接口请求apiName：【调用轮询接口处理交易请求】
+ Thu, 16 Aug 2018 18:38:20  INFO test_api.py test_api [ line:35 ] 接口请求interface:com.wt.cts.service.ProductCoreTradeService
+ Thu, 16 Aug 2018 18:38:20  INFO test_api.py test_api [ line:36 ] 接口请求method:tradeContinueTask
+ Thu, 16 Aug 2018 18:38:20  INFO test_api.py test_api [ line:37 ] 接口请求data:""
+ Thu, 16 Aug 2018 18:38:20  INFO test_api.py test_api [ line:38 ] 接口请求sql:None
+ Thu, 16 Aug 2018 18:38:20  INFO test_api.py test_api [ line:46 ] 接口请求response data为：{'extFields': {}, 'errCode': '0000', 'tradeStatus': None, 'tradeMsg': None, 'errMsg': '申请成功', 'tradeCode': None, 'exObjFields': {}, 'key': None}
+ Thu, 16 Aug 2018 18:38:20  INFO test_api.py test_api [ line:47 ] 接口请求expected data为:None
+ Thu, 16 Aug 2018 18:38:20  INFO test_api.py test_api [ line:81 ] ================结束一次接口请求===========
+ Thu, 16 Aug 2018 18:38:20  INFO test_api.py test_api [ line:85 ] 需要等待时间60s发起后续请求
+ Thu, 16 Aug 2018 18:39:20  INFO test_api.py test_api [ line:33 ] ================开始发送一次接口请求，请求信息如下===========
+ Thu, 16 Aug 2018 18:39:20  INFO test_api.py test_api [ line:34 ] 接口请求apiName：【卖出后续接口】四季甄选产品提前卖出成功
+ Thu, 16 Aug 2018 18:39:20  INFO test_api.py test_api [ line:35 ] 接口请求interface:com.wt.cts.service.ProductCoreTradeService
+ Thu, 16 Aug 2018 18:39:20  INFO test_api.py test_api [ line:36 ] 接口请求method:tradeContinue
+ Thu, 16 Aug 2018 18:39:20  INFO test_api.py test_api [ line:37 ] 接口请求data:{"serialno":"201808161830090690Jx","isSend":"1",'extFields':{"errCode":"0000", "errMsg":"交易成功", "tranSt":"Y"}}
+ Thu, 16 Aug 2018 18:39:20  INFO test_api.py test_api [ line:38 ] 接口请求sql:["SELECT * from cts.cts_traderequest WHERE SERIALNO='201808161830090690Jx' AND APPLYST='Y'AND TRANSST='Y' AND PAYST='Y';","SELECT * from cts.cts_tradequtychg WHERE REFERNO='201808161830090690Jx' AND PRODUCTID='9999'AND CHANGEQUTY='9.9';"]
+ Thu, 16 Aug 2018 18:39:21  INFO test_api.py test_api [ line:46 ] 接口请求response data为：{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'Y', 'tradeMsg': '申请成功！', 'errMsg': '申请成功', 'tradeCode': '0000', 'exObjFields': {}, 'key': None}
+ Thu, 16 Aug 2018 18:39:21  INFO test_api.py test_api [ line:47 ] 接口请求expected data为:{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'Y', 'tradeMsg': '申请成功！', 'errMsg': '申请成功', 'tradeCode': '0000', 'exObjFields': {}, 'key': None}
+ Thu, 16 Aug 2018 18:39:21  INFO test_api.py test_api [ line:53 ] =====开始比对检验返回结果=======
+ Thu, 16 Aug 2018 18:39:21  INFO test_api.py test_api [ line:54 ] 全值匹配模式
+ Thu, 16 Aug 2018 18:39:21  INFO test_api.py test_api [ line:57 ] 结果比对成功，测试用例通过
+ Thu, 16 Aug 2018 18:39:21  INFO test_api.py test_api [ line:78 ] 数据库里存在符合预期条件的数据,测试通过:[{'SERIALNO': '201808161830090690Jx', 'CUSTNO': '1538943811', 'APKIND': '014', 'SUBAPKIND': '014001', 'SUBQUTY': Decimal('10.00'), 'SUBAMT': None, 'APDT': '20180815', 'APTM': '164500', 'WORKDATE': '20180815', 'SHARETYPE': 'A', 'ACCPTMD': '1', 'BANKNO': None, 'BANKACCO': None, 'BRANCHCODE': '247000', 'DISTRIBUTORCODE': '247', 'REFERNO': None, 'TRADEACCO': '000621718538943814', 'TAACCOUNTID': '475A7FB19598436383', 'PRODUCTID': '8904', 'APPLYST': 'Y', 'TRANSST': 'Y', 'PAYST': 'Y', 'SUMMARY': None, 'CHECKID': None, 'CHECKDT': None, 'CHECKTM': 'Y', 'CHECKST': None, 'CHECKREMARK': 'N', 'OPRODUCTID': None, 'TANO': '47', 'OCUSTNO': '1538752027', 'OTANO': None, 'OTAACCOUNTID': None, 'OTRADEACCO': None, 'OBRANCHCODE': None, 'ODISTRIBUTORCODE': None, 'ACKSERIALNO': '5B75545D13BEbcC7', 'ACKAMT': Decimal('10.00'), 'ACKQUTY': Decimal('10.00'), 'ACKNAV': Decimal('1.00'), 'ACKDT': '20180815', 'ACKST': 'Y', 'ERRORCODE': '0000', 'ERRORMSG': '申请成功！', 'FEETP': '07', 'FEEMODE': '1', 'FEEVALUE': '0.01', 'couponid': '', 'COUPONTYPE': '', 'COUPONNAME': '', 'COUPONVALUE': Decimal('0.00'), 'OFEETP': '', 'OFEEMODE': '', 'OFEEVALUE': '', 'OCOUPONID': '', 'OCOUPONTYPE': '', 'OCOUPONNAME': '', 'OCOUPONVALUE': Decimal('0.00'), 'SELLERDISCOUNT': None, 'AFTERVOL': Decimal('4216589.87'), 'OAFTERVOL': None, 'WITHHOLD': None, 'GWITHHOLD': Decimal('9.90'), 'INSERTTIMESTAMP': datetime.datetime(2018, 8, 16, 18, 38, 24), 'UPDATETIMESTAMP': datetime.datetime(2018, 8, 16, 18, 39, 25), 'CLEANFLAG': '0', 'DRAWFLAG': 'N', 'version': 701, 'PAYDT': None, 'PAYAMT': None, 'rsv1': 'Y#0#1;Y', 'rsv2': None, 'RSV3': '1', 'rsv4': None, 'rsv5': None}]
+ Thu, 16 Aug 2018 18:39:21  INFO test_api.py test_api [ line:78 ] 数据库里存在符合预期条件的数据,测试通过:[{'SERIALNO': '5B7554201B64bc1F', 'CUSTNO': '1538752027', 'PRODUCTID': '9999', 'CHANGEQUTY': Decimal('9.90'), 'REFERNO': '201808161830090690Jx', 'APKIND': '014', 'SUBAPKIND': '014001', 'DISTRIBUTORCODE': '247', 'BRANCHCODE': '247000', 'APDT': '20180815', 'WORKDATE': '20180815', 'BUSINESSDATE': '20180815', 'BUSINESSCODE': '24', 'INSERTTIMESTAMP': datetime.datetime(2018, 8, 16, 18, 38, 24), 'UPDATETIMESTAMP': datetime.datetime(2018, 8, 16, 18, 38, 24), 'RSV1': None, 'RSV2': None, 'RSV3': None}]
+ Thu, 16 Aug 2018 18:39:21  INFO test_api.py test_api [ line:81 ] ================结束一次接口请求===========
+ Thu, 16 Aug 2018 18:39:21  INFO test_api.py test_api [ line:33 ] ================开始发送一次接口请求，请求信息如下===========
+ Thu, 16 Aug 2018 18:39:21  INFO test_api.py test_api [ line:34 ] 接口请求apiName：【组合卖出】四季甄选产品提前卖出申请
+ Thu, 16 Aug 2018 18:39:21  INFO test_api.py test_api [ line:35 ] 接口请求interface:com.wt.cts.service.ProductCoreTradeService
+ Thu, 16 Aug 2018 18:39:21  INFO test_api.py test_api [ line:36 ] 接口请求method:sellToVacco
+ Thu, 16 Aug 2018 18:39:21  INFO test_api.py test_api [ line:37 ] 接口请求data:{"refercapno":"5B57DE5B20F7bc4E",
+        "reemFlag":"1",
+        "selltype":1,
+        "periodic":"true",
+        "mixProd":"true",
+        "bigVCustno":"1597219235",
+        "honourFlag":"1",
+        "newFlag":"0",
+        "partPayment":"false",
+        "subquty":"10.00",
+        "feetp":"07",
+        "feemode":"1",
+        "feevalue":"0.01",
+        "serialno":"201808161830090900hz",
+        "custno":"1538943811",
+        "apkind":"014",
+        "subapkind":"014001",
+        "apdt":"20180815",
+        "aptm":"164500",
+        "workdate":"20180815",
+        "tradeacco":"000621718538943814",
+        "taaccountid":"475A7FB19598436383",
+        "tano":"47",
+        "productid":"8904",
+        "sharetype":"A",
+        "accptmd":"1",
+        "branchcode":"247000",
+        "distributorcode":"247"}
+ Thu, 16 Aug 2018 18:39:21  INFO test_api.py test_api [ line:38 ] 接口请求sql:["SELECT * from cts.cts_traderequest WHERE SERIALNO='201808161830090900hz';"]
+ Thu, 16 Aug 2018 18:39:22  INFO test_api.py test_api [ line:46 ] 接口请求response data为：{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'Y', 'tradeMsg': '申请成功', 'errMsg': '申请成功', 'tradeCode': '0000', 'exObjFields': {}, 'key': None}
+ Thu, 16 Aug 2018 18:39:22  INFO test_api.py test_api [ line:47 ] 接口请求expected data为:{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'Y', 'tradeMsg': '申请成功', 'errMsg': '申请成功', 'tradeCode': '0000', 'exObjFields': {}, 'key': None}
+ Thu, 16 Aug 2018 18:39:22  INFO test_api.py test_api [ line:53 ] =====开始比对检验返回结果=======
+ Thu, 16 Aug 2018 18:39:22  INFO test_api.py test_api [ line:54 ] 全值匹配模式
+ Thu, 16 Aug 2018 18:39:22  INFO test_api.py test_api [ line:57 ] 结果比对成功，测试用例通过
+ Thu, 16 Aug 2018 18:39:22  INFO test_api.py test_api [ line:78 ] 数据库里存在符合预期条件的数据,测试通过:[{'SERIALNO': '201808161830090900hz', 'CUSTNO': '1538943811', 'APKIND': '014', 'SUBAPKIND': '014001', 'SUBQUTY': Decimal('10.00'), 'SUBAMT': None, 'APDT': '20180815', 'APTM': '164500', 'WORKDATE': '20180815', 'SHARETYPE': 'A', 'ACCPTMD': '1', 'BANKNO': None, 'BANKACCO': None, 'BRANCHCODE': '247000', 'DISTRIBUTORCODE': '247', 'REFERNO': None, 'TRADEACCO': '000621718538943814', 'TAACCOUNTID': '475A7FB19598436383', 'PRODUCTID': '8904', 'APPLYST': 'H', 'TRANSST': 'N', 'PAYST': 'N', 'SUMMARY': None, 'CHECKID': None, 'CHECKDT': None, 'CHECKTM': 'I', 'CHECKST': None, 'CHECKREMARK': 'N', 'OPRODUCTID': None, 'TANO': '47', 'OCUSTNO': '1538752027', 'OTANO': None, 'OTAACCOUNTID': None, 'OTRADEACCO': None, 'OBRANCHCODE': None, 'ODISTRIBUTORCODE': None, 'ACKSERIALNO': None, 'ACKAMT': None, 'ACKQUTY': None, 'ACKNAV': None, 'ACKDT': None, 'ACKST': None, 'ERRORCODE': None, 'ERRORMSG': None, 'FEETP': '07', 'FEEMODE': '1', 'FEEVALUE': '0.01', 'couponid': '', 'COUPONTYPE': '', 'COUPONNAME': '', 'COUPONVALUE': Decimal('0.00'), 'OFEETP': '', 'OFEEMODE': '', 'OFEEVALUE': '', 'OCOUPONID': '', 'OCOUPONTYPE': '', 'OCOUPONNAME': '', 'OCOUPONVALUE': Decimal('0.00'), 'SELLERDISCOUNT': None, 'AFTERVOL': None, 'OAFTERVOL': None, 'WITHHOLD': None, 'GWITHHOLD': Decimal('9.90'), 'INSERTTIMESTAMP': datetime.datetime(2018, 8, 16, 18, 39, 26), 'UPDATETIMESTAMP': datetime.datetime(2018, 8, 16, 18, 39, 26), 'CLEANFLAG': '0', 'DRAWFLAG': 'N', 'version': 701, 'PAYDT': None, 'PAYAMT': None, 'rsv1': 'Y#0#1;Y', 'rsv2': None, 'RSV3': '1', 'rsv4': None, 'rsv5': None}]
+ Thu, 16 Aug 2018 18:39:22  INFO test_api.py test_api [ line:81 ] ================结束一次接口请求===========
+ Thu, 16 Aug 2018 18:39:22  INFO test_api.py test_api [ line:33 ] ================开始发送一次接口请求，请求信息如下===========
+ Thu, 16 Aug 2018 18:39:22  INFO test_api.py test_api [ line:34 ] 接口请求apiName：【调用轮询接口处理交易请求】
+ Thu, 16 Aug 2018 18:39:22  INFO test_api.py test_api [ line:35 ] 接口请求interface:com.wt.cts.service.ProductCoreTradeService
+ Thu, 16 Aug 2018 18:39:22  INFO test_api.py test_api [ line:36 ] 接口请求method:tradeContinueTask
+ Thu, 16 Aug 2018 18:39:22  INFO test_api.py test_api [ line:37 ] 接口请求data:""
+ Thu, 16 Aug 2018 18:39:22  INFO test_api.py test_api [ line:38 ] 接口请求sql:None
+ Thu, 16 Aug 2018 18:39:22  INFO test_api.py test_api [ line:46 ] 接口请求response data为：{'extFields': {}, 'errCode': '0000', 'tradeStatus': None, 'tradeMsg': None, 'errMsg': '申请成功', 'tradeCode': None, 'exObjFields': {}, 'key': None}
+ Thu, 16 Aug 2018 18:39:22  INFO test_api.py test_api [ line:47 ] 接口请求expected data为:None
+ Thu, 16 Aug 2018 18:39:22  INFO test_api.py test_api [ line:81 ] ================结束一次接口请求===========
+ Thu, 16 Aug 2018 18:39:22  INFO test_api.py test_api [ line:85 ] 需要等待时间60s发起后续请求
+ Thu, 16 Aug 2018 18:40:22  INFO test_api.py test_api [ line:33 ] ================开始发送一次接口请求，请求信息如下===========
+ Thu, 16 Aug 2018 18:40:22  INFO test_api.py test_api [ line:34 ] 接口请求apiName：【卖出后续接口】四季甄选产品提前卖出失败
+ Thu, 16 Aug 2018 18:40:22  INFO test_api.py test_api [ line:35 ] 接口请求interface:com.wt.cts.service.ProductCoreTradeService
+ Thu, 16 Aug 2018 18:40:22  INFO test_api.py test_api [ line:36 ] 接口请求method:tradeContinue
+ Thu, 16 Aug 2018 18:40:22  INFO test_api.py test_api [ line:37 ] 接口请求data:{"serialno":"201808161830090900hz","isSend":"1",'extFields':{"errCode":"0000", "errMsg":"交易成功", "tranSt":"Y"}}
+ Thu, 16 Aug 2018 18:40:22  INFO test_api.py test_api [ line:38 ] 接口请求sql:["SELECT * from cts.cts_traderequest WHERE SERIALNO='201808161830090900hz' AND APPLYST='Y'AND TRANSST='Y' AND PAYST='Y';","SELECT * from cts.cts_tradequtychg WHERE REFERNO='201808161830090900hz' AND PRODUCTID='8904'AND CHANGEQUTY='10';"]
+ Thu, 16 Aug 2018 18:40:23  INFO test_api.py test_api [ line:46 ] 接口请求response data为：{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'Y', 'tradeMsg': '申请成功！', 'errMsg': '申请成功', 'tradeCode': '0000', 'exObjFields': {}, 'key': None}
+ Thu, 16 Aug 2018 18:40:23  INFO test_api.py test_api [ line:47 ] 接口请求expected data为:{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'Y', 'tradeMsg': '申请成功！', 'errMsg': '申请成功', 'tradeCode': '0000', 'exObjFields': {}, 'key': None}
+ Thu, 16 Aug 2018 18:40:23  INFO test_api.py test_api [ line:53 ] =====开始比对检验返回结果=======
+ Thu, 16 Aug 2018 18:40:23  INFO test_api.py test_api [ line:54 ] 全值匹配模式
+ Thu, 16 Aug 2018 18:40:23  INFO test_api.py test_api [ line:57 ] 结果比对成功，测试用例通过
+ Thu, 16 Aug 2018 18:40:23  INFO test_api.py test_api [ line:78 ] 数据库里存在符合预期条件的数据,测试通过:[{'SERIALNO': '201808161830090900hz', 'CUSTNO': '1538943811', 'APKIND': '014', 'SUBAPKIND': '014001', 'SUBQUTY': Decimal('10.00'), 'SUBAMT': None, 'APDT': '20180815', 'APTM': '164500', 'WORKDATE': '20180815', 'SHARETYPE': 'A', 'ACCPTMD': '1', 'BANKNO': None, 'BANKACCO': None, 'BRANCHCODE': '247000', 'DISTRIBUTORCODE': '247', 'REFERNO': None, 'TRADEACCO': '000621718538943814', 'TAACCOUNTID': '475A7FB19598436383', 'PRODUCTID': '8904', 'APPLYST': 'Y', 'TRANSST': 'Y', 'PAYST': 'Y', 'SUMMARY': None, 'CHECKID': None, 'CHECKDT': None, 'CHECKTM': 'Y', 'CHECKST': None, 'CHECKREMARK': 'N', 'OPRODUCTID': None, 'TANO': '47', 'OCUSTNO': '1538752027', 'OTANO': None, 'OTAACCOUNTID': None, 'OTRADEACCO': None, 'OBRANCHCODE': None, 'ODISTRIBUTORCODE': None, 'ACKSERIALNO': '5B75549A13C3bcC7', 'ACKAMT': Decimal('10.00'), 'ACKQUTY': Decimal('10.00'), 'ACKNAV': Decimal('1.00'), 'ACKDT': '20180815', 'ACKST': 'Y', 'ERRORCODE': '0000', 'ERRORMSG': '申请成功！', 'FEETP': '07', 'FEEMODE': '1', 'FEEVALUE': '0.01', 'couponid': '', 'COUPONTYPE': '', 'COUPONNAME': '', 'COUPONVALUE': Decimal('0.00'), 'OFEETP': '', 'OFEEMODE': '', 'OFEEVALUE': '', 'OCOUPONID': '', 'OCOUPONTYPE': '', 'OCOUPONNAME': '', 'OCOUPONVALUE': Decimal('0.00'), 'SELLERDISCOUNT': None, 'AFTERVOL': Decimal('4216599.77'), 'OAFTERVOL': None, 'WITHHOLD': None, 'GWITHHOLD': Decimal('9.90'), 'INSERTTIMESTAMP': datetime.datetime(2018, 8, 16, 18, 39, 26), 'UPDATETIMESTAMP': datetime.datetime(2018, 8, 16, 18, 40, 27), 'CLEANFLAG': '0', 'DRAWFLAG': 'N', 'version': 701, 'PAYDT': None, 'PAYAMT': None, 'rsv1': 'Y#0#1;Y', 'rsv2': None, 'RSV3': '1', 'rsv4': None, 'rsv5': None}]
+ Thu, 16 Aug 2018 18:40:23  INFO test_api.py test_api [ line:78 ] 数据库里存在符合预期条件的数据,测试通过:[{'SERIALNO': '5B75545E1B6Bbc1F', 'CUSTNO': '1538943811', 'PRODUCTID': '8904', 'CHANGEQUTY': Decimal('10.00'), 'REFERNO': '201808161830090900hz', 'APKIND': '014', 'SUBAPKIND': '014001', 'DISTRIBUTORCODE': '247', 'BRANCHCODE': '247000', 'APDT': '20180815', 'WORKDATE': '20180815', 'BUSINESSDATE': '20180815', 'BUSINESSCODE': '24', 'INSERTTIMESTAMP': datetime.datetime(2018, 8, 16, 18, 39, 26), 'UPDATETIMESTAMP': datetime.datetime(2018, 8, 16, 18, 39, 26), 'RSV1': None, 'RSV2': None, 'RSV3': None}]
+ Thu, 16 Aug 2018 18:40:23  INFO test_api.py test_api [ line:81 ] ================结束一次接口请求===========
+ Thu, 16 Aug 2018 18:40:23  INFO test_api.py test_api [ line:33 ] ================开始发送一次接口请求，请求信息如下===========
+ Thu, 16 Aug 2018 18:40:23  INFO test_api.py test_api [ line:34 ] 接口请求apiName：【组合卖出】使用优惠券四季甄选产品提前卖出申请
+ Thu, 16 Aug 2018 18:40:23  INFO test_api.py test_api [ line:35 ] 接口请求interface:com.wt.cts.service.ProductCoreTradeService
+ Thu, 16 Aug 2018 18:40:23  INFO test_api.py test_api [ line:36 ] 接口请求method:sellToVacco
+ Thu, 16 Aug 2018 18:40:23  INFO test_api.py test_api [ line:37 ] 接口请求data:{"refercapno":"5B57DE5B20F7bc4E",
+        "sellCouponId":"5B569A9A006Abc55",
+        "reemFlag":"1",
+        "selltype":1,
+        "periodic":"true",
+        "mixProd":"true",
+        "bigVCustno":"1597219235",
+        "honourFlag":"1",
+        "newFlag":"0",
+        "partPayment":"false",
+        "subquty":"10.00",
+        "feetp":"07",
+        "feemode":"1",
+        "feevalue":"0.01",
+        "serialno":"201808161830090399gl",
+        "custno":"1538943811",
+        "apkind":"014",
+        "subapkind":"014001",
+        "apdt":"20180815",
+        "aptm":"164500",
+        "workdate":"20180815",
+        "tradeacco":"000621718538943814",
+        "taaccountid":"475A7FB19598436383",
+        "tano":"47",
+        "productid":"8904",
+        "sharetype":"A",
+        "accptmd":"1",
+        "branchcode":"247000",
+        "distributorcode":"247"}
+ Thu, 16 Aug 2018 18:40:23  INFO test_api.py test_api [ line:38 ] 接口请求sql:["SELECT * from cts.cts_traderequest WHERE SERIALNO='201808161830090399gl';"]
+ Thu, 16 Aug 2018 18:40:23  INFO test_api.py test_api [ line:46 ] 接口请求response data为：{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'Y', 'tradeMsg': '申请成功', 'errMsg': '申请成功', 'tradeCode': '0000', 'exObjFields': {}, 'key': None}
+ Thu, 16 Aug 2018 18:40:23  INFO test_api.py test_api [ line:47 ] 接口请求expected data为:{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'Y', 'tradeMsg': '申请成功', 'errMsg': '申请成功', 'tradeCode': '0000', 'exObjFields': {}, 'key': None}
+ Thu, 16 Aug 2018 18:40:23  INFO test_api.py test_api [ line:53 ] =====开始比对检验返回结果=======
+ Thu, 16 Aug 2018 18:40:23  INFO test_api.py test_api [ line:54 ] 全值匹配模式
+ Thu, 16 Aug 2018 18:40:23  INFO test_api.py test_api [ line:57 ] 结果比对成功，测试用例通过
+ Thu, 16 Aug 2018 18:40:23  INFO test_api.py test_api [ line:78 ] 数据库里存在符合预期条件的数据,测试通过:[{'SERIALNO': '201808161830090399gl', 'CUSTNO': '1538943811', 'APKIND': '014', 'SUBAPKIND': '014001', 'SUBQUTY': Decimal('10.00'), 'SUBAMT': None, 'APDT': '20180815', 'APTM': '164500', 'WORKDATE': '20180815', 'SHARETYPE': 'A', 'ACCPTMD': '1', 'BANKNO': None, 'BANKACCO': None, 'BRANCHCODE': '247000', 'DISTRIBUTORCODE': '247', 'REFERNO': None, 'TRADEACCO': '000621718538943814', 'TAACCOUNTID': '475A7FB19598436383', 'PRODUCTID': '8904', 'APPLYST': 'H', 'TRANSST': 'N', 'PAYST': 'N', 'SUMMARY': None, 'CHECKID': None, 'CHECKDT': None, 'CHECKTM': 'I', 'CHECKST': None, 'CHECKREMARK': 'N', 'OPRODUCTID': None, 'TANO': '47', 'OCUSTNO': '1538752027', 'OTANO': None, 'OTAACCOUNTID': None, 'OTRADEACCO': None, 'OBRANCHCODE': None, 'ODISTRIBUTORCODE': None, 'ACKSERIALNO': None, 'ACKAMT': None, 'ACKQUTY': None, 'ACKNAV': None, 'ACKDT': None, 'ACKST': None, 'ERRORCODE': None, 'ERRORMSG': None, 'FEETP': '07', 'FEEMODE': '1', 'FEEVALUE': '0.01', 'couponid': '', 'COUPONTYPE': '', 'COUPONNAME': '', 'COUPONVALUE': Decimal('0.00'), 'OFEETP': '', 'OFEEMODE': '', 'OFEEVALUE': '', 'OCOUPONID': '', 'OCOUPONTYPE': '', 'OCOUPONNAME': '', 'OCOUPONVALUE': Decimal('0.00'), 'SELLERDISCOUNT': None, 'AFTERVOL': None, 'OAFTERVOL': None, 'WITHHOLD': None, 'GWITHHOLD': Decimal('9.90'), 'INSERTTIMESTAMP': datetime.datetime(2018, 8, 16, 18, 40, 27), 'UPDATETIMESTAMP': datetime.datetime(2018, 8, 16, 18, 40, 27), 'CLEANFLAG': '0', 'DRAWFLAG': 'N', 'version': 701, 'PAYDT': None, 'PAYAMT': None, 'rsv1': 'Y#0#1;Y', 'rsv2': None, 'RSV3': '1', 'rsv4': '5B569A9A006Abc55', 'rsv5': None}]
+ Thu, 16 Aug 2018 18:40:23  INFO test_api.py test_api [ line:81 ] ================结束一次接口请求===========
+ Thu, 16 Aug 2018 18:40:23  INFO test_api.py test_api [ line:33 ] ================开始发送一次接口请求，请求信息如下===========
+ Thu, 16 Aug 2018 18:40:23  INFO test_api.py test_api [ line:34 ] 接口请求apiName：【调用轮询接口处理交易请求】
+ Thu, 16 Aug 2018 18:40:23  INFO test_api.py test_api [ line:35 ] 接口请求interface:com.wt.cts.service.ProductCoreTradeService
+ Thu, 16 Aug 2018 18:40:23  INFO test_api.py test_api [ line:36 ] 接口请求method:tradeContinueTask
+ Thu, 16 Aug 2018 18:40:23  INFO test_api.py test_api [ line:37 ] 接口请求data:""
+ Thu, 16 Aug 2018 18:40:23  INFO test_api.py test_api [ line:38 ] 接口请求sql:None
+ Thu, 16 Aug 2018 18:40:23  INFO test_api.py test_api [ line:46 ] 接口请求response data为：{'extFields': {}, 'errCode': '0000', 'tradeStatus': None, 'tradeMsg': None, 'errMsg': '申请成功', 'tradeCode': None, 'exObjFields': {}, 'key': None}
+ Thu, 16 Aug 2018 18:40:23  INFO test_api.py test_api [ line:47 ] 接口请求expected data为:None
+ Thu, 16 Aug 2018 18:40:23  INFO test_api.py test_api [ line:81 ] ================结束一次接口请求===========
+ Thu, 16 Aug 2018 18:40:23  INFO test_api.py test_api [ line:85 ] 需要等待时间60s发起后续请求
+ Thu, 16 Aug 2018 18:41:23  INFO test_api.py test_api [ line:33 ] ================开始发送一次接口请求，请求信息如下===========
+ Thu, 16 Aug 2018 18:41:23  INFO test_api.py test_api [ line:34 ] 接口请求apiName：【卖出后续接口】使用优惠券四季甄选产品提前卖出成功
+ Thu, 16 Aug 2018 18:41:23  INFO test_api.py test_api [ line:35 ] 接口请求interface:com.wt.cts.service.ProductCoreTradeService
+ Thu, 16 Aug 2018 18:41:23  INFO test_api.py test_api [ line:36 ] 接口请求method:tradeContinue
+ Thu, 16 Aug 2018 18:41:23  INFO test_api.py test_api [ line:37 ] 接口请求data:{"serialno":"201808161830090399gl","isSend":"1",'extFields':{"errCode":"0000", "errMsg":"交易成功", "tranSt":"Y"}}
+ Thu, 16 Aug 2018 18:41:23  INFO test_api.py test_api [ line:38 ] 接口请求sql:["SELECT * from cts.cts_traderequest WHERE SERIALNO='201808161830090399gl' AND APPLYST='Y'AND TRANSST='Y' AND PAYST='Y';","SELECT * from cts.cts_tradequtychg WHERE REFERNO='201808161830090399gl' AND PRODUCTID='9999'AND CHANGEQUTY='9.9';"]
+ Thu, 16 Aug 2018 18:41:25  INFO test_api.py test_api [ line:46 ] 接口请求response data为：{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'Y', 'tradeMsg': '申请成功！', 'errMsg': '申请成功', 'tradeCode': '0000', 'exObjFields': {}, 'key': None}
+ Thu, 16 Aug 2018 18:41:25  INFO test_api.py test_api [ line:47 ] 接口请求expected data为:{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'Y', 'tradeMsg': '申请成功！', 'errMsg': '申请成功', 'tradeCode': '0000', 'exObjFields': {}, 'key': None}
+ Thu, 16 Aug 2018 18:41:25  INFO test_api.py test_api [ line:53 ] =====开始比对检验返回结果=======
+ Thu, 16 Aug 2018 18:41:25  INFO test_api.py test_api [ line:54 ] 全值匹配模式
+ Thu, 16 Aug 2018 18:41:25  INFO test_api.py test_api [ line:57 ] 结果比对成功，测试用例通过
+ Thu, 16 Aug 2018 18:41:25  INFO test_api.py test_api [ line:78 ] 数据库里存在符合预期条件的数据,测试通过:[{'SERIALNO': '201808161830090399gl', 'CUSTNO': '1538943811', 'APKIND': '014', 'SUBAPKIND': '014001', 'SUBQUTY': Decimal('10.00'), 'SUBAMT': None, 'APDT': '20180815', 'APTM': '164500', 'WORKDATE': '20180815', 'SHARETYPE': 'A', 'ACCPTMD': '1', 'BANKNO': None, 'BANKACCO': None, 'BRANCHCODE': '247000', 'DISTRIBUTORCODE': '247', 'REFERNO': None, 'TRADEACCO': '000621718538943814', 'TAACCOUNTID': '475A7FB19598436383', 'PRODUCTID': '8904', 'APPLYST': 'Y', 'TRANSST': 'Y', 'PAYST': 'Y', 'SUMMARY': None, 'CHECKID': None, 'CHECKDT': None, 'CHECKTM': 'Y', 'CHECKST': None, 'CHECKREMARK': 'N', 'OPRODUCTID': None, 'TANO': '47', 'OCUSTNO': '1538752027', 'OTANO': None, 'OTAACCOUNTID': None, 'OTRADEACCO': None, 'OBRANCHCODE': None, 'ODISTRIBUTORCODE': None, 'ACKSERIALNO': '5B7554D813C8bcC7', 'ACKAMT': Decimal('10.00'), 'ACKQUTY': Decimal('10.00'), 'ACKNAV': Decimal('1.00'), 'ACKDT': '20180815', 'ACKST': 'Y', 'ERRORCODE': '0000', 'ERRORMSG': '申请成功！', 'FEETP': '07', 'FEEMODE': '1', 'FEEVALUE': '0.01', 'couponid': '', 'COUPONTYPE': '', 'COUPONNAME': '', 'COUPONVALUE': Decimal('0.00'), 'OFEETP': '', 'OFEEMODE': '', 'OFEEVALUE': '', 'OCOUPONID': '', 'OCOUPONTYPE': '', 'OCOUPONNAME': '', 'OCOUPONVALUE': Decimal('0.00'), 'SELLERDISCOUNT': None, 'AFTERVOL': Decimal('4216609.67'), 'OAFTERVOL': None, 'WITHHOLD': None, 'GWITHHOLD': Decimal('9.90'), 'INSERTTIMESTAMP': datetime.datetime(2018, 8, 16, 18, 40, 27), 'UPDATETIMESTAMP': datetime.datetime(2018, 8, 16, 18, 41, 29), 'CLEANFLAG': '0', 'DRAWFLAG': 'N', 'version': 701, 'PAYDT': None, 'PAYAMT': None, 'rsv1': 'Y#0#1;Y', 'rsv2': None, 'RSV3': '1', 'rsv4': '5B569A9A006Abc55', 'rsv5': None}]
+ Thu, 16 Aug 2018 18:41:25  INFO test_api.py test_api [ line:78 ] 数据库里存在符合预期条件的数据,测试通过:[{'SERIALNO': '5B75549B1B80bc1F', 'CUSTNO': '1538752027', 'PRODUCTID': '9999', 'CHANGEQUTY': Decimal('9.90'), 'REFERNO': '201808161830090399gl', 'APKIND': '014', 'SUBAPKIND': '014001', 'DISTRIBUTORCODE': '247', 'BRANCHCODE': '247000', 'APDT': '20180815', 'WORKDATE': '20180815', 'BUSINESSDATE': '20180815', 'BUSINESSCODE': '24', 'INSERTTIMESTAMP': datetime.datetime(2018, 8, 16, 18, 40, 27), 'UPDATETIMESTAMP': datetime.datetime(2018, 8, 16, 18, 40, 27), 'RSV1': None, 'RSV2': None, 'RSV3': None}]
+ Thu, 16 Aug 2018 18:41:25  INFO test_api.py test_api [ line:81 ] ================结束一次接口请求===========
+ Thu, 16 Aug 2018 18:41:25  INFO test_api.py test_api [ line:33 ] ================开始发送一次接口请求，请求信息如下===========
+ Thu, 16 Aug 2018 18:41:25  INFO test_api.py test_api [ line:34 ] 接口请求apiName：【组合卖出】使用优惠券四季甄选产品提前卖出申请
+ Thu, 16 Aug 2018 18:41:25  INFO test_api.py test_api [ line:35 ] 接口请求interface:com.wt.cts.service.ProductCoreTradeService
+ Thu, 16 Aug 2018 18:41:25  INFO test_api.py test_api [ line:36 ] 接口请求method:sellToVacco
+ Thu, 16 Aug 2018 18:41:25  INFO test_api.py test_api [ line:37 ] 接口请求data:{"refercapno":"5B57DE5B20F7bc4E",
+        "sellCouponId":"5B569A9A006Abc55",
+        "reemFlag":"1",
+        "selltype":1,
+        "periodic":"true",
+        "mixProd":"true",
+        "bigVCustno":"1597219235",
+        "honourFlag":"1",
+        "newFlag":"0",
+        "partPayment":"false",
+        "subquty":"10.00",
+        "feetp":"07",
+        "feemode":"1",
+        "feevalue":"0.01",
+        "serialno":"201808161830090627dY",
+        "custno":"1538943811",
+        "apkind":"014",
+        "subapkind":"014001",
+        "apdt":"20180815",
+        "aptm":"164500",
+        "workdate":"20180815",
+        "tradeacco":"000621718538943814",
+        "taaccountid":"475A7FB19598436383",
+        "tano":"47",
+        "productid":"8904",
+        "sharetype":"A",
+        "accptmd":"1",
+        "branchcode":"247000",
+        "distributorcode":"247"}
+ Thu, 16 Aug 2018 18:41:25  INFO test_api.py test_api [ line:38 ] 接口请求sql:["SELECT * from cts.cts_traderequest WHERE SERIALNO='201808161830090627dY';"]
+ Thu, 16 Aug 2018 18:41:25  INFO test_api.py test_api [ line:46 ] 接口请求response data为：{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'Y', 'tradeMsg': '申请成功', 'errMsg': '申请成功', 'tradeCode': '0000', 'exObjFields': {}, 'key': None}
+ Thu, 16 Aug 2018 18:41:25  INFO test_api.py test_api [ line:47 ] 接口请求expected data为:{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'Y', 'tradeMsg': '申请成功', 'errMsg': '申请成功', 'tradeCode': '0000', 'exObjFields': {}, 'key': None}
+ Thu, 16 Aug 2018 18:41:25  INFO test_api.py test_api [ line:53 ] =====开始比对检验返回结果=======
+ Thu, 16 Aug 2018 18:41:25  INFO test_api.py test_api [ line:54 ] 全值匹配模式
+ Thu, 16 Aug 2018 18:41:25  INFO test_api.py test_api [ line:57 ] 结果比对成功，测试用例通过
+ Thu, 16 Aug 2018 18:41:25  INFO test_api.py test_api [ line:78 ] 数据库里存在符合预期条件的数据,测试通过:[{'SERIALNO': '201808161830090627dY', 'CUSTNO': '1538943811', 'APKIND': '014', 'SUBAPKIND': '014001', 'SUBQUTY': Decimal('10.00'), 'SUBAMT': None, 'APDT': '20180815', 'APTM': '164500', 'WORKDATE': '20180815', 'SHARETYPE': 'A', 'ACCPTMD': '1', 'BANKNO': None, 'BANKACCO': None, 'BRANCHCODE': '247000', 'DISTRIBUTORCODE': '247', 'REFERNO': None, 'TRADEACCO': '000621718538943814', 'TAACCOUNTID': '475A7FB19598436383', 'PRODUCTID': '8904', 'APPLYST': 'H', 'TRANSST': 'N', 'PAYST': 'N', 'SUMMARY': None, 'CHECKID': None, 'CHECKDT': None, 'CHECKTM': 'I', 'CHECKST': None, 'CHECKREMARK': 'N', 'OPRODUCTID': None, 'TANO': '47', 'OCUSTNO': '1538752027', 'OTANO': None, 'OTAACCOUNTID': None, 'OTRADEACCO': None, 'OBRANCHCODE': None, 'ODISTRIBUTORCODE': None, 'ACKSERIALNO': None, 'ACKAMT': None, 'ACKQUTY': None, 'ACKNAV': None, 'ACKDT': None, 'ACKST': None, 'ERRORCODE': None, 'ERRORMSG': None, 'FEETP': '07', 'FEEMODE': '1', 'FEEVALUE': '0.01', 'couponid': '', 'COUPONTYPE': '', 'COUPONNAME': '', 'COUPONVALUE': Decimal('0.00'), 'OFEETP': '', 'OFEEMODE': '', 'OFEEVALUE': '', 'OCOUPONID': '', 'OCOUPONTYPE': '', 'OCOUPONNAME': '', 'OCOUPONVALUE': Decimal('0.00'), 'SELLERDISCOUNT': None, 'AFTERVOL': None, 'OAFTERVOL': None, 'WITHHOLD': None, 'GWITHHOLD': Decimal('9.90'), 'INSERTTIMESTAMP': datetime.datetime(2018, 8, 16, 18, 41, 29), 'UPDATETIMESTAMP': datetime.datetime(2018, 8, 16, 18, 41, 29), 'CLEANFLAG': '0', 'DRAWFLAG': 'N', 'version': 701, 'PAYDT': None, 'PAYAMT': None, 'rsv1': 'Y#0#1;Y', 'rsv2': None, 'RSV3': '1', 'rsv4': '5B569A9A006Abc55', 'rsv5': None}]
+ Thu, 16 Aug 2018 18:41:25  INFO test_api.py test_api [ line:81 ] ================结束一次接口请求===========
+ Thu, 16 Aug 2018 18:41:25  INFO test_api.py test_api [ line:33 ] ================开始发送一次接口请求，请求信息如下===========
+ Thu, 16 Aug 2018 18:41:25  INFO test_api.py test_api [ line:34 ] 接口请求apiName：【调用轮询接口处理交易请求】
+ Thu, 16 Aug 2018 18:41:25  INFO test_api.py test_api [ line:35 ] 接口请求interface:com.wt.cts.service.ProductCoreTradeService
+ Thu, 16 Aug 2018 18:41:25  INFO test_api.py test_api [ line:36 ] 接口请求method:tradeContinueTask
+ Thu, 16 Aug 2018 18:41:25  INFO test_api.py test_api [ line:37 ] 接口请求data:""
+ Thu, 16 Aug 2018 18:41:25  INFO test_api.py test_api [ line:38 ] 接口请求sql:None
+ Thu, 16 Aug 2018 18:41:25  INFO test_api.py test_api [ line:46 ] 接口请求response data为：{'extFields': {}, 'errCode': '0000', 'tradeStatus': None, 'tradeMsg': None, 'errMsg': '申请成功', 'tradeCode': None, 'exObjFields': {}, 'key': None}
+ Thu, 16 Aug 2018 18:41:25  INFO test_api.py test_api [ line:47 ] 接口请求expected data为:None
+ Thu, 16 Aug 2018 18:41:25  INFO test_api.py test_api [ line:81 ] ================结束一次接口请求===========
+ Thu, 16 Aug 2018 18:41:25  INFO test_api.py test_api [ line:85 ] 需要等待时间60s发起后续请求
+ Thu, 16 Aug 2018 18:42:25  INFO test_api.py test_api [ line:33 ] ================开始发送一次接口请求，请求信息如下===========
+ Thu, 16 Aug 2018 18:42:25  INFO test_api.py test_api [ line:34 ] 接口请求apiName：【卖出后续接口】使用优惠券四季甄选产品提前卖出失败
+ Thu, 16 Aug 2018 18:42:25  INFO test_api.py test_api [ line:35 ] 接口请求interface:com.wt.cts.service.ProductCoreTradeService
+ Thu, 16 Aug 2018 18:42:25  INFO test_api.py test_api [ line:36 ] 接口请求method:tradeContinue
+ Thu, 16 Aug 2018 18:42:25  INFO test_api.py test_api [ line:37 ] 接口请求data:{"serialno":"201808161830090627dY","isSend":"1",'extFields':{"errCode":"0000", "errMsg":"交易成功", "tranSt":"Y"}}
+ Thu, 16 Aug 2018 18:42:25  INFO test_api.py test_api [ line:38 ] 接口请求sql:["SELECT * from cts.cts_traderequest WHERE SERIALNO='201808161830090627dY' AND APPLYST='Y'AND TRANSST='Y' AND PAYST='Y';","SELECT * from cts.cts_tradequtychg WHERE REFERNO='201808161830090627dY' AND PRODUCTID='8904'AND CHANGEQUTY='10';"]
+ Thu, 16 Aug 2018 18:42:26  INFO test_api.py test_api [ line:46 ] 接口请求response data为：{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'Y', 'tradeMsg': '申请成功！', 'errMsg': '申请成功', 'tradeCode': '0000', 'exObjFields': {}, 'key': None}
+ Thu, 16 Aug 2018 18:42:26  INFO test_api.py test_api [ line:47 ] 接口请求expected data为:{'extFields': {}, 'errCode': '0000', 'tradeStatus': 'Y', 'tradeMsg': '申请成功！', 'errMsg': '申请成功', 'tradeCode': '0000', 'exObjFields': {}, 'key': None}
+ Thu, 16 Aug 2018 18:42:26  INFO test_api.py test_api [ line:53 ] =====开始比对检验返回结果=======
+ Thu, 16 Aug 2018 18:42:26  INFO test_api.py test_api [ line:54 ] 全值匹配模式
+ Thu, 16 Aug 2018 18:42:26  INFO test_api.py test_api [ line:57 ] 结果比对成功，测试用例通过
+ Thu, 16 Aug 2018 18:42:26  INFO test_api.py test_api [ line:78 ] 数据库里存在符合预期条件的数据,测试通过:[{'SERIALNO': '201808161830090627dY', 'CUSTNO': '1538943811', 'APKIND': '014', 'SUBAPKIND': '014001', 'SUBQUTY': Decimal('10.00'), 'SUBAMT': None, 'APDT': '20180815', 'APTM': '164500', 'WORKDATE': '20180815', 'SHARETYPE': 'A', 'ACCPTMD': '1', 'BANKNO': None, 'BANKACCO': None, 'BRANCHCODE': '247000', 'DISTRIBUTORCODE': '247', 'REFERNO': None, 'TRADEACCO': '000621718538943814', 'TAACCOUNTID': '475A7FB19598436383', 'PRODUCTID': '8904', 'APPLYST': 'Y', 'TRANSST': 'Y', 'PAYST': 'Y', 'SUMMARY': None, 'CHECKID': None, 'CHECKDT': None, 'CHECKTM': 'Y', 'CHECKST': None, 'CHECKREMARK': 'N', 'OPRODUCTID': None, 'TANO': '47', 'OCUSTNO': '1538752027', 'OTANO': None, 'OTAACCOUNTID': None, 'OTRADEACCO': None, 'OBRANCHCODE': None, 'ODISTRIBUTORCODE': None, 'ACKSERIALNO': '5B75551513CDbcC7', 'ACKAMT': Decimal('10.00'), 'ACKQUTY': Decimal('10.00'), 'ACKNAV': Decimal('1.00'), 'ACKDT': '20180815', 'ACKST': 'Y', 'ERRORCODE': '0000', 'ERRORMSG': '申请成功！', 'FEETP': '07', 'FEEMODE': '1', 'FEEVALUE': '0.01', 'couponid': '', 'COUPONTYPE': '', 'COUPONNAME': '', 'COUPONVALUE': Decimal('0.00'), 'OFEETP': '', 'OFEEMODE': '', 'OFEEVALUE': '', 'OCOUPONID': '', 'OCOUPONTYPE': '', 'OCOUPONNAME': '', 'OCOUPONVALUE': Decimal('0.00'), 'SELLERDISCOUNT': None, 'AFTERVOL': Decimal('4216619.57'), 'OAFTERVOL': None, 'WITHHOLD': None, 'GWITHHOLD': Decimal('9.90'), 'INSERTTIMESTAMP': datetime.datetime(2018, 8, 16, 18, 41, 29), 'UPDATETIMESTAMP': datetime.datetime(2018, 8, 16, 18, 42, 30), 'CLEANFLAG': '0', 'DRAWFLAG': 'N', 'version': 701, 'PAYDT': None, 'PAYAMT': None, 'rsv1': 'Y#0#1;Y', 'rsv2': None, 'RSV3': '1', 'rsv4': '5B569A9A006Abc55', 'rsv5': None}]
+ Thu, 16 Aug 2018 18:42:26  INFO test_api.py test_api [ line:78 ] 数据库里存在符合预期条件的数据,测试通过:[{'SERIALNO': '5B7554D91B87bc1F', 'CUSTNO': '1538943811', 'PRODUCTID': '8904', 'CHANGEQUTY': Decimal('10.00'), 'REFERNO': '201808161830090627dY', 'APKIND': '014', 'SUBAPKIND': '014001', 'DISTRIBUTORCODE': '247', 'BRANCHCODE': '247000', 'APDT': '20180815', 'WORKDATE': '20180815', 'BUSINESSDATE': '20180815', 'BUSINESSCODE': '24', 'INSERTTIMESTAMP': datetime.datetime(2018, 8, 16, 18, 41, 29), 'UPDATETIMESTAMP': datetime.datetime(2018, 8, 16, 18, 41, 29), 'RSV1': None, 'RSV2': None, 'RSV3': None}]
+ Thu, 16 Aug 2018 18:42:26  INFO test_api.py test_api [ line:81 ] ================结束一次接口请求===========
